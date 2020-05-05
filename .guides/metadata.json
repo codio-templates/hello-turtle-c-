@@ -15,7 +15,14 @@
   {
    "id": "a7f51bea-2810-6b54-3214-e5905f4660ff",
    "title": "Printing to the Console",
-   "files": [],
+   "files": [
+    {
+     "path": "code/fundamentals/test1.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/New-Page-a7f5.md",

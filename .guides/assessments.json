@@ -1,0 +1,71 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3602415844",
+  "source": {
+   "name": "C++ Printing: Reading Question 1",
+   "showName": true,
+   "instructions": "What is wrong with the code snippet below?\n```\ncout << Hello world;\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "139caba8-e8bd-61a0-7a39-0c25195e9b81",
+     "correct": false,
+     "answer": "Capitalize `cout`"
+    },
+    {
+     "_id": "bfe87d7a-5096-b0c0-6dbe-988178d48aa2",
+     "correct": false,
+     "answer": "Use `>>` instead of `<<`"
+    },
+    {
+     "_id": "c6d72e82-b2bf-1931-2c1e-cdcd45608314",
+     "correct": true,
+     "answer": "Missing `\"` around `Hello world`"
+    },
+    {
+     "_id": "7b69ce64-fca5-4e14-8006-27a8e1a56872",
+     "correct": false,
+     "answer": "Remove the `;` at the end of the code"
+    }
+   ],
+   "guidance": "Quotation marks are needed around your desired output in order for it to print.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Printing"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Text Output"
+     }
+    ],
+    "files": [
+     "code/fundamentals/test1.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/test1.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": ""
+  }
+ }
+]
