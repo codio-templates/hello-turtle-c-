@@ -65,7 +65,76 @@
     ]
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": ""
+   "learningObjectives": "Use the cout command to write text to the console"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4156149016",
+  "source": {
+   "name": "C++ Printing: Reading Question 2",
+   "showName": true,
+   "instructions": "Which of the following commands adds a newline character?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "511429d1-04e7-fb14-8bca-4e2a57b4c0b5",
+     "correct": false,
+     "answer": "`cout << \"Hello\";`"
+    },
+    {
+     "_id": "6002f3ab-939e-2597-75ad-0bb122ac51bf",
+     "correct": false,
+     "answer": "`cout << \"Hello\" << endl;`"
+    },
+    {
+     "_id": "52cae018-0d06-be3a-99b4-7e159fb9d4cc",
+     "correct": false,
+     "answer": "`cout << \"Hello\";`\n`cout << endl;`"
+    },
+    {
+     "_id": "a798c604-c627-4f2a-21c8-1c79811217cb",
+     "correct": true,
+     "answer": "Both choices #2 and #3 are correct."
+    }
+   ],
+   "guidance": "Both #2 and #3 will produce the same output. `Hello` will be printed followed by a newline character.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Printing"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Text Output"
+     }
+    ],
+    "files": [
+     "code/fundamentals/tryit2.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/tryit2.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "Add a newline character by using the endl command"
   }
  }
 ]

@@ -3,7 +3,13 @@
   {
    "id": "a9ec16da-b715-0449-0041-903af5212619",
    "title": "Learning Objectives: Printing",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--Printing-a9ec.md",
@@ -17,12 +23,16 @@
    "title": "Printing to the Console",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "code/fundamentals/tryit1.cpp",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/New-Page-a7f5.md",
@@ -34,22 +44,21 @@
   {
    "id": "2371134f-e63d-c850-63bb-8041b9ac36a5",
    "title": "Printing",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/tryit2.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/New-Page-2371.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "d4e2e583-396d-1afd-81cd-9b2453bc1a8b",
-   "title": "Comments",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/New-Page-d4e2.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
