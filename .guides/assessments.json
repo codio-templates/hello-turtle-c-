@@ -5,7 +5,7 @@
   "source": {
    "name": "C++ Printing: Reading Question 1",
    "showName": true,
-   "instructions": "What is wrong with the code snippet below?\n```\ncout << Hello world;\n```",
+   "instructions": "What is wrong with the code snippet below?\n```\ncout << Hello world!;\n```",
    "multipleResponse": false,
    "answers": [
     {
@@ -21,7 +21,7 @@
     {
      "_id": "c6d72e82-b2bf-1931-2c1e-cdcd45608314",
      "correct": true,
-     "answer": "Missing `\"` around `Hello world`"
+     "answer": "Missing `\"` around `Hello world!`"
     },
     {
      "_id": "7b69ce64-fca5-4e14-8006-27a8e1a56872",
@@ -54,13 +54,13 @@
      }
     ],
     "files": [
-     "code/fundamentals/test1.cpp"
+     "code/fundamentals/tryit1.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/test1.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
