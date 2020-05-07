@@ -1,4 +1,4 @@
-----------
+---
 
 ## Printing to the Console
 As you learn C++, you will write code in the text editor to the left. _There is already some code there we will cover later_. For now, use a `cout` command to see the output of your program. Enter the code below and click the `TRY IT` button.

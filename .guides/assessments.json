@@ -21,7 +21,7 @@
     {
      "_id": "c6d72e82-b2bf-1931-2c1e-cdcd45608314",
      "correct": true,
-     "answer": "Missing `\"` around `Hello world!`"
+     "answer": "Missing `\" \"` around `Hello world!`"
     },
     {
      "_id": "7b69ce64-fca5-4e14-8006-27a8e1a56872",
@@ -135,6 +135,195 @@
    },
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "Add a newline character by using the endl command"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1342485909",
+  "source": {
+   "name": "C++ Printing: Reading Question 3",
+   "showName": true,
+   "instructions": "Fill in the blanks below about comments in C++.",
+   "text": "In C++, the `//` symbol means a <<<single-line>>> comment, and the `/*` and `*/` symbols mean a <<<multi-line>>> comment.",
+   "guidance": "In C++, the `//` symbol is used for a single-line comment. The comment begins at the `//` and goes on until the end of the line. The `/*` and `*/` symbols are used for multi-line comments. You must start with the `/*` and end with the `*/`. Everything between the start and end symbols will be considered the comment.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Comments"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Text Output"
+     }
+    ],
+    "files": [
+     "code/fundamentals/comments.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/comments.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "Create single-line and multi-line comments by using // and /* */ respectively",
+   "tokens": {
+    "blank": [
+     "single-line",
+     "multi-line"
+    ],
+    "text": [
+     "In C++, the `//` symbol means a ",
+     0,
+     " comment, and the `/*` and `*/` symbols mean a ",
+     0,
+     " comment."
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-379797555",
+  "source": {
+   "name": "C++ Print Statement",
+   "showName": true,
+   "instructions": "What does the `cout <<` statement do?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "5f7329ce-e8e0-36e5-9e19-874eea666278",
+     "correct": false,
+     "answer": "Sends your output to the printer"
+    },
+    {
+     "_id": "265cd53b-9969-dc24-5318-508a579da1b5",
+     "correct": false,
+     "answer": "Sends your output to a file"
+    },
+    {
+     "_id": "b4cefead-9d28-99a4-b004-13b7415792ca",
+     "correct": true,
+     "answer": "Sends your output to the screen"
+    },
+    {
+     "_id": "8b654324-bde6-02db-5fe4-57cc0f6dc58a",
+     "correct": false,
+     "answer": "Sends your output to the compiler"
+    }
+   ],
+   "guidance": "The `cout <<` command sends your output to your computer's default output which is the computer console or terminal.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Printing"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Text Output"
+     }
+    ],
+    "files": [
+     "code/fundamentals/comments.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/comments.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "Use the cout command to write text to the console"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-761067318",
+  "source": {
+   "name": "C++ Printing with the Newline Character",
+   "showName": true,
+   "instructions": "Fill in the blanks with the missing commands that will print the text `Hi!` **with** a newline character?",
+   "text": "`cout << <<<\"Hi!\">>> << <<<endl;>>>`",
+   "guidance": "The `\"Hi!\"` will print the text `Hi!` and the `endl;` will add a newline character. **Don't forget to include the `;` after `endl`.**",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Printing"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Text Output"
+     }
+    ],
+    "files": [
+     "code/fundamentals/comments.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/comments.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "Add a newline character by using the endl command",
+   "tokens": {
+    "blank": [
+     "\"Hi!\"",
+     "endl;"
+    ],
+    "text": [
+     "`cout << ",
+     0,
+     " << ",
+     0,
+     "`"
+    ]
+   }
   }
  }
 ]

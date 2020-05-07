@@ -1,4 +1,4 @@
-----------
+---
 
 ## Printing without the Newline Character
 The `cout` command does not add a newline character. The code below will print the two words on the same line without a space. Click the `TRY IT` button below to see the output.

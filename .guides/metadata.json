@@ -9,7 +9,7 @@
      "action": "close"
     }
    ],
-   "layout": "1-panel",
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--Printing-a9ec.md",
@@ -65,6 +65,29 @@
    "learningObjectives": ""
   },
   {
+   "id": "a6d949c4-817e-55c2-0554-aa20e73011cc",
+   "title": "Comments",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/comments.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Comments-a6d9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "683891c0-2bc4-36c9-8fc3-337613e4b702",
    "title": "Formative Assessment 1",
    "files": [],
@@ -78,11 +101,11 @@
   },
   {
    "id": "68fdfaa3-aece-64d5-5a46-e618c50a6ddb",
-   "title": "New Page",
+   "title": "Formative Assessment 2",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-68fd.md",
+   "content-file": ".guides/content/Formative-Assessment-2-68fd.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

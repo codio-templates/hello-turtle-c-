@@ -28,6 +28,12 @@
        "title": "Printing",
        "pageId": "2371134f-e63d-c850-63bb-8041b9ac36a5",
        "type": "page"
+      },
+      {
+       "id": "6adb73ae-a79b-4b21-9f07-b7d3f2dc363f",
+       "title": "Comments",
+       "pageId": "a6d949c4-817e-55c2-0554-aa20e73011cc",
+       "type": "page"
       }
      ]
     },
