@@ -597,5 +597,53 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings"
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-384100098",
+  "source": {
+   "name": "C++ Strings: Puzzle Question",
+   "showName": true,
+   "instructions": "Select the correct line of code to declare and assign the `var` variable.",
+   "initial": "string var = \"this is a string\";\nstring var = 'this is a string'; #distractor\nString var = \"this is a string\"; #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "In C++, `string` must be in lowercase. The string must also be surrounded by double quotation marks `\"`.\n",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Strings"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/string.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/string.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings"
+  }
  }
 ]

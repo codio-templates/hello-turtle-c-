@@ -236,7 +236,18 @@
   {
    "id": "5993a540-2025-8560-e6b0-04cd48fe516f",
    "title": "Data Types: Strings",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/string.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Data-Types--Strings-5993.md",

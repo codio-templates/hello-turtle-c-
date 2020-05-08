@@ -1,17 +1,17 @@
 ---
 
 ## Floating Point numbers
-Floating point numbers (often called floats) are numbers with a decimal. They can be positive or negative.
+Floating point numbers (often called floats) are numbers with a decimal. They can be positive or negative. Add the code below and `TRY IT`.
 
 ```c++
 double decimal = 0.5;
 cout << decimal << endl;
 ```
 
+{Try it}(sh .guides/bg.sh g++ code/fundamentals/double.cpp -o code/fundamentals/double ./code/fundamentals/double 1)
+
 ## Why use double instead of float?
 In C++, there is a data type called **float** but as it only uses 4 bytes it is insufficient for most math. Instead, we use **double** which uses 8 bytes or double the space of a float.
-
-{Try it}(sh .guides/bg.sh g++ code/fundamentals/double.cpp -o code/fundamentals/double ./code/fundamentals/double 1)
   
 |||challenge
 ## What happens if you:
