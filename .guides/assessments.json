@@ -325,5 +325,69 @@
     ]
    }
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3689792657",
+  "source": {
+   "name": "C++ Variables: Reading Question 1",
+   "showName": true,
+   "instructions": "Which **properties** of a variables **do not** change?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "754b67fa-0d9f-344a-fc5b-74e9b787b333",
+     "correct": true,
+     "answer": "data type"
+    },
+    {
+     "_id": "87da7ca7-54c4-65cc-7f0d-399abdae4939",
+     "correct": true,
+     "answer": "name"
+    },
+    {
+     "_id": "b219e8c9-a098-4be7-b75b-110a99dd3892",
+     "correct": false,
+     "answer": "value"
+    }
+   ],
+   "guidance": "For each variable, the data type and name of the variable never change. The value can be re-assigned or changed as many times as you want!",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Variable Types and Properties"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/comments.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/comments.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "Understand the rules of naming a variable"
+  }
  }
 ]

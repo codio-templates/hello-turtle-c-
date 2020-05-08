@@ -60,25 +60,137 @@
      "title": "Variables",
      "id": "12bf36eb-ebee-50c4-0ab5-2a7807993959",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "6d29289c-1530-4da8-72bd-82a4a115d82f",
+       "title": "Learning Objectives: Variables",
+       "pageId": "b12c0d81-a469-9a61-6d49-e13a323ae49b",
+       "type": "page"
+      },
+      {
+       "id": "9984fc1c-4272-22b8-2cc3-1d8247b4222b",
+       "title": "Variables",
+       "pageId": "bd6162c9-8df8-21a7-ff74-19451c1e5aa6",
+       "type": "page"
+      },
+      {
+       "id": "44b1521e-42bc-b903-5694-b8a49e1d1215",
+       "title": "Data Types: Integers",
+       "pageId": "d5d247a3-75c3-7cc3-52aa-875342f2291c",
+       "type": "page"
+      },
+      {
+       "id": "b40bde9b-e88f-dd3f-4cb9-1e817c01a94d",
+       "title": "Data Types: Floating Point Numbers",
+       "pageId": "77809d63-6c83-f743-4370-a9f3af390efa",
+       "type": "page"
+      },
+      {
+       "id": "153924fc-55fe-714e-7d6b-f8a53b4b0bd1",
+       "title": "Data Types: Boolean",
+       "pageId": "84ebfee9-98ad-5010-76d3-a5fed2bebf3f",
+       "type": "page"
+      },
+      {
+       "id": "a08614d8-4412-427b-a7c2-fd293aac61a8",
+       "title": "Data Types: Strings",
+       "pageId": "5993a540-2025-8560-e6b0-04cd48fe516f",
+       "type": "page"
+      },
+      {
+       "id": "e1742e04-abc9-790c-504c-c4143896e352",
+       "title": "Declaring Variables",
+       "pageId": "310a780a-7036-aa7d-ccf6-d9e8a5fa55a3",
+       "type": "page"
+      },
+      {
+       "id": "09cf254a-838f-03ec-d80e-f1c8fe46dd5a",
+       "title": "Initializing, Assigning, and Assessing",
+       "pageId": "70a9caba-1249-4b0f-e1ce-fa9e5fb762e8",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: Variables",
      "id": "e8107b61-3800-b7a9-1c53-3ed38a05a48e",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "4d7b3121-b4ee-62a7-d272-c874d8b4efb9",
+       "title": "Formative Assessment 1",
+       "pageId": "27cd45a0-c082-030b-86de-ea69ae084c08",
+       "type": "page"
+      },
+      {
+       "id": "a2c36906-5b5e-0ae5-f162-bb4809ee23e6",
+       "title": "Formative Assessment 2",
+       "pageId": "37f67fa3-374d-5eda-dace-fb02f36dcab1",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Lab: Fundamentals",
      "id": "315293fc-72aa-6dea-2771-c77f10aca546",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "0d8a6a0e-770c-e308-7c3c-7d236e78612f",
+       "title": "Lab: Printing",
+       "pageId": "3dea07b8-c0e9-7a5d-4929-13da7d669f90",
+       "type": "page"
+      },
+      {
+       "id": "3e25e763-9e83-bcc0-e788-68655e7b3341",
+       "title": "Lab: Variables",
+       "pageId": "62afcfca-deb8-c2af-c883-d1eb3cf6911a",
+       "type": "page"
+      },
+      {
+       "id": "334920cd-ed94-65cf-32f0-21d2f82b519e",
+       "title": "Lab: Challenge",
+       "pageId": "5a2920d6-43e9-5d4c-87f6-22552e7e8cae",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Coding Exercises: Fundamentals",
      "id": "35425380-f735-24eb-c490-65de482cc72e",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "8255c0b8-598a-ecf3-409d-5576ea768365",
+       "title": "Exercise 1",
+       "pageId": "1608bc31-0fcc-2b81-a059-8fabfae023fd",
+       "type": "page"
+      },
+      {
+       "id": "330921d3-03d6-1795-d424-5ed75faac35d",
+       "title": "Exercise 2",
+       "pageId": "f3f6f3d8-6e06-effe-cfda-a072a61a0cd1",
+       "type": "page"
+      },
+      {
+       "id": "0b254c15-ccb9-e40d-7a4f-de8c110374c2",
+       "title": "Exercise 3",
+       "pageId": "b6290a68-89c4-7510-daf8-6b2b4441d7a6",
+       "type": "page"
+      },
+      {
+       "id": "4457d656-7379-e6cb-b56a-eb67703f0758",
+       "title": "Exercise 4",
+       "pageId": "e9d2a3ca-b5a5-af49-c94a-35cb480ff5e8",
+       "type": "page"
+      },
+      {
+       "id": "1a8836ab-f194-eb4b-67ae-93f17c1b60dd",
+       "title": "Exercise 5",
+       "pageId": "f4b5df8b-2d51-4c63-9544-031543451ef8",
+       "type": "page"
+      }
+     ]
     }
    ]
   },
