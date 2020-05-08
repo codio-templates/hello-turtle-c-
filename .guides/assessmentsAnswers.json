@@ -17,28 +17,11 @@
  },
  {
   "taskId": "fill-in-the-blanks-1342485909",
-  "points": 1,
+  "points": 0,
   "state": {
-   "active": [
-    "single-line",
-    "multi-line"
-   ]
+   "active": []
   },
-  "results": [
-   {
-    "guidance": "In C++, the `//` symbol is used for a single-line comment. The comment begins at the `//` and goes on until the end of the line. The `/*` and `*/` symbols are used for multi-line comments. You must start with the `/*` and end with the `*/`. Everything between the start and end symbols will be considered the comment.",
-    "current": [
-     "single-line",
-     "multi-line"
-    ],
-    "right": [
-     "single-line",
-     "multi-line"
-    ],
-    "timestamp": 1588886938842,
-    "state": "pass"
-   }
-  ]
+  "results": []
  },
  {
   "taskId": "multiple-choice-379797555",

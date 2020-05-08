@@ -1,4 +1,4 @@
-----------
+---
 
 * ### Understand the rules of naming a variable
 * ### Assign/overwrite a value to a variable

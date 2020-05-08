@@ -9,7 +9,7 @@
      "action": "close"
     }
    ],
-   "layout": "",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--Printing-a9ec.md",
@@ -90,7 +90,13 @@
   {
    "id": "683891c0-2bc4-36c9-8fc3-337613e4b702",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/New-Page-6838.md",
@@ -102,7 +108,13 @@
   {
    "id": "68fdfaa3-aece-64d5-5a46-e618c50a6ddb",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-68fd.md",
@@ -114,7 +126,13 @@
   {
    "id": "b12c0d81-a469-9a61-6d49-e13a323ae49b",
    "title": "Learning Objectives: Variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--Variables-b12c.md",
@@ -149,7 +167,18 @@
   {
    "id": "d5d247a3-75c3-7cc3-52aa-875342f2291c",
    "title": "Data Types: Integers",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/integers.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Data-Types--Integers-d5d2.md",
