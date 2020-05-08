@@ -126,7 +126,18 @@
   {
    "id": "bd6162c9-8df8-21a7-ff74-19451c1e5aa6",
    "title": "Variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#tutor: code/fundamentals/variabletypes.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Variables-bd61.md",

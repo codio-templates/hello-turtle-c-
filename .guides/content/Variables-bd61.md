@@ -18,6 +18,6 @@ There are a few different actions taken involving variables:
 
 You *must* declare and assign a variable before you can access it.
 
-Take a look at the visualizer on the left to see an example of how this works.
+Take a look at the visualizer on the left to see an example of how this works. Click on the `Forward >` button at the bottom of the page to repeatedly move through each stage of the process. *The visualizer may take a few seconds to load. Click on the `Refresh code` button in the upper left corner if you encounter an error message.*
 
 {Check It!|assessment}(multiple-choice-3689792657)
