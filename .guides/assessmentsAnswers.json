@@ -46,5 +46,29 @@
    "active": null
   },
   "results": []
+ },
+ {
+  "taskId": "multiple-choice-2851726778",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-3109256444",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-3639612203",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
  }
 ]

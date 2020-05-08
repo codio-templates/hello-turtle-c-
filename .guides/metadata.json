@@ -173,7 +173,7 @@
      "action": "close"
     },
     {
-     "path": "code/fundamentals/integers.cpp",
+     "path": "code/fundamentals/integer.cpp",
      "panel": 0,
      "action": "open"
     }
@@ -190,7 +190,18 @@
   {
    "id": "77809d63-6c83-f743-4370-a9f3af390efa",
    "title": "Data Types: Floating Point Numbers",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/double.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Data-Types--Floating-Point-Numbers-7780.md",
@@ -202,7 +213,18 @@
   {
    "id": "84ebfee9-98ad-5010-76d3-a5fed2bebf3f",
    "title": "Data Types: Boolean",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/boolean.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Data-Types--Boolean-84eb.md",

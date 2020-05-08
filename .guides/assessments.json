@@ -332,7 +332,7 @@
   "source": {
    "name": "C++ Variables: Reading Question 1",
    "showName": true,
-   "instructions": "Which **properties** of a variables **do not** change?",
+   "instructions": "Select all of the properties of a variable below that **do not** change?",
    "multipleResponse": true,
    "answers": [
     {
@@ -376,18 +376,226 @@
      }
     ],
     "files": [
+     "code/fundamentals/variabletypes.cpp",
      "code/fundamentals/comments.cpp"
     ],
     "opened": [
      {
-      "type": "file",
+      "type": "tutor",
       "panelNumber": 0,
-      "content": "code/fundamentals/comments.cpp"
+      "content": "code/fundamentals/variabletypes.cpp"
      }
     ]
    },
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "Understand the rules of naming a variable"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2851726778",
+  "source": {
+   "name": "C++ Integers: Reading Question",
+   "showName": true,
+   "instructions": "Which of the following values for `number` will produce the output `1000000` when printed using `cout << number << endl;`?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "7a34cee1-497f-a464-faf5-e49898304872",
+     "correct": false,
+     "answer": "`int number = \"1000000\";`"
+    },
+    {
+     "_id": "ae8dada4-64a7-a18c-287c-4c6e6ff7aa31",
+     "correct": true,
+     "answer": "`int number = 1000000;`"
+    },
+    {
+     "_id": "939ab7fb-1a1d-b6fd-3abd-a5a66b51dc35",
+     "correct": false,
+     "answer": "`int number = 1,000,000;`"
+    },
+    {
+     "_id": "b4a82f74-739b-c3e2-b0bc-c4bdccb18448",
+     "correct": false,
+     "answer": "`int number = 01000000;`"
+    }
+   ],
+   "guidance": "Only choice #2 is correct. Choices #1 and #3 will result in an error message and choice #4 will output `262144`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Integers"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/integer.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/integer.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "Assign/overwrite a value to a variable"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3109256444",
+  "source": {
+   "name": "C++ Numbers: Int vs. Double",
+   "showName": true,
+   "instructions": "Fill in the following with the appropriate vocabulary to explain the difference between a double and an int.",
+   "text": "A <<<double>>> is a <<<floating point number>>> meaning it has a <<<decimal>>>, where an <<<int>>> is a <<<whole number>>> meaning it does not have a decimal.",
+   "guidance": "A `double` is a floating point number or a rational number meaning it has a decimal or represents a fraction, where an `int` (short for integer) is a whole number meaning it does not have a decimal.\n\nBoth can be positive or negative!",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Doubles & Floats"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/double.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/double.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings",
+   "tokens": {
+    "blank": [
+     "double",
+     "floating point number",
+     "decimal",
+     "int",
+     "whole number"
+    ],
+    "text": [
+     "A ",
+     0,
+     " is a ",
+     0,
+     " meaning it has a ",
+     0,
+     ", where an ",
+     0,
+     " is a ",
+     0,
+     " meaning it does not have a decimal."
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3639612203",
+  "source": {
+   "name": "C++ Boolean: Reading Question",
+   "showName": true,
+   "instructions": "What is the general rule for boolean values in C++?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "f275bdfe-b626-efbb-7fdb-931d8e798a54",
+     "correct": true,
+     "answer": "Boolean values are case sensitive and must be lowercase."
+    },
+    {
+     "_id": "ed2ef39e-e321-35ca-b438-bfd4c53c2f19",
+     "correct": false,
+     "answer": "Boolean values are not case sensitive and can be either uppercase or lowercase."
+    },
+    {
+     "_id": "a293765b-c55e-8803-a2c5-71b0dba928ec",
+     "correct": false,
+     "answer": "Boolean values are case sensitive and must be uppercase."
+    },
+    {
+     "_id": "8cd1451e-24f0-ae9c-05a3-f436ed7e6180",
+     "correct": false,
+     "answer": "Boolean values are case sensitive and must be all capitalized."
+    }
+   ],
+   "guidance": "Boolean values in C++ are case sensitive and must be in all lowercase letters: `true` or `false`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Boolean"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/boolean.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/boolean.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings"
   }
  }
 ]
