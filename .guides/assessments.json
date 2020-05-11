@@ -330,7 +330,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-3689792657",
   "source": {
-   "name": "C++ Variables: Reading Question 1",
+   "name": "C++ Variables",
    "showName": true,
    "instructions": "Select all of the properties of a variable below that **do not** change?",
    "multipleResponse": true,
@@ -376,14 +376,15 @@
      }
     ],
     "files": [
+     "code/fundamentals/variableval.cpp",
      "code/fundamentals/variabletypes.cpp",
      "code/fundamentals/comments.cpp"
     ],
     "opened": [
      {
-      "type": "tutor",
+      "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/variabletypes.cpp"
+      "content": "code/fundamentals/variableval.cpp"
      }
     ]
    },
@@ -395,7 +396,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-2851726778",
   "source": {
-   "name": "C++ Integers: Reading Question",
+   "name": "C++ Integers",
    "showName": true,
    "instructions": "Which of the following values for `number` will produce the output `1000000` when printed using `cout << number << endl;`?",
    "multipleResponse": true,
@@ -446,13 +447,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/variableval.cpp",
      "code/fundamentals/integer.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/integer.cpp"
+      "content": "code/fundamentals/variableval.cpp"
      }
     ]
    },
@@ -533,7 +535,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-3639612203",
   "source": {
-   "name": "C++ Boolean: Reading Question",
+   "name": "C++ Boolean",
    "showName": true,
    "instructions": "What is the general rule for boolean values in C++?",
    "multipleResponse": false,
@@ -584,13 +586,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/variableval.cpp",
      "code/fundamentals/boolean.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/boolean.cpp"
+      "content": "code/fundamentals/variableval.cpp"
      }
     ]
    },
@@ -602,7 +605,7 @@
   "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-384100098",
   "source": {
-   "name": "C++ Strings: Puzzle Question",
+   "name": "C++ Strings",
    "showName": true,
    "instructions": "Select the correct line of code to declare and assign the `var` variable.",
    "initial": "string var = \"this is a string\";\nstring var = 'this is a string'; #distractor\nString var = \"this is a string\"; #distractor",
@@ -632,18 +635,125 @@
      }
     ],
     "files": [
+     "code/fundamentals/variableval.cpp",
      "code/fundamentals/string.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/string.cpp"
+      "content": "code/fundamentals/variableval.cpp"
      }
     ]
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-950845008",
+  "source": {
+   "name": "C++ Declaring Variables",
+   "showName": true,
+   "instructions": "Which of the following code snippets contains correct variable declarations?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "27918912-b574-ab41-5bfc-89fc6c37793a",
+     "correct": false,
+     "answer": "```c++\nint var;\nstring var;\n```"
+    },
+    {
+     "_id": "17c83daa-bd5e-2383-65bf-163f2c66512b",
+     "correct": false,
+     "answer": "```c++\nstring var;\nstring var;\n```"
+    },
+    {
+     "_id": "8c16fcbc-3162-6667-cfc5-7aab31e91404",
+     "correct": false,
+     "answer": "```c++\nstring var;\nint var 2;\n```"
+    },
+    {
+     "_id": "255b602d-a104-b9df-e3b4-ffc274518ab6",
+     "correct": true,
+     "answer": "```c++\nstring var;\nint Var;\n```"
+    }
+   ],
+   "guidance": "C++ does not allow different variables to have the same name - regardless of data type.\n\nAdditionally, C++ does not allow spaces in variable names - either use `camelCase` or `snake_case` to separate words.\n\nSince C++ variables are case sensitive, `var` and `Var` are different variables.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Declaring Variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/variableval.cpp",
+     "code/fundamentals/variabledecl.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/variableval.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "Assign/overwrite a value to a variable"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2436518807",
+  "source": {
+   "name": "C++ Declaring, Initializing, and Assigning Variables",
+   "showName": true,
+   "instructions": "Construct a program that initializes the variable <code>my_var</code> to 5 and prints it out. \n\nThen, re-assign <code>my_var</code> to 10 and print it out.\n\nThe output of the code you are constructing looks like:\n```c++\n5\n10\n```\n\nYou will not need to use all of the blocks.",
+   "initial": "int my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\nint my_var = 10; #distractor\ndouble my_var = 5; #distractor\nmy_var = 5; #distractor\nmy_var = \"10\"; #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "4",
+   "guidance": "You will use an `int` instead of a double since 5 and 10 are whole numbers. Additionally, if you use `double` it would print out `5.0` and `10.0` by default.\n\nYou cannot assign a String (`\"10\"`) to an `int`.\n\nYou do not need to re-declare when you reassign (`int my_variable = 10`).\n\n```c++\nint my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/fundamentals/variableval.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/variableval.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  }
 ]

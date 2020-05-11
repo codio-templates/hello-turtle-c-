@@ -80,5 +80,23 @@
    "toggleStates": "{}"
   },
   "results": []
+ },
+ {
+  "taskId": "multiple-choice-950845008",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-2436518807",
+  "points": 0,
+  "state": {
+   "trashHash": "6_0-7_0-1_0-4_0-5_0-0_0",
+   "solutionHash": "2_0-3_0",
+   "toggleStates": "{}"
+  },
+  "results": []
  }
 ]

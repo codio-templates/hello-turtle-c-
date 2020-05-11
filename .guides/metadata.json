@@ -259,7 +259,18 @@
   {
    "id": "310a780a-7036-aa7d-ccf6-d9e8a5fa55a3",
    "title": "Declaring Variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/variabledecl.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Declaring-Variables-310a.md",
@@ -271,7 +282,18 @@
   {
    "id": "70a9caba-1249-4b0f-e1ce-fa9e5fb762e8",
    "title": "Initializing, Assigning, and Assessing",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/variableval.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Initializing--Assigning--and-Assessing-70a9.md",
