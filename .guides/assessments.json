@@ -755,5 +755,168 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4248538892",
+  "source": {
+   "name": "C++ Variable Names",
+   "showName": true,
+   "instructions": "Which of the following is a correct variable name?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "ef46cb47-6ae1-7b7e-bb79-b3cb3ad1dd30",
+     "correct": false,
+     "answer": "1st_variable"
+    },
+    {
+     "_id": "67ace8a0-d1b6-37fb-bb45-cef875ec79db",
+     "correct": true,
+     "answer": "variable_1"
+    },
+    {
+     "_id": "6a2fea69-8153-98d1-8309-156570dcebae",
+     "correct": false,
+     "answer": "variable_1!"
+    },
+    {
+     "_id": "1798cf41-1267-3074-b033-4e6356554505",
+     "correct": false,
+     "answer": "-1-variable-"
+    }
+   ],
+   "guidance": "Here are the basic rules for variable names: \n1. Start with a letter, dollar sign, or underscore\n2. Remainder of variable name is letters, numbers, or underscores\n3. Cannot use a C++ keyword\n4. Variables are case sensitive",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Naming Variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/variableval.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/variableval.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "Understand the rules of naming a variable"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3992091061",
+  "source": {
+   "name": "C++ Data Types",
+   "showName": true,
+   "instructions": "What are the four basic data types used in C++?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "6b61f606-a123-10dd-489b-faf434c1bd1a",
+     "correct": false,
+     "answer": "short"
+    },
+    {
+     "_id": "2764deda-4e76-fa7f-c3ec-5b0ac70886dc",
+     "correct": true,
+     "answer": "int"
+    },
+    {
+     "_id": "1e312e19-e8b2-fc73-a938-ab5479b587d4",
+     "correct": false,
+     "answer": "long"
+    },
+    {
+     "_id": "762fbca7-5894-2ff9-a70e-86e3c01f21dc",
+     "correct": true,
+     "answer": "double"
+    },
+    {
+     "_id": "2c15f088-64a7-37ec-22b0-bbcac9ed063c",
+     "correct": false,
+     "answer": "char"
+    },
+    {
+     "_id": "cb7acb81-1c8d-82bd-1a6e-a31fc30a0f98",
+     "correct": false,
+     "answer": "number"
+    },
+    {
+     "_id": "2f0c8126-9a53-98df-9017-a2ef413723d7",
+     "correct": true,
+     "answer": "string"
+    },
+    {
+     "_id": "fc02caa7-5b54-e879-bc59-a8824f7377a7",
+     "correct": true,
+     "answer": "boolean"
+    },
+    {
+     "_id": "a9c6d9c1-c36e-25ef-797c-364ba83256c1",
+     "correct": false,
+     "answer": "bits"
+    }
+   ],
+   "guidance": "The four basic data types that you have learned so far are:\n- int - integers (no decimal)\n- double - numbers with a decimal\n- boolean - true or false\n- string - collections of letters, numbers, and symbols",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Data Types"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/variableval.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/variableval.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings"
+  }
  }
 ]

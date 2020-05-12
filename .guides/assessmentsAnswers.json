@@ -93,9 +93,25 @@
   "taskId": "parsons-puzzle-2436518807",
   "points": 0,
   "state": {
-   "trashHash": "6_0-7_0-1_0-4_0-5_0-0_0",
-   "solutionHash": "2_0-3_0",
+   "trashHash": "4_0-5_0-1_0-6_0-7_0-0_0-3_0-2_0",
+   "solutionHash": "-",
    "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-3992091061",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-4248538892",
+  "points": 0,
+  "state": {
+   "active": null
   },
   "results": []
  }
