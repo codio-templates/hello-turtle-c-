@@ -1,3 +1,5 @@
+---
+
 ## Tutorial Lab 1: Printing
 
 1) Use the code editor to the left.

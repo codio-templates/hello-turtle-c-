@@ -1,3 +1,5 @@
+---
+
 ## Tutorial Lab 3: Fundamentals Challenge
 
 In the code to the left, we see that there are a series of declared and initialized variables. Use these variables along with the `cout <<` and `<< endl;` commands to print out a custom message to customers who open a chat client.
