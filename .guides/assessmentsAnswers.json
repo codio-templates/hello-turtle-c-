@@ -93,8 +93,8 @@
   "taskId": "parsons-puzzle-2436518807",
   "points": 0,
   "state": {
-   "trashHash": "4_0-5_0-1_0-6_0-7_0-0_0-3_0-2_0",
-   "solutionHash": "-",
+   "trashHash": null,
+   "solutionHash": null,
    "toggleStates": "{}"
   },
   "results": []
@@ -114,5 +114,41 @@
    "active": null
   },
   "results": []
+ },
+ {
+  "taskId": "code-output-compare-2157437958",
+  "points": 0,
+  "results": [
+   {
+    "guidance": "Here are two possible solutions to this lab:\n```c++\ncout << greeting << \" Today is \" << dayOfWeek << \", \" << month << \" \" << day << \".\" << endl;\ncout << \"The current wait time is \" << currentWaitMinutes << \" minutes.\" << endl;\n```\n```\nc++cout << greeting;\ncout << \" Today is \";\ncout << dayOfWeek;\ncout << \", \";\ncout << month;\ncout << \" \";\ncout << day;\ncout << \".\" << endl;\ncout << \"The current wait time is \";\ncout << currentWaitMinutes;\ncout << \" minutes.\" << endl;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1589324371643,
+    "state": "fail"
+   },
+   {
+    "guidance": "Here are two possible solutions to this lab:\n```c++\ncout << greeting << \" Today is \" << dayOfWeek << \", \" << month << \" \" << day << \".\" << endl;\ncout << \"The current wait time is \" << currentWaitMinutes << \" minutes.\" << endl;\n```\n```\nc++cout << greeting;\ncout << \" Today is \";\ncout << dayOfWeek;\ncout << \", \";\ncout << month;\ncout << \" \";\ncout << day;\ncout << \".\" << endl;\ncout << \"The current wait time is \";\ncout << currentWaitMinutes;\ncout << \" minutes.\" << endl;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1589323175612,
+    "state": "fail"
+   },
+   {
+    "guidance": "Here are two possible solutions to this lab:\n```c++\ncout << greeting << \" Today is \" << dayOfWeek << \", \" << month << \" \" << day << \".\" << endl;\ncout << \"The current wait time is \" << currentWaitMinutes << \" minutes.\" << endl;\n```\n```\nc++cout << greeting;\ncout << \" Today is \";\ncout << dayOfWeek;\ncout << \", \";\ncout << month;\ncout << \" \";\ncout << day;\ncout << \".\" << endl;\ncout << \"The current wait time is \";\ncout << currentWaitMinutes;\ncout << \" minutes.\" << endl;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"Hello! Today is Monday, July 4.\\nThe current wait time is 9 minutes.\\nHello! Today is Monday, July 4.\\nThe current wait time is 9 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"Howdy! Today is Monday, May 5.\\nThe current wait time is 19 minutes.\\nHowdy! Today is Monday, May 5.\\nThe current wait time is 19 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"Greetings! Today is Wednesday, May 18.\\nThe current wait time is 1 minutes.\\nGreetings! Today is Wednesday, May 18.\\nThe current wait time is 1 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"Hi, Today is banana, pear 52.\\nThe current wait time is -4 minutes.\\nHi, Today is banana, pear 52.\\nThe current wait time is -4 minutes.\\n\"}]}",
+    "timestamp": 1589323054364,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hello! Today is Monday, July 4.\\nThe current wait time is 9 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Howdy! Today is Monday, May 5.\\nThe current wait time is 19 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Greetings! Today is Wednesday, May 18.\\nThe current wait time is 1 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi, Today is banana, pear 52.\\nThe current wait time is -4 minutes.\\n\"}]}",
+    "timestamp": 1589322939680,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hello! Today is Monday, July 4.\\nThe current wait time is 9 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Howdy! Today is Monday, May 5.\\nThe current wait time is 19 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Greetings! Today is Wednesday, May 18.\\nThe current wait time is 1 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi, Today is banana, pear 52.\\nThe current wait time is -4 minutes.\\n\"}]}",
+    "timestamp": 1589322632498,
+    "state": "pass"
+   }
+  ]
  }
 ]

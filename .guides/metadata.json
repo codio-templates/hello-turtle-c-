@@ -305,7 +305,13 @@
   {
    "id": "27cd45a0-c082-030b-86de-ea69ae084c08",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-27cd.md",
@@ -329,7 +335,18 @@
   {
    "id": "3dea07b8-c0e9-7a5d-4929-13da7d669f90",
    "title": "Lab: Printing",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/labprinting.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab--Printing-3dea.md",
@@ -341,7 +358,18 @@
   {
    "id": "62afcfca-deb8-c2af-c883-d1eb3cf6911a",
    "title": "Lab: Variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/labvariables.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab--Variables-62af.md",
@@ -353,7 +381,18 @@
   {
    "id": "5a2920d6-43e9-5d4c-87f6-22552e7e8cae",
    "title": "Lab: Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/labchallenge.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab--Challenge-5a29.md",

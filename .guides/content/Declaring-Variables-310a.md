@@ -11,7 +11,7 @@ string my_var;
 
 {Try it}(sh .guides/bg.sh g++ code/fundamentals/variabledecl.cpp -o code/fundamentals/variabledecl ./code/fundamentals/variabledecl 1)
 
-You will notice we are not printing anything - that is because no value has been assigned yet. Thus, the message *"Command was successfully executed"* appears when you click on the `TRY IT` button. The declaration step only sets aside empty memory.
+You will notice we are not printing anything - that is because no value has been assigned yet. Thus, the message `Command was successfully executed.` appears when you click on the `TRY IT` button. The declaration step only sets aside empty memory.
 
 |||challenge
 ## What happens if you:

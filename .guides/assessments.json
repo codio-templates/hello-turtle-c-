@@ -729,7 +729,7 @@
    "instructions": "Construct a program that initializes the variable <code>my_var</code> to 5 and prints it out. \n\nThen, re-assign <code>my_var</code> to 10 and print it out.\n\nThe output of the code you are constructing looks like:\n```c++\n5\n10\n```\n\nYou will not need to use all of the blocks.",
    "initial": "int my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\nint my_var = 10; #distractor\ndouble my_var = 5; #distractor\nmy_var = 5; #distractor\nmy_var = \"10\"; #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-   "grader": "4",
+   "grader": "1",
    "guidance": "You will use an `int` instead of a double since 5 and 10 are whole numbers. Additionally, if you use `double` it would print out `5.0` and `10.0` by default.\n\nYou cannot assign a String (`\"10\"`) to an `int`.\n\nYou do not need to re-declare when you reassign (`int my_variable = 10`).\n\n```c++\nint my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -917,6 +917,96 @@
    },
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2157437958",
+  "source": {
+   "name": "C++ Chat Greeting",
+   "showName": true,
+   "instructions": "Submit your code when you are ready.",
+   "command": "./code/fundamentals/labchallenge",
+   "preExecuteCommand": "g++ code/fundamentals/labchallenge.cpp",
+   "guidance": "Here are two possible solutions to this lab:\n```c++\ncout << greeting << \" Today is \" << dayOfWeek << \", \" << month << \" \" << day << \".\" << endl;\ncout << \"The current wait time is \" << currentWaitMinutes << \" minutes.\" << endl;\n```\n```\nc++cout << greeting;\ncout << \" Today is \";\ncout << dayOfWeek;\ncout << \", \";\ncout << month;\ncout << \" \";\ncout << day;\ncout << \".\" << endl;\ncout << \"The current wait time is \";\ncout << currentWaitMinutes;\ncout << \" minutes.\" << endl;\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "Hello! Monday July 4 9",
+     "input": "",
+     "output": "Hello! Today is Monday, July 4.\nThe current wait time is 9 minutes.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "Howdy! Monday May 5 19",
+     "input": "",
+     "output": "Howdy! Today is Monday, May 5.\nThe current wait time is 19 minutes.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "Greetings! Wednesday May 18 1",
+     "input": "",
+     "output": "Greetings! Today is Wednesday, May 18.\nThe current wait time is 1 minutes.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "Hi, banana pear 52 -4",
+     "input": "",
+     "output": "Hi, Today is banana, pear 52.\nThe current wait time is -4 minutes.",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Printing"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Text Output"
+     }
+    ],
+    "files": [
+     "code/fundamentals/labchallenge.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/labchallenge.cpp"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "Use the cout command to write text to the console &  Add a newline character by using the endl command"
   }
  }
 ]
