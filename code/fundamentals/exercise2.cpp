@@ -3,11 +3,9 @@ using namespace std;
 
 int main(int argc, char** argv) {
   
-  string greeting = argv[1];
-  string dayOfWeek = argv[2];
-  string month = argv[3];
-  int day = atoi(argv[4]);
-  int currentWaitMinutes = atoi(argv[5]);
+  int first_num = atoi((argv[1]));
+  int second_num = atoi((argv[2]));
+  int third_num = atoi((argv[3]));
   
   //add code below this line
   

@@ -3,11 +3,7 @@ using namespace std;
 
 int main(int argc, char** argv) {
   
-  string greeting = argv[1];
-  string dayOfWeek = argv[2];
-  string month = argv[3];
-  int day = atoi(argv[4]);
-  int currentWaitMinutes = atoi(argv[5]);
+  bool test = atoi((argv[1]));
   
   //add code below this line
   
