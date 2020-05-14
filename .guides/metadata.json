@@ -473,7 +473,18 @@
   {
    "id": "e9d2a3ca-b5a5-af49-c94a-35cb480ff5e8",
    "title": "Exercise 4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/exercise4.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-4-e9d2.md",
@@ -485,7 +496,18 @@
   {
    "id": "f4b5df8b-2d51-4c63-9544-031543451ef8",
    "title": "Exercise 5",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/exercise5.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-f4b5.md",

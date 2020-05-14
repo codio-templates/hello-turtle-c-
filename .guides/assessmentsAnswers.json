@@ -360,5 +360,239 @@
     "state": "pass"
    }
   ]
+ },
+ {
+  "taskId": "code-output-compare-2314242167",
+  "points": 0,
+  "results": [
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\n**You would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.**",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1589485834114,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\n**You would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1589485808901,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\n**You would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"3.11-9.1\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"3.1133.22\"}]}",
+    "timestamp": 1589485762008,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\n**You would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14-9.1\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.1433.22\"}]}",
+    "timestamp": 1589485757095,
+    "state": "pass"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\n**You would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14-9.1\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.1433.22\"}]}",
+    "timestamp": 1589485755045,
+    "state": "pass"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\n**You would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14-9.1\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.1433.22\"}]}",
+    "timestamp": 1589485733752,
+    "state": "pass"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14\\n-9.1\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14\\n33.22\\n\"}]}",
+    "timestamp": 1589485528497,
+    "state": "pass"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14\\n-9.1\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14\\n33.22\\n\"}]}",
+    "timestamp": 1589485445389,
+    "state": "pass"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines. Also, you can initialize to either `0` or `0.0` or `0.00` etc\n\n```c++\ndouble my_double = 0;\nSystem.out.println(my_double);\nmy_double = one;\nSystem.out.println(my_double);\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14\\n-9.1\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14\\n33.22\\n\"}]}",
+    "timestamp": 1589485338837,
+    "state": "pass"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines. Also, you can initialize to either `0` or `0.0` or `0.00` etc\n\n```c++\ndouble my_double = 0;\nSystem.out.println(my_double);\nmy_double = one;\nSystem.out.println(my_double);\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"3.14\\n-9\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14\\n33.22\\n\"}]}",
+    "timestamp": 1589485304485,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines. Also, you can initialize to either `0` or `0.0` or `0.00` etc\n\n```c++\ndouble my_double = 0;\nSystem.out.println(my_double);\nmy_double = one;\nSystem.out.println(my_double);\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"3.14\\n-9\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14\\n33.22\\n\"}]}",
+    "timestamp": 1589485302347,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines. Also, you can initialize to either `0` or `0.0` or `0.00` etc\n\n```c++\ndouble my_double = 0;\nSystem.out.println(my_double);\nmy_double = one;\nSystem.out.println(my_double);\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"3.14\\n-9\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14\\n33.22\\n\"}]}",
+    "timestamp": 1589485300093,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines. Also, you can initialize to either `0` or `0.0` or `0.00` etc\n\n```c++\ndouble my_double = 0;\nSystem.out.println(my_double);\nmy_double = one;\nSystem.out.println(my_double);\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"3.14\\n-9\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"3.14\\n33.22\\n\"}]}",
+    "timestamp": 1589484905945,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines. Also, you can initialize to either `0` or `0.0` or `0.00` etc\n\n```c++\ndouble my_double = 0;\nSystem.out.println(my_double);\nmy_double = one;\nSystem.out.println(my_double);\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"1.23\\n-9\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"1.23\\n33.22\\n\"}]}",
+    "timestamp": 1589484839588,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines. Also, you can initialize to either `0` or `0.0` or `0.00` etc\n\n```c++\ndouble my_double = 0;\nSystem.out.println(my_double);\nmy_double = one;\nSystem.out.println(my_double);\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"1.5\\n-9\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"1.5\\n33.22\\n\"}]}",
+    "timestamp": 1589484704009,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines. Also, you can initialize to either `0` or `0.0` or `0.00` etc\n\n```c++\ndouble my_double = 0;\nSystem.out.println(my_double);\nmy_double = one;\nSystem.out.println(my_double);\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"0\\n-9\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"0\\n33.22\\n\"}]}",
+    "timestamp": 1589484663869,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines. Also, you can initialize to either `0` or `0.0` or `0.00` etc\n\n```c++\ndouble my_double = 0;\nSystem.out.println(my_double);\nmy_double = one;\nSystem.out.println(my_double);\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"0\\n-9\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"0\\n33.22\"}]}",
+    "timestamp": 1589483903236,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "test-1005686765",
+  "points": 1,
+  "results": [
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1589490308607,
+    "state": "pass"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "</br><hr/><h3>You have not used two cout statements.</h3>\nMake sure you are using <b>two</b> cout statements as requested by the prompt.",
+    "timestamp": 1589490281575,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "code/fundamentals/exercise5.cpp: In function ‘int main(int, char**)’:\ncode/fundamentals/exercise5.cpp:8:3: error: ‘cot’ was not declared in this scope\n   cot << \"Okay, it is time to learn about operators.\";\n   ^~~\ncode/fundamentals/exercise5.cpp:8:3: note: suggested alternative: ‘gcvt’\n   cot << \"Okay, it is time to learn about operators.\";\n   ^~~\n   gcvt\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above.",
+    "timestamp": 1589490270929,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "</br><hr/><h3>You have not used two cout statements.</h3>\nMake sure you are using <b>two</b> cout statements as requested by the prompt.",
+    "timestamp": 1589490213738,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1589490205801,
+    "state": "pass"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1589490201291,
+    "state": "pass"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value.",
+    "timestamp": 1589490191464,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value.",
+    "timestamp": 1589490179214,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value.",
+    "timestamp": 1589490174152,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work",
+    "timestamp": 1589489950522,
+    "state": "pass"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "Okay, it is time to learn about operators.\ncode/fundamentals/exercise5.cpp: In function ‘int main(int, char**)’:\ncode/fundamentals/exercise5.cpp:8:3: error: ‘cot’ was not declared in this scope\n   cot << \"Okay, it is time to \";\n   ^~~\ncode/fundamentals/exercise5.cpp:8:3: note: suggested alternative: ‘gcvt’\n   cot << \"Okay, it is time to \";\n   ^~~\n   gcvt\n<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value",
+    "timestamp": 1589489767113,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "Okay, it is time to learn about operators.\n<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value",
+    "timestamp": 1589489717145,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "Okay, it is time to learn about operators.\n<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value",
+    "timestamp": 1589489355071,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "Okay, it is time to learn about operators.\n<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value",
+    "timestamp": 1589489351808,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "Okay, it is time to learn about operators.\n<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value",
+    "timestamp": 1589489326811,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "Okay, it is time to learn about operators.\n<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value",
+    "timestamp": 1589489320707,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "Okay, it is time to learn about operators.\n<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputing the correct value",
+    "timestamp": 1589489072377,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": ".guides/exercise5.sh: line 3: ./code/fundamentals/exercise5: No such file or directory\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above",
+    "timestamp": 1589488934094,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": ".guides/exercise5.sh: line 3: javac: command not found\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above",
+    "timestamp": 1589488554783,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is an example solution:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": ".guides/exercise5.sh: line 3: javac: command not found\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above",
+    "timestamp": 1589488373270,
+    "state": "fail"
+   }
+  ]
  }
 ]

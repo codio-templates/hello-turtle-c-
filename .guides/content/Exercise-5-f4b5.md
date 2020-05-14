@@ -1,3 +1,3 @@
 ---
 
-{Check It!|assessment}(code-output-compare-784241532)
+{Check It!|assessment}(test-1005686765)

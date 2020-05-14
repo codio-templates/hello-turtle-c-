@@ -1231,5 +1231,101 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "Assign/overwrite a value to a variable & Use the cout and endl commands to write text to the console"
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2314242167",
+  "source": {
+   "name": "C++ Fundamentals: Exercise 4",
+   "showName": true,
+   "instructions": "Submit your code when you are ready.",
+   "command": "./code/fundamentals/exercise4",
+   "preExecuteCommand": "g++ code/fundamentals/exercise4.cpp",
+   "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\n**You would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.**",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "-9.1",
+     "input": "",
+     "output": "3.14\n-9.1",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "33.22",
+     "input": "",
+     "output": "3.14\n33.22",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise4.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise4.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1005686765",
+  "source": {
+   "name": "C++ Fundamentals: Exercise 5",
+   "showName": true,
+   "instructions": "Use **two** `cout` statements to write the following string:\n`Okay, it is time to learn about operators.`",
+   "command": "bash .guides/exercise5.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise5.cpp",
+     "code/fundamentals/exercise4.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise5.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
