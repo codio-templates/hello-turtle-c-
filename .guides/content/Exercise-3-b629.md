@@ -8,6 +8,10 @@ Write a program that:
  
 To test the code, first compile and then check the output of a few different test cases:
 
-{Compile}(javac code/fundamentals/Exercise3.java)
-{Test 1}(java -cp code/fundamentals/ Exercise3 Welcome Goodbye)
-{Test 2}(java -cp code/fundamentals/ Exercise3 Howdy Sayonara )
+To test your code, first `COMPILE` it and then check the output of a few different test cases below:
+
+{Compile}(g++ code/fundamentals/exercise3.cpp -o code/fundamentals/exercise3)
+{Test 1}(sh .guides/exercise3.sh Welcome Goodbye)
+{Test 2}(sh .guides/exercise3.sh Howdy Sayonara)
+
+{Check It!|assessment}(code-output-compare-784241532)

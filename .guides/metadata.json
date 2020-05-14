@@ -404,7 +404,18 @@
   {
    "id": "1608bc31-0fcc-2b81-a059-8fabfae023fd",
    "title": "Exercise 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/exercise1.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-1-1608.md",
@@ -416,7 +427,18 @@
   {
    "id": "f3f6f3d8-6e06-effe-cfda-a072a61a0cd1",
    "title": "Exercise 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/exercise2.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-2-f3f6.md",
@@ -428,7 +450,18 @@
   {
    "id": "b6290a68-89c4-7510-daf8-6b2b4441d7a6",
    "title": "Exercise 3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/exercise3.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-3-b629.md",

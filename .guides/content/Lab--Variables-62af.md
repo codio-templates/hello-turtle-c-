@@ -23,4 +23,3 @@ cout << french;
 {Try it}(sh .guides/bg.sh g++ code/fundamentals/labvariables.cpp -o code/fundamentals/labvariables ./code/fundamentals/labvariables 1)
 
 [Code Visualizer](open_tutor code/fundamentals/labvariables.cpp)
-

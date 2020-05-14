@@ -607,7 +607,7 @@
   "source": {
    "name": "C++ Strings",
    "showName": true,
-   "instructions": "Select the correct line of code to declare and assign the `var` variable.",
+   "instructions": "Select the correct line of code to declare and assign the `var` variable. Drag your selected answer to the highlighted yellow space below. Then click `Check It!`.",
    "initial": "string var = \"this is a string\";\nstring var = 'this is a string'; #distractor\nString var = \"this is a string\"; #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "1",
@@ -635,14 +635,14 @@
      }
     ],
     "files": [
-     "code/fundamentals/variableval.cpp",
-     "code/fundamentals/string.cpp"
+     "code/fundamentals/string.cpp",
+     "code/fundamentals/variableval.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/variableval.cpp"
+      "content": "code/fundamentals/string.cpp"
      }
     ]
    },
@@ -726,7 +726,7 @@
   "source": {
    "name": "C++ Declaring, Initializing, and Assigning Variables",
    "showName": true,
-   "instructions": "Construct a program that initializes the variable <code>my_var</code> to 5 and prints it out. \n\nThen, re-assign <code>my_var</code> to 10 and print it out.\n\nThe output of the code you are constructing looks like:\n```c++\n5\n10\n```\n\nYou will not need to use all of the blocks.",
+   "instructions": "Construct a program that initializes the variable <code>my_var</code> to 5 and prints it out. \n\nThen, re-assigns <code>my_var</code> to 10 and prints it out.\n\nThe output of the code you are constructing looks like:\n```c++\n5\n10\n```\n\n**You will not need to use all of the blocks.**",
    "initial": "int my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\nint my_var = 10; #distractor\ndouble my_var = 5; #distractor\nmy_var = 5; #distractor\nmy_var = \"10\"; #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "1",
@@ -857,7 +857,7 @@
     {
      "_id": "2c15f088-64a7-37ec-22b0-bbcac9ed063c",
      "correct": false,
-     "answer": "char"
+     "answer": "letter"
     },
     {
      "_id": "cb7acb81-1c8d-82bd-1a6e-a31fc30a0f98",
@@ -907,13 +907,7 @@
     "files": [
      "code/fundamentals/variableval.cpp"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/fundamentals/variableval.cpp"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings"
@@ -1007,6 +1001,235 @@
    },
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "Use the cout command to write text to the console &  Add a newline character by using the endl command"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-295500519",
+  "source": {
+   "name": "C++ Fundamentals: Exercise 1",
+   "showName": true,
+   "instructions": "Submit your code when you are ready.",
+   "command": "./code/fundamentals/exercise1",
+   "preExecuteCommand": "g++ code/fundamentals/exercise1.cpp",
+   "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "1",
+     "input": "",
+     "output": "1\n1",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "0",
+     "input": "",
+     "output": "1\n0",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Boolean"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Text Output & Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise2.cpp",
+     "code/fundamentals/exercise1.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise2.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "Assign/overwrite a value to a variable & Use the cout command to write text to the console"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2547360760",
+  "source": {
+   "name": "C++ Fundamentals: Exercise 2",
+   "showName": true,
+   "instructions": "Submit your code when you are ready.",
+   "command": "./code/fundamentals/exercise2",
+   "preExecuteCommand": "g++ code/fundamentals/exercise2.cpp",
+   "guidance": "You can do the declaration and initialization on the same line:\n```c++\nint my_int = first_num;\ncout << my_int << endl;\nmy_int = second_num;\ncout << my_int << endl;\nmy_int = third_num;\ncout << my_int << endl;\n```\nYou can also write the code without using `<< endl`.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "1 2 3",
+     "input": "",
+     "output": "1\n2\n3",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "-3 -2 -1",
+     "input": "",
+     "output": "-3\n-2\n-1",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "5 99 -2",
+     "input": "",
+     "output": "5\n99\n-2",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Integers"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Text Outout & Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise2.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise2.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "Assign/overwrite a value to a variable & Use the cout command to write text to the console"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-784241532",
+  "source": {
+   "name": "C++ Fundamentals: Exercise 3",
+   "showName": true,
+   "instructions": "Submit your code when you are ready.",
+   "command": "./code/fundamentals/exercise3",
+   "preExecuteCommand": "g++ code/fundamentals/exercise3.cpp",
+   "guidance": "Because the string variables are already declared and initialized, you simply need to access them. You need to use `<< endl` to ensure the newlines are printed after each line.\n```c++\ncout << line1 << endl;\ncout << line2 << endl;\n```\n\nYou could use the `<< endl` commands separately if you wanted:\n```c++\ncout << line1;\ncout << endl;\ncout << line2;\ncout << endl;\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "Hi Bye",
+     "input": "",
+     "output": "Hi\nBye\n",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1 2",
+     "input": "",
+     "output": "1\n2\n",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "true false",
+     "input": "",
+     "output": "true\nfalse\n",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Strings"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Text Output & Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise3.cpp",
+     "code/fundamentals/exercise2.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise3.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "Assign/overwrite a value to a variable & Use the cout and endl commands to write text to the console"
   }
  }
 ]

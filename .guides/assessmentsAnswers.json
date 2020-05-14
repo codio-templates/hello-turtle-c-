@@ -121,6 +121,12 @@
   "results": [
    {
     "guidance": "Here are two possible solutions to this lab:\n```c++\ncout << greeting << \" Today is \" << dayOfWeek << \", \" << month << \" \" << day << \".\" << endl;\ncout << \"The current wait time is \" << currentWaitMinutes << \" minutes.\" << endl;\n```\n```\nc++cout << greeting;\ncout << \" Today is \";\ncout << dayOfWeek;\ncout << \", \";\ncout << month;\ncout << \" \";\ncout << day;\ncout << \".\" << endl;\ncout << \"The current wait time is \";\ncout << currentWaitMinutes;\ncout << \" minutes.\" << endl;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"4\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"5\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"18\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"52\\n\"}]}",
+    "timestamp": 1589482384011,
+    "state": "fail"
+   },
+   {
+    "guidance": "Here are two possible solutions to this lab:\n```c++\ncout << greeting << \" Today is \" << dayOfWeek << \", \" << month << \" \" << day << \".\" << endl;\ncout << \"The current wait time is \" << currentWaitMinutes << \" minutes.\" << endl;\n```\n```\nc++cout << greeting;\ncout << \" Today is \";\ncout << dayOfWeek;\ncout << \", \";\ncout << month;\ncout << \" \";\ncout << day;\ncout << \".\" << endl;\ncout << \"The current wait time is \";\ncout << currentWaitMinutes;\ncout << \" minutes.\" << endl;\n```",
     "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
     "timestamp": 1589324371643,
     "state": "fail"
@@ -147,6 +153,210 @@
     "guidance": null,
     "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hello! Today is Monday, July 4.\\nThe current wait time is 9 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Howdy! Today is Monday, May 5.\\nThe current wait time is 19 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Greetings! Today is Wednesday, May 18.\\nThe current wait time is 1 minutes.\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi, Today is banana, pear 52.\\nThe current wait time is -4 minutes.\\n\"}]}",
     "timestamp": 1589322632498,
+    "state": "pass"
+   }
+  ]
+ },
+ {
+  "taskId": "code-output-compare-295500519",
+  "points": 0,
+  "results": [
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1589393730078,
+    "state": "fail"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589393709757,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589393697320,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n1\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n0\\n\"}]}",
+    "timestamp": 1589393673767,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589393643807,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n1\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n0\\n\"}]}",
+    "timestamp": 1589393616618,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1589393576458,
+    "state": "fail"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1589393446937,
+    "state": "fail"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nYou can also write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1589393384041,
+    "state": "fail"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nYou can also write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1589393315159,
+    "state": "fail"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nYou can also write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1589393312285,
+    "state": "fail"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nYou can also write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589393291421,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nYou can also write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589393288947,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nYou can also write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589393245501,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nYou can also write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589393231351,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nYou can also write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589393130422,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nYou can also write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589393027942,
+    "state": "pass"
+   },
+   {
+    "guidance": "```\nboolean my_boolean = true;\nSystem.out.println(my_boolean);\nmy_boolean = test;\nSystem.out.println(my_boolean);\n```\nYou can initialize `my_boolean` on a separate line and use `print` instead of `println`.\n```\nboolean my_boolean;\nmy_boolean = true;\nSystem.out.print(my_boolean);\nmy_boolean = test;\nSystem.out.print(my_boolean);\n``",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589392770382,
+    "state": "pass"
+   },
+   {
+    "guidance": "```\nboolean my_boolean = true;\nSystem.out.println(my_boolean);\nmy_boolean = test;\nSystem.out.println(my_boolean);\n```\nYou can initialize `my_boolean` on a separate line and use `print` instead of `println`.\n```\nboolean my_boolean;\nmy_boolean = true;\nSystem.out.print(my_boolean);\nmy_boolean = test;\nSystem.out.print(my_boolean);\n``",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589392767930,
+    "state": "pass"
+   },
+   {
+    "guidance": "```\nboolean my_boolean = true;\nSystem.out.println(my_boolean);\nmy_boolean = test;\nSystem.out.println(my_boolean);\n```\nYou can initialize `my_boolean` on a separate line and use `print` instead of `println`.\n```\nboolean my_boolean;\nmy_boolean = true;\nSystem.out.print(my_boolean);\nmy_boolean = test;\nSystem.out.print(my_boolean);\n``",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
+    "timestamp": 1589392754000,
+    "state": "pass"
+   },
+   {
+    "guidance": "```\nboolean my_boolean = true;\nSystem.out.println(my_boolean);\nmy_boolean = test;\nSystem.out.println(my_boolean);\n```\nYou can initialize `my_boolean` on a separate line and use `print` instead of `println`.\n```\nboolean my_boolean;\nmy_boolean = true;\nSystem.out.print(my_boolean);\nmy_boolean = test;\nSystem.out.print(my_boolean);\n``",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n1\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n0\\n\"}]}",
+    "timestamp": 1589392688642,
+    "state": "pass"
+   },
+   {
+    "guidance": "```\nboolean my_boolean = true;\nSystem.out.println(my_boolean);\nmy_boolean = test;\nSystem.out.println(my_boolean);\n```\nYou can initialize `my_boolean` on a separate line and use `print` instead of `println`.\n```\nboolean my_boolean;\nmy_boolean = true;\nSystem.out.print(my_boolean);\nmy_boolean = test;\nSystem.out.print(my_boolean);\n``",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"1\\n0\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n0\\n\"}]}",
+    "timestamp": 1589392611865,
+    "state": "fail"
+   },
+   {
+    "guidance": "```\nboolean my_boolean = true;\nSystem.out.println(my_boolean);\nmy_boolean = test;\nSystem.out.println(my_boolean);\n```\nYou can initialize `my_boolean` on a separate line and use `print` instead of `println`.\n```\nboolean my_boolean;\nmy_boolean = true;\nSystem.out.print(my_boolean);\nmy_boolean = test;\nSystem.out.print(my_boolean);\n``",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"1\\n0\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n0\\n\"}]}",
+    "timestamp": 1589392584832,
+    "state": "fail"
+   },
+   {
+    "guidance": "```\nboolean my_boolean = true;\nSystem.out.println(my_boolean);\nmy_boolean = test;\nSystem.out.println(my_boolean);\n```\nYou can initialize `my_boolean` on a separate line and use `print` instead of `println`.\n```\nboolean my_boolean;\nmy_boolean = true;\nSystem.out.print(my_boolean);\nmy_boolean = test;\nSystem.out.print(my_boolean);\n``",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"1\\n0\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n0\\n\"}]}",
+    "timestamp": 1589392563706,
+    "state": "fail"
+   },
+   {
+    "guidance": "```\nboolean my_boolean = true;\nSystem.out.println(my_boolean);\nmy_boolean = test;\nSystem.out.println(my_boolean);\n```\nYou can initialize `my_boolean` on a separate line and use `print` instead of `println`.\n```\nboolean my_boolean;\nmy_boolean = true;\nSystem.out.print(my_boolean);\nmy_boolean = test;\nSystem.out.print(my_boolean);\n``",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n1\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"1\\n1\\n\"}]}",
+    "timestamp": 1589390572038,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "code-output-compare-2547360760",
+  "points": 0,
+  "results": [
+   {
+    "guidance": "You can do the declaration and initialization on the same line:\n```c++\nint my_int = first_num;\ncout << my_int << endl;\nmy_int = second_num;\ncout << my_int << endl;\nmy_int = third_num;\ncout << my_int << endl;\n```\nYou can also write the code without using `<< endl`.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1589394557881,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can do the declaration and initialization on the same line:\n```c++\nint my_int = first_num;\ncout << my_int << endl;\nmy_int = second_num;\ncout << my_int << endl;\nmy_int = third_num;\ncout << my_int << endl;\n```\nYou can also write the code without using `<< endl`.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"123\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"-3-2-1\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"599-2\"}]}",
+    "timestamp": 1589394530035,
+    "state": "pass"
+   },
+   {
+    "guidance": "You can do the declaration and initialization on the same line:\n```c++\nint my_int = first_num;\ncout << my_int << endl;\nmy_int = second_num;\ncout << my_int << endl;\nmy_int = third_num;\ncout << my_int << endl;\n```\nYou can also write the code without using `<< endl`.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n2\\n3\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"-3\\n-2\\n-1\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"5\\n99\\n-2\\n\"}]}",
+    "timestamp": 1589394485634,
+    "state": "pass"
+   },
+   {
+    "guidance": "You can do the declaration and initialization on the same line:\n```\n    int my_int = first_num;\n    System.out.println(my_int);\n    my_int = second_num;\n    System.out.println(my_int);\n    my_int = third_num;\n    System.out.println(my_int);\n```\nYou can also use `print` instead of `println`",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n2\\n3\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"-3\\n-2\\n-1\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"5\\n99\\n-2\\n\"}]}",
+    "timestamp": 1589394392004,
+    "state": "pass"
+   }
+  ]
+ },
+ {
+  "taskId": "code-output-compare-784241532",
+  "points": 1,
+  "results": [
+   {
+    "guidance": "Because the string variables are already declared and initialized, you simply need to access them. You need to use `<< endl` to ensure the newlines are printed after each line.\n```c++\ncout << line1 << endl;\ncout << line2 << endl;\n```\n\nYou could use the `<< endl` commands separately if you wanted:\n```c++\ncout << line1;\ncout << endl;\ncout << line2;\ncout << endl;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi\\nBye\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n2\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"true\\nfalse\\n\"}]}",
+    "timestamp": 1589396170910,
+    "state": "pass"
+   },
+   {
+    "guidance": "Because the string variables are already declared and initialized, you simply need to access them. You need to use `println` to ensure the newlines after each line is printed.\n```\n    System.out.println(line1);\n    System.out.println(line2);\n```\n\nYou could use empty `println` commands if you wanted:\n```\n    System.out.print(line1);\n    System.out.println();\n    System.out.print(line2);\n    System.out.println();\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi\\nBye\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1\\n2\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"true\\nfalse\\n\"}]}",
+    "timestamp": 1589395611147,
     "state": "pass"
    }
   ]

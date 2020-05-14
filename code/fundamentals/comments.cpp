@@ -5,7 +5,7 @@ int main() {
 
 /*
 This is a multi-line comment.
-Multi-line comments start with a forward slash(/) follwed by a star(*).
+Multi-line comments start with a forward slash(/) followed by a star(*).
 They end with a star(*) followed by a forward slash(/).
 Try making one at the end of the code file.
 */
