@@ -203,7 +203,68 @@
      "title": "Arithmetic Operators",
      "id": "8ba86e1f-1b10-6278-421c-2467b24b18fd",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "8ee164ae-93da-22fe-9bb1-b465d4a5707c",
+       "title": "Learning Objectives: Arithmetic Operators",
+       "pageId": "6b4732b4-9e92-ac28-d35f-9ea5335f7c06",
+       "type": "page"
+      },
+      {
+       "id": "acd95f55-ce24-8a12-ad6d-7e8735d30f96",
+       "title": "Addition",
+       "pageId": "55d74b3a-421f-6a02-055d-4444868f27bc",
+       "type": "page"
+      },
+      {
+       "id": "2b800851-e32d-6057-fdf1-81a1218c0d7d",
+       "title": "Incrementing Variables",
+       "pageId": "1f86fcd3-16f8-85f8-774c-996589199810",
+       "type": "page"
+      },
+      {
+       "id": "aaaa9328-c4ab-8858-2504-253cb51e645d",
+       "title": "String Concatenation",
+       "pageId": "ba36a81a-129b-aef5-b6f6-9442c1880b71",
+       "type": "page"
+      },
+      {
+       "id": "b2ec1ec2-d3aa-54d8-1c89-e9e7799edcfa",
+       "title": "Subtraction",
+       "pageId": "5729de2b-1ce6-f160-8bf4-17d87bc8aeed",
+       "type": "page"
+      },
+      {
+       "id": "6827bb73-4fe6-06ad-f8e6-66a7ff3e568b",
+       "title": "Division",
+       "pageId": "b9da4095-0d92-ed85-2927-e5d2c00aad90",
+       "type": "page"
+      },
+      {
+       "id": "44cc5f40-43ea-c72f-bc5c-1cbdd1688c6e",
+       "title": "Type Casting",
+       "pageId": "c5e2acbb-859e-8d5a-1c38-8ef2fde1132b",
+       "type": "page"
+      },
+      {
+       "id": "efd266b7-574a-8505-35a9-f3ca74b72a7c",
+       "title": "Modulo",
+       "pageId": "a38440de-0da6-1f3a-bb93-bd03edbfb379",
+       "type": "page"
+      },
+      {
+       "id": "4c1870ac-05b9-5c37-d549-4d1dafeaa1f7",
+       "title": "Multiplication",
+       "pageId": "17fc82b8-519b-5a31-c039-6e28cb7b7452",
+       "type": "page"
+      },
+      {
+       "id": "2a42f265-4ef2-db60-1ef1-a2c837f2c690",
+       "title": "Order of Operations",
+       "pageId": "9fa9899b-a0ba-da6c-306a-a05888352478",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: Arithmetic Operators",
