@@ -1,7 +1,7 @@
 ---
 
 ## Floating Point Numbers
-Floating point numbers (often called floats) are numbers with a decimal. They can be positive or negative. Add the code below and `TRY IT`.
+Floating point numbers (often called floats) are numbers with a decimal. They can be positive or negative. Copy the code below and `TRY IT`.
 
 ```c++
 double decimal = 0.5;

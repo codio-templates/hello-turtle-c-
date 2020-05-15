@@ -16,7 +16,7 @@ if [ "$OUTPUT1" != "Okay, it is time to learn about operators." ]; then
   exit 1
 fi
 
-python3 .guides/exercise5_check1.py
+python3 .guides/secure/fundamentals/exercise5_check1.py
 
 if [ $? -ne 0 ]; then 
   echo "</br><hr/><h3>You have not used two cout statements.</h3>"

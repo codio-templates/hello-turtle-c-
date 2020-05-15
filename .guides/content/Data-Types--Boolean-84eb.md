@@ -1,7 +1,7 @@
 ---
 
 ## Boolean
-A boolean variable can only take on the value of `true` or `false`. You will see how boolean values are used when we talk about conditionals and while loops. Add the code below and `TRY IT`.
+A boolean variable can only take on the value of `true` or `false`. You will see how boolean values are used when we talk about conditionals and while loops. Copy the code below and `TRY IT`.
 
 ```c++
 bool thisIsFun = true;

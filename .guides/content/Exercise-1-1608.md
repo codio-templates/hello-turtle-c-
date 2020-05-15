@@ -12,7 +12,7 @@ Write a program that:
 To test your code, first `COMPILE` it and then check the output of a few different test cases below:
 
 {Compile}(g++ code/fundamentals/exercise1.cpp -o code/fundamentals/exercise1)
-{Test with "true"}(sh .guides/exercise1.sh 1)
-{Test with "false"}(sh .guides/exercise1.sh 0)
+{Test with "true"}(sh .guides/secure/fundamentals/exercise1.sh 1)
+{Test with "false"}(sh .guides/secure/fundamentals/exercise1.sh 0)
 
 {Check It!|assessment}(code-output-compare-295500519)

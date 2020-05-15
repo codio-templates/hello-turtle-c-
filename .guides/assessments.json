@@ -42,7 +42,7 @@
      },
      {
       "name": "Content",
-      "value": "Printing"
+      "value": "Output"
      },
      {
       "name": "Programming Language",
@@ -50,17 +50,18 @@
      },
      {
       "name": "Category",
-      "value": "Text Output"
+      "value": "Printing"
      }
     ],
     "files": [
+     "code/fundamentals/exercise1.cpp",
      "code/fundamentals/tryit1.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
+      "content": "code/fundamentals/exercise1.cpp"
      }
     ]
    },
@@ -111,7 +112,7 @@
      },
      {
       "name": "Content",
-      "value": "Printing"
+      "value": "Newline"
      },
      {
       "name": "Programming Language",
@@ -119,17 +120,18 @@
      },
      {
       "name": "Category",
-      "value": "Text Output"
+      "value": "Printing"
      }
     ],
     "files": [
+     "code/fundamentals/exercise1.cpp",
      "code/fundamentals/tryit2.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/tryit2.cpp"
+      "content": "code/fundamentals/exercise1.cpp"
      }
     ]
    },
@@ -166,17 +168,18 @@
      },
      {
       "name": "Category",
-      "value": "Text Output"
+      "value": "Printing"
      }
     ],
     "files": [
+     "code/fundamentals/exercise1.cpp",
      "code/fundamentals/comments.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/comments.cpp"
+      "content": "code/fundamentals/exercise1.cpp"
      }
     ]
    },
@@ -240,7 +243,7 @@
      },
      {
       "name": "Content",
-      "value": "Printing"
+      "value": "Output"
      },
      {
       "name": "Programming Language",
@@ -248,17 +251,18 @@
      },
      {
       "name": "Category",
-      "value": "Text Output"
+      "value": "Printing"
      }
     ],
     "files": [
+     "code/fundamentals/exercise1.cpp",
      "code/fundamentals/comments.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/comments.cpp"
+      "content": "code/fundamentals/exercise1.cpp"
      }
     ]
    },
@@ -287,7 +291,7 @@
      },
      {
       "name": "Content",
-      "value": "Printing"
+      "value": "Newline"
      },
      {
       "name": "Programming Language",
@@ -295,17 +299,18 @@
      },
      {
       "name": "Category",
-      "value": "Text Output"
+      "value": "Printing"
      }
     ],
     "files": [
+     "code/fundamentals/exercise1.cpp",
      "code/fundamentals/comments.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/comments.cpp"
+      "content": "code/fundamentals/exercise1.cpp"
      }
     ]
    },
@@ -921,7 +926,7 @@
    "showName": true,
    "instructions": "Submit your code when you are ready.",
    "command": "./code/fundamentals/labchallenge",
-   "preExecuteCommand": "g++ code/fundamentals/labchallenge.cpp",
+   "preExecuteCommand": "g++ code/fundamentals/labchallenge.cpp -o code/fundamentals/labchallenge",
    "guidance": "Here are two possible solutions to this lab:\n```c++\ncout << greeting << \" Today is \" << dayOfWeek << \", \" << month << \" \" << day << \".\" << endl;\ncout << \"The current wait time is \" << currentWaitMinutes << \" minutes.\" << endl;\n```\n```\nc++cout << greeting;\ncout << \" Today is \";\ncout << dayOfWeek;\ncout << \", \";\ncout << month;\ncout << \" \";\ncout << day;\ncout << \".\" << endl;\ncout << \"The current wait time is \";\ncout << currentWaitMinutes;\ncout << \" minutes.\" << endl;\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -972,7 +977,7 @@
      },
      {
       "name": "Content",
-      "value": "Printing"
+      "value": "Output and Newline"
      },
      {
       "name": "Programming Language",
@@ -980,22 +985,18 @@
      },
      {
       "name": "Category",
-      "value": "Text Output"
+      "value": "Printing"
      }
     ],
     "files": [
-     "code/fundamentals/labchallenge.cpp"
+     "code/fundamentals/labchallenge.cpp",
+     "code/fundamentals/exercise1.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
       "content": "code/fundamentals/labchallenge.cpp"
-     },
-     {
-      "type": "terminal",
-      "panelNumber": 1,
-      "content": ""
      }
     ]
    },
@@ -1011,7 +1012,7 @@
    "showName": true,
    "instructions": "Submit your code when you are ready.",
    "command": "./code/fundamentals/exercise1",
-   "preExecuteCommand": "g++ code/fundamentals/exercise1.cpp",
+   "preExecuteCommand": "g++ code/fundamentals/exercise1.cpp -o code/fundamentals/exercise1",
    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -1056,18 +1057,18 @@
      },
      {
       "name": "Category",
-      "value": "Text Output & Variables"
+      "value": "Printing and Variables"
      }
     ],
     "files": [
-     "code/fundamentals/exercise2.cpp",
-     "code/fundamentals/exercise1.cpp"
+     "code/fundamentals/exercise1.cpp",
+     "code/fundamentals/exercise2.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/exercise2.cpp"
+      "content": "code/fundamentals/exercise1.cpp"
      }
     ]
    },
@@ -1083,7 +1084,7 @@
    "showName": true,
    "instructions": "Submit your code when you are ready.",
    "command": "./code/fundamentals/exercise2",
-   "preExecuteCommand": "g++ code/fundamentals/exercise2.cpp",
+   "preExecuteCommand": "g++ code/fundamentals/exercise2.cpp -o code/fundamentals/exercise2",
    "guidance": "You can do the declaration and initialization on the same line:\n```c++\nint my_int = first_num;\ncout << my_int << endl;\nmy_int = second_num;\ncout << my_int << endl;\nmy_int = third_num;\ncout << my_int << endl;\n```\nYou can also write the code without using `<< endl`.",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -1135,11 +1136,12 @@
      },
      {
       "name": "Category",
-      "value": "Text Outout & Variables"
+      "value": "Printing and Variables"
      }
     ],
     "files": [
-     "code/fundamentals/exercise2.cpp"
+     "code/fundamentals/exercise2.cpp",
+     "code/fundamentals/exercise1.cpp"
     ],
     "opened": [
      {
@@ -1161,7 +1163,7 @@
    "showName": true,
    "instructions": "Submit your code when you are ready.",
    "command": "./code/fundamentals/exercise3",
-   "preExecuteCommand": "g++ code/fundamentals/exercise3.cpp",
+   "preExecuteCommand": "g++ code/fundamentals/exercise3.cpp -o code/fundamentals/exercise3",
    "guidance": "Because the string variables are already declared and initialized, you simply need to access them. You need to use `<< endl` to ensure the newlines are printed after each line.\n```c++\ncout << line1 << endl;\ncout << line2 << endl;\n```\n\nYou could use the `<< endl` commands separately if you wanted:\n```c++\ncout << line1;\ncout << endl;\ncout << line2;\ncout << endl;\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -1213,11 +1215,12 @@
      },
      {
       "name": "Category",
-      "value": "Text Output & Variables"
+      "value": "Printing and Variables"
      }
     ],
     "files": [
      "code/fundamentals/exercise3.cpp",
+     "code/fundamentals/exercise1.cpp",
      "code/fundamentals/exercise2.cpp"
     ],
     "opened": [
@@ -1240,7 +1243,7 @@
    "showName": true,
    "instructions": "Submit your code when you are ready.",
    "command": "./code/fundamentals/exercise4",
-   "preExecuteCommand": "g++ code/fundamentals/exercise4.cpp",
+   "preExecuteCommand": "g++ code/fundamentals/exercise4.cpp -o code/fundamentals/exercise4",
    "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\n**You would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.**",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -1274,10 +1277,23 @@
      {
       "name": "Assessment Type",
       "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Doubles"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Printing and Variables"
      }
     ],
     "files": [
-     "code/fundamentals/exercise4.cpp"
+     "code/fundamentals/exercise4.cpp",
+     "code/fundamentals/exercise1.cpp"
     ],
     "opened": [
      {
@@ -1287,8 +1303,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "Assign/overwrite a value to a variable & Use the cout command to write text to the console"
   }
  },
  {
@@ -1298,7 +1314,7 @@
    "name": "C++ Fundamentals: Exercise 5",
    "showName": true,
    "instructions": "Use **two** `cout` statements to write the following string:\n`Okay, it is time to learn about operators.`",
-   "command": "bash .guides/exercise5.sh",
+   "command": "bash .guides/secure/fundamentals/exercise5.sh",
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
@@ -1310,10 +1326,23 @@
      {
       "name": "Assessment Type",
       "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Output"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Printing"
      }
     ],
     "files": [
      "code/fundamentals/exercise5.cpp",
+     "code/fundamentals/exercise1.cpp",
      "code/fundamentals/exercise4.cpp"
     ],
     "opened": [
@@ -1324,8 +1353,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "Use the cout command to write text to the console"
   }
  }
 ]

@@ -4,7 +4,7 @@
 
 1) Use the code editor to the left.
 
-2) Enter the code below.
+2) Copy the code below.
 
 ```c++
 string english = "Hello";

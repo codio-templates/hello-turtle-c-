@@ -8,8 +8,7 @@ int main(int argc, char** argv) {
   
   //add code below this line
   
-  cout << line1 << endl;
-  cout << line2 << endl;
+  
   
   //add code above this line
   

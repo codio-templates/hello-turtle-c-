@@ -3,7 +3,7 @@
 ## Integers
 Integers (often called `int`s) are whole numbers. They can be positive or negative. Do not use a comma when typing large numbers.
   
-Enter the code below into the text editor. Then click the `TRY IT` button.
+Copy the code below into the text editor. Then click the `TRY IT` button.
   
 ```c++
 int number;

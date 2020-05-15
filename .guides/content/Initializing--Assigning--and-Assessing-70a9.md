@@ -10,7 +10,7 @@ Since the value stored in a variable can change, we call changing the value **as
 
 ## Accessing Variables
 
-Enter the code below and `TRY IT` to see the results of the `cout` commands. Click on the ++Code Visualizer++ link to see how the value of `my_int` changes.
+Copy the code below and `TRY IT` to see the results of the `cout` commands. Click on the ++Code Visualizer++ link to see how the value of `my_int` changes.
 
 ```c++
 int my_int = 123;
