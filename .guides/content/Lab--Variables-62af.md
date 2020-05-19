@@ -2,21 +2,21 @@
 
 ## Tutorial Lab 2: Variables
 
-1) Use the code editor to the left.
+1) Use the text editor to the left.
 
 2) Copy the code below.
 
 ```c++
-string english = "Hello";
-string spanish = "Hola";
-string italian = "Ciao";
-string french = "Bonjour";
+int one = 1;
+int two = 2;
+int three = 3;
+int four = 4;
 
-spanish = english;
-italian = spanish;
-french = italian;
+two = one;
+three = two;
+four = three;
 
-cout << french;
+cout << four;
 ```
 3) `TRY IT` to see the output. Click on the ++Code Visualizer++ link below to go through the program step by step.
 
