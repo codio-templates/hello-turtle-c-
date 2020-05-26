@@ -51,7 +51,7 @@
   "taskId": "multiple-choice-2851726778",
   "points": 0,
   "state": {
-   "active": null
+   "active": []
   },
   "results": []
  },
@@ -119,6 +119,12 @@
   "taskId": "code-output-compare-2157437958",
   "points": 0,
   "results": [
+   {
+    "guidance": "Here are two possible solutions to this lab:\n```c++\ncout << greeting << \" Today is \" << dayOfWeek << \", \" << month << \" \" << day << \".\" << endl;\ncout << \"The current wait time is \" << currentWaitMinutes << \" minutes.\" << endl;\n```\n```\nc++cout << greeting;\ncout << \" Today is \";\ncout << dayOfWeek;\ncout << \", \";\ncout << month;\ncout << \" \";\ncout << day;\ncout << \".\" << endl;\ncout << \"The current wait time is \";\ncout << currentWaitMinutes;\ncout << \" minutes.\" << endl;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1590505224962,
+    "state": "fail"
+   },
    {
     "guidance": "Here are two possible solutions to this lab:\n```c++\ncout << greeting << \" Today is \" << dayOfWeek << \", \" << month << \" \" << day << \".\" << endl;\ncout << \"The current wait time is \" << currentWaitMinutes << \" minutes.\" << endl;\n```\n```\nc++cout << greeting;\ncout << \" Today is \";\ncout << dayOfWeek;\ncout << \", \";\ncout << month;\ncout << \" \";\ncout << day;\ncout << \".\" << endl;\ncout << \"The current wait time is \";\ncout << currentWaitMinutes;\ncout << \" minutes.\" << endl;\n```",
     "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
@@ -207,8 +213,14 @@
  },
  {
   "taskId": "code-output-compare-295500519",
-  "points": 1,
+  "points": 0,
   "results": [
+   {
+    "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1590505211896,
+    "state": "fail"
+   },
    {
     "guidance": "Here is one solution:\n```c++\nbool my_bool = true;\ncout << my_bool << endl;\nmy_bool = test;\ncout << my_bool << endl;\n```\nAlternatively, you can write your code without the `<< endl` commands: \n```c++\nbool my_bool = true;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```\nLastly, you can also change `true` to `1`: \n```c++\nbool my_bool = 1;\ncout << my_bool;\nmy_bool = test;\ncout << my_bool;\n```",
     "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"11\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"10\"}]}",
@@ -416,6 +428,12 @@
    {
     "guidance": "You can do the declaration and initialization on the same line:\n```c++\nint my_int = first_num;\ncout << my_int << endl;\nmy_int = second_num;\ncout << my_int << endl;\nmy_int = third_num;\ncout << my_int << endl;\n```\nYou can also write the code without using `<< endl`.",
     "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1590505203268,
+    "state": "fail"
+   },
+   {
+    "guidance": "You can do the declaration and initialization on the same line:\n```c++\nint my_int = first_num;\ncout << my_int << endl;\nmy_int = second_num;\ncout << my_int << endl;\nmy_int = third_num;\ncout << my_int << endl;\n```\nYou can also write the code without using `<< endl`.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
     "timestamp": 1589565372105,
     "state": "fail"
    },
@@ -470,6 +488,12 @@
    {
     "guidance": "Because the string variables are already declared and initialized, you simply need to access them. You need to use `<< endl` to ensure the newlines are printed after each line.\n```c++\ncout << line1 << endl;\ncout << line2 << endl;\n```\n\nYou could use the `<< endl` commands separately if you wanted:\n```c++\ncout << line1;\ncout << endl;\ncout << line2;\ncout << endl;\n```",
     "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1590505191780,
+    "state": "fail"
+   },
+   {
+    "guidance": "Because the string variables are already declared and initialized, you simply need to access them. You need to use `<< endl` to ensure the newlines are printed after each line.\n```c++\ncout << line1 << endl;\ncout << line2 << endl;\n```\n\nYou could use the `<< endl` commands separately if you wanted:\n```c++\ncout << line1;\ncout << endl;\ncout << line2;\ncout << endl;\n```",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
     "timestamp": 1589565391562,
     "state": "fail"
    },
@@ -503,6 +527,12 @@
   "taskId": "code-output-compare-2314242167",
   "points": 0,
   "results": [
+   {
+    "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\n**You would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.**",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1590505181886,
+    "state": "fail"
+   },
    {
     "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\n**You would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.**",
     "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
@@ -629,6 +659,12 @@
   "taskId": "test-1005686765",
   "points": 0,
   "results": [
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value.",
+    "timestamp": 1590505172120,
+    "state": "fail"
+   },
    {
     "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
     "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value.",

@@ -270,7 +270,20 @@
      "title": "Formative Assessment: Arithmetic Operators",
      "id": "b4eac396-7bcb-84e9-a84b-67fd0ba7e930",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "ab580b60-99f5-7c6b-605b-14f728e57fac",
+       "title": "Formative Assessment 1",
+       "pageId": "03385c69-cde4-c210-c4dd-c8fd99538af6",
+       "type": "page"
+      },
+      {
+       "id": "699add30-f3d0-41bb-6118-c74f34c7fc6a",
+       "title": "Formative Assessment 2",
+       "pageId": "aeb94349-5b14-fdd7-6cd6-686de446896c",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Boolean Operators",

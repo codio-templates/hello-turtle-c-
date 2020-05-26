@@ -1356,5 +1356,98 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "Use the cout command to write text to the console"
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-621188575",
+  "source": {
+   "name": "C++ Programming Math",
+   "showName": true,
+   "instructions": "Construct a program below such that C++ reaches the same answer as a normal calculator would. You will **NOT** use all the blocks.",
+   "initial": "double a = 2;\nSystem.out.println(5/a);\nint a = 2; #distractor\nSystem.out.println( (double) (5/a) ); #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\" : \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise5.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise5.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2728036190",
+  "source": {
+   "name": "C++ Modulo",
+   "showName": true,
+   "instructions": "Which of the following is **NOT** correct?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "d37da241-38d3-7265-7652-0b52199c7fc0",
+     "correct": false,
+     "answer": "6 % 4 = 2"
+    },
+    {
+     "_id": "ec587023-6f42-fa1a-b70e-127c852d568c",
+     "correct": true,
+     "answer": "1 % 0 = 1"
+    },
+    {
+     "_id": "d9b4379e-f2ad-91a6-4937-48ebd664b66a",
+     "correct": false,
+     "answer": "0 % 2 = 0"
+    },
+    {
+     "_id": "e04bf66f-72d1-5550-d91f-cac662282b5e",
+     "correct": false,
+     "answer": "15 % 4 = 3"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise5.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise5.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
