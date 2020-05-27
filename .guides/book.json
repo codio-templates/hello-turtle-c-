@@ -289,7 +289,56 @@
      "title": "Boolean Operators",
      "id": "53811692-4608-cbf9-b48d-767cf5be97f4",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "e4ac5b8e-0a1f-08bc-a1c3-5fae0824d7e5",
+       "title": "Learning Objectives: Boolean Operators",
+       "pageId": "39cd172e-0c5f-0ac4-4565-ae5ae33eaf03",
+       "type": "page"
+      },
+      {
+       "id": "48034ff2-bdc1-1db5-a5af-773f7b911249",
+       "title": "Equal To & Not Equal To",
+       "pageId": "21872f6c-d99f-99dd-9fbd-4daf14f88102",
+       "type": "page"
+      },
+      {
+       "id": "c44461cf-818e-892d-b095-2de1272477f0",
+       "title": "Less Than & Less Than or Equal To",
+       "pageId": "881cf054-9c9d-cf67-e92f-452630b15604",
+       "type": "page"
+      },
+      {
+       "id": "f9ec6b3c-e5a1-c378-eb3c-be81ac6b2c4f",
+       "title": "Greater Than & Greater Than or Equal To",
+       "pageId": "4a694a32-290d-dc47-faa6-73921b08d4c2",
+       "type": "page"
+      },
+      {
+       "id": "1688b4f5-5606-405b-6669-28b6f6f53d79",
+       "title": "And",
+       "pageId": "5299bf71-3985-a272-dfeb-90b311b63677",
+       "type": "page"
+      },
+      {
+       "id": "d10aa321-b7e8-3e91-6cec-31fb04edd06b",
+       "title": "Or",
+       "pageId": "43dae3e1-609a-063d-3324-22327ea58b71",
+       "type": "page"
+      },
+      {
+       "id": "a58798c7-cc7a-0b77-f881-fbb5f355a95e",
+       "title": "Not",
+       "pageId": "b341d0ec-af60-fc6a-4cdd-9298a1d308cd",
+       "type": "page"
+      },
+      {
+       "id": "29d0c1a7-e16b-327f-ae53-30981cca368f",
+       "title": "Short-Circuiting",
+       "pageId": "b80a1061-ac7e-f980-ee9a-112ea1c545d3",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: Boolean Operators",
