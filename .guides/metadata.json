@@ -519,7 +519,13 @@
   {
    "id": "6b4732b4-9e92-ac28-d35f-9ea5335f7c06",
    "title": "Learning Objectives: Arithmetic Operators",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--Arithmetic-Operators-6b47.md",
@@ -531,7 +537,18 @@
   {
    "id": "55d74b3a-421f-6a02-055d-4444868f27bc",
    "title": "Addition",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/addition.cpp",
+     "panel": null,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Addition-55d7.md",

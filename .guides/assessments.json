@@ -1449,5 +1449,57 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3568628709",
+  "source": {
+   "name": "C++ Adding Ints and Doubles",
+   "showName": true,
+   "instructions": "What happens when you add an int and a double together?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "31d6d7f3-4d42-38c5-2ff2-a0029d66cd4d",
+     "correct": false,
+     "answer": "You get an error"
+    },
+    {
+     "_id": "2c90d265-3ab2-0077-ddd7-8390fbfe16dc",
+     "correct": false,
+     "answer": "You get an int"
+    },
+    {
+     "_id": "77a265d7-9fd2-5ef4-c051-0364c176db4d",
+     "correct": true,
+     "answer": "You get a double"
+    }
+   ],
+   "guidance": "Since a double can represent the same value as an integer (`2.0` is the same value as `2`), but not necessarily the other way around (`2.4` cannot be an int) the result will be a double. For example:\n\n`7.0 + 3 = 10.0`",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/addition.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": null,
+      "content": "code/operators/addition.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
