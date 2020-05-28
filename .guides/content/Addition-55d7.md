@@ -1,5 +1,15 @@
 ---
 
+## Printing without the Newline Character
+The `cout` command does not add a newline character. The code below will print the two words on the same line without a space. Click the `TRY IT` button below to see the output.
+
+```c++
+cout << "Hello";
+cout << "world!";
+```
+
+{Try it}(sh .guides/bg.sh g++ code/fundamentals/tryit2.cpp -o code/fundamentals/tryit2 ./code/fundamentals/tryit2 1)
+
 ## The Addition (+) Operator
 The addition operator works as you would expect with numbers.
 

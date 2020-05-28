@@ -1,8 +1,8 @@
 ---
 
 * ### Recognize the symbols for arithmetic operators
-* ### Understand that strings can use the `+` and `*` operators even though math isn't involved
-* ### Know how to increment or decrement a variable
+* ### Describe what happens when the `+` and `*` operators are used with strings
+* ### Know how to increment and decrement a variable
 * ### Understand the order of operations
 
 |||guidance
