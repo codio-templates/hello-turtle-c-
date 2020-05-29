@@ -852,5 +852,13 @@
     "state": "fail"
    }
   ]
+ },
+ {
+  "taskId": "multiple-choice-3568628709",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
  }
 ]

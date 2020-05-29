@@ -1456,7 +1456,7 @@
   "source": {
    "name": "C++ Adding Ints and Doubles",
    "showName": true,
-   "instructions": "What happens when you add an int and a double together?",
+   "instructions": "What is printed when you add an int of `3` and a double of `7.0100` together?",
    "multipleResponse": false,
    "answers": [
     {
@@ -1467,16 +1467,21 @@
     {
      "_id": "2c90d265-3ab2-0077-ddd7-8390fbfe16dc",
      "correct": false,
-     "answer": "You get an int"
+     "answer": "You get an int of `10`"
     },
     {
      "_id": "77a265d7-9fd2-5ef4-c051-0364c176db4d",
      "correct": true,
-     "answer": "You get a double"
+     "answer": "You get a double of `10.01`"
+    },
+    {
+     "_id": "378ccf6c-fb8b-5114-c51e-0059f84ed44c",
+     "correct": false,
+     "answer": "You get a double of `10.0100`"
     }
    ],
-   "guidance": "Since a double can represent the same value as an integer (`2.0` is the same value as `2`), but not necessarily the other way around (`2.4` cannot be an int) the result will be a double. For example:\n\n`7.0 + 3 = 10.0`",
-   "showGuidanceAfterResponse": false,
+   "guidance": "Since `cout` excludes all zeros after a decimal point *unless* they are enclosed by non-zero digits, the last two zeros will not be printed and the result will show `10.01`.",
+   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -1485,6 +1490,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Addition"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Arithmetic Operators"
      }
     ],
     "files": [
@@ -1498,8 +1515,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "Recognize the symbols for arithmetic operators"
   }
  }
 ]

@@ -22,7 +22,7 @@ cout << a + b;
 |||challenge
 ## What happens if you:
 * Make `a` of type double (e.g. `double a = 7.0;`)?
-* Change `double a = 7.0` to `double a = 7.1`?
+* Change `a` to `double a = 7.1;`?
 * Make `b` a negative number (e.g. `int b = -3;`)?
 * Make `b` an explicitly positive number (e.g. `int b = +3;`)
 
@@ -30,5 +30,15 @@ cout << a + b;
 
 {Try it}(sh .guides/bg.sh g++ code/operators/addition.cpp -o code/operators/addition ./code/operators/addition 3)
 
-{Check It!|assessment}(multiple-choice-3568628709)
+|||important
+## IMPORTANT
+You may have noticed that when you add an int of `3` to a double of `7.1` you get `10.1`. However, when you add an int of `3` to a double of `7.0`, you get `10` instead of `10.0`. This occurs because by default `cout` does not print zeros after a decimal point *unless* those zeros are enclosed by other non-zero digits.
 
+Examples:
+* `cout << 7 + 3.14;` prints `10.14`
+* `cout << 7.0 + 3.00` prints `10`
+* `cout << 7.00 + 3.01400` prints `10.014`
+
+|||
+
+{Check It!|assessment}(multiple-choice-3568628709)
