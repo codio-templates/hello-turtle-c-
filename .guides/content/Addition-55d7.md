@@ -4,7 +4,7 @@
 The addition operator works as you would expect with numbers. Copy and paste the code below into the text editor on the left. Make sure your code is in between the `//add code below this line` and `//add code above this line` comments. Then click the `TRY IT` button to see what is outputted by the code.
 
 ```c++
-cout << 7 + 3;
+cout << 7 + 3 << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/addition.cpp -o code/operators/addition ./code/operators/addition 1)
@@ -14,7 +14,7 @@ You can also add two variables together. Modify the code to look like what's bel
 ```c++
 int a = 7;
 int b = 3;
-cout << a + b;
+cout << a + b << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/addition.cpp -o code/operators/addition ./code/operators/addition 2)
@@ -36,8 +36,10 @@ You may have noticed that when you add an int of `3` to a double of `7.1` you ge
 
 Examples:
 * `cout << 7 + 3.14;` prints `10.14`
-* `cout << 7.0 + 3.00` prints `10`
-* `cout << 7.00 + 3.01400` prints `10.014`
+* `cout << 7.0 + 3.00;` prints `10`
+* `cout << 7.00 + 3.01400;` prints `10.014`
+
+**==Note==** that when an `int` and a `double` are added together, the result will be a `double` because the program will take on the data type that is more *flexible*.
 
 |||
 

@@ -560,7 +560,18 @@
   {
    "id": "1f86fcd3-16f8-85f8-774c-996589199810",
    "title": "Incrementing Variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/increment.cpp",
+     "panel": null,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Incrementing-Variables-1f86.md",
