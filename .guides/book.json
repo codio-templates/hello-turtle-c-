@@ -344,7 +344,20 @@
      "title": "Formative Assessment: Boolean Operators",
      "id": "866ccf94-8543-5b27-d013-91cd0e5c5dda",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "5a0a3128-b888-e39c-75c2-47f47447b3d5",
+       "title": "Formative Assessment 1",
+       "pageId": "42c261db-9f2c-5b3e-d27a-89a10adf5c6b",
+       "type": "page"
+      },
+      {
+       "id": "4d7e9bc4-341a-e087-a62d-681eb8798db6",
+       "title": "Formative Assessment 2",
+       "pageId": "aa41b13d-dc02-a8d3-00f1-3d7b40bdcc63",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Lab: Operators",

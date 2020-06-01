@@ -1587,5 +1587,104 @@
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "Know how to increment and decrement a variable"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1093374804",
+  "source": {
+   "name": "C++ Evaluating Expressions",
+   "showName": true,
+   "instructions": "Using your knowledge of boolean operators, choose the answer that correctly evaluates the expression below:\n\n`( 5 != 4 ) && ( 3 > 0 ) && ( ! 2 == 3 ) || #unknown condition#`",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "52bf55e8-0aeb-d0cc-b127-e285893b6ebb",
+     "correct": false,
+     "answer": "The evaluation will be `false` - C++ short circuits because you have a `false` condition with an `&&` operator."
+    },
+    {
+     "_id": "c6bfb6c5-1c1d-b35b-5483-c2fb3818b57b",
+     "correct": true,
+     "answer": "The evaluation will be `true` - C++ short circuits because you have a `true` condition with an `||` operator."
+    },
+    {
+     "_id": "03b9c86c-d654-98f0-7bb0-297142d9d2d5",
+     "correct": false,
+     "answer": "There is not enough information - we would need to know the \"unknown condition\"."
+    }
+   ],
+   "guidance": "Because each of the first three conditions evaluates as true, the `&&` operator will cause their combination to evaluate as `true` too. When you reach the `||` operator you then have `true || #unknown condition#`. C++ short circuits and evaluates the entire line as `true` without ever evaluating the #unknown condition#.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/increment.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": null,
+      "content": "code/operators/increment.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3505515237",
+  "source": {
+   "name": "C++ Boolean Operators",
+   "showName": true,
+   "instructions": "Determine if the code below returns `true` or `false`.\n\n`(7 >= 7) && (true || 99 < 1) || ! (3 > 5 && 7 < 10) && 2 != 4`",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "4a0b2742-5b83-e859-c8b9-7d2557a19092",
+     "correct": true,
+     "answer": "true"
+    },
+    {
+     "_id": "67d4cc90-e8e2-4529-739c-4f3ad1f31094",
+     "correct": false,
+     "answer": "false"
+    }
+   ],
+   "guidance": "First, start by evaluating the expressions in the parentheses.\n\n`( 7 >= 7)` returns true.\n`(true || 99 < 1)` returns true\n`! (3 > 5 && 7 < 10)` returns true\n`2 != 4` returns true\nSo the boolean expression is now `true && true || true && true`, which returns true.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/increment.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": null,
+      "content": "code/operators/increment.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
