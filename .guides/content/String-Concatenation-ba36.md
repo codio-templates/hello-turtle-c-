@@ -3,7 +3,7 @@
 ## String Concatenation
 String concatenation is the act of combining two strings together. This is done with the `+` operator.
 
-```java
+```c++
 String a = "This is an ";
 String b = "example string";
 String c = a + b;

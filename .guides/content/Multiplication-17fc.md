@@ -4,7 +4,7 @@
 
 Java uses the `*` operator for multiplication.
 
-```java
+```c++
 int a = 5;
 int b = 10;
 System.out.println(a * b);

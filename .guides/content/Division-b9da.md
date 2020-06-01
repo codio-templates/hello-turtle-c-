@@ -4,7 +4,7 @@
 
 Division in Python is done with the `/` operator
 
-```java
+```c++
 double a = 25;
 double b = 4;
 System.out.println(a / b);
@@ -17,7 +17,7 @@ System.out.println(a / b);
 * Change `b` to `0`?
 * Change `b` to `0.5`?
 * Change the code to
-```java
+```c++
 double a = 25;
 double b = 4;
 a /= b;
@@ -36,7 +36,7 @@ Normally, you use `double` in Java division since the result usually involves de
 
 ![.guides/img/intDivision](.guides/img/intDivision.png)
 
-```java
+```c++
 int a = 5;
 int b = 2;
 System.out.println(a / b);

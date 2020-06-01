@@ -8,7 +8,7 @@ Java uses the PEMDAS method for determining order of operations.
 
 The code below should output `10.0`.
 
-```java
+```c++
 int a = 2;
 int b = 3;
 int c = 4;

@@ -6,7 +6,7 @@ Modulo is the mathematical operation that performs division but returns the rema
 
 ![Modulo](.guides/img/modulo.png)
 
-```java
+```c++
 int modulo = 5 % 2;
 System.out.println(modulo);
 ```

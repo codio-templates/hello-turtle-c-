@@ -4,7 +4,7 @@
 
 The `>` operator is used to check if one value is greater than another value.
 
-```java
+```c++
 int a = 9;
 int b = 17;
 System.out.println(a > b);
@@ -25,7 +25,7 @@ System.out.println(a > b);
 ## Greater Than or Equal To
 
 The `>=` operator is used to check if one value is greater than or equal to another value.
-```java
+```c++
 int a = 9;
 int b = 17;
 System.out.println(a >= b);

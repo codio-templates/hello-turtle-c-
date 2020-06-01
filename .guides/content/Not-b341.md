@@ -4,7 +4,7 @@
 
 The `!` operator produces the opposite of the boolean expression that it modifies. 
 
-```java
+```c++
 System.out.println(! true);
 ```
 

@@ -4,7 +4,7 @@
 
 The `<` operator is used to check if one value is less than another value.
 
-```java
+```c++
 int a = 5;
 int b = 7;
 System.out.println(a < b);
@@ -25,7 +25,7 @@ System.out.println(a < b);
 ## Less Than or Equal To
 
 The `<=` operator is used to check if one value is less than or equal to another value.
-```java
+```c++
 int a = 5;
 int b = 7;
 System.out.println(a <= b;)

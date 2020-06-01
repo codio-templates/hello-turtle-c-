@@ -3,7 +3,7 @@
 ## Type Casting
 Type casting (or type conversion) is when you change the data type of a variable.
 
-```java
+```c++
 int numerator = 40;
 int denominator = 25;
 System.out.println( numerator / denominator);
@@ -29,7 +29,7 @@ System.out.println( (double) numerator / denominator);
 ## Parsing Strings
 Do you know why the code below will not work?
 
-```java
+```c++
 int a = 5;
 String b = "3";
 System.out.println(a + b);
@@ -39,7 +39,7 @@ System.out.println(a + b);
 
 You cannot add a string to an integer. You can convert `b` to an integer to fix the problem.
 
-```java
+```c++
 int a = 5;
 String b = "3";
 System.out.println(a + Integer.parseInt(b));

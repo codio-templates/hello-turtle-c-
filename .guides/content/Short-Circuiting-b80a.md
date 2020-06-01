@@ -6,7 +6,7 @@ If Java can determine the result of a boolean expression before evaluating the e
 
 ![Short Circuiting](.guides/img/shortcircuiting.png)
 
-```Java
+```c++
 System.out.println( false 
                            && 
 /*Java never reaches this line*/ true); 

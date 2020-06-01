@@ -2,7 +2,7 @@
 
 ## Subtraction
 
-```java
+```c++
 int a = 10;
 int b = 3;
 int c = a - b;
@@ -24,7 +24,7 @@ System.out.println(c);
 ## The `--` and `-=` Operators
 Decrementing is the opposite of incrementing. Just like you can increment with `++`, you can decrement using `--`.
 
-```java
+```c++
 int a = 10;
 a--;
 System.out.println(a);
@@ -39,7 +39,7 @@ Like `+=`, there is a shorthand for decrementing a variable - `-=`.
 ## Subtraction and Strings
 You might be able to concatenate strings with the `+` operator, but you cannot use the `-` operator with them.
 
-```java
+```c++
 String a = "one two three";
 String b = "one";
 String c = a - b;

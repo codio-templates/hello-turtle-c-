@@ -4,7 +4,7 @@
 
 The `||` operator allows for compound (more than one) boolean expressions. If only one boolean expressions is true, then the whole thing is true. To be false, **all** boolean expressions must be false.
 
-```java
+```c++
 boolean a = true;
 boolean b = true;
 boolean c = false;
@@ -29,7 +29,7 @@ System.out.println(a || b);
 
 You can chain several `||` statements together. They are evaluated in a left-to-right manner.
 
-```java
+```c++
 boolean a = true;
 boolean b = true;
 boolean c = false;

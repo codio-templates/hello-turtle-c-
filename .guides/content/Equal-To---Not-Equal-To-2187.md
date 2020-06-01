@@ -6,7 +6,7 @@ Boolean operators are operators that return a boolean value (true or false).
 
 Java uses the `==` operator to determine equality. Beginners often confuse the `=` and the `==` operators. Remember, `=` is the assignment operator.
 
-```java
+```c++
 int a = 5;
 int b = 5;
 System.out.println(a == b);
@@ -27,7 +27,7 @@ System.out.println(a == b);
 
 The `!=` operator checks to see if two values are not equal.
 
-```java
+```c++
 int a = 5;
 int b = 5;
 System.out.println(a != b);
