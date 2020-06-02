@@ -10,7 +10,7 @@ System.out.println( numerator / denominator);
 System.out.println( (double) numerator / denominator);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundCasting.java java -cp code/operators/ PlaygroundCasting 1 )
+{Try it}(sh .guides/bg.sh g++ code/operators/casting.cpp -o code/operators/casting ./code/operators/casting 1)
 
 `numerator` and `denominator` are integers, but `(double)` converts `numerator` into a double.
 
@@ -22,7 +22,7 @@ System.out.println( (double) numerator / denominator);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundCasting.java java -cp code/operators/ PlaygroundCasting 2 )
+{Try it}(sh .guides/bg.sh g++ code/operators/casting.cpp -o code/operators/casting ./code/operators/casting 2)
 
 <details><summary><b>More Info</b></summary>If either or both numbers in Java division are a `double`, then `double` division will occur. In the last example, numerator and denominator are both `int` when the division takes place - then the integer division result is converted to a double. </details>
 
@@ -35,7 +35,7 @@ String b = "3";
 System.out.println(a + b);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundCasting.java java -cp code/operators/ PlaygroundCasting 3 )
+{Try it}(sh .guides/bg.sh g++ code/operators/casting.cpp -o code/operators/casting ./code/operators/casting 3)
 
 You cannot add a string to an integer. You can convert `b` to an integer to fix the problem.
 
@@ -45,7 +45,7 @@ String b = "3";
 System.out.println(a + Integer.parseInt(b));
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundCasting.java java -cp code/operators/ PlaygroundCasting 4 )
+{Try it}(sh .guides/bg.sh g++ code/operators/casting.cpp -o code/operators/casting ./code/operators/casting 4)
 
 Data read from the keyboard or a file is always stored as a string. If you want to use this data, you will need to know how to convert it to the proper data type.
 

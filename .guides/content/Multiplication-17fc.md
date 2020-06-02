@@ -10,7 +10,7 @@ int b = 10;
 System.out.println(a * b);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundMultiply.java java -cp code/operators/ PlaygroundMultiply 1 )
+{Try it}(sh .guides/bg.sh g++ code/operators/multiplication.cpp -o code/operators/multiplication ./code/operators/multiplication 1)
 
 |||challenge
 ## What happens if you:
@@ -19,7 +19,7 @@ System.out.println(a * b);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundMultiply.java java -cp code/operators/ PlaygroundMultiply 2 )
+{Try it}(sh .guides/bg.sh g++ code/operators/multiplication.cpp -o code/operators/multiplication ./code/operators/multiplication 2)
 
 <details><summary><b>Hint</b></summary><code>*=</code> works similar to <code>+=</code> and <code>-=</code></details>
 

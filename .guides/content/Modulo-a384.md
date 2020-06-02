@@ -11,7 +11,7 @@ int modulo = 5 % 2;
 System.out.println(modulo);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundModulo.java java -cp code/operators/ PlaygroundModulo 1 )
+{Try it}(sh .guides/bg.sh g++ code/operators/modulo.cpp -o code/operators/modulo ./code/operators/modulo 1)
 
 |||challenge
 ## What happens if you:
@@ -21,6 +21,6 @@ System.out.println(modulo);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundModulo.java java -cp code/operators/ PlaygroundModulo 2 )
+{Try it}(sh .guides/bg.sh g++ code/operators/modulo.cpp -o code/operators/modulo ./code/operators/modulo 2)
 
 {Check It!|assessment}(multiple-choice-2865610959)

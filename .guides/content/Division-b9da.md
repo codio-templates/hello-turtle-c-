@@ -10,7 +10,7 @@ double b = 4;
 System.out.println(a / b);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundDivision.java java -cp code/operators/ PlaygroundDivision 1 )
+{Try it}(sh .guides/bg.sh g++ code/operators/division.cpp -o code/operators/division ./code/operators/division 1)
 
 |||challenge
 ## What happens if you:
@@ -26,7 +26,7 @@ System.out.println(a);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundDivision.java java -cp code/operators/ PlaygroundDivision 2 )
+{Try it}(sh .guides/bg.sh g++ code/operators/division.cpp -o code/operators/division ./code/operators/division 2)
 
 <details><summary><b>Hint</b></summary><code>/=</code> works similar to <code>+=</code> and <code>-=</code></details>
 
@@ -42,6 +42,6 @@ int b = 2;
 System.out.println(a / b);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundDivision.java java -cp code/operators/ PlaygroundDivision 3 )
+{Try it}(sh .guides/bg.sh g++ code/operators/division.cpp -o code/operators/division ./code/operators/division 3)
 
 {Check It!|assessment}(multiple-choice-3182685241)

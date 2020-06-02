@@ -9,7 +9,7 @@ int c = a - b;
 System.out.println(c);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundSubtraction.java java -cp code/operators/ PlaygroundSubtraction 1 )
+{Try it}(sh .guides/bg.sh g++ code/operators/subtraction.cpp -o code/operators/subtraction ./code/operators/subtraction 1)
 
 |||challenge
 ## What happens if you:
@@ -19,7 +19,7 @@ System.out.println(c);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundSubtraction.java java -cp code/operators/ PlaygroundSubtraction 2 )
+{Try it}(sh .guides/bg.sh g++ code/operators/subtraction.cpp -o code/operators/subtraction ./code/operators/subtraction 2)
 
 ## The `--` and `-=` Operators
 Decrementing is the opposite of incrementing. Just like you can increment with `++`, you can decrement using `--`.
@@ -32,7 +32,7 @@ System.out.println(a);
 
 Like `+=`, there is a shorthand for decrementing a variable - `-=`.
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundSubtraction.java java -cp code/operators/ PlaygroundSubtraction 3 )
+{Try it}(sh .guides/bg.sh g++ code/operators/subtraction.cpp -o code/operators/subtraction ./code/operators/subtraction 3)
 
 
 
@@ -46,6 +46,6 @@ String c = a - b;
 System.out.println(c);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundSubtraction.java java -cp code/operators/ PlaygroundSubtraction 4 )
+{Try it}(sh .guides/bg.sh g++ code/operators/subtraction.cpp -o code/operators/subtraction ./code/operators/subtraction 4)
 
 {Check It!|assessment}(fill-in-the-blanks-436876892)
