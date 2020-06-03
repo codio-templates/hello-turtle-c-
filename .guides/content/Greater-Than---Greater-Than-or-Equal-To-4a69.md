@@ -10,7 +10,7 @@ int b = 17;
 System.out.println(a > b);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundGreaterThan.java java -cp code/operators/ PlaygroundGreaterThan 1 )
+{Try it}(sh .guides/bg.sh g++ code/operators/greaterthan.cpp -o code/operators/greaterthan ./code/operators/greaterthan 1)
 
 |||challenge
 ## What happens if you:
@@ -20,7 +20,7 @@ System.out.println(a > b);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundGreaterThan.java java -cp code/operators/ PlaygroundGreaterThan 2)
+{Try it}(sh .guides/bg.sh g++ code/operators/greaterthan.cpp -o code/operators/greaterthan ./code/operators/greaterthan 2)
 
 ## Greater Than or Equal To
 
@@ -31,7 +31,7 @@ int b = 17;
 System.out.println(a >= b);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundGreaterThan.java java -cp code/operators/ PlaygroundGreaterThan 3)
+{Try it}(sh .guides/bg.sh g++ code/operators/greaterthan.cpp -o code/operators/greaterthan ./code/operators/greaterthan 3)
 
 |||challenge
 ## What happens if you:
@@ -41,6 +41,6 @@ System.out.println(a >= b);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundGreaterThan.java java -cp code/operators/ PlaygroundGreaterThan 4)
+{Try it}(sh .guides/bg.sh g++ code/operators/greaterthan.cpp -o code/operators/greaterthan ./code/operators/greaterthan 4)
 
 {Check It!|assessment}(multiple-choice-2590570867)

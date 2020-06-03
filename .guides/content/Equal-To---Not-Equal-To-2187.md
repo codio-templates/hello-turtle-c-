@@ -12,7 +12,7 @@ int b = 5;
 System.out.println(a == b);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundEquality.java java -cp code/operators/ PlaygroundEquality 1 )
+{Try it}(sh .guides/bg.sh g++ code/operators/equality.cpp -o code/operators/equality ./code/operators/equality 1)
 
 |||challenge
 ## What happens if you:
@@ -21,7 +21,7 @@ System.out.println(a == b);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundEquality.java java -cp code/operators/ PlaygroundEquality 2 )
+{Try it}(sh .guides/bg.sh g++ code/operators/equality.cpp -o code/operators/equality ./code/operators/equality 2)
 
 ## Not Equal To
 
@@ -33,7 +33,7 @@ int b = 5;
 System.out.println(a != b);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundEquality.java java -cp code/operators/ PlaygroundEquality 3 )
+{Try it}(sh .guides/bg.sh g++ code/operators/equality.cpp -o code/operators/equality ./code/operators/equality 3)
 
 |||challenge
 ## What happens if you:
@@ -43,6 +43,6 @@ System.out.println(a != b);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundEquality.java java -cp code/operators/ PlaygroundEquality 4 )
+{Try it}(sh .guides/bg.sh g++ code/operators/equality.cpp -o code/operators/equality ./code/operators/equality 4)
 
 {Check It!|assessment}(fill-in-the-blanks-1997792767)

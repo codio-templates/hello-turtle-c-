@@ -16,7 +16,7 @@ double result = 3 * a - 2 / (b + 5) + c;
 System.out.println(result);
 ```
 
-{Try it}(sh .guides/bg.sh g++ code/operators/order.cpp -o code/operators/ordern ./code/operators/order 1)
+{Try it}(sh .guides/bg.sh g++ code/operators/order.cpp -o code/operators/order ./code/operators/order 1)
 
 <details><summary><b>Explanation</b></summary><ul><li>The first step is to compute `b + 5` (which is `8`) because it is surrounded by parentheses.</li><li>Next, do the multiplication and division going from left to right. `3 * a` is `6`.</li><li>`2` divided by `8` is `0` (remember, the `/` operator returns an `int` when you use two `int`s so `0.25` becomes `0`).</li><li>Next, addition and subtraction from left to right -  `6 - 0` to get `6`.</li><li>Finally, add `6` and `4` together to get `10.0`.</li></ul></details>
 
@@ -31,6 +31,6 @@ System.out.println(result);
 
 |||
 
-{Try it}(sh .guides/bg.sh g++ code/operators/order.cpp -o code/operators/ordern ./code/operators/order 2)
+{Try it}(sh .guides/bg.sh g++ code/operators/order.cpp -o code/operators/order ./code/operators/order 2)
 
 {Check It!|assessment}(multiple-choice-2569485715)

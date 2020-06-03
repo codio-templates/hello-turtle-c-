@@ -8,7 +8,7 @@ The `!` operator produces the opposite of the boolean expression that it modifie
 System.out.println(! true);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundNot.java java -cp code/operators/ PlaygroundNot 1)
+{Try it}(sh .guides/bg.sh g++ code/operators/not.cpp -o code/operators/not ./code/operators/not 1)
 
 |||challenge
 ## What happens if you:
@@ -18,7 +18,6 @@ System.out.println(! true);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundNot.java java -cp code/operators/ PlaygroundNot  2)
+{Try it}(sh .guides/bg.sh g++ code/operators/not.cpp -o code/operators/not ./code/operators/not 2)
 
 {Check It!|assessment}(fill-in-the-blanks-3532271981)
-

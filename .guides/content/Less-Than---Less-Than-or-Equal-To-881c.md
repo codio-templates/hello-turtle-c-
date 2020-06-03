@@ -10,7 +10,7 @@ int b = 7;
 System.out.println(a < b);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundLessThan.java java -cp code/operators/ PlaygroundLessThan 1 )
+{Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 1)
 
 |||challenge
 ## What happens if you:
@@ -20,7 +20,7 @@ System.out.println(a < b);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundLessThan.java java -cp code/operators/ PlaygroundLessThan 2 )
+{Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 2)
 
 ## Less Than or Equal To
 
@@ -31,7 +31,7 @@ int b = 7;
 System.out.println(a <= b;)
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundLessThan.java java -cp code/operators/ PlaygroundLessThan 3 )
+{Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 3)
 
 |||challenge
 ## What happens if you:
@@ -41,6 +41,6 @@ System.out.println(a <= b;)
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundLessThan.java java -cp code/operators/ PlaygroundLessThan 4 )
+{{Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 4)
 
 {Check It!|assessment}(multiple-choice-3157845998)

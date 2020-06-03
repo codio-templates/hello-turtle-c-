@@ -14,7 +14,7 @@ System.out.println(a || b);
 
 <details><summary><b>How do I type `||`?</b></summary> It is on the right-hand side, below the backspace/delete key and above the enter/return key. The `|` symbol is the line above the `\`. This means you must hold shift and press the `\` key to type `|`. </details>
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundOr.java java -cp code/operators/ PlaygroundOr 1)
+{Try it}(sh .guides/bg.sh g++ code/operators/or.cpp -o code/operators/or ./code/operators/or 1)
 
 |||challenge
 ## What happens if you:
@@ -23,7 +23,7 @@ System.out.println(a || b);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundOr.java java -cp code/operators/ PlaygroundOr 2)
+{Try it}(sh .guides/bg.sh g++ code/operators/or.cpp -o code/operators/or ./code/operators/or 2)
 
 ## Multiple `||` Statements
 
@@ -36,7 +36,7 @@ boolean c = false;
 System.out.println(a || b || c);
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundOr.java java -cp code/operators/ PlaygroundOr 3)
+{Try it}(sh .guides/bg.sh g++ code/operators/or.cpp -o code/operators/or ./code/operators/or 3)
 
 |||challenge
 ## What happens if you:
@@ -47,6 +47,6 @@ System.out.println(a || b || c);
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/operators/PlaygroundOr.java java -cp code/operators/ PlaygroundOr 4)
+{Try it}(sh .guides/bg.sh g++ code/operators/or.cpp -o code/operators/or ./code/operators/or 4)
 
 {Check It!|assessment}(fill-in-the-blanks-3858330751)
