@@ -8,7 +8,7 @@ Modulo is the mathematical operation that performs division but returns the rema
 
 ```c++
 int modulo = 5 % 2;
-System.out.println(modulo);
+cout << modulo << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/modulo.cpp -o code/operators/modulo ./code/operators/modulo 1)

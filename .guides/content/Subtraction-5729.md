@@ -6,7 +6,7 @@
 int a = 10;
 int b = 3;
 int c = a - b;
-System.out.println(c);
+cout << c << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/subtraction.cpp -o code/operators/subtraction ./code/operators/subtraction 1)
@@ -27,7 +27,7 @@ Decrementing is the opposite of incrementing. Just like you can increment with `
 ```c++
 int a = 10;
 a--;
-System.out.println(a);
+cout << a << endl;
 ```
 
 Like `+=`, there is a shorthand for decrementing a variable - `-=`.
@@ -40,10 +40,10 @@ Like `+=`, there is a shorthand for decrementing a variable - `-=`.
 You might be able to concatenate strings with the `+` operator, but you cannot use the `-` operator with them.
 
 ```c++
-String a = "one two three";
-String b = "one";
-String c = a - b;
-System.out.println(c);
+string a = "one two three";
+string b = "one";
+string c = a - b;
+cout << c << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/subtraction.cpp -o code/operators/subtraction ./code/operators/subtraction 4)

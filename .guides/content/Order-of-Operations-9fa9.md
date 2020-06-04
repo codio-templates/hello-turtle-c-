@@ -13,7 +13,7 @@ int a = 2;
 int b = 3;
 int c = 4;
 double result = 3 * a - 2 / (b + 5) + c;
-System.out.println(result);
+cout << result << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/order.cpp -o code/operators/order ./code/operators/order 1)

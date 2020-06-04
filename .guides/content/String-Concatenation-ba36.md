@@ -4,10 +4,10 @@
 String concatenation is the act of combining two strings together. This is done with the `+` operator.
 
 ```c++
-String a = "This is an ";
-String b = "example string";
-String c = a + b;
-System.out.println(c);
+string a = "This is an ";
+string b = "example string";
+string c = a + b;
+cout << c << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/concatenation.cpp -o code/operators/concatenation ./code/operators/concatenation 1)
