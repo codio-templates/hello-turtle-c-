@@ -363,13 +363,75 @@
      "title": "Lab: Operators",
      "id": "5bdaa9b4-65ad-f6c3-0f3c-4e4a3f31d102",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "a1b05de9-fb11-1386-8599-a3a68ef2965c",
+       "title": "Lab: Arithmetic Operators",
+       "pageId": "edfc08be-80bd-46b7-c0dc-b4f12b46014d",
+       "type": "page"
+      },
+      {
+       "id": "d871374c-5321-dd14-339f-25574b68d720",
+       "title": "Lab: Strings",
+       "pageId": "164938ee-7717-11bd-6151-14a89b99ff85",
+       "type": "page"
+      },
+      {
+       "id": "6ffbe7da-5768-1da5-ed20-4e3084ffc428",
+       "title": "Lab: Order of Operators",
+       "pageId": "3116a160-c52f-39e4-eab6-555de4df417b",
+       "type": "page"
+      },
+      {
+       "id": "746eee49-b9b9-8de2-2a4a-edca79b3fd7e",
+       "title": "Lab: Boolean Operators",
+       "pageId": "7ac1725d-bb6b-14fa-cb37-4f39ce5dfab2",
+       "type": "page"
+      },
+      {
+       "id": "08d48329-feb0-95c4-67b1-9f817fc5d4c6",
+       "title": "Lab Challenge: Operators",
+       "pageId": "8a72b77c-f961-2d5a-4665-9bb591d0cb2b",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Coding Exercises: Operators",
      "id": "2e252fc4-de0e-b3b4-f99f-52748719abb6",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "16fd4e73-c925-683a-e05c-7e7d6f142f31",
+       "title": "Exercise 1",
+       "pageId": "d4b89968-7185-fc35-3177-e097986d289e",
+       "type": "page"
+      },
+      {
+       "id": "c95104d5-9323-1b39-47fc-3d2e62ab16a5",
+       "title": "Exercise 2",
+       "pageId": "6ada8aa2-f432-6307-213c-dd8fc7538401",
+       "type": "page"
+      },
+      {
+       "id": "ccbeee14-185c-375b-0acd-a62307287e96",
+       "title": "Exercise 3",
+       "pageId": "396275e1-feff-a9f6-59b9-7c09168ea4d6",
+       "type": "page"
+      },
+      {
+       "id": "80b8bbf8-b22c-899c-0529-3a9ecdc14aba",
+       "title": "Exercise 4",
+       "pageId": "6e0ab5c5-d219-cdac-f9d1-c0fe864686ce",
+       "type": "page"
+      },
+      {
+       "id": "23692cad-5a4c-49ba-e6ec-bda1c398395b",
+       "title": "Exercise 5",
+       "pageId": "a8a16022-bfdc-5088-e991-c8937f03f9de",
+       "type": "page"
+      }
+     ]
     }
    ]
   },

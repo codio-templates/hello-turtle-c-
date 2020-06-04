@@ -583,7 +583,18 @@
   {
    "id": "ba36a81a-129b-aef5-b6f6-9442c1880b71",
    "title": "String Concatenation",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/concatenation.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/String-Concatenation-ba36.md",
@@ -595,7 +606,18 @@
   {
    "id": "5729de2b-1ce6-f160-8bf4-17d87bc8aeed",
    "title": "Subtraction",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/subtraction.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Subtraction-5729.md",
@@ -607,7 +629,18 @@
   {
    "id": "b9da4095-0d92-ed85-2927-e5d2c00aad90",
    "title": "Division",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/division.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Division-b9da.md",
@@ -619,7 +652,18 @@
   {
    "id": "c5e2acbb-859e-8d5a-1c38-8ef2fde1132b",
    "title": "Type Casting",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/casting.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Type-Casting-c5e2.md",
@@ -631,7 +675,18 @@
   {
    "id": "a38440de-0da6-1f3a-bb93-bd03edbfb379",
    "title": "Modulo",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/modulo.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Modulo-a384.md",
@@ -643,7 +698,18 @@
   {
    "id": "17fc82b8-519b-5a31-c039-6e28cb7b7452",
    "title": "Multiplication",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/multiplication.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Multiplication-17fc.md",
@@ -655,7 +721,18 @@
   {
    "id": "9fa9899b-a0ba-da6c-306a-a05888352478",
    "title": "Order of Operations",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/order.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Order-of-Operations-9fa9.md",
@@ -667,7 +744,13 @@
   {
    "id": "03385c69-cde4-c210-c4dd-c8fd99538af6",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-0338.md",
@@ -679,7 +762,13 @@
   {
    "id": "aeb94349-5b14-fdd7-6cd6-686de446896c",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-aeb9.md",
@@ -703,7 +792,18 @@
   {
    "id": "21872f6c-d99f-99dd-9fbd-4daf14f88102",
    "title": "Equal To & Not Equal To",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/equality.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Equal-To---Not-Equal-To-2187.md",
@@ -715,7 +815,18 @@
   {
    "id": "881cf054-9c9d-cf67-e92f-452630b15604",
    "title": "Less Than & Less Than or Equal To",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/lessthan.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Less-Than---Less-Than-or-Equal-To-881c.md",
@@ -727,7 +838,18 @@
   {
    "id": "4a694a32-290d-dc47-faa6-73921b08d4c2",
    "title": "Greater Than & Greater Than or Equal To",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/greaterthan.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Greater-Than---Greater-Than-or-Equal-To-4a69.md",
@@ -739,7 +861,18 @@
   {
    "id": "5299bf71-3985-a272-dfeb-90b311b63677",
    "title": "And",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/and.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/And-5299.md",
@@ -751,7 +884,18 @@
   {
    "id": "43dae3e1-609a-063d-3324-22327ea58b71",
    "title": "Or",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/or.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Or-43da.md",
@@ -763,7 +907,18 @@
   {
    "id": "b341d0ec-af60-fc6a-4cdd-9298a1d308cd",
    "title": "Not",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/not.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Not-b341.md",
@@ -775,7 +930,18 @@
   {
    "id": "b80a1061-ac7e-f980-ee9a-112ea1c545d3",
    "title": "Short-Circuiting",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/shortcircuiting.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Short-Circuiting-b80a.md",
@@ -787,7 +953,13 @@
   {
    "id": "42c261db-9f2c-5b3e-d27a-89a10adf5c6b",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-42c2.md",
@@ -799,10 +971,136 @@
   {
    "id": "aa41b13d-dc02-a8d3-00f1-3d7b40bdcc63",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-aa41.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "edfc08be-80bd-46b7-c0dc-b4f12b46014d",
+   "title": "Lab: Arithmetic Operators",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab--Arithmetic-Operators-edfc.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "164938ee-7717-11bd-6151-14a89b99ff85",
+   "title": "Lab: Strings",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab--Strings-1649.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3116a160-c52f-39e4-eab6-555de4df417b",
+   "title": "Lab: Order of Operators",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab--Order-of-Operators-3116.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7ac1725d-bb6b-14fa-cb37-4f39ce5dfab2",
+   "title": "Lab: Boolean Operators",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab--Boolean-Operators-7ac1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "8a72b77c-f961-2d5a-4665-9bb591d0cb2b",
+   "title": "Lab Challenge: Operators",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-Challenge--Operators-8a72.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d4b89968-7185-fc35-3177-e097986d289e",
+   "title": "Exercise 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-1-d4b8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6ada8aa2-f432-6307-213c-dd8fc7538401",
+   "title": "Exercise 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-2-6ada.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "396275e1-feff-a9f6-59b9-7c09168ea4d6",
+   "title": "Exercise 3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-3962.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6e0ab5c5-d219-cdac-f9d1-c0fe864686ce",
+   "title": "Exercise 4",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-6e0a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a8a16022-bfdc-5088-e991-c8937f03f9de",
+   "title": "Exercise 5",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-a8a1.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
