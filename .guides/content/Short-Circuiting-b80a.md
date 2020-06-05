@@ -7,13 +7,15 @@ If Java can determine the result of a boolean expression before evaluating the e
 ![Short Circuiting](.guides/img/shortcircuiting.png)
 
 ```c++
-System.out.println( false 
-                           && 
-/*Java never reaches this line*/ true); 
+cout << boolalpha << ( false 
+                             && 
+/*C++ never reaches this line*/ true) << endl; 
 
-System.out.println( true 
-                          || 
-/*Java never reaches this line*/ false); 
+cout << boolalpha << ( true 
+                             || 
+/*C++ never reaches this line*/ false) << endl;
 ```
+
+{Try it}(sh .guides/bg.sh g++ code/operators/shortcircuiting.cpp -o code/operators/shortcircuiting ./code/operators/shortcircuiting 1)
 
 {Check It!|assessment}(fill-in-the-blanks-1476766980)

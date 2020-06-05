@@ -5,7 +5,7 @@
 The `!` operator produces the opposite of the boolean expression that it modifies. 
 
 ```c++
-System.out.println(! true);
+cout << boolalpha << (! true) << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/not.cpp -o code/operators/not ./code/operators/not 1)

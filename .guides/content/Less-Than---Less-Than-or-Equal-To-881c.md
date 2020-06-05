@@ -7,7 +7,7 @@ The `<` operator is used to check if one value is less than another value.
 ```c++
 int a = 5;
 int b = 7;
-System.out.println(a < b);
+cout << boolalpha << (a < b) << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 1)
@@ -28,7 +28,7 @@ The `<=` operator is used to check if one value is less than or equal to another
 ```c++
 int a = 5;
 int b = 7;
-System.out.println(a <= b;)
+cout << boolalpha << (a <= b) << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 3)
@@ -41,6 +41,6 @@ System.out.println(a <= b;)
 
 |||
 
-{{Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 4)
+{Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 4)
 
 {Check It!|assessment}(multiple-choice-3157845998)

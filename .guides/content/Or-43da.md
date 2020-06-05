@@ -5,11 +5,11 @@
 The `||` operator allows for compound (more than one) boolean expressions. If only one boolean expressions is true, then the whole thing is true. To be false, **all** boolean expressions must be false.
 
 ```c++
-boolean a = true;
-boolean b = true;
-boolean c = false;
-boolean d = false;
-System.out.println(a || b);
+bool a = true;
+bool b = true;
+bool c = false;
+bool d = false;
+cout << boolalpha << (a || b) << endl;
 ```
 
 <details><summary><b>How do I type `||`?</b></summary> It is on the right-hand side, below the backspace/delete key and above the enter/return key. The `|` symbol is the line above the `\`. This means you must hold shift and press the `\` key to type `|`. </details>
@@ -30,10 +30,10 @@ System.out.println(a || b);
 You can chain several `||` statements together. They are evaluated in a left-to-right manner.
 
 ```c++
-boolean a = true;
-boolean b = true;
-boolean c = false;
-System.out.println(a || b || c);
+bool a = true;
+bool b = true;
+bool c = false;
+cout << boolalpha << (a || b || c) << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/or.cpp -o code/operators/or ./code/operators/or 3)

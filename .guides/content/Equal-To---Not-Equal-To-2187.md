@@ -1,5 +1,7 @@
 ---
 
+Who packed five dozen old quart jugs
+
 Boolean operators are operators that return a boolean value (true or false).
 
 ## Equal To
@@ -9,7 +11,7 @@ Java uses the `==` operator to determine equality. Beginners often confuse the `
 ```c++
 int a = 5;
 int b = 5;
-System.out.println(a == b);
+cout << boolalpha << (a == b) << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/equality.cpp -o code/operators/equality ./code/operators/equality 1)
@@ -30,7 +32,7 @@ The `!=` operator checks to see if two values are not equal.
 ```c++
 int a = 5;
 int b = 5;
-System.out.println(a != b);
+cout << boolalpha << (a != b) << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/equality.cpp -o code/operators/equality ./code/operators/equality 3)

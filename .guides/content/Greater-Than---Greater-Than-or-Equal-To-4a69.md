@@ -7,7 +7,7 @@ The `>` operator is used to check if one value is greater than another value.
 ```c++
 int a = 9;
 int b = 17;
-System.out.println(a > b);
+cout << boolalpha << (a > b) << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/greaterthan.cpp -o code/operators/greaterthan ./code/operators/greaterthan 1)
@@ -28,7 +28,7 @@ The `>=` operator is used to check if one value is greater than or equal to anot
 ```c++
 int a = 9;
 int b = 17;
-System.out.println(a >= b);
+cout << boolalpha << (a >= b) << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/greaterthan.cpp -o code/operators/greaterthan ./code/operators/greaterthan 3)
