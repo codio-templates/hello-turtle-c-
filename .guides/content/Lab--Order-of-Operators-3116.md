@@ -10,11 +10,11 @@ Java uses PEMDAS when determining the order of operations.
 
 Use the text editor open in the left pane, and enter the following code:
 
-```java
-System.out.println(5 * 8 / 3 + (18 - 8) % 2 - 25);
+```c++
+cout << (5 * 8 / 3 + (18 - 8) % 2 - 25) << endl;
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/LabPEMDAS.java java -cp code/operators/ LabPEMDAS)
+{Try it}(sh .guides/bg.sh g++ code/operators/labPEMDAS.cpp -o code/operators/labPEMDAS ./code/operators/labPEMDAS 1)
 
 Below are the steps that Java takes when evaluating the code above.
 1) `5 * 8 / 3 + (18 - 8) % 2 - 25`

@@ -18,11 +18,11 @@ Boolean operators are those operators which will return either true or false.
 
 Use the text editor open in the left pane, and enter the following code:
 
-```java
-System.out.println((5 > 7) && (false || 1 < 9) || 4 != 5 && ! (2 >= 3));
+```c++
+cout << ((5 > 7) && (false || 1 < 9) || 4 != 5 && ! (2 >= 3)) << endl;
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/LabBoolean.java java -cp code/operators/ LabBoolean )
+{Try it}(sh .guides/bg.sh g++ code/operators/labboolean.cpp -o code/operators/labboolean ./code/operators/labboolean 1)
 
 Below are the steps that Java talks when evaluating the code above.
 

@@ -989,7 +989,18 @@
   {
    "id": "edfc08be-80bd-46b7-c0dc-b4f12b46014d",
    "title": "Lab: Arithmetic Operators",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/labarithmetic.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab--Arithmetic-Operators-edfc.md",
@@ -1001,7 +1012,18 @@
   {
    "id": "164938ee-7717-11bd-6151-14a89b99ff85",
    "title": "Lab: Strings",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/labstrings.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab--Strings-1649.md",
@@ -1013,7 +1035,18 @@
   {
    "id": "3116a160-c52f-39e4-eab6-555de4df417b",
    "title": "Lab: Order of Operators",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/labPEMDAS.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab--Order-of-Operators-3116.md",
@@ -1025,7 +1058,18 @@
   {
    "id": "7ac1725d-bb6b-14fa-cb37-4f39ce5dfab2",
    "title": "Lab: Boolean Operators",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/labboolean.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab--Boolean-Operators-7ac1.md",
@@ -1037,7 +1081,18 @@
   {
    "id": "8a72b77c-f961-2d5a-4665-9bb591d0cb2b",
    "title": "Lab Challenge: Operators",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/labchallenge.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-Challenge--Operators-8a72.md",
@@ -1049,7 +1104,18 @@
   {
    "id": "d4b89968-7185-fc35-3177-e097986d289e",
    "title": "Exercise 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/exercise1.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-1-d4b8.md",
@@ -1061,7 +1127,18 @@
   {
    "id": "6ada8aa2-f432-6307-213c-dd8fc7538401",
    "title": "Exercise 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/exercise2.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-2-6ada.md",
@@ -1073,7 +1150,18 @@
   {
    "id": "396275e1-feff-a9f6-59b9-7c09168ea4d6",
    "title": "Exercise 3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/exercise3.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-3-3962.md",
@@ -1085,7 +1173,18 @@
   {
    "id": "6e0ab5c5-d219-cdac-f9d1-c0fe864686ce",
    "title": "Exercise 4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/exercise4.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-4-6e0a.md",
@@ -1097,7 +1196,23 @@
   {
    "id": "a8a16022-bfdc-5088-e991-c8937f03f9de",
    "title": "Exercise 5",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/exercise5.cpp",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-a8a1.md",

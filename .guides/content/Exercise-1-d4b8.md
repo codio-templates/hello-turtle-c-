@@ -8,7 +8,7 @@ Complete the code on the left such that the code returns `17`. Please note there
 
 <details><summary>**Compilation Error Hint**</summary>An example of a compile error would be `int number = "this is not an int";`</details>
 
-{Try it}(sh .guides/bg.sh javac code/operators/Exercise1.java java -cp code/operators/ Exercise1 1)
+{Try it}(sh .guides/bg.sh g++ code/operators/exercise1.cpp -o code/operators/exercise1 ./code/operators/exercise1 1)
 
 
 {Check It!|assessment}(test-3510090921)
@@ -23,6 +23,6 @@ If you make too many changes to the code on the left and want to start over, cli
 
 <details><summary>**Try Debugging**</summary>Debugging is a set of practices used to remove bugs. One way is to print out useful information. Try printing out what the variables *should* be to get to 17: $a = 17 - \frac{b-8/2}{3}$ <br> $b = 17 - a * 3 + \frac{8}{2}$</details>
 
-{Try it}(sh .guides/bg.sh javac code/operators/Exercise1.java java -cp code/operators/ Exercise1 2)
+{Try it}(sh .guides/bg.sh g++ code/operators/exercise1.cpp -o code/operators/exercise1 ./code/operators/exercise1 2)
 
 {Check It!|assessment}(test-3481226015)

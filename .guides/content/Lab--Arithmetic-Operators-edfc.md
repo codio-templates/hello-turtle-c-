@@ -14,15 +14,15 @@ Arithmetic operations in Java are mostly the same as what you learned in math cl
 
 Use the text editor open in the left pane, and enter the following code:
 
-```java
-System.out.println(10 + 3);
-System.out.println(10 - 3);
-System.out.println(10 * 3);
-System.out.println(10 / 3);
-System.out.println(10 % 3);
+```c++
+cout << 10 + 3 << endl;
+cout << 10 - 3 << endl;
+cout << 10 * 3 << endl;
+cout << 10 / 3 << endl;
+cout << 10 % 3 << endl;
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/LabArithmetic.java java -cp code/operators/ LabArithmetic )
+{Try it}(sh .guides/bg.sh g++ code/operators/labarithmetic.cpp -o code/operators/labarithmetic ./code/operators/labarithmetic 1)
 
 
 1) Addition works as expected.

@@ -4,7 +4,7 @@ Your friend wrote an adder. It is supposed to sum together two numbers inputted 
 
 You can test it out using the terminal in the bottom left hand pane. It will ask you to input two whole numbers. You need to press "Enter" or "Return" after each number.
 
-{Try it | terminal}(javac code/operators/Exercise5.java && java -cp code/operators/ Exercise5 )
+{Try it | terminal}(g++ code/operators/exercise5.cpp -o code/operators/exercise5 ./code/operators/exercise5 1 )
 
 Your first challenge is to figure out what is broken. Your second challenge is to fix it.
 

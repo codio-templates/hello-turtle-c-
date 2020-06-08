@@ -6,17 +6,17 @@ You can use the `+` and `*` operators with strings, even though the result is no
 
 Use the text editor open in the left pane, and enter the following code:
 
-```python
-String string_1 = "hip ";
-String string_2 = string_1 + string_1;
-String string_3 = "hoo";
-String string_4 = "ray!";
-String string_5 = string_3 + string_4;
-System.out.print(string_2);
-System.out.println(string_5);
+```c++
+string string1 = "hip ";
+string string2 = string1 + string1;
+string string3 = "hoo";
+string string4 = "ray!";
+string string5 = string3 + string4;
+cout << string2 << endl;
+cout << string5 << endl;
 ```
 
-{Try it}(sh .guides/bg.sh javac code/operators/LabStrings.java java -cp code/operators/ LabStrings )
+{Try it}(sh .guides/bg.sh g++ code/operators/labstrings.cpp -o code/operators/labstrings ./code/operators/labstrings 1)
 
 
 1) Assign the value `"hip "` to the variable `string_1`. Note the inclusion of a space after the word `hip`.

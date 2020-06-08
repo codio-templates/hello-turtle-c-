@@ -10,6 +10,6 @@ Write a boolean expression that incorporates one of the equality operators, one 
 |`!=`    |`<=`     |`>=`        |<code> &#124;&#124;</code>   |
 |        |         |            |`!`  |
 
-{Try it}(sh .guides/bg.sh javac code/operators/LabChallenge.java java -cp code/operators/ LabChallenge )
+{Try it}(sh .guides/bg.sh g++ code/operators/labchallenge.cpp -o code/operators/labchallenge ./code/operators/labchallenge 1)
 
 {Check It!|assessment}(test-3275115534)
