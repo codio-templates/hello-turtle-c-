@@ -444,61 +444,207 @@
      "title": "If Statements",
      "id": "7906ca19-af72-4e0d-22de-592c00979770",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "8cd633f0-4fa2-3a0b-5c0e-ded3d5902feb",
+       "title": "Learning Objectives: If Statement",
+       "pageId": "12ef33dc-3466-2946-325a-a58e2397bf2e",
+       "type": "page"
+      },
+      {
+       "id": "47eeb9af-8344-c2b2-0473-dd1c7b71ad35",
+       "title": "If Statement Syntax",
+       "pageId": "f46f44b7-08cd-a524-0be6-2794c1ea0080",
+       "type": "page"
+      },
+      {
+       "id": "ae379cf4-f993-9879-68d8-e92f7c3464cb",
+       "title": "If Statement",
+       "pageId": "d9c2c64a-24d8-48d8-2ca9-31dd01094f91",
+       "type": "page"
+      },
+      {
+       "id": "feef0721-088b-119c-327f-76194ce08bef",
+       "title": "Compound Conditional Statements",
+       "pageId": "b57a688c-cf88-0ea3-0e2f-aaa7e61154c1",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: If Statements",
      "id": "397ea105-cad2-5f6d-ce83-864e06498b8c",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "a0491a2d-ad2b-496b-e729-5475a122e6b0",
+       "title": "Formative Assessment 1",
+       "pageId": "220f9118-2ca7-727b-18aa-3c467f1aa62f",
+       "type": "page"
+      },
+      {
+       "id": "b77f7930-53e5-cba3-0d21-977d4e606550",
+       "title": "Formative Assessment 2",
+       "pageId": "d68465b8-a89e-f329-5d08-d07c589b500f",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "If Else Statements",
      "id": "5661a847-2c59-93f0-5b27-5325b28395c2",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "84adb759-94f1-e009-04f6-7067b6d476ed",
+       "title": "Learning Objectives: If Else Statement",
+       "pageId": "07ecf581-5014-e046-7431-11d5c75cfdf3",
+       "type": "page"
+      },
+      {
+       "id": "c468c925-d1d4-5e5c-3c8a-d07ce9f0a0b0",
+       "title": "If Else Statement Syntax",
+       "pageId": "6b055aeb-77bf-5cce-0f4f-fff54596f7fd",
+       "type": "page"
+      },
+      {
+       "id": "c22250f2-9049-f063-f7cf-02ca818c759a",
+       "title": "If Else Statement",
+       "pageId": "569282f5-6244-7d0e-a301-b1b448b576dd",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: If Else Statements",
      "id": "29fce39b-199a-6a0f-405f-b9979741bafe",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "12ee7638-7717-fef1-add7-146ab12a1d70",
+       "title": "Formative Assessment 1",
+       "pageId": "90d1f6b0-9b04-b1e6-7884-fb9f02207013",
+       "type": "page"
+      },
+      {
+       "id": "42bd3563-0571-89dc-220b-78c7e96bb819",
+       "title": "Formative Assessment 2",
+       "pageId": "dd397bc2-93ad-072a-3546-3a3dbc485dd1",
+       "type": "page"
+      }
+     ]
     },
     {
-     "title": "Compound Conditionals",
+     "title": "Switch Case Statement",
      "id": "5b3ea33e-3227-d911-464b-fcd773c1d4e5",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "37d08ea6-37e2-1a3f-0dcf-bd82833bd94f",
+       "title": "Learning Objectives: Switch Case Statement",
+       "pageId": "3773b409-4163-2a34-9678-a4e802ea1fef",
+       "type": "page"
+      },
+      {
+       "id": "7c6cce99-8e80-12f0-4da7-67524fa94c36",
+       "title": "Switch Case Statement Syntax",
+       "pageId": "51c8a67a-b4ed-54c0-8ea7-4911c6370dc0",
+       "type": "page"
+      },
+      {
+       "id": "35ee6929-13a6-a9da-2f46-37303fc984bc",
+       "title": "Switch Case vs. If Else",
+       "pageId": "242d866f-4842-3d7c-a611-e26be9f50f20",
+       "type": "page"
+      }
+     ]
     },
     {
-     "title": "Formative Assessment: Compound Conditionals",
+     "title": "Formative Assessment: Switch Case Statement",
      "id": "18761071-19f8-4a39-d63f-b888c7ddff64",
      "type": "section",
-     "children": []
-    },
-    {
-     "title": "If Elif Else Statements",
-     "id": "002024b6-26ae-2b21-ad08-8e0cba771c08",
-     "type": "section",
-     "children": []
-    },
-    {
-     "title": "Formative Assessment: If Elif Else Statements",
-     "id": "9c3462c2-21e1-a5a7-d97e-e8763124855d",
-     "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "5fec20b0-73c3-b36b-7ff0-e00c47a65d24",
+       "title": "Formative Assessment 1",
+       "pageId": "a6491f24-ad50-8c48-50b5-7edc67d45943",
+       "type": "page"
+      },
+      {
+       "id": "0adeedfa-2bd0-59fd-e330-6363591f7d8b",
+       "title": "Formative Assessment 2",
+       "pageId": "35370529-2a57-f1cf-4cc0-6ea3c27067fc",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Lab: Conditionals",
      "id": "ff194697-e6aa-e04f-aba4-1c4225c11644",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "3f720b55-3528-9284-8018-739fb50cd5e0",
+       "title": "Lab: If Statement",
+       "pageId": "ad0702a7-8c7b-ceea-1fa4-747e9f8cff7e",
+       "type": "page"
+      },
+      {
+       "id": "f2269459-32a0-cf29-e6b9-cba68bb49835",
+       "title": "Lab: If Else Statement",
+       "pageId": "7c49b590-c469-b6b8-0a38-a57f63e497f2",
+       "type": "page"
+      },
+      {
+       "id": "affceb0e-faf6-e9da-18c4-33a64f983a1f",
+       "title": "Lab: Switch Statement",
+       "pageId": "c3d8f342-4b55-b6fb-f401-278a8cd55587",
+       "type": "page"
+      },
+      {
+       "id": "52ece07a-cfe9-1ae0-2e89-e5a30e2cacf0",
+       "title": "Lab Challenge: Month of the Year",
+       "pageId": "9078ffda-bb58-d43b-d185-c5402830d5d8",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Coding Exercises: Conditionals",
      "id": "5de75fc2-cb03-7fe9-8e6a-36912ff9aa26",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "d6e9ddb9-9b76-388f-195b-a6f1058a8406",
+       "title": "Exercise 1",
+       "pageId": "579f2ad2-c876-be43-d34b-6a039498b0bd",
+       "type": "page"
+      },
+      {
+       "id": "dca3ebc9-d9ba-be23-9f75-cd6f8bc4ecf9",
+       "title": "Exercise 2",
+       "pageId": "6cdf867d-75b5-faa8-0383-2a4fceb7c20b",
+       "type": "page"
+      },
+      {
+       "id": "85b480aa-d175-7530-dae5-2236526ced9e",
+       "title": "Exercise 3",
+       "pageId": "23f17d14-6874-b53d-1637-8c48bace0c19",
+       "type": "page"
+      },
+      {
+       "id": "a192f917-ea84-3ead-9e20-3b3159b3314c",
+       "title": "Exercise 4",
+       "pageId": "406d4132-4c77-d2c4-2a91-a09b5f6703b9",
+       "type": "page"
+      },
+      {
+       "id": "24e99f7b-3e97-e809-048e-a264a86b3c6d",
+       "title": "Exercise 5",
+       "pageId": "779a200d-39ce-4e60-e239-794ebcee8e0f",
+       "type": "page"
+      }
+     ]
     }
    ]
   },
