@@ -31,7 +31,7 @@ switch(letterGrade) {
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundSwitch.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundSwitch.java java -cp code/conditionals/ PlaygroundSwitch )
+{Try it}(sh .guides/bg.sh g++ code/conditionals/switch.cpp -o code/conditionals/switch ./code/conditionals/switch 1)
 
 
 ### #2: If Else is used for handling multiple variables
@@ -73,6 +73,6 @@ System.out.println(feedback);
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundSwitch.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundSwitch.java java -cp code/conditionals/ PlaygroundSwitch 2)
+{Try it}(sh .guides/bg.sh g++ code/conditionals/switch.cpp -o code/conditionals/switch ./code/conditionals/switch 2)
 
 {Check It!|assessment}(multiple-choice-2751211238)

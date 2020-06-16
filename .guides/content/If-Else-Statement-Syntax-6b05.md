@@ -19,7 +19,7 @@ else {
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundIfElseSyntax.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundIfElseSyntax.java java -cp code/conditionals/ PlaygroundIfElseSyntax )
+{Try it}(sh .guides/bg.sh g++ code/conditionals/ifelsesyntax.cpp -o code/conditionals/ifelsesyntax ./code/conditionals/ifelsesyntax 1)
 
 |||challenge
 ## What happens if you:
@@ -32,6 +32,6 @@ else {
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundIfElseSyntax.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundIfElseSyntax.java java -cp code/conditionals/ PlaygroundIfElseSyntax 2)
+{Try it}(sh .guides/bg.sh g++ code/conditionals/ifelsesyntax.cpp -o code/conditionals/ifelsesyntax ./code/conditionals/ifelsesyntax 2)
 
 {Check It!|assessment}(multiple-choice-88978139)

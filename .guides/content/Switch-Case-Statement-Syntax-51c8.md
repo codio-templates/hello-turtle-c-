@@ -41,7 +41,7 @@ switch(dayOfWeek) {
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundSwitchSyntax.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundSwitchSyntax.java java -cp code/conditionals/ PlaygroundSwitchSyntax )
+{Try it}(sh .guides/bg.sh g++ code/conditionals/switchsyntax.cpp -o code/conditionals/switchsyntax ./code/conditionals/switchsyntax 1)
 
 |||challenge
 ## What happens if you:
@@ -53,7 +53,7 @@ switch(dayOfWeek) {
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundSwitchSyntax.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundSwitchSyntax.java java -cp code/conditionals/ PlaygroundSwitchSyntax 2)
+{Try it}(sh .guides/bg.sh g++ code/conditionals/switchsyntax.cpp -o code/conditionals/switchsyntax ./code/conditionals/switchsyntax 2)
 
 
 {Check It!|assessment}(multiple-choice-3356521837)

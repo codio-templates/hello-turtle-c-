@@ -17,7 +17,7 @@ else{
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundIfElse.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundIfElse.java java -cp code/conditionals/ PlaygroundIfElse )
+{Try it}(sh .guides/bg.sh g++ code/conditionals/ifelse.cpp -o code/conditionals/ifelse ./code/conditionals/ifelse 1)
 
 |||challenge
 ## What happens if you:
@@ -26,7 +26,7 @@ else{
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundIfElse.java java -cp code/conditionals/ PlaygroundIfElse 2)
+{Try it}(sh .guides/bg.sh g++ code/conditionals/ifelse.cpp -o code/conditionals/ifelse ./code/conditionals/ifelse 2)
 
 
 ## Testing Multiple Cases
@@ -54,6 +54,6 @@ else if(grade <= 100) {
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundIfElse.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundIfElse.java java -cp code/conditionals/ PlaygroundIfElse 3)
+{Try it}(sh .guides/bg.sh g++ code/conditionals/ifelse.cpp -o code/conditionals/ifelse ./code/conditionals/ifelse 3)
 
 {Check It!|assessment}(parsons-puzzle-3652686275)
