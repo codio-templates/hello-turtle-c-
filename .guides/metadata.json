@@ -1224,7 +1224,13 @@
   {
    "id": "12ef33dc-3466-2946-325a-a58e2397bf2e",
    "title": "Learning Objectives: If Statement",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--If-Statement-12ef.md",
@@ -1236,7 +1242,18 @@
   {
    "id": "f46f44b7-08cd-a524-0be6-2794c1ea0080",
    "title": "If Statement Syntax",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/conditionals/ifsyntax.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/If-Statement-Syntax-f46f.md",

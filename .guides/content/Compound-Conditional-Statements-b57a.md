@@ -12,7 +12,7 @@ if (num % 2 == 0 && num > 10) {
 }
 ```
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundCompoundConditionals.java java -cp code/conditionals/ PlaygroundCompoundConditionals )
+{Try it}(sh .guides/bg.sh g++ code/conditionals/compoundconditionals.cpp -o code/conditionals/compoundconditionals ./code/conditionals/compoundconditionals 1)
 
 
 |||challenge
@@ -23,7 +23,7 @@ if (num % 2 == 0 && num > 10) {
 
 |||
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundCompoundConditionals.java java -cp code/conditionals/ PlaygroundCompoundConditionals 2)
+{Try it}(sh .guides/bg.sh g++ code/conditionals/compoundconditionals.cpp -o code/conditionals/compoundconditionals ./code/conditionals/compoundconditionals 2)
 
 ## Why Use Compound Conditionals
 

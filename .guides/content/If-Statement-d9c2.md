@@ -14,7 +14,7 @@ System.out.println("This is not related to the if statement");
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundIf.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundIf.java java -cp code/conditionals/ PlaygroundIf )
+{Try it}(sh .guides/bg.sh g++ code/conditionals/if.cpp -o code/conditionals/if ./code/conditionals/if 1)
 
 |||challenge
 ## What happens if you:
@@ -27,7 +27,7 @@ System.out.println("This is not related to the if statement");
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundIf.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundIf.java java -cp code/conditionals/ PlaygroundIf 2)
+{Try it}(sh .guides/bg.sh g++ code/conditionals/if.cpp -o code/conditionals/if ./code/conditionals/if 2)
 
 ## Testing Multiple Cases
 
@@ -47,7 +47,7 @@ if(grade < 70){
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundIf.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundIf.java java -cp code/conditionals/ PlaygroundIf 3)
+{Try it}(sh .guides/bg.sh g++ code/conditionals/if.cpp -o code/conditionals/if ./code/conditionals/if 3)
 
 |||challenge
 ## What happens if you:
@@ -59,6 +59,6 @@ if(grade < 70){
 
 [Code Visualizer](open_tutor code/conditionals/PlaygroundIf.java)
 
-{Try it}(sh .guides/bg.sh javac code/conditionals/PlaygroundIf.java java -cp code/conditionals/ PlaygroundIf 4)
+{Try it}(sh .guides/bg.sh g++ code/conditionals/if.cpp -o code/conditionals/if ./code/conditionals/if 4)
 
 {Check It!|assessment}(multiple-choice-952800372)
