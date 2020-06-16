@@ -15,7 +15,7 @@ Here are the rules for writing a switch case statement:
 * After each section of code, include `break;`
 * As the very last case, use `default:` and specify what should happen if none of the above cases are true
 
-```java
+```c++
 int dayOfWeek = 3;
 
 switch(dayOfWeek) {

@@ -8,7 +8,7 @@ The if else statement checks to see if a condition is true, and then has specifi
 
 It is best practice to indent the lines of code within the curly braces to differentiate them but the indention does not effect how the program runs.
 
-```java
+```c++
 if (5 > 4) {
     System.out.println("The boolean expression is true");
 }

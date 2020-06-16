@@ -13,7 +13,7 @@ Switch case can only check for equality (i.e. `num == 5`) so if you need to chec
 
 In some cases, as shown above, you can exploit patterns to force ranges into a switch case, but frequently that is not possible and it also makes the code less readable. For example, above, the user has to realize that `letterGrade` is using integer division to retrieve the ten's place of the original grade.
 
-```
+```c++
 int grade = 62;
 int letterGrade = grade / 10;
 switch(letterGrade) {

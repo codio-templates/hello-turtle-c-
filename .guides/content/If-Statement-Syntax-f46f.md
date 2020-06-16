@@ -15,7 +15,7 @@ If statements in Java must contain the following items:
 It is best practice to also indent the lines of code inside the curly braces to visually differentiate them from the commands that will always run.	
 
 
-```java	
+```c++	
 if(5 > 4) {
   System.out.println("1st command if true");
   System.out.println("2nd command if true");

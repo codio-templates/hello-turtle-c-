@@ -4,7 +4,7 @@
 
 If statements test to see if a certain condition is true. If yes, then a specific commands are run. The simple if statement does not do anything if the boolean expression is false.
 
-```java
+```c++
 if (7 != 10){
     System.out.println("The above statement is true");
     System.out.println("The above statement is still true");
@@ -33,7 +33,7 @@ System.out.println("This is not related to the if statement");
 
 You will find yourself needing to test the same variable multiple times. Be sure that you set up your conditionals to test **all** possible values of the variable.
 
-```java
+```c++
 int grade = 90;
 
 if(grade > 70) {

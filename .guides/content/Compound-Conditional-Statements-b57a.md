@@ -4,7 +4,7 @@
 
 Conditional statements (if statements) are used to match an action with a condition being true. For example, print `Even` if a number is even. If you want to test for a number being even and greater than 10, you will need two conditionals.
 
-```java
+```c++
 int num = 16;
 
 if (num % 2 == 0 && num > 10) {

@@ -4,7 +4,7 @@
 
 The if else statement is used when you want something to specific to happen if the boolean expression is true and if you want something else to happen if it is false. 
 
-```java
+```c++
 boolean my_bool = true;
 
 if (my_bool) {
@@ -37,7 +37,7 @@ You will find yourself needing to test the same variable multiple times. To simp
 
 This nesting drastically changes the way to program flows once the correct case is found. On the left, the program checks *every* case no matter the value of the variable. On the right, the **nested** structure causes the program to jump out of the structure once the case is found (because the other cases are inside the `else` which is only run when the boolean expression is false).
 
-```
+```c++
 int grade = 62;
 if(grade < 60) {
     System.out.println("F"); }
