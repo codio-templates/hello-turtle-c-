@@ -1551,9 +1551,14 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/conditionals/labifstatement.cpp",
+     "panel": 0,
+     "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab--If-Statement-ad07.md",
@@ -1569,6 +1574,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/conditionals/labifelse.cpp",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "",
@@ -1587,6 +1597,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/conditionals/labswitch.cpp",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "",
@@ -1605,6 +1620,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/conditionals/labchallenge.cpp",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "",
@@ -1623,6 +1643,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/conditionals/exercise1.cpp",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "",
@@ -1641,6 +1666,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/conditionals/exercise2.cpp",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "",
@@ -1659,6 +1689,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/conditionals/exercise3.cpp",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "",
@@ -1677,6 +1712,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/conditionals/exercise4.cpp",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "",
@@ -1695,6 +1735,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/conditionals/exercise5.cpp",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "",
