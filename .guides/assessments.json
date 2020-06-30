@@ -3,7 +3,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-3602415844",
   "source": {
-   "name": "C++ Printing: Reading Question 1",
+   "name": "Printing: Reading Question 1",
    "showName": true,
    "instructions": "What is wrong with the code snippet below?\n```\ncout << Hello world!;\n```",
    "multipleResponse": false,
@@ -54,28 +54,28 @@
      }
     ],
     "files": [
-     "code/fundamentals/exercise1.cpp",
-     "code/fundamentals/tryit1.cpp"
+     "code/fundamentals/tryit1.cpp",
+     "code/fundamentals/exercise1.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/exercise1.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": "Use the cout command to write text to the console"
+   "learningObjectives": "SWBAT choose the correct cout command to write text to the console"
   }
  },
  {
   "type": "multiple-choice",
   "taskId": "multiple-choice-4156149016",
   "source": {
-   "name": "C++ Printing: Reading Question 2",
+   "name": "Printing: Reading Question 2",
    "showName": true,
-   "instructions": "Which of the following commands adds a newline character?",
+   "instructions": "Which of the following commands add(s) a newline character?",
    "multipleResponse": false,
    "answers": [
     {
@@ -124,6 +124,7 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise1.cpp",
      "code/fundamentals/tryit2.cpp"
     ],
@@ -131,19 +132,19 @@
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/exercise1.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": "Add a newline character by using the endl command"
+   "learningObjectives": "SWBAT choose the correct commands that add a newline character"
   }
  },
  {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-1342485909",
   "source": {
-   "name": "C++ Printing: Reading Question 3",
+   "name": "Printing: Reading Question 3",
    "showName": true,
    "instructions": "Fill in the blanks below about comments in C++.",
    "text": "In C++, the `//` symbol means a <<<single-line>>> comment, and the `/*` and `*/` symbols mean a <<<multi-line>>> comment.",
@@ -172,6 +173,7 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise1.cpp",
      "code/fundamentals/comments.cpp"
     ],
@@ -179,12 +181,12 @@
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/exercise1.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": "Create single-line and multi-line comments by using // and /* */ respectively",
+   "learningObjectives": "SWBAT recall how to create single-line and multi-line comments by using // and /* */ respectively",
    "tokens": {
     "blank": [
      "single-line",
@@ -204,7 +206,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-379797555",
   "source": {
-   "name": "C++ Print Statement",
+   "name": "Print Statement",
    "showName": true,
    "instructions": "What does the `cout <<` statement do?",
    "multipleResponse": false,
@@ -255,6 +257,7 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise1.cpp",
      "code/fundamentals/comments.cpp"
     ],
@@ -262,19 +265,19 @@
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/exercise1.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": "Use the cout command to write text to the console"
+   "learningObjectives": "SWBAT recall what the cout command does"
   }
  },
  {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-761067318",
   "source": {
-   "name": "C++ Printing with the Newline Character",
+   "name": "Printing with the Newline Character",
    "showName": true,
    "instructions": "Fill in the blanks with the missing commands that will print the text `Hi!` **with** a newline character?",
    "text": "`cout << <<<\"Hi!\">>> << <<<endl;>>>`",
@@ -303,19 +306,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise1.cpp",
      "code/fundamentals/comments.cpp"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/fundamentals/exercise1.cpp"
-     }
-    ]
+    "opened": []
    },
-   "bloomsObjectiveLevel": "3",
-   "learningObjectives": "Add a newline character by using the endl command",
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT show how to add a newline character with the endl command",
    "tokens": {
     "blank": [
      "\"Hi!\"",
@@ -335,9 +333,9 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-3689792657",
   "source": {
-   "name": "C++ Variables",
+   "name": "Variables",
    "showName": true,
-   "instructions": "Select all of the properties of a variable below that **do not** change?",
+   "instructions": "Select **all** of the properties of a variable below that **do not** change?",
    "multipleResponse": true,
    "answers": [
     {
@@ -369,7 +367,7 @@
      },
      {
       "name": "Content",
-      "value": "Variable Types and Properties"
+      "value": "Variable Types & Variable Properties"
      },
      {
       "name": "Programming Language",
@@ -381,6 +379,7 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/variableval.cpp",
      "code/fundamentals/variabletypes.cpp",
      "code/fundamentals/comments.cpp"
@@ -389,19 +388,19 @@
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/variableval.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": "Understand the rules of naming a variable"
+   "learningObjectives": "SWBAT name the properties of a variable"
   }
  },
  {
   "type": "multiple-choice",
   "taskId": "multiple-choice-2851726778",
   "source": {
-   "name": "C++ Integers",
+   "name": "Integers",
    "showName": true,
    "instructions": "Which of the following values for `number` will produce the output `1000000` when printed using `cout << number << endl;`?",
    "multipleResponse": true,
@@ -452,6 +451,7 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/variableval.cpp",
      "code/fundamentals/integer.cpp"
     ],
@@ -459,19 +459,19 @@
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/variableval.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
-   "bloomsObjectiveLevel": "3",
-   "learningObjectives": "Assign/overwrite a value to a variable"
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT understand how to assign a value to a variable"
   }
  },
  {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-3109256444",
   "source": {
-   "name": "C++ Numbers: Int vs. Double",
+   "name": "Numbers: Int vs. Double",
    "showName": true,
    "instructions": "Fill in the following with the appropriate vocabulary to explain the difference between a double and an int.",
    "text": "A <<<double>>> is a <<<floating point number>>> meaning it has a <<<decimal>>>, where an <<<int>>> is a <<<whole number>>> meaning it does not have a decimal.",
@@ -500,18 +500,19 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/double.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/double.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings",
+   "learningObjectives": "SWBAT explain the difference between an integer, double, and float",
    "tokens": {
     "blank": [
      "double",
@@ -540,7 +541,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-3639612203",
   "source": {
-   "name": "C++ Boolean",
+   "name": "Boolean",
    "showName": true,
    "instructions": "What is the general rule for boolean values in C++?",
    "multipleResponse": false,
@@ -591,6 +592,7 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/variableval.cpp",
      "code/fundamentals/boolean.cpp"
     ],
@@ -598,23 +600,23 @@
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/variableval.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings"
+   "learningObjectives": "SWBAT summarize the rules for assigning a value to a boolean variable"
   }
  },
  {
   "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-384100098",
   "source": {
-   "name": "C++ Strings",
+   "name": "Strings",
    "showName": true,
    "instructions": "Select the correct line of code to declare and assign the `var` variable. Drag your selected answer to the highlighted yellow space below. Then click `Check It!`.",
-   "initial": "string var = \"this is a string\";\nstring var = 'this is a string'; #distractor\nString var = \"this is a string\"; #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "initial": "string var = \"this is a string\";\nstring var = 'this is a string';  #distractor\nString var = \"this is a string\";  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "In C++, `string` must be in lowercase. The string must also be surrounded by double quotation marks `\"`.\n",
    "showGuidanceAfterResponse": true,
@@ -640,6 +642,7 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/string.cpp",
      "code/fundamentals/variableval.cpp"
     ],
@@ -647,19 +650,19 @@
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/string.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
-   "bloomsObjectiveLevel": "3",
-   "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings"
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT demonstrate their understanding of declaring and assigning a value to a string variable"
   }
  },
  {
   "type": "multiple-choice",
   "taskId": "multiple-choice-950845008",
   "source": {
-   "name": "C++ Declaring Variables",
+   "name": "Declaring Variables",
    "showName": true,
    "instructions": "Which of the following code snippets contains correct variable declarations?",
    "multipleResponse": false,
@@ -710,6 +713,7 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/variableval.cpp",
      "code/fundamentals/variabledecl.cpp"
     ],
@@ -717,23 +721,23 @@
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/variableval.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "Assign/overwrite a value to a variable"
+   "learningObjectives": "SWBAT summarize the rules for declaring variables"
   }
  },
  {
   "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-2436518807",
   "source": {
-   "name": "C++ Declaring, Initializing, and Assigning Variables",
+   "name": "Declaring, Initializing, and Assigning Variables",
    "showName": true,
    "instructions": "Construct a program that initializes the variable <code>my_var</code> to 5 and prints it out. \n\nThen, re-assigns <code>my_var</code> to 10 and prints it out.\n\nThe output of the code you are constructing looks like:\n```c++\n5\n10\n```\n\n**You will not need to use all of the blocks.**",
-   "initial": "int my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\nint my_var = 10; #distractor\ndouble my_var = 5; #distractor\nmy_var = 5; #distractor\nmy_var = \"10\"; #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "initial": "int my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\nint my_var = 10;  #distractor\ndouble my_var = 5;  #distractor\nmy_var = 5;  #distractor\nmy_var = \"10\";  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "You will use an `int` instead of a double since 5 and 10 are whole numbers. Additionally, if you use `double` it would print out `5.0` and `10.0` by default.\n\nYou cannot assign a String (`\"10\"`) to an `int`.\n\nYou do not need to re-declare when you reassign (`int my_variable = 10`).\n\n```c++\nint my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\n```",
    "showGuidanceAfterResponse": true,
@@ -744,10 +748,23 @@
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Declaring Variables, Assigning Variables & Overwriting Variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Variables"
      }
     ],
     "files": [
-     "code/fundamentals/variableval.cpp"
+     "code/fundamentals/variableval.cpp",
+     "code/fundamentals/tryit1.cpp"
     ],
     "opened": [
      {
@@ -757,15 +774,15 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT demonstrate their understanding of declaring, assigning, and overwriting variables"
   }
  },
  {
   "type": "multiple-choice",
   "taskId": "multiple-choice-4248538892",
   "source": {
-   "name": "C++ Variable Names",
+   "name": "Variable Names",
    "showName": true,
    "instructions": "Which of the following is a correct variable name?",
    "multipleResponse": false,
@@ -816,25 +833,26 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/variableval.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/variableval.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
-   "bloomsObjectiveLevel": "1",
-   "learningObjectives": "Understand the rules of naming a variable"
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT explain the rules of naming a variable"
   }
  },
  {
   "type": "multiple-choice",
   "taskId": "multiple-choice-3992091061",
   "source": {
-   "name": "C++ Data Types",
+   "name": "Data Types",
    "showName": true,
    "instructions": "What are the four basic data types used in C++?",
    "multipleResponse": true,
@@ -910,19 +928,26 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/variableval.cpp"
     ],
-    "opened": []
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/tryit1.cpp"
+     }
+    ]
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": "Understand four basic data types: integers (ints), floats, boolean, and strings"
+   "learningObjectives": "SWBAT name the four basic data types: integers (ints), floats, boolean, and strings"
   }
  },
  {
   "type": "code-output-compare",
   "taskId": "code-output-compare-2157437958",
   "source": {
-   "name": "C++ Chat Greeting",
+   "name": "Chat Greeting",
    "showName": true,
    "instructions": "Submit your code when you are ready.",
    "command": "./code/fundamentals/labchallenge",
@@ -977,7 +1002,7 @@
      },
      {
       "name": "Content",
-      "value": "Output and Newline"
+      "value": "Output & Newline"
      },
      {
       "name": "Programming Language",
@@ -990,6 +1015,7 @@
     ],
     "files": [
      "code/fundamentals/labchallenge.cpp",
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise1.cpp"
     ],
     "opened": [
@@ -1000,15 +1026,15 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "Use the cout command to write text to the console &  Add a newline character by using the endl command"
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT use the cout and endl commands to write text to the console"
   }
  },
  {
   "type": "code-output-compare",
   "taskId": "code-output-compare-295500519",
   "source": {
-   "name": "C++ Fundamentals: Exercise 1",
+   "name": "Fundamentals: Exercise 1",
    "showName": true,
    "instructions": "Submit your code when you are ready.",
    "command": "./code/fundamentals/exercise1",
@@ -1049,7 +1075,7 @@
      },
      {
       "name": "Content",
-      "value": "Boolean"
+      "value": "Declaring Variables, Assigning Variables, Overwriting Variables, Output, Newline & Boolean"
      },
      {
       "name": "Programming Language",
@@ -1057,11 +1083,12 @@
      },
      {
       "name": "Category",
-      "value": "Printing and Variables"
+      "value": "Printing & Variables"
      }
     ],
     "files": [
      "code/fundamentals/exercise1.cpp",
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise2.cpp"
     ],
     "opened": [
@@ -1072,15 +1099,15 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "Assign/overwrite a value to a variable & Use the cout command to write text to the console"
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT demonstrate their understanding of declaring, assigning, and overwriting variables"
   }
  },
  {
   "type": "code-output-compare",
   "taskId": "code-output-compare-2547360760",
   "source": {
-   "name": "C++ Fundamentals: Exercise 2",
+   "name": "Fundamentals: Exercise 2",
    "showName": true,
    "instructions": "Submit your code when you are ready.",
    "command": "./code/fundamentals/exercise2",
@@ -1128,7 +1155,7 @@
      },
      {
       "name": "Content",
-      "value": "Integers"
+      "value": "Declaring Variables, Assigning Variables, Overwriting Variables, Output, Newline & Integers"
      },
      {
       "name": "Programming Language",
@@ -1136,11 +1163,12 @@
      },
      {
       "name": "Category",
-      "value": "Printing and Variables"
+      "value": "Printing & Variables"
      }
     ],
     "files": [
      "code/fundamentals/exercise2.cpp",
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise1.cpp"
     ],
     "opened": [
@@ -1151,15 +1179,15 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "Assign/overwrite a value to a variable & Use the cout command to write text to the console"
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT demonstrate their understanding of declaring, assigning, and overwriting variables"
   }
  },
  {
   "type": "code-output-compare",
   "taskId": "code-output-compare-784241532",
   "source": {
-   "name": "C++ Fundamentals: Exercise 3",
+   "name": "Fundamentals: Exercise 3",
    "showName": true,
    "instructions": "Submit your code when you are ready.",
    "command": "./code/fundamentals/exercise3",
@@ -1207,7 +1235,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Output & Newline"
      },
      {
       "name": "Programming Language",
@@ -1215,11 +1243,12 @@
      },
      {
       "name": "Category",
-      "value": "Printing and Variables"
+      "value": "Printing"
      }
     ],
     "files": [
      "code/fundamentals/exercise3.cpp",
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise1.cpp",
      "code/fundamentals/exercise2.cpp"
     ],
@@ -1231,15 +1260,15 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "Assign/overwrite a value to a variable & Use the cout and endl commands to write text to the console"
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT use the cout and endl commands to write text to the console"
   }
  },
  {
   "type": "code-output-compare",
   "taskId": "code-output-compare-2314242167",
   "source": {
-   "name": "C++ Fundamentals: Exercise 4",
+   "name": "Fundamentals: Exercise 4",
    "showName": true,
    "instructions": "Submit your code when you are ready.",
    "command": "./code/fundamentals/exercise4",
@@ -1280,7 +1309,7 @@
      },
      {
       "name": "Content",
-      "value": "Doubles"
+      "value": "Declaring Variables, Assigning Variables, Overwriting Variables, Output, Newline & Doubles"
      },
      {
       "name": "Programming Language",
@@ -1288,11 +1317,12 @@
      },
      {
       "name": "Category",
-      "value": "Printing and Variables"
+      "value": "Printing & Variables"
      }
     ],
     "files": [
      "code/fundamentals/exercise4.cpp",
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise1.cpp"
     ],
     "opened": [
@@ -1303,15 +1333,15 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "Assign/overwrite a value to a variable & Use the cout command to write text to the console"
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT demonstrate their understanding of declaring, assigning, and overwriting variables"
   }
  },
  {
   "type": "test",
   "taskId": "test-1005686765",
   "source": {
-   "name": "C++ Fundamentals: Exercise 5",
+   "name": "Fundamentals: Exercise 5",
    "showName": true,
    "instructions": "Use **two** `cout` statements to write the following string:\n`Okay, it is time to learn about operators.`",
    "command": "bash .guides/secure/fundamentals/exercise5.sh",
@@ -1329,7 +1359,7 @@
      },
      {
       "name": "Content",
-      "value": "Output"
+      "value": "Output & Newline"
      },
      {
       "name": "Programming Language",
@@ -1342,6 +1372,7 @@
     ],
     "files": [
      "code/fundamentals/exercise5.cpp",
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise1.cpp",
      "code/fundamentals/exercise4.cpp"
     ],
@@ -1353,20 +1384,19 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "6",
-   "learningObjectives": "Use the cout command to write text to the console"
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT use the cout and endl commands to write text to the console"
   }
  },
  {
   "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-621188575",
   "source": {
-   "name": "C++ Programming Math",
+   "name": "Programming Math",
    "showName": true,
    "instructions": "Construct a program below such that C++ reaches the same answer as a normal calculator would. You will **NOT** use all the blocks.",
    "initial": "double a = 2;\nSystem.out.println(5/a);\nint a = 2; #distractor\nSystem.out.println( (double) (5/a) ); #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\" : \"sortableTrash\"\n}",
-   "grader": "",
+   "options": "{\"sortableId\":\"sortable\",\"trashId\":\"sortableTrash\"}",
    "guidance": "",
    "showGuidanceAfterResponse": false,
    "points": 1,
@@ -1379,13 +1409,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise5.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/exercise5.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
@@ -1397,7 +1428,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-2728036190",
   "source": {
-   "name": "C++ Modulo",
+   "name": "Modulo",
    "showName": true,
    "instructions": "Which of the following is **NOT** correct?",
    "multipleResponse": false,
@@ -1436,13 +1467,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/exercise5.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/exercise5.cpp"
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
@@ -1454,7 +1486,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-3568628709",
   "source": {
-   "name": "C++ Adding Ints and Doubles",
+   "name": "Adding Ints and Double",
    "showName": true,
    "instructions": "What is printed when you add an int of `3` and a double of `7.0100` together?",
    "multipleResponse": false,
@@ -1505,13 +1537,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/operators/addition.cpp"
     ],
     "opened": [
      {
       "type": "file",
-      "panelNumber": null,
-      "content": "code/operators/addition.cpp"
+      "panelNumber": 0,
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
@@ -1523,7 +1556,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-1014071651",
   "source": {
-   "name": "C++ Incrementing",
+   "name": "Incrementing",
    "showName": true,
    "instructions": "Select each of the choices below that increments the variable `a` by the value of `1`.",
    "multipleResponse": true,
@@ -1574,13 +1607,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/operators/increment.cpp"
     ],
     "opened": [
      {
       "type": "file",
-      "panelNumber": null,
-      "content": "code/operators/increment.cpp"
+      "panelNumber": 0,
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
@@ -1592,7 +1626,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-1093374804",
   "source": {
-   "name": "C++ Evaluating Expressions",
+   "name": "Evaluating Expressions",
    "showName": true,
    "instructions": "Using your knowledge of boolean operators, choose the answer that correctly evaluates the expression below:\n\n`( 5 != 4 ) && ( 3 > 0 ) && ( ! 2 == 3 ) || #unknown condition#`",
    "multipleResponse": false,
@@ -1626,13 +1660,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/operators/increment.cpp"
     ],
     "opened": [
      {
       "type": "file",
-      "panelNumber": null,
-      "content": "code/operators/increment.cpp"
+      "panelNumber": 0,
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
@@ -1644,7 +1679,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-3505515237",
   "source": {
-   "name": "C++ Boolean Operators",
+   "name": "Boolean Operators",
    "showName": true,
    "instructions": "Determine if the code below returns `true` or `false`.\n\n`(7 >= 7) && (true || 99 < 1) || ! (3 > 5 && 7 < 10) && 2 != 4`",
    "multipleResponse": false,
@@ -1673,13 +1708,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/tryit1.cpp",
      "code/operators/increment.cpp"
     ],
     "opened": [
      {
       "type": "file",
-      "panelNumber": null,
-      "content": "code/operators/increment.cpp"
+      "panelNumber": 0,
+      "content": "code/fundamentals/tryit1.cpp"
      }
     ]
    },
