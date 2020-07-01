@@ -43,4 +43,6 @@ Examples:
 
 |||
 
+{Try it}(sh .guides/bg.sh g++ code/operators/addition.cpp -o code/operators/addition ./code/operators/addition 4)
+
 {Check It!|assessment}(multiple-choice-3568628709)

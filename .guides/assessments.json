@@ -1486,9 +1486,9 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-3568628709",
   "source": {
-   "name": "Adding Ints and Double",
+   "name": "Adding an Int to a Double",
    "showName": true,
-   "instructions": "What is printed when you add an int of `3` and a double of `7.0100` together?",
+   "instructions": "What is **printed** when you add an int of `3` and a double of `7.0100` together?",
    "multipleResponse": false,
    "answers": [
     {
@@ -1537,14 +1537,14 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
-     "code/operators/addition.cpp"
+     "code/operators/addition.cpp",
+     "code/fundamentals/tryit1.cpp"
     ],
     "opened": [
      {
       "type": "file",
-      "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
+      "panelNumber": null,
+      "content": "code/operators/addition.cpp"
      }
     ]
    },
@@ -1721,6 +1721,89 @@
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2622494909",
+  "source": {
+   "name": "String Concatenation",
+   "showName": true,
+   "instructions": "Construct a program that will print:\n`I understand string concatenation!`",
+   "initial": "string a = \"I understand\";\nstring b = a + \" string concatenation!\";\ncout << b << endl;\nstring b = a + \"string concatenation!\";         #distractor\nstring a = 'I understand ';         #distractor\ncout << a + b << endl;         #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "```c++\nstring a = \"I understand\";\nstring b = a + \" string concatenation!\";\ncout << b << endl;\n```\nIn C++, strings must use double quotes (\") - not single quotes (').",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/operators/concatenation.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/concatenation.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1772784890",
+  "source": {
+   "name": "Decrementing",
+   "showName": true,
+   "instructions": "Complete the code below by selecting the correct choices according to the comments provided.",
+   "text": "`int a = 42;`\n`int b = 2;`\n`//decrement a by 1`\n<<<a--;>>>\n`//decrement a by b`\n<<<a-=b;>>>",
+   "guidance": "```\nint a = 42;\nint b = 2;\n//decrement a by 1\na--;\n//decrement a by b\na-=b;\n```\n\nTo decrement by 1, you use the `--` operator. To decrement or subtract by any other number, you use `-=`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/subtraction.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/subtraction.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "a--;",
+     "a-=b;"
+    ],
+    "text": [
+     "`int a = 42;`\n`int b = 2;`\n`//decrement a by 1`\n",
+     0,
+     "\n`//decrement a by b`\n",
+     0
+    ]
+   }
   }
  }
 ]

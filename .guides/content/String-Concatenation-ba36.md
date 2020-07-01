@@ -14,13 +14,13 @@ cout << c << endl;
 
 |||challenge
 ## What happens if you:
-* Concatenate two strings without an extra space (i.e. `a = "This is an"`)?
-* Use the `+=` operator instead of the `+` operator (i.e. `a+=b;`)?
-* Add `3` to a string?
-* Add `"3"` to a string?
+* Concatenate two strings without an extra space (e.g. remove the space after `an` in `string a = "This is an";`)?
+* Use the `+=` operator instead of the `+` operator (e.g. `a+=b` instead of `a + b`)?
+* Add `3` to a string (e.g. `string c = a + b + 3;`)?
+* Add `"3"` to a string (e.g. `string c = a + b + "3";`)?
 
 |||
 
 {Try it}(sh .guides/bg.sh g++ code/operators/concatenation.cpp -o code/operators/concatenation ./code/operators/concatenation 2)
 
-{Check It!|assessment}(parsons-puzzle-1012342029)
+{Check It!|assessment}(parsons-puzzle-2622494909)
