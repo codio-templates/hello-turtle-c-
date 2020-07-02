@@ -28,7 +28,7 @@ You may have noticed that we can declare a variable name and assign it a value a
 |||
 
 
-<details><summary><b>5 vs. "5"</b> (Click to see more.)</summary>`5` is not the same thing as `"5"`. The first one is an integer, the second is a string. You will see in a later lesson the different operations you can perform on strings and numbers. Treating a string as a number can cause errors.</details>
+<details><summary>**5 vs. "5"**</summary>`5` is not the same thing as `"5"`. The first one is an integer, the second is a string. You will see in a later lesson the different operations you can perform on strings and numbers. Treating a string as a number can cause errors.</details>
   
 |||challenge
 ## What happens if you:
