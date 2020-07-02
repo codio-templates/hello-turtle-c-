@@ -51,7 +51,7 @@
   "taskId": "multiple-choice-2851726778",
   "points": 0,
   "state": {
-   "active": []
+   "active": null
   },
   "results": []
  },
@@ -75,8 +75,8 @@
   "taskId": "parsons-puzzle-384100098",
   "points": 0,
   "state": {
-   "trashHash": null,
-   "solutionHash": null,
+   "trashHash": "0_0-2_0-1_0",
+   "solutionHash": "-",
    "toggleStates": "{}"
   },
   "results": []

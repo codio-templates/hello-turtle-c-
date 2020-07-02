@@ -426,7 +426,7 @@
      "answer": "`int number = 01000000;`"
     }
    ],
-   "guidance": "Only choice #2 is correct. Choices #1 and #3 will result in an error message and choice #4 will output `262144`.",
+   "guidance": "Only choice #2 is correct. Choices #1 and #3 will result in an error message and choice #4 will output `262144`. \n\nThe reason for `262144` being printed is due to the fact that **octal** numbers start with a `0`. Thus, the system converts `01000000` from an octal number to a decimal number which equals `262144`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -451,6 +451,7 @@
      }
     ],
     "files": [
+     "code/fundamentals/exercise5.cpp",
      "code/fundamentals/tryit1.cpp",
      "code/fundamentals/variableval.cpp",
      "code/fundamentals/integer.cpp"
@@ -459,7 +460,7 @@
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
+      "content": "code/fundamentals/exercise5.cpp"
      }
     ]
    },
@@ -500,6 +501,7 @@
      }
     ],
     "files": [
+     "code/fundamentals/exercise5.cpp",
      "code/fundamentals/tryit1.cpp",
      "code/fundamentals/double.cpp"
     ],
@@ -507,7 +509,7 @@
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
+      "content": "code/fundamentals/exercise5.cpp"
      }
     ]
    },
@@ -533,7 +535,8 @@
      " is a ",
      0,
      " meaning it does not have a decimal."
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
