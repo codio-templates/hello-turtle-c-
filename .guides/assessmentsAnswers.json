@@ -886,5 +886,26 @@
    "active": []
   },
   "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-621188575",
+  "points": 0,
+  "state": {
+   "trashHash": "3_0-0_0",
+   "solutionHash": "2_0-1_0",
+   "toggleStates": "{}"
+  },
+  "results": [
+   {
+    "points": 0,
+    "guidance": "",
+    "trashHash": "3_0-0_0",
+    "solutionHash": "2_0-1_0",
+    "toggleStates": "{}",
+    "studentCode": "int a = 2;\nSystem.out.println(5/a);",
+    "timestamp": 1593784217016,
+    "state": "fail"
+   }
+  ]
  }
 ]

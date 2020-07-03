@@ -28,6 +28,10 @@ cout << a << endl;
 
 {Try it}(sh .guides/bg.sh g++ code/operators/division.cpp -o code/operators/division ./code/operators/division 2)
 
+|||important
+Division by zero is *undefined* in mathematics. In C++, dividing by zero results in *infinity* and thus `inf` was printed when you tried to divide by `0`.
+|||
+
 <details><summary><b>Hint</b></summary><code>/=</code> works similarly to <code>+=</code> and <code>-=</code></details>
 
 ## Integer Division

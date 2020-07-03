@@ -1398,8 +1398,9 @@
    "name": "Programming Math",
    "showName": true,
    "instructions": "Construct a program below such that C++ reaches the same answer as a normal calculator would. You will **NOT** use all the blocks.",
-   "initial": "double a = 2;\nSystem.out.println(5/a);\nint a = 2; #distractor\nSystem.out.println( (double) (5/a) ); #distractor",
-   "options": "{\"sortableId\":\"sortable\",\"trashId\":\"sortableTrash\"}",
+   "initial": "double a = 2;\nSystem.out.println(5/a);\nint a = 2;  #distractor\nSystem.out.println( (double) (5/a) );  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
    "guidance": "",
    "showGuidanceAfterResponse": false,
    "points": 1,
@@ -1412,16 +1413,10 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise5.cpp"
+     "code/fundamentals/exercise5.cpp",
+     "code/fundamentals/tryit1.cpp"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
