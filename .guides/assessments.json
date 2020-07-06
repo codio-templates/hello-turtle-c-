@@ -1728,7 +1728,7 @@
    "name": "String Concatenation",
    "showName": true,
    "instructions": "Construct a program that will print:\n`I understand string concatenation!`",
-   "initial": "string a = \"I understand\";\nstring b = a + \" string concatenation!\";\ncout << b << endl;\nstring b = a + \"string concatenation!\";         #distractor\nstring a = 'I understand ';         #distractor\ncout << a + b << endl;         #distractor",
+   "initial": "string a = \"I understand\";\nstring b = a + \" string concatenation!\";\ncout << b << endl;\nstring b = a + \"string concatenation!\";          #distractor\nstring a = 'I understand ';          #distractor\ncout << a + b << endl;          #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "```c++\nstring a = \"I understand\";\nstring b = a + \" string concatenation!\";\ncout << b << endl;\n```\nIn C++, strings must use double quotes (\") - not single quotes (').",
@@ -1802,6 +1802,63 @@
      0
     ]
    }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2926449521",
+  "source": {
+   "name": "cout vs. printf()",
+   "showName": true,
+   "instructions": "Which of the following programs will print `2.000000` to the console?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "d712b150-9dcf-d3fb-546c-df747d2ff373",
+     "correct": false,
+     "answer": "```c++\nint a = 10;\nint b = 5;\ncout << a / b << endl;\n```"
+    },
+    {
+     "_id": "501cb45d-7199-f705-5df6-c030c1914a4c",
+     "correct": false,
+     "answer": "```c++\nint a = 10;\ndouble b = 5.0;\ncout << a / b << endl;\n```"
+    },
+    {
+     "_id": "547da8f4-ce68-c058-4b92-a06ad4a3e2ff",
+     "correct": false,
+     "answer": "```c++\nint a = 10;\ndouble b = 5.0;\nprintf(\"%d \\n\", a / b);\n```"
+    },
+    {
+     "_id": "591dc0ad-a55c-5ac5-20dc-8ca022432dba",
+     "correct": true,
+     "answer": "```c++\nint a = 10;\ndouble b = 5.0;\nprintf(\"%f \\n\", a / b);\n```"
+    }
+   ],
+   "guidance": "Only choice #4 is correct.\n* Choices #1 & #2 use the `cout` command which will not print the decimal point nor any trailing zeros.\n* Choice #3 uses the `%d` specifier which indicates an integer, not a double, so an error will be returned.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/printf.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/printf.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  }
 ]

@@ -7,7 +7,7 @@ Division in C++ is done with the `/` operator.
 ```c++
 double a = 25;
 double b = 4;
-cout << a / b << endl;
+printf("%f \n", a / b);
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/division.cpp -o code/operators/division ./code/operators/division 1)
@@ -21,7 +21,7 @@ cout << a / b << endl;
 double a = 25;
 double b = 4;
 a /= b;
-cout << a << endl;
+printf("%f \n", a);
 ```
 
 |||
@@ -36,7 +36,7 @@ Division by zero is *undefined* in mathematics. In C++, dividing by zero results
 
 ## Integer Division
 
-Normally, you use `double` in Java division since the result usually involves decimals. If you use integers, the division operator returns an `int`. This "integer division" does not round up, nor round down. It removes the decimal value from the answer.
+Normally, you use `double` in C++ division since the result usually involves decimals. If you use integers, the division operator returns an `int`. This "integer division" does not round up, nor round down. It removes the decimal value from the answer.
 
 ![.guides/img/intDivision](.guides/img/intDivision.png)
 
