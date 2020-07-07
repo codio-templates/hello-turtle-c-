@@ -1860,5 +1860,98 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3824135241",
+  "source": {
+   "name": "Division",
+   "showName": true,
+   "instructions": "Which of the following statements about division in C++ is **FALSE**?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "4bc568c6-3887-0977-b919-2e39ff4c70bd",
+     "correct": false,
+     "answer": "You can use the division operator with `int`s."
+    },
+    {
+     "_id": "ed42da72-a17c-c241-a7b2-e9269b5723e6",
+     "correct": false,
+     "answer": "You can use the division operator with `double`s."
+    },
+    {
+     "_id": "2e07c269-734d-39a5-e30c-8e8577baeedc",
+     "correct": true,
+     "answer": "Division with `int`s and division with `double`s always yield the same results."
+    },
+    {
+     "_id": "536eea2d-a1db-8a4f-655b-121bf0286b80",
+     "correct": false,
+     "answer": "Dividing by `0` returns `inf` as an answer."
+    }
+   ],
+   "guidance": "`int`s and `double`s behave differently with the division operator. Using `double`s will result in a decimal whereas `int`s will result in a whole number with the decimal removed. This means that `10/3` is either a `double` of `3.3333...` or an `int` of `3` based on the declared data type.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/division.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/division.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3531725666",
+  "source": {
+   "name": "Data Conversion",
+   "showName": true,
+   "instructions": "Construct a program using the code snippets below that produces the following output:\n```c++\nfalse\n```\n**Note** that you only have **ONE ATTEMPT** at this problem.",
+   "initial": "double a = 0.01;\ncout << boolalpha << (bool) (int) a << endl;\nbool a = true;  #distractor\nint a = 1;  #distractor\ncout << boolalpha << (double) (int) a << endl;  #distractor\ncout << boolalpha << (bool) (double) a << endl;  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "In order for the system to print `false`, `a` must be a `bool` in its final casting. That eliminates `cout << boolalpha << (double) (int) a << endl;` as a possibility. `bool a = true;` can be eliminated because `a` will always be `true` regardless of which `cout` command comes next. `int a = 1;` can also be eliminated because casting it to an `int` or `double` will not change its numerical value of `1`. This means that `double a = 0.01;` must be part of the answer. Casting a double of `0.01` to a boolean will result in `true` but casting it to an integer first will force it to become `0`. A boolean of an integer of `0` will produce `false.` Thus the only correct combination is:\n```c++\ndouble a = 0.01;\ncout << boolalpha << (bool) (int) a << endl;\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/operators/casting.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/casting.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

@@ -14,7 +14,7 @@ cout << a << endl;
 ## How to Read `a = a + 1`
 The variable `a` appears twice on the same line of code. But each instance of `a` refers to something different.
 
-![.guides/img/increment](.guides/img/increment.png)
+![.guides/img/Increment](.guides/img/Increment.png)
 
 ## The `++` and `+=` Operators
 Since incrementing is such a common task for programmers, many programming languages have developed a shorthand for `a = a + 1`. The result is `a++` which does the same thing as `a = a + 1`.

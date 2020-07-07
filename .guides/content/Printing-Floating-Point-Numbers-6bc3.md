@@ -37,6 +37,7 @@ printf("%f \n", b);
 |||
 
 |||important
+## IMPORTANT
 When `printf()` is used, a *specifier* is needed in order to tell the system what type of data you want to print. The `%d` tells the system to print an integer and `%f` tells the system to print a floating point number. If you use an incorrect specifier, you will receive an error message. By default, floating point numbers contain six zeros after the decimal point if they are printed using `printf()`.
 
 The `\n` in `printf()` is equivalent to `endl`. They both print a newline character. Removing the `\n` from `printf("%d \n", a);` will delete the newline character and cause the variables `a` and `b` to be printed side-by-side.

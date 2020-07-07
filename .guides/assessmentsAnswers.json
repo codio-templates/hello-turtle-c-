@@ -935,5 +935,34 @@
    "active": null
   },
   "results": []
+ },
+ {
+  "taskId": "multiple-choice-3824135241",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-3531725666",
+  "points": 1,
+  "state": {
+   "trashHash": "4_0-5_0-3_0-2_0",
+   "solutionHash": "0_0-1_0",
+   "toggleStates": "{}"
+  },
+  "results": [
+   {
+    "points": 1,
+    "guidance": "In order for the system to print `false`, `a` must be a `bool` in its final casting. That eliminates `cout << boolalpha << (double) (int) a << endl;` as a possibility. `bool a = true;` can be eliminated because `a` will always be `true` regardless of which `cout` command comes next. `int a = 1;` can also be eliminated because casting it to `int` or `double` will not change its numerical value of `1`. This means that `double a = 0.01;` must be part of the answer. Casting a double of `0.01` to a boolean will result in `true` but casting it to an integer first will force it to become `0`. A boolean of an integer of `0` will produce `false.` Thus the only correct combination is:\n```c++\ndouble a = 0.01;\ncout << boolalpha << (bool) (int) a << endl;\n```",
+    "trashHash": "4_0-5_0-3_0-2_0",
+    "solutionHash": "0_0-1_0",
+    "toggleStates": "{}",
+    "studentCode": "double a = 0.01;\ncout << boolalpha << (bool) (int) a << endl;",
+    "timestamp": 1594145793053,
+    "state": "pass"
+   }
+  ]
  }
 ]
