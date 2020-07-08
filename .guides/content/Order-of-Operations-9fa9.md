@@ -36,10 +36,12 @@ printf("%f \n", result);
 ## Mental Math
 * `5 + 7 - 10 * 4 / 2`
 <details><summary>Solution</summary>-8</details>
-* `(5 * 8) - 7 % 2 - (-1 * 18)`
+* `5 * 8 - 7 % 2 - 18 * -1`
 <details><summary>Solution</summary>57</details>
 * `9 / 3 + (100 % 100) - 3`
 <details><summary>Solution</summary>0</details>
+* `12 - 2 * pow(2, 3) / (4 + 4)`
+<details><summary>Solution</summary>10</details>
 
 |||
 
