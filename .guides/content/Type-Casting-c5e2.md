@@ -1,7 +1,7 @@
 ---
 
 ## Type Casting
-Type casting (or type conversion) is when you change the data type of a variable.
+**Type casting** (or type conversion) is when you change the data type of a variable.
 
 ```c++
 int numerator = 40;
@@ -21,8 +21,9 @@ cout << (double) numerator / denominator << endl;
 * Assign `number` to `5`?
 * Cast only `denominator` to a double?
 * Cast both `numerator` and `denominator` to a double?
-* Cast the result to a double (e.g. `(double) (numerator / denominator)`)?
-```
+* Cast the result to a double (e.g. `(double) (numerator / denominator)`?
+* Change the code to...
+```c++
 int numerator = 40;
 int denominator = 25;
 int number = 5;
@@ -31,8 +32,9 @@ cout << numerator / denominator << endl;
 cout << (double) numerator / denominator << endl;
 printf("%d \n", numerator / denominator);
 printf("%f \n", (double) numerator / denominator);
-printf("%f \n", (double) (numerator / denominator) );
+printf("%f \n", (double) (numerator / denominator));
 ```
+
 |||
 
 {Try it}(sh .guides/bg.sh g++ code/operators/casting.cpp -o code/operators/casting ./code/operators/casting 2)
@@ -77,7 +79,10 @@ cout << a + stoi(b) << endl;
 
 |||important
 ## IMPORTANT
-You can convert the string `3.14` to an integer using `stoi()` which will result in an int of `3`. To retain the decimal places, you use `stod()` instead. In addition, the `to_string()` function will convert a boolean into the string form of its numerical value. `to_string(true)` will convert the `true` to `"1"` instead of `1`. This is why adding `b`, which is a string of `"3"`, to `to_string(d)` resulted in the string of `"31"`.
+You can convert the string `"3.14"` to an integer using `stoi()` which will result in an int of `3`. To retain the decimal places, use `stod()` instead. In addition, the `to_string()` function will convert a boolean into the string form of its numerical value. `to_string(true)` will convert `true` to `"1"` instead of `1`. This is why adding `b`, which is a string of `"3"`, to `to_string(d)` resulted in the string of `"31"`.
+
 |||
 
 {Check It!|assessment}(parsons-puzzle-3531725666)
+
+{Try it}(sh .guides/bg.sh g++ code/operators/casting.cpp -o code/operators/casting ./code/operators/casting 6)

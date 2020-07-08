@@ -1,7 +1,7 @@
 ---
 
 ## Incrementing Variables
-Incrementing a variable means to increase the value of a variable by a set amount. The most common incrementation you will see is when a variable increments itself by the value of 1.
+**Incrementing** a variable means to increase the value of a variable by a set amount. The most common incrementation you will see is when a variable increments itself by the value of 1.
 
 ```c++
 int a = 0;

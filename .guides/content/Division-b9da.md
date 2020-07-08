@@ -1,12 +1,11 @@
 ---
 
 ## Division
-
-Division in C++ is done with the `/` operator.
+**Division** in C++ is done with the `/` operator.
 
 ```c++
-double a = 25;
-double b = 4;
+double a = 25.0;
+double b = 4.0;
 printf("%f \n", a / b);
 ```
 
@@ -14,12 +13,12 @@ printf("%f \n", a / b);
 
 |||challenge
 ## What happens if you:
-* Assign `b` to `0`?
+* Assign `b` to `0.0`?
 * Assign `b` to `0.5`?
-* Change the code to look like what's below
+* Change the code to...
 ```c++
-double a = 25;
-double b = 4;
+double a = 25.0;
+double b = 4.0;
 a /= b;
 printf("%f \n", a);
 ```
@@ -28,12 +27,13 @@ printf("%f \n", a);
 
 {Try it}(sh .guides/bg.sh g++ code/operators/division.cpp -o code/operators/division ./code/operators/division 2)
 
+<details><summary>**Hint(s)**</summary>`/=` works similarly to `+=` and `-=`.</details>
+
 |||important
 ## IMPORTANT
-Division by zero is *undefined* in mathematics. In C++, dividing by zero results in *infinity* and thus `inf` was returned when you tried to divide by `0`. 
-|||
+Division by zero is *undefined* in mathematics. In C++, dividing by an **integer** of `0` results in an error message. However, dividing by a **double** of `0.0` results in `inf` which is short for *infinity*.
 
-<details><summary>**Hint**</summary>`/=` works similarly to `+=` and `-=`.</details>
+|||
 
 ## Integer Division
 

@@ -679,29 +679,6 @@
    "learningObjectives": ""
   },
   {
-   "id": "c5e2acbb-859e-8d5a-1c38-8ef2fde1132b",
-   "title": "Type Casting",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/operators/casting.cpp",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Type-Casting-c5e2.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
    "id": "a38440de-0da6-1f3a-bb93-bd03edbfb379",
    "title": "Modulo",
    "files": [
@@ -765,6 +742,29 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Order-of-Operations-9fa9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "c5e2acbb-859e-8d5a-1c38-8ef2fde1132b",
+   "title": "Type Casting",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/operators/casting.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Type-Casting-c5e2.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

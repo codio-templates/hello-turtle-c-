@@ -279,7 +279,7 @@
   "source": {
    "name": "Printing with the Newline Character",
    "showName": true,
-   "instructions": "Fill in the blanks with the missing commands that will print the text `Hi!` **with** a newline character?",
+   "instructions": "Fill in the blanks with the missing commands that will print the text `Hi!` **with** a newline character. **DO NOT** include any leading or trailing **spaces** when printing `Hi!`.",
    "text": "`cout << <<<\"Hi!\">>> << <<<endl;>>>`",
    "guidance": "The `\"Hi!\"` will print the text `Hi!` and the `endl;` will add a newline character. **Don't forget to include the `;` after `endl`.**",
    "showGuidanceAfterResponse": true,
@@ -325,7 +325,8 @@
      " << ",
      0,
      "`"
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -1486,7 +1487,7 @@
   "source": {
    "name": "Adding an Int to a Double",
    "showName": true,
-   "instructions": "What is **printed** when you add an int of `3` and a double of `7.0100` together?",
+   "instructions": "What is **printed** with `cout` when you add an int of `3` and a double of `7.0100` together?",
    "multipleResponse": false,
    "answers": [
     {
@@ -1728,10 +1729,10 @@
    "name": "String Concatenation",
    "showName": true,
    "instructions": "Construct a program that will print:\n`I understand string concatenation!`",
-   "initial": "string a = \"I understand\";\nstring b = a + \" string concatenation!\";\ncout << b << endl;\nstring b = a + \"string concatenation!\";          #distractor\nstring a = 'I understand ';          #distractor\ncout << a + b << endl;          #distractor",
+   "initial": "string a = \"I understand\";\nstring b = a + \" string concatenation!\";\ncout << b << endl;\nstring b = a + \"string concatenation!\";           #distractor\nstring a = 'I understand ';           #distractor\ncout << a + b << endl;           #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "```c++\nstring a = \"I understand\";\nstring b = a + \" string concatenation!\";\ncout << b << endl;\n```\nIn C++, strings must use double quotes (\") - not single quotes (').",
+   "guidance": "In C++, strings must use double quotes (\") - not single quotes ('). Also, spaces are very important when printing strings.",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -1888,7 +1889,7 @@
     {
      "_id": "536eea2d-a1db-8a4f-655b-121bf0286b80",
      "correct": false,
-     "answer": "Dividing by `0` returns `inf` as an answer."
+     "answer": "Dividing by `0.0` returns `inf` as an answer."
     }
    ],
    "guidance": "`int`s and `double`s behave differently with the division operator. Using `double`s will result in a decimal whereas `int`s will result in a whole number with the decimal removed. This means that `10/3` is either a `double` of `3.3333...` or an `int` of `3` based on the declared data type.",
@@ -1924,8 +1925,8 @@
   "source": {
    "name": "Data Conversion",
    "showName": true,
-   "instructions": "Construct a program using the code snippets below that produces the following output:\n```c++\nfalse\n```\n**Note** that you only have **ONE ATTEMPT** at this problem.",
-   "initial": "double a = 0.01;\ncout << boolalpha << (bool) (int) a << endl;\nbool a = true;  #distractor\nint a = 1;  #distractor\ncout << boolalpha << (double) (int) a << endl;  #distractor\ncout << boolalpha << (bool) (double) a << endl;  #distractor",
+   "instructions": "Construct a program using the code snippets below to produce the following output:\n```c++\nfalse\n```\n==**Note**== that you only have **ONE ATTEMPT** at this problem.",
+   "initial": "double a = 0.01;\ncout << boolalpha << (bool) (int) a << endl;\nbool a = true;    #distractor\nint a = 1;    #distractor\ncout << boolalpha << (double) (int) a << endl;    #distractor\ncout << boolalpha << (bool) (double) a << endl;    #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "In order for the system to print `false`, `a` must be a `bool` in its final casting. That eliminates `cout << boolalpha << (double) (int) a << endl;` as a possibility. `bool a = true;` can be eliminated because `a` will always be `true` regardless of which `cout` command comes next. `int a = 1;` can also be eliminated because casting it to an `int` or `double` will not change its numerical value of `1`. This means that `double a = 0.01;` must be part of the answer. Casting a double of `0.01` to a boolean will result in `true` but casting it to an integer first will force it to become `0`. A boolean of an integer of `0` will produce `false.` Thus the only correct combination is:\n```c++\ndouble a = 0.01;\ncout << boolalpha << (bool) (int) a << endl;\n```",
@@ -1947,6 +1948,177 @@
       "type": "file",
       "panelNumber": 0,
       "content": "code/operators/casting.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2721934056",
+  "source": {
+   "name": "Modulo",
+   "showName": true,
+   "instructions": "What does modulo (`%`) do?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "d9d2b561-19f8-f4c5-37bd-ec9800d7efee",
+     "correct": false,
+     "answer": "Determines if a number is even or odd"
+    },
+    {
+     "_id": "06c34459-f429-b479-f68a-46b40e309293",
+     "correct": false,
+     "answer": "Is another name for division"
+    },
+    {
+     "_id": "de11c543-81d7-f915-82f4-c59b155ac92e",
+     "correct": false,
+     "answer": "Determines the percentage of two numbers"
+    },
+    {
+     "_id": "97b60669-2a5f-f46c-5cb3-18720dfe3e7b",
+     "correct": true,
+     "answer": "Returns the remainder after division is performed"
+    }
+   ],
+   "guidance": "Modulo is the remainder after division is performed. So division is a part of modulo, but modulo is not division. Modulo can be used to determine if a number is even or odd, but modulo can do more than that. Finally, the `%` is used with modulo, but modulo does not deal with percentages.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/modulo.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/modulo.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2185092284",
+  "source": {
+   "name": "Multiplication",
+   "showName": true,
+   "instructions": "Select each of the choices below where the product (or multiplication) of `a` and `b` is printed.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "468e2bd7-7286-da37-fb63-97eb9b2a9fc2",
+     "correct": false,
+     "answer": "`cout << (a x b) << endl;`"
+    },
+    {
+     "_id": "504156cf-93b5-fdcd-4e6c-f2b6949874f9",
+     "correct": true,
+     "answer": "`cout << (a * b) << endl;`"
+    },
+    {
+     "_id": "dd41516b-797b-420e-551e-0b51e9af96e5",
+     "correct": false,
+     "answer": "`cout << (a**b) << endl;`"
+    },
+    {
+     "_id": "9186852f-7911-eaab-11b5-e8269dc7c77d",
+     "correct": true,
+     "answer": "`cout << (a*=b) << endl;`"
+    }
+   ],
+   "guidance": "`x` is not equivalent to the multiplication operator in C++ . The operator `**` is not valid in C++ . Only choices #2 and #4 will result in the product of `a` and `b` being printed to the console.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/multiplication.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/multiplication.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2840268862",
+  "source": {
+   "name": "Order of Operations",
+   "showName": true,
+   "instructions": "At what priority level does C++ perform modulo (`%`) operations?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "315ef563-0daa-3ed3-a25c-0951cb5db724",
+     "correct": false,
+     "answer": "Parentheses"
+    },
+    {
+     "_id": "e9f5f138-38ae-541e-e142-44d4c4128cf0",
+     "correct": false,
+     "answer": "Exponents"
+    },
+    {
+     "_id": "2db2b91e-1115-2eaf-6c12-e7340b40da25",
+     "correct": true,
+     "answer": "Multiplication & Division"
+    },
+    {
+     "_id": "8e04c51e-3ee5-7e23-b177-5b64e41ea078",
+     "correct": false,
+     "answer": "Addition & Subtraction"
+    }
+   ],
+   "guidance": "Modulo is a type of division, so it is performed along with the `/` and `*` operators in order from left to right.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/order.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/order.cpp"
      }
     ]
    },

@@ -1,7 +1,7 @@
 ---
 
 ## String Concatenation
-String concatenation is the act of combining two strings together. This is done with the `+` operator.
+**String concatenation** is the act of combining two strings together. This is done with the `+` operator.
 
 ```c++
 string a = "This is an ";

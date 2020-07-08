@@ -17,9 +17,11 @@ cout << c << endl;
 * Assign `b` to `-3`?
 * Assign `c` to `a - -b`?
 * Assign `b` to `3.1`?
-* Change `int b` to `bool b = true;`
+* Change `b` to `bool b = true;`?
 
 |||
+
+{Try it}(sh .guides/bg.sh g++ code/operators/subtraction.cpp -o code/operators/subtraction ./code/operators/subtraction 2)
 
 |||important
 ## IMPORTANT
@@ -27,10 +29,8 @@ Did you notice that you were able to subtract a `bool` from an `int`? Recall tha
 
 |||
 
-{Try it}(sh .guides/bg.sh g++ code/operators/subtraction.cpp -o code/operators/subtraction ./code/operators/subtraction 2)
-
 ## The `--` and `-=` Operators
-Decrementing is the opposite of incrementing. Just like you can increment with `++`, you can decrement using `--`.
+**Decrementing** is the opposite of incrementing. Just like you can increment with `++`, you can decrement using `--`.
 
 ```c++
 int a = 10;
