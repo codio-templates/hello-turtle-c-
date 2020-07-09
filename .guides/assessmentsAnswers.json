@@ -661,6 +661,20 @@
   "results": [
    {
     "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value.",
+    "timestamp": 1594312649020,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value.",
+    "timestamp": 1594312645023,
+    "state": "fail"
+   },
+   {
+    "guidance": "It does not matter where you split up the string...but the first `cout` statement **should not** use the `<< endl` command. The `<< endl` command for the second `cout` statement is optional. Here is one solution below:\n```c++\ncout << \"Okay, it is time to \";\ncout << \"learn about operators.\" << endl;\n```",
     "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputting the correct value.",
     "timestamp": 1590505172120,
     "state": "fail"

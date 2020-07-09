@@ -976,7 +976,7 @@
     ],
     "files": [
      "code/fundamentals/labchallenge.cpp",
-     ".guides/secure/fundamentals/challenge.sh"
+     "code/fundamentals/challenge.sh"
     ],
     "opened": [
      {
@@ -1048,7 +1048,7 @@
     ],
     "files": [
      "code/fundamentals/exercise1.cpp",
-     ".guides/secure/fundamentals/exercise1.sh"
+     "code/fundamentals/exercise1.sh"
     ],
     "opened": [
      {
@@ -1127,7 +1127,7 @@
     ],
     "files": [
      "code/fundamentals/exercise2.cpp",
-     ".guides/secure/fundamentals/exercise2.sh"
+     "code/fundamentals/exercise2.sh"
     ],
     "opened": [
      {
@@ -1206,7 +1206,7 @@
     ],
     "files": [
      "code/fundamentals/exercise3.cpp",
-     ".guides/secure/fundamentals/exercise3.sh"
+     "code/fundamentals/exercise3.sh"
     ],
     "opened": [
      {
@@ -1278,7 +1278,7 @@
     ],
     "files": [
      "code/fundamentals/exercise4.cpp",
-     ".guides/secure/fundamentals/exercise4.sh"
+     "code/fundamentals/exercise4.sh"
     ],
     "opened": [
      {
@@ -1326,8 +1326,7 @@
      }
     ],
     "files": [
-     "code/fundamentals/exercise5.cpp",
-     ".guides/secure/fundamentals/exercise5.sh"
+     "code/fundamentals/exercise5.cpp"
     ],
     "opened": [
      {
