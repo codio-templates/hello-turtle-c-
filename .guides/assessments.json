@@ -54,8 +54,7 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise1.cpp"
+     "code/fundamentals/tryit1.cpp"
     ],
     "opened": [
      {
@@ -124,15 +123,13 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise1.cpp",
      "code/fundamentals/tryit2.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
+      "content": "code/fundamentals/tryit2.cpp"
      }
     ]
    },
@@ -173,15 +170,13 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise1.cpp",
      "code/fundamentals/comments.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
+      "content": "code/fundamentals/comments.cpp"
      }
     ]
    },
@@ -198,7 +193,8 @@
      " comment, and the `/*` and `*/` symbols mean a ",
      0,
      " comment."
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -257,17 +253,9 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise1.cpp",
-     "code/fundamentals/comments.cpp"
+     "code/fundamentals/tryit1.cpp"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT recall what the cout command does"
@@ -306,9 +294,7 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise1.cpp",
-     "code/fundamentals/comments.cpp"
+     "code/fundamentals/tryit1.cpp"
     ],
     "opened": []
    },
@@ -380,16 +366,13 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/variableval.cpp",
-     "code/fundamentals/variabletypes.cpp",
-     "code/fundamentals/comments.cpp"
+     "code/fundamentals/variabletypes.cpp"
     ],
     "opened": [
      {
-      "type": "file",
+      "type": "tutor",
       "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
+      "content": "code/fundamentals/variabletypes.cpp"
      }
     ]
    },
@@ -452,16 +435,13 @@
      }
     ],
     "files": [
-     "code/fundamentals/exercise5.cpp",
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/variableval.cpp",
      "code/fundamentals/integer.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/exercise5.cpp"
+      "content": "code/fundamentals/integer.cpp"
      }
     ]
    },
@@ -502,15 +482,13 @@
      }
     ],
     "files": [
-     "code/fundamentals/exercise5.cpp",
-     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/double.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/exercise5.cpp"
+      "content": "code/fundamentals/double.cpp"
      }
     ]
    },
@@ -596,15 +574,13 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/variableval.cpp",
      "code/fundamentals/boolean.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
+      "content": "code/fundamentals/boolean.cpp"
      }
     ]
    },
@@ -646,9 +622,7 @@
      }
     ],
     "files": [
-     "code/fundamentals/string.cpp",
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/variableval.cpp"
+     "code/fundamentals/string.cpp"
     ],
     "opened": [
      {
@@ -717,15 +691,13 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/variableval.cpp",
      "code/fundamentals/variabledecl.cpp"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
+      "content": "code/fundamentals/variabledecl.cpp"
      }
     ]
    },
@@ -740,10 +712,10 @@
    "name": "Declaring, Initializing, and Assigning Variables",
    "showName": true,
    "instructions": "Construct a program that initializes the variable <code>my_var</code> to 5 and prints it out. \n\nThen, re-assigns <code>my_var</code> to 10 and prints it out.\n\nThe output of the code you are constructing looks like:\n```c++\n5\n10\n```\n\n**You will not need to use all of the blocks.**",
-   "initial": "int my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\nint my_var = 10;     #distractor\ndouble my_var = 5;     #distractor\nmy_var = 5;     #distractor\nmy_var = \"10\";     #distractor",
+   "initial": "int my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\nint my_var = 10;      #distractor\ndouble my_var = 5;      #distractor\nmy_var = 5;      #distractor\nmy_var = \"10\";      #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "You will use an `int` instead of a double since 5 and 10 are whole numbers.\n\nYou cannot assign a String (`\"10\"`) to an `int`.\n\nYou do not need to re-declare when you reassign (`int my_variable = 10`).\n\n```c++\nint my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\n```",
+   "guidance": "You will use an `int` instead of a double since 5 and 10 are whole numbers.\n\nYou cannot assign a string (`\"10\"`) to an `int`.\n\nYou do not need to re-declare when you reassign (`int my_variable = 10`).",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -767,8 +739,7 @@
      }
     ],
     "files": [
-     "code/fundamentals/variableval.cpp",
-     "code/fundamentals/tryit1.cpp"
+     "code/fundamentals/variableval.cpp"
     ],
     "opened": [
      {
@@ -837,16 +808,9 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/variableval.cpp"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT explain the rules of naming a variable"
@@ -932,16 +896,9 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
      "code/fundamentals/variableval.cpp"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT name the four basic data types: integers (ints), floats, boolean, and strings"
@@ -1019,8 +976,7 @@
     ],
     "files": [
      "code/fundamentals/labchallenge.cpp",
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise1.cpp"
+     ".guides/secure/fundamentals/challenge.sh"
     ],
     "opened": [
      {
@@ -1092,8 +1048,7 @@
     ],
     "files": [
      "code/fundamentals/exercise1.cpp",
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise2.cpp"
+     ".guides/secure/fundamentals/exercise1.sh"
     ],
     "opened": [
      {
@@ -1172,8 +1127,7 @@
     ],
     "files": [
      "code/fundamentals/exercise2.cpp",
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise1.cpp"
+     ".guides/secure/fundamentals/exercise2.sh"
     ],
     "opened": [
      {
@@ -1252,9 +1206,7 @@
     ],
     "files": [
      "code/fundamentals/exercise3.cpp",
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise1.cpp",
-     "code/fundamentals/exercise2.cpp"
+     ".guides/secure/fundamentals/exercise3.sh"
     ],
     "opened": [
      {
@@ -1326,8 +1278,7 @@
     ],
     "files": [
      "code/fundamentals/exercise4.cpp",
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise1.cpp"
+     ".guides/secure/fundamentals/exercise4.sh"
     ],
     "opened": [
      {
@@ -1376,9 +1327,7 @@
     ],
     "files": [
      "code/fundamentals/exercise5.cpp",
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise1.cpp",
-     "code/fundamentals/exercise4.cpp"
+     ".guides/secure/fundamentals/exercise5.sh"
     ],
     "opened": [
      {
@@ -1390,37 +1339,6 @@
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT use the cout and endl commands to write text to the console"
-  }
- },
- {
-  "type": "parsons-puzzle",
-  "taskId": "parsons-puzzle-621188575",
-  "source": {
-   "name": "Programming Math",
-   "showName": true,
-   "instructions": "Construct a program below such that C++ reaches the same answer as a normal calculator would. You will **NOT** use all the blocks.",
-   "initial": "double a = 2;\nSystem.out.println(5/a);\nint a = 2;  #distractor\nSystem.out.println( (double) (5/a) );  #distractor",
-   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
-   "grader": "1",
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
-   "points": 1,
-   "oneTimeTest": false,
-   "metadata": {
-    "tags": [
-     {
-      "name": "Assessment Type",
-      "value": "Parsons Puzzle"
-     }
-    ],
-    "files": [
-     "code/fundamentals/exercise5.cpp",
-     "code/fundamentals/tryit1.cpp"
-    ],
-    "opened": []
-   },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
   }
  },
  {

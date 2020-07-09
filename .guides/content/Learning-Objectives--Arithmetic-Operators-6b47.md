@@ -1,9 +1,9 @@
 ---
 
 * ### Recognize the symbols for arithmetic operators
-* ### Describe what happens when the `+` and `*` operators are used with strings
-* ### Know how to increment and decrement a variable
-* ### Understand the order of operations
+* ### Demonstrate how to increment and decrement a variable
+* ### Perform string concatenation
+* ### Apply PEMDAS rules to arithmetic operations
 
 |||guidance
 ## Assumptions
