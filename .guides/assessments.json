@@ -1427,9 +1427,9 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-2728036190",
   "source": {
-   "name": "Modulo",
+   "name": "Modulo Calculations",
    "showName": true,
-   "instructions": "Which of the following is **NOT** correct?",
+   "instructions": "Assuming all numbers below are of type `int`, which of the following is **NOT** correct?",
    "multipleResponse": false,
    "answers": [
     {
@@ -1453,8 +1453,8 @@
      "answer": "15 % 4 = 3"
     }
    ],
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "Because modulo is a type of division, you cannot modulo divide by 0. Similar to `/ 0`, `% 0` produces an error.",
+   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -1466,16 +1466,10 @@
      }
     ],
     "files": [
-     "code/fundamentals/tryit1.cpp",
-     "code/fundamentals/exercise5.cpp"
+     "code/fundamentals/exercise5.cpp",
+     "code/fundamentals/tryit1.cpp"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
@@ -2124,6 +2118,43 @@
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3979987187",
+  "source": {
+   "name": "PEMDAS Calculations",
+   "showName": true,
+   "instructions": "What is the value of the variable `answer` when it is printed?\n```c++\nint answer = -10 + sqrt(25) * 5 / (125 % 100);\ncout << answer << endl;\n```",
+   "text": "Enter your answer here: <<<-9>>>",
+   "guidance": "The calculations are performed as follow:\n1. Parentheses: (125 % 100) = 25\n   * -10 + sqrt(25) * 5 / 25\n2. Exponents: sqrt(25) = 5\n   * -10 + 5 * 5 / 25\n3. Multiplication & Division: 5 * 5 / 25 = 1\n   * -10 + 1\n4. Addition & Subtraction: -10 + 1 = -9\n   * -9",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "-9"
+    ],
+    "text": [
+     "Enter your answer here: ",
+     0
+    ],
+    "regexPositions": []
+   }
   }
  }
 ]
