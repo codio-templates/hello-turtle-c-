@@ -43,8 +43,5 @@ cout << boolalpha << (a != b) << endl;
 
 |||
 
-
-
 {Try it}(sh .guides/bg.sh g++ code/operators/equality.cpp -o code/operators/equality ./code/operators/equality 4)
 
-{Check It!|assessment}(fill-in-the-blanks-1997792767)

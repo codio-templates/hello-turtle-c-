@@ -11,7 +11,7 @@ To test the code, first compile and then check the output of a few different tes
 To test your code, first `COMPILE` it and then check the output of a few different test cases below:
 
 {Compile}(g++ code/fundamentals/exercise3.cpp -o code/fundamentals/exercise3)
-{Test 1}(sh code/fundamentals/exercise3.sh Welcome Goodbye)
-{Test 2}(sh code/fundamentals/exercise3.sh Howdy Sayonara)
+{Test 1}(sh .guides/fundamentals/exercise3.sh Welcome Goodbye)
+{Test 2}(sh .guides/fundamentals/exercise3.sh Howdy Sayonara)
 
 {Check It!|assessment}(code-output-compare-784241532)

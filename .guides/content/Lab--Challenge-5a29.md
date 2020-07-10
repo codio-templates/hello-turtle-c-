@@ -19,9 +19,9 @@ The current wait time is *currentWaitMinutes* minutes.
 To test the code, first click on the `COMPILE` button. This will compile your code and turn it into a program. If your program compiled successfully, you will see the message `Command was successfully executed.` Then you can run your program by clicking on the `TEST` buttons. You will see the output of a few different test cases:
 
 {Compile}(g++ code/fundamentals/labchallenge.cpp -o code/fundamentals/labchallenge)
-{Test 1}(sh code/fundamentals/challenge.sh Hello! Monday July 4 9)
-{Test 2}(sh code/fundamentals/challenge.sh Howdy! Tuesday December 15 2)
-{Test 3}(sh code/fundamentals/challenge.sh Greetings! Friday March 13 39)
+{Test 1}(sh .guides/fundamentals/challenge.sh Hello! Monday July 4 9)
+{Test 2}(sh .guides/fundamentals/challenge.sh Howdy! Tuesday December 15 2)
+{Test 3}(sh .guides/fundamentals/challenge.sh Greetings! Friday March 13 39)
 
 
 Take a look at the test outputs above. Do they look like the expected outputs below? If not, your code may need some revision.

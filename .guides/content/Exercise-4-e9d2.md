@@ -10,7 +10,7 @@ Write a program that:
 To test the code, first compile and then check the output of a few different test cases:
 
 {Compile}(g++ code/fundamentals/exercise4.cpp -o code/fundamentals/exercise4)
-{Test 1}(sh code/fundamentals/exercise4.sh 2.4132)
-{Test 2}(sh code/fundamentals/exercise4.sh -0.999)
+{Test 1}(sh .guides/fundamentals/exercise4.sh 2.4132)
+{Test 2}(sh .guides/fundamentals/exercise4.sh -0.999)
 
 {Check It!|assessment}(code-output-compare-2314242167)
