@@ -1532,7 +1532,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-1093374804",
   "source": {
-   "name": "Evaluating Expressions",
+   "name": "Evaluating Boolean Expressions",
    "showName": true,
    "instructions": "Using your knowledge of boolean operators, choose the answer that correctly evaluates the expression below:\n\n`( 5 != 4 ) && ( 3 > 0 ) && ( ! 2 == 3 ) || #unknown condition#`",
    "multipleResponse": false,
@@ -1540,20 +1540,20 @@
     {
      "_id": "52bf55e8-0aeb-d0cc-b127-e285893b6ebb",
      "correct": false,
-     "answer": "The evaluation will be `false` - C++ short circuits because you have a `false` condition with an `&&` operator."
+     "answer": "The expression evaluates to `false` - C++ short circuits because you have a `false` condition with an `&&` operator."
     },
     {
      "_id": "c6bfb6c5-1c1d-b35b-5483-c2fb3818b57b",
      "correct": true,
-     "answer": "The evaluation will be `true` - C++ short circuits because you have a `true` condition with an `||` operator."
+     "answer": "The expression evaluates to `true` - C++ short circuits because you have a `true` condition with an `||` operator."
     },
     {
      "_id": "03b9c86c-d654-98f0-7bb0-297142d9d2d5",
      "correct": false,
-     "answer": "There is not enough information - we would need to know the \"unknown condition\"."
+     "answer": "There is not enough information - we would need to know the `#unknown condition#`."
     }
    ],
-   "guidance": "Because each of the first three conditions evaluates as true, the `&&` operator will cause their combination to evaluate as `true` too. When you reach the `||` operator you then have `true || #unknown condition#`. C++ short circuits and evaluates the entire line as `true` without ever evaluating the #unknown condition#.",
+   "guidance": "Because each of the first three conditions evaluates as true, the `&&` operator will cause their combination to evaluate as `true` too. When you reach the `||` operator, you then have `true || #unknown condition#`. C++ short circuits and evaluates the entire line as `true` without ever evaluating the `#unknown condition#`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -1569,13 +1569,7 @@
      "code/fundamentals/tryit1.cpp",
      "code/operators/increment.cpp"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
@@ -1601,7 +1595,7 @@
      "answer": "false"
     }
    ],
-   "guidance": "First, start by evaluating the expressions in the parentheses.\n\n`( 7 >= 7)` returns true.\n`(true || 99 < 1)` returns true\n`! (3 > 5 && 7 < 10)` returns true\n`2 != 4` returns true\nSo the boolean expression is now `true && true || true && true`, which returns true.",
+   "guidance": "First, start by evaluating the expressions in the parentheses.\n\n`(7 >= 7)` returns true.\n`(true || 99 < 1)` returns true.\n`! (3 > 5 && 7 < 10)` returns true.\n`2 != 4` returns true.\n\nSo the boolean expression is now `true && true || true && true`, which returns `true`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -1617,13 +1611,7 @@
      "code/fundamentals/tryit1.cpp",
      "code/operators/increment.cpp"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/fundamentals/tryit1.cpp"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
