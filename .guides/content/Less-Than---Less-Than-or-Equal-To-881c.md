@@ -37,12 +37,14 @@ cout << boolalpha << (a <= b) << endl;
 
 |||challenge
 ## What happens if you:
-* Change `b` to `1`?
-* Change `b` to `5`?
-* Change `a` to `false` and `b` to `true`?
+* Assign `b` to `1`?
+* Assign `b` to `5`?
+* Assign `a` to `false` and assign `b` to `true`?
 
 |||
 
 {Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 4)
 
-{Check It!|assessment}(multiple-choice-3157845998)
+<details><summary>**Hint(s)**</summary>`false` is less than `true` because `0` is less than `1`.</details>
+
+{Check It!|assessment}(multiple-choice-3904948409)

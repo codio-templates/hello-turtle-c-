@@ -2120,5 +2120,327 @@
     "regexPositions": []
    }
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3904948409",
+  "source": {
+   "name": "Less Than or Equal To True",
+   "showName": true,
+   "instructions": "Select **all** of the conditions below that cause the expression `a <= b` to equate to `true`?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "23089a7b-7107-d990-d68f-e5c2f61fcd6e",
+     "correct": true,
+     "answer": "If `a` is less than `b`"
+    },
+    {
+     "_id": "d8d66ce9-0a26-421e-44cc-56c5c3133cc0",
+     "correct": false,
+     "answer": "If `a` is greater than `b`"
+    },
+    {
+     "_id": "cabae154-b21c-cd25-a40a-4a2c7bd58201",
+     "correct": true,
+     "answer": "If `a` is equal to `b`"
+    },
+    {
+     "_id": "c4a97912-86bf-b136-d344-a0f3af248693",
+     "correct": false,
+     "answer": "If `a` is both less than and equal to `b`"
+    }
+   ],
+   "guidance": "There are two conditions that would cause `a <= b` to be `true`. One is if `a` is less than `b` and the other is if `a` is equal to `b`. As long as one of those conditions is true, then `a <= b` will be `true`. \n\n**Note** that `a` cannot be both less than and equal to `b` at the same time.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/lessthan.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/lessthan.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1809804957",
+  "source": {
+   "name": "Greater Than or Equal To True",
+   "showName": true,
+   "instructions": "Select **all** of the expressions below that are true.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "7374c44e-5490-a4b1-26f5-2df8cd81ea92",
+     "correct": true,
+     "answer": "19 >= 19"
+    },
+    {
+     "_id": "b47faf6f-f6bc-81fc-8bf4-51704823ea88",
+     "correct": false,
+     "answer": "18.9 >= 19"
+    },
+    {
+     "_id": "6cb3b224-8c5d-004d-5893-56d8ccce036d",
+     "correct": false,
+     "answer": "-19 >= 19"
+    },
+    {
+     "_id": "39c4bba9-f1cd-7a97-35c5-90487a65ec06",
+     "correct": true,
+     "answer": "19 >= 9"
+    }
+   ],
+   "guidance": "The `>=` operator only returns `true` if the first number is greater than or equal to the second number. So the following statements would evaluate to true:\n`19 >= 19` and `19 >= 9`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/greaterthan.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/greaterthan.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-993858865",
+  "source": {
+   "name": "Evaluating && Expressions",
+   "showName": true,
+   "instructions": "Fill in the blanks for the following two statements.",
+   "text": "For an overall `&&` expression to be true, all of its boolean expressions must be <<<true>>>.\n\nFor an overall `&&` expression to be false, one or more of its boolean expressions need to be <<<false>>>.",
+   "guidance": "All of the boolean expressions must be true for the overall `&&` expression to evaluate to `true`.\n\nOne or more boolean expressions need to be false for the overall `&&` expression to evaluate to `false`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/and.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/and.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "true",
+     "false"
+    ],
+    "text": [
+     "For an overall `&&` expression to be true, all of its boolean expressions must be ",
+     0,
+     ".\n\nFor an overall `&&` expression to be false, one or more of its boolean expressions need to be ",
+     0,
+     "."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1097451796",
+  "source": {
+   "name": "Evaluating || Expressions",
+   "showName": true,
+   "instructions": "Fill in the blanks for the following two statements.",
+   "text": "For an overall `||` expression to be false, all of its boolean expressions must be <<<false>>>.\n\nFor an overall `||` expression to be true, at least one of its boolean expressions needs to be <<<true>>>.",
+   "guidance": "All of the boolean expressions must be false for the overall `||` expression to evaluate to `false`.\n\nOne or more boolean expressions need to be true for the overall `||` expression to evaluate to `true`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/or.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/or.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "false",
+     "true"
+    ],
+    "text": [
+     "For an overall `||` expression to be false, all of its boolean expressions must be ",
+     0,
+     ".\n\nFor an overall `||` expression to be true, at least one of its boolean expressions needs to be ",
+     0,
+     "."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-111067014",
+  "source": {
+   "name": "Evaluating ! Expressions",
+   "showName": true,
+   "instructions": "Evaluate the two expressions below using either **lowercase** `true` or `false`.",
+   "text": "`5 != 4` returns <<<true>>>.\n`! 5 == 4` returns <<<true>>>.",
+   "guidance": "Both expressions evaluate to `true`. In the second case, `5 == 4` first evaluates to `false` and then `! false` evaluates to `true`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/not.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/not.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "true",
+     "true"
+    ],
+    "text": [
+     "`5 != 4` returns ",
+     0,
+     ".\n`! 5 == 4` returns ",
+     0,
+     "."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1499928035",
+  "source": {
+   "name": "Short Circuiting",
+   "showName": true,
+   "instructions": "Use the dropdown menus to complete the text below.",
+   "text": "## Or Operator\nWhen using the `||` operator, C++ checks to see if the first boolean expression is <<<true>>>. If it is <<<true>>>, C++ returns <<<true>>> and ignores the remaining boolean expression(s).\n\n## And Operator\nWhen using the `&&` operator, C++ checks to see if the first boolean expression is <<<false>>>. If it is <<<false>>>, C++ returns <<<false>>> and ignores the remaining boolean expression(s).",
+   "guidance": "If the first boolean expression for the `||` operator is true, then the entire thing is `true`. The remaining boolean expression(s) is ignored.\n\nIf the first boolean expression for the `&&` operator is false, then the entire thing is `false`. The remaining boolean expression(s) is ignored.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/shortcircuiting.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/shortcircuiting.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "true",
+     "true",
+     "true",
+     "false",
+     "false",
+     "false"
+    ],
+    "text": [
+     "## Or Operator\nWhen using the `||` operator, C++ checks to see if the first boolean expression is ",
+     0,
+     ". If it is ",
+     0,
+     ", C++ returns ",
+     0,
+     " and ignores the remaining boolean expression(s).\n\n## And Operator\nWhen using the `&&` operator, C++ checks to see if the first boolean expression is ",
+     0,
+     ". If it is ",
+     0,
+     ", C++ returns ",
+     0,
+     " and ignores the remaining boolean expression(s)."
+    ],
+    "regexPositions": []
+   }
+  }
  }
 ]

@@ -1,8 +1,8 @@
 ---
 
 * ### Recognize the difference between `=` and `==`
-* ### Evaluate boolean statements
-* ### Use the `&&` and `||` operators
+* ### Understand the `&&` and `||` operators' functions
+* ### Evaluate boolean expressions
 
 |||guidance
 ## Assumptions
