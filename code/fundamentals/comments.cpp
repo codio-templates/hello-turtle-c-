@@ -18,6 +18,7 @@ Try making one at the end of the code file.
   //cout << "Yellow" << endl;
   cout << "Green" << endl; //single-line comments end when a newline is detected
   cout << "Blue" << endl;
+  cout << "Indigo" << endl;
   cout << "Violet" << endl;
   cout << "These are the colors of the rainbow!" << endl;
   

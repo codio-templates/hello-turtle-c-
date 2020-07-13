@@ -5,7 +5,9 @@ int main() {
   
   //add code below this line
 
-
+int a = 5;
+int b = 7;
+cout << boolalpha << (a <= b) << endl;
 
   //add code above this line
   

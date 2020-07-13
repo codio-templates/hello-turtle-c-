@@ -2,7 +2,7 @@
 
 ## Less Than
 
-The `<` operator is used to check if one value is less than another value.
+The `<` operator is used to check if one value is *less than* another value.
 
 ```c++
 int a = 5;
@@ -14,17 +14,19 @@ cout << boolalpha << (a < b) << endl;
 
 |||challenge
 ## What happens if you:
-* Change `b` to `1`?
-* Change `b` to `5`?
-* Change `b` to `false`?
+* Assign `b` to `1`?
+* Assign `b` to `5`?
+* Assign `b` to `false`?
 
 |||
 
 {Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 2)
 
+<details><summary>**Hint(s)**</summary>It is possible to declare and assign `int b = false;` because `false` is just a value of `0`. Since `5` is not less than `0`, `false` is returned.</details>
+
 ## Less Than or Equal To
 
-The `<=` operator is used to check if one value is less than or equal to another value.
+The `<=` operator is used to check if one value is *less than or equal to* another value.
 ```c++
 int a = 5;
 int b = 7;

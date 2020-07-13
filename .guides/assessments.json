@@ -712,7 +712,7 @@
    "name": "Declaring, Initializing, and Assigning Variables",
    "showName": true,
    "instructions": "Construct a program that initializes the variable <code>my_var</code> to 5 and prints it out. \n\nThen, re-assigns <code>my_var</code> to 10 and prints it out.\n\nThe output of the code you are constructing looks like:\n```c++\n5\n10\n```\n\n**You will not need to use all of the blocks.**",
-   "initial": "int my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\nint my_var = 10;          #distractor\ndouble my_var = 5;          #distractor\nmy_var = 5;          #distractor\nmy_var = \"10\";          #distractor",
+   "initial": "int my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\nint my_var = 10;           #distractor\ndouble my_var = 5;           #distractor\nmy_var = 5;           #distractor\nmy_var = \"10\";           #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "You will use an `int` instead of a double since 5 and 10 are whole numbers.\n\nYou cannot assign a string (`\"10\"`) to an `int`.\n\nYou do not need to re-declare when you reassign (`int my_var = 10;`).",
@@ -2064,6 +2064,57 @@
     ],
     "text": [
      "Enter your answer here: ",
+     0
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3455797759",
+  "source": {
+   "name": "Equality",
+   "showName": true,
+   "instructions": "Enter the appropriate **operator symbol** for each definition.",
+   "text": "This operator checks if two values are **equal**:\n<<<==>>>\nThis operator **assigns** a value to a variable:\n<<<=>>>\nThis operator checks if two values are **not equal**:\n<<<!=>>>",
+   "guidance": "* The `=` operator assigns a value to a variable\n* The `==` operator checks equality between two values\n* The `!=` operator checks inequality between two values",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/equality.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/equality.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "==",
+     "=",
+     "!="
+    ],
+    "text": [
+     "This operator checks if two values are **equal**:\n",
+     0,
+     "\nThis operator **assigns** a value to a variable:\n",
+     0,
+     "\nThis operator checks if two values are **not equal**:\n",
      0
     ],
     "regexPositions": []
