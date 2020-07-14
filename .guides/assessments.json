@@ -2430,5 +2430,235 @@
     "regexPositions": []
    }
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1652823042",
+  "source": {
+   "name": "Identifying Arithmetic Operators",
+   "showName": true,
+   "instructions": "",
+   "text": "<<<*>>> is the operator for multiplication.\n<<<%>>> is the operator for modulo.\n<<</>>> is the operator for division.\nThe <<</>>> operator might return a result different from a calculator's if both numbers are `int`s.",
+   "guidance": "`*` is the operator for multiplication.\n`%` is the operator for modulo.\n`/` is the operator for division.\nThe `/` operator might return a result different from a calculator's if both numbers are `int`s.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/operators/labarithmetic.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/labarithmetic.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "*",
+     "%",
+     "/",
+     "/"
+    ],
+    "text": [
+     0,
+     " is the operator for multiplication.\n",
+     0,
+     " is the operator for modulo.\n",
+     0,
+     " is the operator for division.\nThe ",
+     0,
+     " operator might return a result different from a calculator's if both numbers are `int`s."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1446741928",
+  "source": {
+   "name": "String Operator",
+   "showName": true,
+   "instructions": "Which of the following **operators** can be used with strings?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "a9e093f6-64af-6f40-34a6-2d0098b78bd1",
+     "correct": true,
+     "answer": "`/`"
+    },
+    {
+     "_id": "bc7bbafb-5143-5d6c-010a-06af5d6d7c03",
+     "correct": false,
+     "answer": "`*`"
+    },
+    {
+     "_id": "3cdfdca2-fcbb-e60e-565d-4f560cee35f0",
+     "correct": false,
+     "answer": "`-`"
+    },
+    {
+     "_id": "68b1f5f5-4646-16e4-cf5d-c90a6194f343",
+     "correct": false,
+     "answer": "`+`"
+    }
+   ],
+   "guidance": "Only the `+` operator can be used with strings. It serves as the concatenation operator by merging two strings together.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/labstrings.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/labstrings.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1773163281",
+  "source": {
+   "name": "List the Order of Operations",
+   "showName": true,
+   "instructions": "Drag the blocks into the correct order of operations. ==**Note**== that you only have **ONE ATTEMPT** at this problem.\n\n**Hint:** You will not need all of the blocks but make sure that **each** operator is mentioned **once**!",
+   "initial": "Parentheses\nExponents\nMultiplication, Division, and Modulo\nAddition and Subtraction\nParentheses and Exponents  #distractor\nMultiplication and Division  #distractor\nModulo  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Order of operations starts with any expression(s) in parentheses. Next, the exponent(s) is calculated. Then multiplication, division, and modulo are calculated from left to right. Finally, addition and subtraction are calculated from left to right.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/operators/labPEMDAS.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/labPEMDAS.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2877360210",
+  "source": {
+   "name": "Evaluating Expressions with Mixed Operators",
+   "showName": true,
+   "instructions": "What is the results of the following expression?\n\n```c++\n! (5 != 3) && (5 % 3 >= 2)\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "3981c1de-95eb-a5d5-8b52-c50965bbd00f",
+     "correct": false,
+     "answer": "true"
+    },
+    {
+     "_id": "c4b2907e-a96d-f362-b024-09213d2ae470",
+     "correct": true,
+     "answer": "false"
+    }
+   ],
+   "guidance": "The first set of parentheses, `(5 != 3)`, evaluates to `true`. The second set of parentheses, `(5 % 3 >= 2)`, also evaluates to `true`. `! true && true` then becomes `false && true` which ultimately evaluates to `false`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/operators/labboolean.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/labboolean.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1266343318",
+  "source": {
+   "name": "Constructing Expressions Using Operators",
+   "showName": true,
+   "instructions": "Submit your code when you are ready.",
+   "command": "bash .guides/secure/operators/labchallenge.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/labchallenge.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/labchallenge.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

@@ -2,9 +2,9 @@
 
 ## Tutorial Lab 2: Strings
 
-You can use the `+` and `*` operators with strings, even though the result is not based on math. Using the `+` operator with strings is called concatenation.
+You can use the `+` operator with strings, even though the result is not based on math. Using the `+` operator with strings is called *concatenation*.
 
-Use the text editor open in the left pane, and enter the following code:
+Use the text editor on the left to enter the following code:
 
 ```c++
 string string1 = "hip ";
@@ -12,19 +12,19 @@ string string2 = string1 + string1;
 string string3 = "hoo";
 string string4 = "ray!";
 string string5 = string3 + string4;
-cout << string2 << endl;
+cout << string2;
 cout << string5 << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/operators/labstrings.cpp -o code/operators/labstrings ./code/operators/labstrings 1)
 
+Below are the steps that C++ takes when evaluating the code above.
+1) Assign the value `"hip "` to the variable `string1`. Note the inclusion of a space after the word `hip`.
+2) The variable `string2` will have the value of `"hip hip "` because `string1 + string1` repeats the value of `string1` two times.
+3) Declare `string3` and assign it the value of `"hoo"`.
+4) Declare `string4` and assign it the value of `"ray!"`.
+5) Declare `string5` and assign it the value of `string3` combined with the value of `string4` (`"hooray!"`).
+6) Print the value of `string2` (`"hip hip "`) without the newline character.
+7) Print the value of `string5` (`"hooray!"`) to the end of `string2`.
 
-1) Assign the value `"hip "` to the variable `string_1`. Note the inclusion of a space after the word `hip`.
-2) The variable `string_2` will have the value `"hip hip "` because `string_1 + string_1` repeats the value of `string_1` two times.
-3) Declare `string_3` and assign it the value `hoo`.
-4) Declare `string_4` and assign it the value `ray!`.
-5) Declare `string_5` and assign it the value of `string_3` combined with the value of `string_4` (`hooray!`).
-6) Print the value of `string_2` (`hip hip `) without the newline character.
-7) Print the value of `string_5` (`hooray!`) to the end of `string_2`.
-
-{Check It!|assessment}(multiple-choice-1823701392)
+{Check It!|assessment}(multiple-choice-1446741928)

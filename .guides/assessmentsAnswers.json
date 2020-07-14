@@ -349,5 +349,66 @@
    "active": null
   },
   "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1652823042",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-1446741928",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-1773163281",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-2877360210",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "test-1266343318",
+  "points": 0,
+  "results": [
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>cout << #your_code#;</code>",
+    "timestamp": 1594733135057,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using <code>cout << #your_code#;</code>",
+    "timestamp": 1594733093615,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using <code>cout << <your code>;</code>",
+    "timestamp": 1594733048007,
+    "state": "fail"
+   }
+  ]
  }
 ]
