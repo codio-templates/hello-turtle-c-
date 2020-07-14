@@ -3,11 +3,14 @@ using namespace std;
 
 int main() {
   
-  //add code below this line
+  //fix the code below this line
 
+  int a = 5;
+  string b = 9;
 
-
-  //add code above this line
+  //fix the code above this line
+  
+  cout << (a * 3 + b - 8 / 2) << endl;
   
   return 0;
   

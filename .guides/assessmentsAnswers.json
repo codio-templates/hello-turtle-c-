@@ -391,6 +391,447 @@
    {
     "guidance": null,
     "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>cout << boolalpha << (#your_expression#);</code>",
+    "timestamp": 1594753976426,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>cout << boolalpha << (#your_code#);</code>",
+    "timestamp": 1594753903774,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>cout << boolalpha << (#your_code#);</code>",
+    "timestamp": 1594747139334,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>cout << boolalpha << (#your_code#);</code>",
+    "timestamp": 1594746748657,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>cout << boolalpha << #your_code#;</code>",
+    "timestamp": 1594739194431,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>cout << boolalpha << #your_code#;</code>",
+    "timestamp": 1594738947755,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>cout << boolalpha << #your_code#;</code>",
+    "timestamp": 1594738587218,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594738568648,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputing the correct value. Instead of <code>false</code> it is outputting: \ntrue",
+    "timestamp": 1594738554848,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594738505299,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputing the correct value. Instead of <code>false</code> it is outputting: \ntrue",
+    "timestamp": 1594738488549,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594738471826,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputing the correct value. Instead of <code>false</code> it is outputting: \ntrue",
+    "timestamp": 1594738379656,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594738357441,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one greater than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594738339109,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one equality operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594738326617,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one equality operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594738303553,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one equality operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594738095198,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594738017788,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one greater than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737976963,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one greater than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737972528,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one greater than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737942117,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one greater than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737916825,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one less than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737826425,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one less than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737762606,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one less than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737728925,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737714795,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one less than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737699353,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one less than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737573607,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737522612,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "code/operators/labchallenge.cpp: In function ‘int main()’:\ncode/operators/labchallenge.cpp:8:74: error: invalid operands of types ‘bool’ and ‘<unresolved overloaded function type>’ to binary ‘operator<<’\n cout << boolalpha << (5 > 7) && (false || 1 > 9) || 4 != 5 && ! (2 >= 2) << endl;\n                                                               ~~~~~~~~~~~^~~~~~~\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above.",
+    "timestamp": 1594737507149,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "code/operators/labchallenge.cpp: In function ‘int main()’:\ncode/operators/labchallenge.cpp:8:74: error: invalid operands of types ‘bool’ and ‘<unresolved overloaded function type>’ to binary ‘operator<<’\n cout << boolalpha << (5 > 7) && (false || 1 > 9) || 4 != 5 && ! (2 >= 2) << endl;\n                                                               ~~~~~~~~~~~^~~~~~~\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above.",
+    "timestamp": 1594737477324,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one less than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737394899,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737383699,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737360780,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737310341,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one less than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737161906,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737106619,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one less than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737087524,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one less than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594737031205,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least one less than operator.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594736999820,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594736964086,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594736919508,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594736607897,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594736594688,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "Please incorporate at least two logical operators.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1594736476913,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594736458474,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594736453276,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594736158945,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594736156327,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594736056281,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "code/operators/labchallenge.cpp: In function ‘int main()’:\ncode/operators/labchallenge.cpp:12:3: error: expected ‘;’ before ‘return’\n   return 0;\n   ^~~~~~\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above.",
+    "timestamp": 1594736052393,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594736041752,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594736027352,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594735957231,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594735947227,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594735879439,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594735803256,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594735789024,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>cout << boolalpha << #your_code#;</code>",
+    "timestamp": 1594735712524,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "code/operators/labchallenge.cpp: In function ‘int main()’:\ncode/operators/labchallenge.cpp:12:3: error: expected ‘;’ before ‘return’\n   return 0;\n   ^~~~~~\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above.",
+    "timestamp": 1594735689899,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1594735612919,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputing the correct value. Instead of <code>false</code> it is outputting: \n0",
+    "timestamp": 1594733314390,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
     "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>cout << #your_code#;</code>",
     "timestamp": 1594733135057,
     "state": "fail"
@@ -410,5 +851,78 @@
     "state": "fail"
    }
   ]
+ },
+ {
+  "taskId": "test-1204552917",
+  "points": 0,
+  "results": [
+   {
+    "guidance": "The compilation bug is located on the following line:\n```c++\nstring b = 9;\n```\n\nThe bug is that `b` is declared as a `string` but is being assigned to `9` which is an `int`. To correct this, you would replace `string` with `int` which results in:\n```c++\nint b = 9;\n```\n",
+    "format": null,
+    "output": "code/operators/exercise1.cpp: In function ‘int main()’:\ncode/operators/exercise1.cpp:9:14: error: conversion from ‘int’ to non-scalar type ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ requested\n   string b = 9;\n              ^\ncode/operators/exercise1.cpp:13:18: error: no match for ‘operator+’ (operand types are ‘int’ and ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n            ~~~~~~^~~\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:400:5: note: candidate: template<class _Iterator> std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)\n     operator+(typename reverse_iterator<_Iterator>::difference_type __n,\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:400:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::reverse_iterator<_Iterator>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:1201:5: note: candidate: template<class _Iterator> std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)\n     operator+(typename move_iterator<_Iterator>::difference_type __n,\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:1201:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::move_iterator<_IteratorL>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5888:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5888:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:53:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.tcc:1157:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(const _CharT* __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.tcc:1157:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const _CharT*’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:53:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.tcc:1173:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.tcc:1173:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   deduced conflicting types for parameter ‘_CharT’ (‘int’ and ‘char’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5925:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5925:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5941:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5941:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5953:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5953:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5959:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5959:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5965:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5965:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5977:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(const _CharT* __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5977:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const _CharT*’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5983:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(_CharT __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5983:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   deduced conflicting types for parameter ‘_CharT’ (‘int’ and ‘char’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5989:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5989:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5995:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5995:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:972:5: note: candidate: template<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)\n     operator+(typename __normal_iterator<_Iterator, _Container>::difference_type\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:972:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above.",
+    "timestamp": 1594744316795,
+    "state": "fail"
+   },
+   {
+    "guidance": "The compilation bug is located on the following line:\n```c++\nstring b = 9;\n```\n\nThe bug is that `b` is declared as a `string` but is being assigned to `9` which is an `int`. To correct this, you would replace `string` with `int` which results in:\n```c++\nint b = 9;\n```\n",
+    "format": null,
+    "output": "<h3>Your code is error-free!</h3>\nNice work.",
+    "timestamp": 1594741521945,
+    "state": "pass"
+   },
+   {
+    "guidance": "The compilation bug is located on the following line:\n```c++\nstring b = 9;\n```\n\nThe bug is that `b` is declared as a `string` but is being assigned to `9` which is an `int`. To correct this, you would replace `string` with `int` which results in:\n```c++\nint b = 9;\n```\n",
+    "format": null,
+    "output": "<h3>Your code is error-free!</h3>\nNice work.",
+    "timestamp": 1594740930262,
+    "state": "pass"
+   },
+   {
+    "guidance": "The compilation bug is located on the following line:\n```c++\nstring b = 9;\n```\n\nThe bug is that `b` is declared as a `string` but is being assigned to `9` which is an `int`. To correct this, you would replace `string` with `int` which results in:\n```c++\nint b = 9;\n```\n",
+    "format": null,
+    "output": "code/operators/exercise1.cpp: In function ‘int main()’:\ncode/operators/exercise1.cpp:9:14: error: conversion from ‘int’ to non-scalar type ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ requested\n   string b = 9;\n              ^\ncode/operators/exercise1.cpp:13:18: error: no match for ‘operator+’ (operand types are ‘int’ and ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n            ~~~~~~^~~\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:400:5: note: candidate: template<class _Iterator> std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)\n     operator+(typename reverse_iterator<_Iterator>::difference_type __n,\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:400:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::reverse_iterator<_Iterator>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:1201:5: note: candidate: template<class _Iterator> std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)\n     operator+(typename move_iterator<_Iterator>::difference_type __n,\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:1201:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::move_iterator<_IteratorL>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5888:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5888:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:53:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.tcc:1157:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(const _CharT* __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.tcc:1157:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const _CharT*’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:53:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.tcc:1173:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.tcc:1173:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   deduced conflicting types for parameter ‘_CharT’ (‘int’ and ‘char’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5925:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5925:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5941:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5941:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5953:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5953:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5959:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5959:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5965:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5965:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5977:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(const _CharT* __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5977:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const _CharT*’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5983:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(_CharT __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5983:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   deduced conflicting types for parameter ‘_CharT’ (‘int’ and ‘char’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5989:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5989:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5995:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5995:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:972:5: note: candidate: template<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)\n     operator+(typename __normal_iterator<_Iterator, _Container>::difference_type\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:972:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above.",
+    "timestamp": 1594740890260,
+    "state": "fail"
+   },
+   {
+    "guidance": "The compilation bug is located on the following line:\n```\nstring b = 9;\n```\n\nThe bug is that `b` is declared as a `string` but is being assigned to `9` which is an `int`. To correct this, you would replace `string` with `int` which results in:\n```\nint b = 9;\n```\n",
+    "format": null,
+    "output": "code/operators/exercise1.cpp: In function ‘int main()’:\ncode/operators/exercise1.cpp:9:14: error: conversion from ‘int’ to non-scalar type ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ requested\n   string b = 9;\n              ^\ncode/operators/exercise1.cpp:13:18: error: no match for ‘operator+’ (operand types are ‘int’ and ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n            ~~~~~~^~~\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:400:5: note: candidate: template<class _Iterator> std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)\n     operator+(typename reverse_iterator<_Iterator>::difference_type __n,\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:400:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::reverse_iterator<_Iterator>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:1201:5: note: candidate: template<class _Iterator> std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)\n     operator+(typename move_iterator<_Iterator>::difference_type __n,\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:1201:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::move_iterator<_IteratorL>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5888:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5888:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:53:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.tcc:1157:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(const _CharT* __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.tcc:1157:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const _CharT*’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:53:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.tcc:1173:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.tcc:1173:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   deduced conflicting types for parameter ‘_CharT’ (‘int’ and ‘char’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5925:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5925:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5941:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5941:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5953:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5953:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5959:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5959:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5965:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5965:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5977:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(const _CharT* __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5977:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const _CharT*’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5983:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(_CharT __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5983:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   deduced conflicting types for parameter ‘_CharT’ (‘int’ and ‘char’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5989:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5989:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5995:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5995:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:972:5: note: candidate: template<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)\n     operator+(typename __normal_iterator<_Iterator, _Container>::difference_type\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:972:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above.",
+    "timestamp": 1594740866432,
+    "state": "fail"
+   },
+   {
+    "guidance": "The compilation bug is located on the following line:\n```\nstring b = 9;\n```\n\nThe bug is that `b` is declared as a `string` but is being assigned to `9` which is an `int`. To correct this, you would replace `string` with `int` which results in:\n```\nint b = 9;\n```\n",
+    "format": null,
+    "output": "code/operators/exercise1.cpp: In function ‘int main()’:\ncode/operators/exercise1.cpp:9:14: error: conversion from ‘int’ to non-scalar type ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ requested\n   string b = 9;\n              ^\ncode/operators/exercise1.cpp:13:18: error: no match for ‘operator+’ (operand types are ‘int’ and ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n            ~~~~~~^~~\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:400:5: note: candidate: template<class _Iterator> std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)\n     operator+(typename reverse_iterator<_Iterator>::difference_type __n,\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:400:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::reverse_iterator<_Iterator>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:1201:5: note: candidate: template<class _Iterator> std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)\n     operator+(typename move_iterator<_Iterator>::difference_type __n,\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:1201:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::move_iterator<_IteratorL>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5888:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5888:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:53:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.tcc:1157:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(const _CharT* __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.tcc:1157:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const _CharT*’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:53:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.tcc:1173:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.tcc:1173:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   deduced conflicting types for parameter ‘_CharT’ (‘int’ and ‘char’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5925:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5925:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5941:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5941:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5953:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5953:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5959:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5959:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5965:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5965:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5977:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(const _CharT* __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5977:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘const _CharT*’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5983:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)\n     operator+(_CharT __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5983:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   deduced conflicting types for parameter ‘_CharT’ (‘int’ and ‘char’)\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5989:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5989:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/string:52:0,\n                 from /usr/include/c++/7/bits/locale_classes.h:40,\n                 from /usr/include/c++/7/bits/ios_base.h:41,\n                 from /usr/include/c++/7/ios:42,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/basic_string.h:5995:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)\n     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n     ^~~~~~~~\n/usr/include/c++/7/bits/basic_string.h:5995:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   mismatched types ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\nIn file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,\n                 from /usr/include/c++/7/bits/char_traits.h:39,\n                 from /usr/include/c++/7/ios:40,\n                 from /usr/include/c++/7/ostream:38,\n                 from /usr/include/c++/7/iostream:39,\n                 from code/operators/exercise1.cpp:1:\n/usr/include/c++/7/bits/stl_iterator.h:972:5: note: candidate: template<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)\n     operator+(typename __normal_iterator<_Iterator, _Container>::difference_type\n     ^~~~~~~~\n/usr/include/c++/7/bits/stl_iterator.h:972:5: note:   template argument deduction/substitution failed:\ncode/operators/exercise1.cpp:13:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’\n   cout << (a * 3 + b - 8 / 2) << endl;\n                    ^\n</br><hr/><h3>Your code has compilation errors!</h3>\nTry correcting the errors listed above.",
+    "timestamp": 1594740759036,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "test-951636893",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "test-590390460",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "test-3810335824",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "test-588799791",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-3680746899",
+  "points": 0,
+  "results": []
  }
 ]

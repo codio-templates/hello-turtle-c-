@@ -2631,7 +2631,7 @@
   "source": {
    "name": "Constructing Expressions Using Operators",
    "showName": true,
-   "instructions": "Submit your code when you are ready.",
+   "instructions": "When your code is ready, click the button below to check your work.",
    "command": "bash .guides/secure/operators/labchallenge.sh",
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
@@ -2654,6 +2654,257 @@
       "type": "file",
       "panelNumber": 0,
       "content": "code/operators/labchallenge.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1204552917",
+  "source": {
+   "name": "Compilation Error",
+   "showName": true,
+   "instructions": "When you have fixed the compilation error, click the button below to check your work.",
+   "command": "bash .guides/secure/compiles.sh code/operators/exercise1.cpp",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The compilation bug is located on the following line:\n```c++\nstring b = 9;\n```\n\nThe bug is that `b` is declared as a `string` but is being assigned to `9` which is an `int`. To correct this, you would replace `string` with `int` which results in:\n```c++\nint b = 9;\n```\n",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/exercise1.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/exercise1.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-951636893",
+  "source": {
+   "name": "Run-Time Error",
+   "showName": true,
+   "instructions": "When you have fixed the run-time error, click the button below to submit your work for grading.\n\n**==Note==** that you should **NOT** have changed anything outside of the code comment lines (`//`). Otherwise, you will not receive any credit for your work. Select `Restore current files` from the gear icon in the top-right to restore the code file.",
+   "command": "bash .guides/secure/operators/exercise1.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The following will solve the code:\n```\nint a = 4;\nint b = 9;\n```\n\nBut there are other valid solutions! Can you find another one?",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/exercise1.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/exercise1.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-590390460",
+  "source": {
+   "name": "Operators: Exercise 2",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/operators/exercise2.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Here are a few sample solutions:\n\n```\ncout << boolalpha << ( 5 == 4 ) << endl;\ncout << boolalpha << ( ! (5 < 8 && 6 >= 2) ) << endl;\ncout << boolalpha << ( 5 > 8 || 6 < 2 );\n```\n\nNote that the `<< endl` command is optional.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/exercise2.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/exercise2.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3810335824",
+  "source": {
+   "name": "Operators: Exercise 3",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/operators/exercise3.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The variable names can be anything you want. One needs to contain the string `Hello` and the other `world`. Don’t forget that there also needs to be a space separating the two words. To print both variables using just one `cout <<` statement, use the `+` operator to concatenate the strings.\n```c++\nstring a = \"Hello \";\nstring b = \"world\";\ncout << (a + b) << endl;\n```\n\nNote that the `<< endl` command is optional. In addition, the `()` surrounding the variables are also optional.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/exercise3.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/exercise3.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-588799791",
+  "source": {
+   "name": "Operators: Exercise 4",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/operators/exercise4.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Below are a few sample solutions.\n\nYou can either declare one or both of the variables as `double`s:\n```c++\ndouble seven = 7.0;\ndouble two = 2.0;\ncout << ( seven / two ) << endl;\n```\n\nOr you can type cast one or both of the variables:\n```c++\nint seven = 7;\nint two = 2;\ncout << ( (double) seven / (double) two ) << endl;\n```\n\nAlternatively, you can convert `string` variables to doubles:\n```c++\nstring seven = \"7\";\nstring two = \"2\";\ncout << ( stod(seven) / stod(two) );\n```\n\nNote that the `<< endl` command is optional.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/exercise4.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/exercise4.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3680746899",
+  "source": {
+   "name": "Operators: Exercise 5",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "./code/operators/exercise5",
+   "preExecuteCommand": "g++ code/operators/exercise5.cpp -o code/operators/exercise5",
+   "guidance": "Your friend is attempting to add strings, but the `+` operator concatenates them! To solve this, you need to use `stoi()` to convert the user's string inputs to `int`s. Here is one sample solution:\n```c++\nint sum = stoi(num1) + stoi(num2);\ncout << ( num1 + \" + \" + num2 + \" = \" + to_string(sum) ) << endl;\n```\nYou might have noticed that you need to convert `sum` into a `string` using `to_string()` before it can be printed appropriately to the console.\n\nAlternatively, you can also use additional `<<`s to separate data of different types before they are printed:\n```c++\nint sum = stoi(num1) + stoi(num2);\ncout << ( num1 + \" + \" + num2 + \" = \" ) << sum << endl;\n```\n\nFor better code output, it is recommended that the program include `<< endl`, however, it is optional.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "5\n4",
+     "output": "9",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "1\n7",
+     "output": "8",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "3\n4",
+     "output": "7",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/exercise5.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/exercise5.cpp"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
      }
     ]
    },
