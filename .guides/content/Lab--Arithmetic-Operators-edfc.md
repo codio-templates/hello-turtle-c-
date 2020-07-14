@@ -24,6 +24,7 @@ cout << 10 % 3 << endl;
 
 {Try it}(sh .guides/bg.sh g++ code/operators/labarithmetic.cpp -o code/operators/labarithmetic ./code/operators/labarithmetic 1)
 
+Program results:
 1) Addition works as expected.
 2) Subtraction works as expected.
 3) Multiplication works as expected.

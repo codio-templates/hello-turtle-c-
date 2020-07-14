@@ -1069,7 +1069,7 @@
   },
   {
    "id": "3116a160-c52f-39e4-eab6-555de4df417b",
-   "title": "Lab: Order of Operators",
+   "title": "Lab: Order of Operations",
    "files": [
     {
      "path": "#tabs",
@@ -1084,7 +1084,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab--Order-of-Operators-3116.md",
+   "content-file": ".guides/content/Lab--Order-of-Operations-3116.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
