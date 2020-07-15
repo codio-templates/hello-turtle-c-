@@ -1,6 +1,6 @@
 #!/bin/sh
 
-g++ code/operators/exercise3.cpp 
+g++ code/operators/exercise3.cpp -o code/operators/exercise3
 
 if [ $? -ne 0 ]; then 
   echo "</br><hr/><h3>Your code has compilation errors!</h3>"
