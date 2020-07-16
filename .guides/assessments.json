@@ -3270,5 +3270,41 @@
    "bloomsObjectiveLevel": "4",
    "learningObjectives": "SWBAT discover a solution to a program by demonstrating their understanding of arithmetic operators and data type conversions"
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1884977588",
+  "source": {
+   "name": "If Statement Syntax",
+   "showName": true,
+   "instructions": "Rearrange the code blocks below to create an `if` statement that prints a string if the boolean expression is `true` and then prints **another** string that's **not** associated with the `if` statement.\n\n**Hint:** Not all of the code blocks will be used and **remember** to indent any command(s) that is associated with the `if` statement by dragging it slightly to the *right*.",
+   "initial": "if (7 != 4) {\n  cout << \"Only print me if true\" << endl;\n}\ncout << \"Always print me\" << endl;\nif 7 != 4 {           #distractor\nif (7 != 4)           #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Remember that the **three** main components of an `if` statement are:\n1. The keyword `if`.\n2. A boolean expression inside `()`.\n3. An indented command(s) inside `{}` that runs if the boolean expression is `true`.\n\n**Note** that commands not associated with an `if` statement should go outside of the `{}` and should not be indented.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/conditionals/ifsyntax.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/ifsyntax.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
