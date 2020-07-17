@@ -1,7 +1,7 @@
 ---
 
 ## Strings
-A string is a collection of text, numbers, or symbols. Strings are always surrounded by quotation marks. `TRY IT` below.
+A string is a collection of text, numbers, or symbols. Strings are always surrounded by quotation marks. Copy the code below and `TRY IT`.
 
 ```c++
 string words = "This is a string.";

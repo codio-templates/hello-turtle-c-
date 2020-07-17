@@ -29,7 +29,7 @@ Here are the rules for naming a variable.
 
 |Rule|Correct|Incorrect|
 |----|-------|---------|
-|Start with a letter, dollar sign or underscore|`variable`, `$variable`, `_variable`|`1variable`|
+|Start with a letter or underscore|`variable`, `_variable`|`1variable`|
 |Remainder of variable name is letters, numbers, or underscores|`var_i_able`, `var1able`|`var-i-able`, `var!able`|
 |Cannot use a C++ keyword|`my_class`|`class`|
 |Variables are case sensitive|`variable`, `Variable`, and `VARIABLE` are all different variables|

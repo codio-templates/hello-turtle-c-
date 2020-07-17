@@ -74,8 +74,8 @@
   "source": {
    "name": "Printing: Reading Question 2",
    "showName": true,
-   "instructions": "Which of the following commands add(s) a newline character?",
-   "multipleResponse": false,
+   "instructions": "Select **all** of the following commands that add a newline character?",
+   "multipleResponse": true,
    "answers": [
     {
      "_id": "511429d1-04e7-fb14-8bca-4e2a57b4c0b5",
@@ -84,21 +84,16 @@
     },
     {
      "_id": "6002f3ab-939e-2597-75ad-0bb122ac51bf",
-     "correct": false,
+     "correct": true,
      "answer": "`cout << \"Hello\" << endl;`"
     },
     {
      "_id": "52cae018-0d06-be3a-99b4-7e159fb9d4cc",
-     "correct": false,
-     "answer": "`cout << \"Hello\";`\n`cout << endl;`"
-    },
-    {
-     "_id": "a798c604-c627-4f2a-21c8-1c79811217cb",
      "correct": true,
-     "answer": "Both choices #2 and #3 are correct."
+     "answer": "`cout << \"Hello\";`\n`cout << endl;`"
     }
    ],
-   "guidance": "Both #2 and #3 will produce the same output. `Hello` will be printed followed by a newline character.",
+   "guidance": "Both choices #2 and #3 are correct and will produce the same output. `Hello` will be printed followed by a newline character.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -712,10 +707,10 @@
    "name": "Declaring, Initializing, and Assigning Variables",
    "showName": true,
    "instructions": "Construct a program that initializes the variable <code>my_var</code> to 5 and prints it out. \n\nThen, re-assigns <code>my_var</code> to 10 and prints it out.\n\nThe output of the code you are constructing looks like:\n```c++\n5\n10\n```\n\n**You will not need to use all of the blocks.**",
-   "initial": "int my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\nint my_var = 10;           #distractor\ndouble my_var = 5;           #distractor\nmy_var = 5;           #distractor\nmy_var = \"10\";           #distractor",
+   "initial": "int my_var = 5;\ncout << my_var << endl;\nmy_var = 10;\ncout << my_var << endl;\nint my_var = 10;                         #distractor\nmy_var = 5;              #distractor\nmy_var = \"10\";              #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "You will use an `int` instead of a double since 5 and 10 are whole numbers.\n\nYou cannot assign a string (`\"10\"`) to an `int`.\n\nYou do not need to re-declare when you reassign (`int my_var = 10;`).",
+   "guidance": "You will need to declare and assign the appropriate data type and variable to `5` first.\n\nYou cannot assign a string (`\"10\"`) to an `int`.\n\nYou cannot re-declare a variable when you reassign (`int my_var = 10;`).",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -783,7 +778,7 @@
      "answer": "-1-variable-"
     }
    ],
-   "guidance": "Here are the basic rules for variable names: \n1. Start with a letter, dollar sign, or underscore\n2. Remainder of variable name is letters, numbers, or underscores\n3. Cannot use a C++ keyword\n4. Variables are case sensitive",
+   "guidance": "Here are the basic rules for variable names: \n1. Start with a letter or underscore\n2. Remainder of variable name is letters, numbers, or underscores\n3. Cannot use a C++ keyword\n4. Variables are case sensitive",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -863,7 +858,7 @@
     {
      "_id": "fc02caa7-5b54-e879-bc59-a8824f7377a7",
      "correct": true,
-     "answer": "boolean"
+     "answer": "bool"
     },
     {
      "_id": "a9c6d9c1-c36e-25ef-797c-364ba83256c1",
@@ -871,7 +866,7 @@
      "answer": "bits"
     }
    ],
-   "guidance": "The four basic data types that you have learned so far are:\n- int - integers (no decimal)\n- double - numbers with a decimal\n- boolean - true or false\n- string - collections of letters, numbers, and symbols",
+   "guidance": "The four basic data types that you have learned so far are:\n- int - integers (no decimal)\n- double - numbers with a decimal\n- bool - true or false (boolean)\n- string - collections of letters, numbers, and symbols",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -1228,7 +1223,7 @@
    "instructions": "Submit your code when you are ready.",
    "command": "./code/fundamentals/exercise4",
    "preExecuteCommand": "g++ code/fundamentals/exercise4.cpp -o code/fundamentals/exercise4",
-   "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\n**You would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.**",
+   "guidance": "You can separate your declaration and initialization onto two lines.\n\n```c++\ndouble my_double = 3.14;\ncout << my_double << endl;\nmy_double = number; \ncout << my_double << endl;\n```\n\nYou would have gotten credit for excluding the `<< endl` commands. However, since spacing matters for the presentation of doubles, you should get into the habit of including newlines in your code.",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,

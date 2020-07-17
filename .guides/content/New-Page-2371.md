@@ -1,7 +1,7 @@
 ---
 
 ## Printing without the Newline Character
-The `cout` command does not add a newline character. The code below will print the two words on the same line without a space. Click the `TRY IT` button below to see the output.
+The `cout` command does not add a newline character. The code below will print the two words on the same line without a space. Copy the code below into the text editor on the left and then click the `TRY IT` button below to see the output.
 
 ```c++
 cout << "Hello";
@@ -22,7 +22,7 @@ Add a second line by using the `cout << endl;` command under `"cout << "world!";
 cout << "Hello";
 cout << "world!";
 cout << endl;
-cout << "My name is Codio." << endl);
+cout << "My name is Codio." << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/fundamentals/tryit2.cpp -o code/fundamentals/tryit2 ./code/fundamentals/tryit2 2)
@@ -31,7 +31,7 @@ cout << "My name is Codio." << endl);
 ## What happens if you:
 * Add a `space` after `Hello` and before the closing `"`
 * Add `<< endl;` after `cout << "Hello ";`
-* Delete `cout << endl` under `cout << "world!";`
+* Delete `cout << endl;` under `cout << "world!";`
 
 |||
 
