@@ -3301,5 +3301,57 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-864536125",
+  "source": {
+   "name": "Test Coverage",
+   "showName": true,
+   "instructions": "Which of the following code segments does **not** test for all possible variable values?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "03d3a2d9-cca2-c3cb-d29a-a39856b27e46",
+     "correct": false,
+     "answer": "```c++\nif (probability < .1) {\n  cout << \"That's improbable!\" << endl;\n}\nif (probability < .5 && probability >= .1) {\n  cout << \"That's unlikely!\" << endl; \n}\nif (probability >= .5) {\n  cout << \"That's a good chance!\" << endl; \n}\n```"
+    },
+    {
+     "_id": "615020b6-4a2d-9bc4-f1ae-040587f542c4",
+     "correct": true,
+     "answer": "```c++\nif (age < 18) {\n  cout << \"You are too young to vote.\" << endl; \n}\nif (age > 18) {\n  cout << \"You can vote!\" << endl;\n}\n```"
+    },
+    {
+     "_id": "887edee9-59a6-62e9-64ab-ffe73a221f13",
+     "correct": false,
+     "answer": "```c++\nif (chartPosition <= 10) {\n  cout << \"You made it into the top 10 songs!\" << endl; \n}\nif (chartPosition > 10) {\n  cout << \"Better luck next week.\" << endl; \n}\n```"
+    }
+   ],
+   "guidance": "Choice #2 does not account for `age` that's **equal** to `18`.\n```c++\nif (age < 18) {\n  cout << \"You are too young to vote.\" << endl; \n}\nif (age > 18) {\n  cout << \"You can vote!\" << endl;\n}\n```\n\nTo include all possible values for `age`, revise the fourth line of the code to:\n```c++\nif (age >= 18) {\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/conditionals/if.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/if.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

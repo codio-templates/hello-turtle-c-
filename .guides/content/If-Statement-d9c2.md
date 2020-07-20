@@ -2,32 +2,32 @@
 
 ## If Statement
 
-If statements test to see if a certain condition is true. If yes, then a specific commands are run. The simple if statement does not do anything if the boolean expression is false.
+`if` statements test to see if a certain condition is true. If yes, then specific commands are run. The simple `if` statement does not do anything if the boolean expression is false.
 
 ```c++
-if (7 != 10){
-    System.out.println("The above statement is true");
-    System.out.println("The above statement is still true");
+if (7 != 10) {
+    cout << "The above statement is true" << endl;
+    cout << "The above statement is still true" << endl;
 }
-System.out.println("This is not related to the if statement");
+cout << "This is not related to the if statement" << endl;
 ```
-
-[Code Visualizer](open_tutor code/conditionals/PlaygroundIf.java)
 
 {Try it}(sh .guides/bg.sh g++ code/conditionals/if.cpp -o code/conditionals/if ./code/conditionals/if 1)
 
+[Code Visualizer](open_tutor code/conditionals/if.cpp)
+
 |||challenge
 ## What happens if you:
-* Change `!=` to `==`?
-* Change `7 == 10` to `true`?
-* Change `true` to `false`?
-* Remove the curly braces `{}` with the condition set to `false`?
+* Change `!=` in the code above to `==`?
+* Change `7 != 10` in the code above to `true`?
+* Change `7 != 10` in the code above to `false`?
+* Remove the curly braces `{}` with the condition set to `if (false)`?
 
 |||
 
-[Code Visualizer](open_tutor code/conditionals/PlaygroundIf.java)
-
 {Try it}(sh .guides/bg.sh g++ code/conditionals/if.cpp -o code/conditionals/if ./code/conditionals/if 2)
+
+[Code Visualizer](open_tutor code/conditionals/if.cpp)
 
 ## Testing Multiple Cases
 
@@ -36,12 +36,12 @@ You will find yourself needing to test the same variable multiple times. Be sure
 ```c++
 int grade = 90;
 
-if(grade > 70) {
-    System.out.println("Congrats, you passed the class");
+if (grade > 70) {
+    cout << "Congrats, you passed the class" << endl;
 }
     
-if(grade < 70){
-    System.out.println("Condolences, you did not pass the class");
+if (grade < 70) {
+    cout << "Condolences, you did not pass the class" << endl;
 }
 ```
 
@@ -51,14 +51,14 @@ if(grade < 70){
 
 |||challenge
 ## What happens if you:
-* Change `grade` to `60`?
-* Change `grade` to `70`?
-* Change `grade > 70` to `grade >= 70`?
+* Assign `int grade` to `60`?
+* Assign `int grade` to `70`?
+* Change `grade > 70` in the code above to `grade >= 70`?
 
 |||
 
-[Code Visualizer](open_tutor code/conditionals/PlaygroundIf.java)
-
 {Try it}(sh .guides/bg.sh g++ code/conditionals/if.cpp -o code/conditionals/if ./code/conditionals/if 4)
 
-{Check It!|assessment}(multiple-choice-952800372)
+[Code Visualizer](open_tutor code/conditionals/if.cpp)
+
+{Check It!|assessment}(multiple-choice-864536125)
