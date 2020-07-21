@@ -32,9 +32,9 @@ You can end the comment with a star(*) followed by a forward slash(/).
 //You can also do a multi-line comment
 //like this!
     
-cout << "Notice how the comments above are lightly faded."
-cout << "Most IDEs automatically lighten the comments."
-cout << "This is a common feature known as syntax highlighting."
+cout << "Notice how the comments above are lightly faded.";
+cout << "Most IDEs automatically lighten the comments.";
+cout << "This is a common feature known as syntax highlighting.";
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/fundamentals/comments.cpp -o code/fundamentals/comments ./code/fundamentals/comments 3)

@@ -3306,9 +3306,9 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-864536125",
   "source": {
-   "name": "Test Coverage",
+   "name": "Variable Test Coverage",
    "showName": true,
-   "instructions": "Which of the following code segments does **not** test for all possible variable values?",
+   "instructions": "Which of the following code segments does **NOT** test for all possible variable values?",
    "multipleResponse": false,
    "answers": [
     {
@@ -3352,6 +3352,171 @@
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-388923030",
+  "source": {
+   "name": "Compound Conditional vs. Nested If Statement",
+   "showName": true,
+   "instructions": "Why might you want to use a **compound conditional** over a **nested** `if` statement?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "742ffe64-b2a3-1982-2bbb-19ca54b4f386",
+     "correct": false,
+     "answer": "If a conditional has to be false."
+    },
+    {
+     "_id": "3b2d3054-68d4-5f79-2da5-25aee694a4a4",
+     "correct": false,
+     "answer": "If less than two conditionals have to be true."
+    },
+    {
+     "_id": "f24c5b87-3fda-a366-e21b-05245f4e6160",
+     "correct": false,
+     "answer": "If you want an `if` statement *inside* another `if` statement."
+    },
+    {
+     "_id": "5d7e9335-7087-cb08-6f6b-a1e4b2d2c3e8",
+     "correct": true,
+     "answer": "If you want your code to be more concise and easier to read."
+    }
+   ],
+   "guidance": "A **compound conditional** and a **nested** `if` statement both allow you to test two or more things to be true. However, compound conditionals tend to have fewer lines of code and are generally easier to read.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/conditionals/compoundconditionals.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/compoundconditionals.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3747129976",
+  "source": {
+   "name": "If Statement",
+   "showName": true,
+   "instructions": "Which of the following is **false** regarding `if` statements?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "d23213cf-ce0a-1b8d-822a-1bb057e5aae6",
+     "correct": false,
+     "answer": "Allows a program to make decisions about what to do."
+    },
+    {
+     "_id": "e0b420d0-7f3e-a780-c286-44420415430c",
+     "correct": false,
+     "answer": "Allows a specific command(s) to run if the boolean expression is true."
+    },
+    {
+     "_id": "6fde84c4-d1df-735c-c115-01759d7f0b26",
+     "correct": true,
+     "answer": "Allows a specific command(s) to run if the boolean expression is false."
+    },
+    {
+     "_id": "295caa9e-3446-82c4-c6f5-de2012bd4937",
+     "correct": false,
+     "answer": "Includes the keyword `if`, a boolean expression inside `()`, and a command(s) to run within `{}`."
+    }
+   ],
+   "guidance": "Choice #3 is false. The program will skip *all* commands within `{}` if the boolean expression evaluates to `false`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2050311025",
+  "source": {
+   "name": "Even or Odd?",
+   "showName": true,
+   "instructions": "Complete the `if` statement below so that it will determine if the variable `num` is even or odd.",
+   "text": "`if <<<(>>>num%2==0<<<)>>> <<<{>>>`\n`cout << \"Even\" << endl;`\n`<<<}>>>`\n`if <<<(>>>num%2==1<<<)>>> <<<{>>>`\n`cout << \"Odd\" << endl;`\n`<<<}>>>`",
+   "guidance": "",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "(",
+     ")",
+     "{",
+     "}",
+     "(",
+     ")",
+     "{",
+     "}"
+    ],
+    "text": [
+     "`if ",
+     0,
+     "num%2==0",
+     0,
+     " ",
+     0,
+     "`\n`cout << \"Even\" << endl;`\n`",
+     0,
+     "`\n`if ",
+     0,
+     "num%2==1",
+     0,
+     " ",
+     0,
+     "`\n`cout << \"Odd\" << endl;`\n`",
+     0,
+     "`"
+    ],
+    "regexPositions": []
+   }
   }
  }
 ]

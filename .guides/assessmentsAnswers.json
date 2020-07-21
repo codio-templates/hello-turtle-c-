@@ -953,20 +953,32 @@
   "taskId": "multiple-choice-864536125",
   "points": 0,
   "state": {
-   "active": "887edee9-59a6-62e9-64ab-ffe73a221f13"
+   "active": null
   },
-  "results": [
-   {
-    "guidance": "Choice #2 does not account for `age` that's **equal** to `18`.\n```c++\nif (age < 18) {\n  cout << \"You are too young to vote.\" << endl; \n}\nif (age > 18) {\n  cout << \"You can vote!\" << endl;\n}\n```\n\nTo include all possible values for `age`, revise the third line of the code to:\n```c++\nif (age >= 18) {\n```",
-    "current": [
-     "887edee9-59a6-62e9-64ab-ffe73a221f13"
-    ],
-    "right": [
-     "615020b6-4a2d-9bc4-f1ae-040587f542c4"
-    ],
-    "timestamp": 1595282718696,
-    "state": "fail"
-   }
-  ]
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-388923030",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-3747129976",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-2050311025",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
  }
 ]

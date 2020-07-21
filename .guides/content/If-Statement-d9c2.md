@@ -6,8 +6,8 @@
 
 ```c++
 if (7 != 10) {
-    cout << "The above statement is true" << endl;
-    cout << "The above statement is still true" << endl;
+  cout << "The above statement is true" << endl;
+  cout << "The above statement is still true" << endl;
 }
 cout << "This is not related to the if statement" << endl;
 ```
@@ -31,17 +31,17 @@ cout << "This is not related to the if statement" << endl;
 
 ## Testing Multiple Cases
 
-You will find yourself needing to test the same variable multiple times. Be sure that you set up your conditionals to test **all** possible values of the variable.
+You will find yourself needing to test the same variable multiple times. Be sure that you set up your conditionals to test *all* possible values of the variable.
 
 ```c++
 int grade = 90;
 
 if (grade > 70) {
-    cout << "Congrats, you passed the class" << endl;
+  cout << "Congrats, you passed the class" << endl;
 }
     
 if (grade < 70) {
-    cout << "Condolences, you did not pass the class" << endl;
+  cout << "Condolences, you did not pass the class" << endl;
 }
 ```
 
