@@ -3467,8 +3467,8 @@
    "name": "Even or Odd?",
    "showName": true,
    "instructions": "Complete the `if` statement below so that it will determine if the variable `num` is even or odd.",
-   "text": "`if <<<(>>>num%2==0<<<)>>> <<<{>>>`\n`cout << \"Even\" << endl;`\n`<<<}>>>`\n`if <<<(>>>num%2==1<<<)>>> <<<{>>>`\n`cout << \"Odd\" << endl;`\n`<<<}>>>`",
-   "guidance": "",
+   "text": "`if <<<(>>>num%2==0<<<)>>> <<<{>>>`\n<code>&nbsp;&nbsp;cout << \"Even\" << endl;</code>\n`<<<}>>>`\n`if <<<(>>>num%2==1<<<)>>> <<<{>>>`\n<code>&nbsp;&nbsp;cout << \"Odd\" << endl;</code>\n`<<<}>>>`",
+   "guidance": "The boolean expression is enclosed within `()` while the command is enclosed within `{}`.\n```c++\nif (num%2==0) {\n  cout << \"Even\" << endl;\n}\nif (num%2==1) {\n  cout << \"Odd\" << endl;\n}\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -3503,7 +3503,7 @@
      0,
      " ",
      0,
-     "`\n`cout << \"Even\" << endl;`\n`",
+     "`\n<code>&nbsp;&nbsp;cout << \"Even\" << endl;</code>\n`",
      0,
      "`\n`if ",
      0,
@@ -3511,12 +3511,69 @@
      0,
      " ",
      0,
-     "`\n`cout << \"Odd\" << endl;`\n`",
+     "`\n<code>&nbsp;&nbsp;cout << \"Odd\" << endl;</code>\n`",
      0,
      "`"
     ],
     "regexPositions": []
    }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2227929766",
+  "source": {
+   "name": "If Else Syntax",
+   "showName": true,
+   "instructions": "Select **all** of the following that are true regarding an `if-else` statement.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "86a84146-a8f9-91c9-88dc-f105f6a4dc75",
+     "correct": false,
+     "answer": "Indentation affects how the code runs."
+    },
+    {
+     "_id": "eb5448ff-b514-adfb-fc80-4de06a132ca1",
+     "correct": true,
+     "answer": "You need to use curly braces `{}` after both the `if` and the `else` keywords to group code that is conditionally executed."
+    },
+    {
+     "_id": "ba202d17-848c-cb11-0121-9dccfff88afd",
+     "correct": true,
+     "answer": "The `else` condition does not have a boolean expression within parentheses `()` following it."
+    },
+    {
+     "_id": "3ef7b5a5-677b-c095-610f-bb229ee14cdf",
+     "correct": false,
+     "answer": "The `else` condition has empty parentheses `()` following it."
+    }
+   ],
+   "guidance": "C++ uses curly braces `{}` to group code commands. While indention is helpful, it does not affect how the program runs. Instead, you need to use curly braces to tell C++ what code to run in both the true condition (after the `if`) and the false condition (after the `else`).\n\nAdditionally, because `else` is associated with the `false` condition, it does not need its own boolean expression. Nor does it need parentheses.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/conditionals/ifelsesyntax.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/ifelsesyntax.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  }
 ]
