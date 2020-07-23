@@ -360,11 +360,23 @@
  },
  {
   "taskId": "multiple-choice-1446741928",
-  "points": 0,
+  "points": 1,
   "state": {
-   "active": null
+   "active": "68b1f5f5-4646-16e4-cf5d-c90a6194f343"
   },
-  "results": []
+  "results": [
+   {
+    "guidance": "Only the `+` operator can be used with strings. It serves as the concatenation operator by merging two strings together.",
+    "current": [
+     "68b1f5f5-4646-16e4-cf5d-c90a6194f343"
+    ],
+    "right": [
+     "68b1f5f5-4646-16e4-cf5d-c90a6194f343"
+    ],
+    "timestamp": 1595526050246,
+    "state": "pass"
+   }
+  ]
  },
  {
   "taskId": "parsons-puzzle-1773163281",
@@ -932,7 +944,15 @@
  {
   "taskId": "test-588799791",
   "points": 0,
-  "results": []
+  "results": [
+   {
+    "guidance": "Below are a few sample solutions.\n\nYou can either declare one or both of the variables as `double`s:\n```c++\ndouble seven = 7.0;\ndouble two = 2.0;\ncout << ( seven / two ) << endl;\n```\n\nOr you can type cast one or both of the variables:\n```c++\nint seven = 7;\nint two = 2;\ncout << ( (double) seven / (double) two ) << endl;\n```\n\nAlternatively, you can convert `string` variables to doubles:\n```c++\nstring seven = \"7\";\nstring two = \"2\";\ncout << ( stod(seven) / stod(two) );\n```\n\nNote that the `<< endl` command is optional.",
+    "format": null,
+    "output": "Make sure you assign and use the variables appropriately.\n</br><hr/><h3>Something is not quite right...</h3>\nYour output is correct but see the comments above to ensure you are following the assignment guidelines.",
+    "timestamp": 1595529178705,
+    "state": "fail"
+   }
+  ]
  },
  {
   "taskId": "code-output-compare-3680746899",
@@ -983,6 +1003,64 @@
  },
  {
   "taskId": "multiple-choice-2227929766",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-2567094564",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-506485594",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-4142274840",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-2585797860",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-823392985",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-3575830610",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-3084879757",
   "points": 0,
   "state": {
    "active": null

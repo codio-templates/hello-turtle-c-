@@ -1522,7 +1522,7 @@
   },
   {
    "id": "242d866f-4842-3d7c-a611-e26be9f50f20",
-   "title": "Switch Case vs. If Else",
+   "title": "Switch Case vs. Else If",
    "files": [
     {
      "path": "#tabs",
@@ -1537,7 +1537,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Switch-Case-vs--If-Else-242d.md",
+   "content-file": ".guides/content/Switch-Case-vs--Else-If-242d.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

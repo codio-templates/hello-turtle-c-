@@ -2,7 +2,7 @@
 
 ## Short Circuiting
 
-If Java can determine the result of a boolean expression before evaluating the entire thing, it will stop and return the value.
+If C++ can determine the result of a boolean expression before evaluating the entire thing, it will stop and return the value.
 
 ![.guides/img/ShortCircuiting](.guides/img/ShortCircuiting.png)
 

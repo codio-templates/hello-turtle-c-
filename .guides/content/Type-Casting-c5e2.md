@@ -84,5 +84,3 @@ You can convert the string `"3.14"` to an integer using `stoi()` which will resu
 |||
 
 {Check It!|assessment}(parsons-puzzle-3531725666)
-
-{Try it}(sh .guides/bg.sh g++ code/operators/casting.cpp -o code/operators/casting ./code/operators/casting 6)

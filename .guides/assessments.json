@@ -2526,8 +2526,8 @@
    "name": "Evaluating ! Expressions",
    "showName": true,
    "instructions": "Evaluate the two expressions below using either **lowercase** `true` or `false`.",
-   "text": "`5 != 4` returns <<<true>>>.\n`! 5 == 4` returns <<<true>>>.",
-   "guidance": "Both expressions evaluate to `true`. In the second case, `5 == 4` first evaluates to `false` and then `! false` evaluates to `true`.",
+   "text": "`(5 != 4)` returns <<<true>>>.\n`(! (5 == 4))` returns <<<true>>>.",
+   "guidance": "Both expressions evaluate to `true`. In the second case, `(5 == 4)` first evaluates to `false` and then `(! (false))` evaluates to `true`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -2570,9 +2570,9 @@
      "true"
     ],
     "text": [
-     "`5 != 4` returns ",
+     "`(5 != 4)` returns ",
      0,
-     ".\n`! 5 == 4` returns ",
+     ".\n`(! (5 == 4))` returns ",
      0,
      "."
     ],
@@ -2730,7 +2730,7 @@
    "answers": [
     {
      "_id": "a9e093f6-64af-6f40-34a6-2d0098b78bd1",
-     "correct": true,
+     "correct": false,
      "answer": "`/`"
     },
     {
@@ -2745,7 +2745,7 @@
     },
     {
      "_id": "68b1f5f5-4646-16e4-cf5d-c90a6194f343",
-     "correct": false,
+     "correct": true,
      "answer": "`+`"
     }
    ],
@@ -2840,7 +2840,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-2877360210",
   "source": {
-   "name": "Evaluating Expressions with Mixed Operators",
+   "name": "Evaluating Mixed Operations",
    "showName": true,
    "instructions": "What is the results of the following expression?\n\n```c++\n! (5 != 3) && (5 % 3 >= 2)\n```",
    "multipleResponse": false,
@@ -3358,7 +3358,7 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-388923030",
   "source": {
-   "name": "Compound Conditional vs. Nested If Statement",
+   "name": "Compound If vs. Nested If",
    "showName": true,
    "instructions": "Why might you want to use a **compound conditional** over a **nested** `if` statement?",
    "multipleResponse": false,
@@ -3371,7 +3371,7 @@
     {
      "_id": "3b2d3054-68d4-5f79-2da5-25aee694a4a4",
      "correct": false,
-     "answer": "If less than two conditionals have to be true."
+     "answer": "If there is no boolean expression to evaluate."
     },
     {
      "_id": "f24c5b87-3fda-a366-e21b-05245f4e6160",
@@ -3571,6 +3571,360 @@
       "content": "code/conditionals/ifelsesyntax.cpp"
      }
     ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2567094564",
+  "source": {
+   "name": "If Else Even or Odd",
+   "showName": true,
+   "instructions": "Dragging and dropping the code blocks below, construct a program that determines whether the variable `num` is even or odd. **Remember** to **indent** where appropriate or you will not receive any credit for your work.\n\n==**Note**== that you only have **ONE ATTEMPT** at this problem.",
+   "initial": "if (num % 2 == 0) {\n  cout << \"Even\" << endl;\n}\nelse {\n    cout << \"Odd\" << endl;\n}",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/conditionals/ifelse.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/ifelse.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-506485594",
+  "source": {
+   "name": "Debugging If Else",
+   "showName": true,
+   "instructions": "What is wrong with the code below?\n\n**Hint:** There is more than one correct answer.\n\n```c++\nif 3 > 4 {\n  cout << \"true\" << endl;\nelse\n  cout << \"false\" << endl;\n}\n```",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "ed9d1262-50f7-934d-7354-2563befbddad",
+     "correct": true,
+     "answer": "Parentheses `()` are missing around the boolean expression after the `if` keyword.\n"
+    },
+    {
+     "_id": "34bb00f5-8b34-6e13-8895-e5800e552722",
+     "correct": true,
+     "answer": "A closing curly brace `}` is missing before the `else` keyword.\n"
+    },
+    {
+     "_id": "c31016bb-a156-6e97-c2a8-9e16b0f73785",
+     "correct": false,
+     "answer": "Parentheses `()` are missing after the `else` keyword."
+    },
+    {
+     "_id": "32f72284-dcf8-147a-e259-e528f09c2fc8",
+     "correct": true,
+     "answer": "An open curly brace `{` is missing after the `else` keyword."
+    }
+   ],
+   "guidance": "The correct code should look like this:\n```c++\nif (3 > 4) {\n  cout << \"true\" << endl;\n}\nelse {\n  cout << \"false\" << endl;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4142274840",
+  "source": {
+   "name": "Nested If Else",
+   "showName": true,
+   "instructions": "Your voice assistant device gives helpful information based on certain weather conditions that are present. The code that programs your voice assistant is below:\n```c++\nif (rainy) {\n  if (windy) {\n    cout << \"Wear a rain jacket.\" << endl;\n  }\n  else {\n    cout << \"Bring an umbrella!\" << endl;\n  }\n}\nelse {\n  if (cold) {\n    cout << \"You might need a coat.\" << endl;\n  }\n  else {\n    cout << \"Enjoy your day!\" << endl;\n  }\n}\n```\nWhat would your device say to you if the weather is windy but **not** rainy and **not** cold?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "af443be8-e2e7-5aa5-6ee8-891a694b644a",
+     "correct": false,
+     "answer": "\"Wear a rain jacket.\""
+    },
+    {
+     "_id": "43ee469f-2932-ff41-ba4e-74b17f2801a3",
+     "correct": false,
+     "answer": "\"Bring an umbrella!\""
+    },
+    {
+     "_id": "dc498e16-13ea-66be-f6bc-4179005291eb",
+     "correct": false,
+     "answer": "\"You might need a coat.\""
+    },
+    {
+     "_id": "df2bb02a-a895-4c99-23cc-46ba774d233f",
+     "correct": true,
+     "answer": "\"Enjoy your day!\""
+    }
+   ],
+   "guidance": "Although the `if (windy)` condition is present in the code, it is nested within the `if (rainy)` condition. That means the `if (windy)` condition can't be executed unless the `if (rainy)` condition is true. Since `if (rainy)` is false, the system skips down to the *outer* `else` statement. Also, since the weather is **not** cold, the second nested *inner* `else` statement is executed and thus `\"Enjoy your day!\"` is provided to you by the device.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2585797860",
+  "source": {
+   "name": "Switch Case Syntax",
+   "showName": true,
+   "instructions": "Which of the following code snippets has the correct `switch case` syntax?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "91b4ee25-de38-9983-fd49-a4374a15f758",
+     "correct": false,
+     "answer": "```c++\nstring num = \"two\";\nint number;\nswitch num:\n  case \"one\": number = 1;\n  case \"two\": number = 2;\n  case \"three\": number = 3;\n  default: number = -1;\n```"
+    },
+    {
+     "_id": "b82c1d23-0a8a-dd97-8a69-9158df8fa089",
+     "correct": false,
+     "answer": "```c++\nstring num = \"two\";\nint number;\nswitch num:\n    case \"one\": number = 1; break;\n    case \"two\": number = 2; break;\n    case \"three\": number = 3; break;\n    default: number = -1;\n```"
+    },
+    {
+     "_id": "7487e7b5-df14-b081-7c5a-1120544abd3f",
+     "correct": false,
+     "answer": "```c++\nstring num = \"two\";\nint number;\nswitch (num) {\n    case \"one\": number = 1;\n    case \"two\": number = 2;\n    case \"three\": number = 3;\n    default: number = -1;\n}\n```"
+    },
+    {
+     "_id": "7d9e33c8-db5e-7ee8-3f0d-8d9d9f05b4f8",
+     "correct": true,
+     "answer": "```c++\nString num = \"two\";\nint number;\nswitch (num) {\n    case \"one\": number = 1; break;\n    case \"two\": number = 2; break;\n    case \"three\": number = 3; break;\n    default: number = -1;\n}\n```"
+    }
+   ],
+   "guidance": "The following rules need to be met:\n\n`switch (num) { `\nThe `switch` keyword is followed by the variable in parentheses `()`. The `case` statements are surrounded by a set of curly braces `{}`.\n\n`case \"one\": number = 1; break;`\nEach `case` keyword is followed by a value and a colon `:`. A `break;` goes after the command to run if the variable == the case value and before the next case.\n\n`default: number = -1;`\nIt is best practice to have the final case be `default`. Since it is the final case, it does not need a `break;` statement.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/conditionals/switchsyntax.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/switchsyntax.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-823392985",
+  "source": {
+   "name": "Switch Case Usage",
+   "showName": true,
+   "instructions": "Which of the following would a `switch case` statement be **best** used for?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "cc52a6e5-9b82-4389-d27d-4b513125bba1",
+     "correct": true,
+     "answer": "Providing feedback to customers over the phone based on the number they press on their keypad."
+    },
+    {
+     "_id": "3f9afd02-1c09-4b4d-a2dd-ec1dae5d68d1",
+     "correct": false,
+     "answer": "Generating ranges of ages of people who work within a company."
+    },
+    {
+     "_id": "43bda315-c633-2bb3-f58e-af6454ae62f9",
+     "correct": false,
+     "answer": "Using a car's mileage to determine what services it needs."
+    }
+   ],
+   "guidance": "Choices #2 and #3 both require ranges of values for a particular variable to be tested. Thus, an `else if` statement is better for those situations.\n\nA `switch case` statement would work well in the phone example (choice #1) since the customers can only press 10 different buttons with values that do not change.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/conditionals/switch.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/switch.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3575830610",
+  "source": {
+   "name": "Switch Case Key Words",
+   "showName": true,
+   "instructions": "Select the correct key words to make the code below a valid `switch case` statement.",
+   "text": "```c++\n<<<switch>>> (years) {\n  <<<case>>> 5: cout << \"5 year award\"; <<<break>>>;\n  <<<case>>> 10: cout << \"10 year award\"; <<<break>>>;\n  <<<case>>> 20: cout << \"20 year award\"; <<<break>>>;\n  <<<case>>> 30: cout << \"30 year award\"; <<<break>>>;\n  default: cout << \"You are not eligible for a longevity award this year\";\n}\n```",
+   "guidance": "```c++\nswitch (years) {\n  case 5: cout << \"5 year award\"; break;\n  case 10: cout << \"10 year award\"; break;\n  case 20: cout << \"20 year award\"; break;\n  case 30: cout << \"30 year award\"; break;\n  default: cout << \"You are not eligible for a longevity award this year\";\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "switch",
+     "case",
+     "break",
+     "case",
+     "break",
+     "case",
+     "break",
+     "case",
+     "break"
+    ],
+    "text": [
+     "```c++\n",
+     0,
+     " (years) {\n  ",
+     0,
+     " 5: cout << \"5 year award\"; ",
+     0,
+     ";\n  ",
+     0,
+     " 10: cout << \"10 year award\"; ",
+     0,
+     ";\n  ",
+     0,
+     " 20: cout << \"20 year award\"; ",
+     0,
+     ";\n  ",
+     0,
+     " 30: cout << \"30 year award\"; ",
+     0,
+     ";\n  default: cout << \"You are not eligible for a longevity award this year\";\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3084879757",
+  "source": {
+   "name": "Switch Case with Pennies",
+   "showName": true,
+   "instructions": "You are programming a children's game where the most \"money\" they can hold is 4 pennies. Select **all** of the code snippets below that are **valid** for printing out a full list of store items the player can afford to buy based on the number of `pennies` they have.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "d178e34e-84e7-50bb-4f4a-81464477feda",
+     "correct": true,
+     "answer": "```c++\nswitch (pennies) {\n  case 1: cout << \"Marble (1 penny)\"; break;\n  case 2: cout << \"Pet rock (2 pennies)\";\n          cout << \"Marble (1 penny)\"; break;    \n  case 3: cout << \"Jump rope (3 pennies)\";\n          cout << \"Pet rock (2 pennies)\";\n          cout << \"Marble (1 penny)\"; break; \n  case 4: cout << \"Goldfish (4 pennies)\";\n          cout << \"Jump rope (3 pennies)\";\n          cout << \"Pet rock (2 pennies)\";\n          cout << \"Marble (1 penny)\"; break; \n default: cout << \"More pennies needed!\";\n}\n```"
+    },
+    {
+     "_id": "a843afc6-f5c3-e7b1-0aaa-80e79b46e4ca",
+     "correct": false,
+     "answer": "```c++\nswitch (pennies) {\n    case 1: cout << \"Marble (1 penny)\";\n    case 2: cout << \"Pet rock (2 pennies)\";\n    case 3: cout << \"Jump rope (3 pennies)\";\n    case 4: cout << \"Goldfish (4 pennies)\"; break; \n   default: cout << \"More pennies needed!\";\n}\n```"
+    },
+    {
+     "_id": "3c0bdb6c-f5da-39b0-8450-213949669c16",
+     "correct": true,
+     "answer": "```c++\nswitch (pennies) {\n    case 4: cout << \"Goldfish (4 pennies)\";\n    case 3: cout << \"Jump rope (3 pennies)\";\n    case 2: cout << \"Pet rock (2 pennies)\";\n    case 1: cout << \"Marble (1 penny)\"; break;\n    default: cout << \"More pennies needed!\";\n}\n```"
+    },
+    {
+     "_id": "9683ec3f-3c53-625e-1800-c9421958f781",
+     "correct": false,
+     "answer": "```c++\nswitch (pennies) {\n    case 4: cout << \"Goldfish (4 pennies)\"; break;\n    case 3: cout << \"Jump rope (3 pennies)\"; break;\n    case 2: cout << \"Pet rock (2 pennies)\"; break;\n    case 1: cout << \"Marble (1 penny)\"; break;\n    default: cout << \"More pennies needed!\";\n}\n```"
+    }
+   ],
+   "guidance": "Choices #1 & #3 will correctly list all of the items that the player is eligible to buy. They produce the exact same results.\n\nChoice #2 will tell the player what they can get with the *exact* number of pennies in addition to the items that they cannot buy. This happens because there is only 1 `break` statement and it occurs in `case 4`. First the system will match the variable's value to the case's value. It will run that case and continue to run until it sees a `break` or it reaches the end of the `switch case`.\n\nChoice #4 will only tell the player the *one* item they can get with the *exact* number of pennies that they have.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""

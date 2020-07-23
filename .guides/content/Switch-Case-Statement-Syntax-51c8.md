@@ -2,58 +2,57 @@
 
 ## Swith Case Statement Syntax
 
-The switch case is a way to make a decision with multiple outcomes. Instead of nesting or sequencing many if statements, Java allows you to write the following:
+The `switch case` statement is a way to make a decision with multiple possible outcomes. Instead of nesting or sequencing many `if` statements, C++ allows you to write the following:
 
-![.guides/img/switch-case](.guides/img/switch-case.png)
+![.guides/img/SwitchCase](.guides/img/SwitchCase.png)
 
 Here are the rules for writing a switch case statement:
 
-* Start with `switch` followed by the variable that is going to be tested in parentheses `()`
-* All of the `case`s are surrounded by curly braces `{}`
-* Each `case` is followed by a value (numeric or String) and a colon `:`
-* After each `:` write the code that should run if the variable is equal to that value
-* After each section of code, include `break;`
-* As the very last case, use `default:` and specify what should happen if none of the above cases are true
+* Start with `switch` followed by the variable that is going to be tested in parentheses `()`.
+* All of the `case`s are surrounded by a set curly braces `{}`.
+* Each `case` is followed by a value (numeric or string) and a colon `:`.
+* After each `:`, write the code that should run if the variable is equal to that case's value.
+* After each section of code per case, include `break;`.
+* As the very last case, use `default:` to specify what should happen if none of the above cases are true.
 
 ```c++
 int dayOfWeek = 3;
 
-switch(dayOfWeek) {
+switch (dayOfWeek) {
 
-    case 1: System.out.print("Sunday"); //only prints if dayOfWeek == 1
-                 break;
-    case 2: System.out.print("Monday"); //only prints if dayOfWeek == 2
-                 break;
-    case 3: System.out.print("Tuesday"); //only prints if dayOfWeek == 3
-                 break;
-    case 4: System.out.print("Wednesday"); //only prints if dayOfWeek == 4
-                 break;
-    case 5: System.out.print("Thursday"); //only prints if dayOfWeek == 5
-                 break;
-    case 6: System.out.print("Friday"); //only prints if dayOfWeek == 6
-                 break;
-    case 7: System.out.print("Saturday"); //only prints if dayOfWeek == 7
-                 break;
-    default : System.out.print("Invalid"); //only prints if none of the above are true
+  case 1: cout << "Sunday"; //only prints if dayOfWeek == 1
+          break;
+  case 2: cout << "Monday"; //only prints if dayOfWeek == 2
+          break;
+  case 3: cout << "Tuesday"; //only prints if dayOfWeek == 3
+          break;
+  case 4: cout << "Wednesday"; //only prints if dayOfWeek == 4
+          break;
+  case 5: cout << "Thursday"; //only prints if dayOfWeek == 5
+          break;
+  case 6: cout << "Friday"; //only prints if dayOfWeek == 6
+          break;
+  case 7: cout << "Saturday"; //only prints if dayOfWeek == 7
+          break;
+  default: cout << "Invalid"; //only prints if none of the above are true
     
 }
 ```
 
-[Code Visualizer](open_tutor code/conditionals/PlaygroundSwitchSyntax.java)
-
 {Try it}(sh .guides/bg.sh g++ code/conditionals/switchsyntax.cpp -o code/conditionals/switchsyntax ./code/conditionals/switchsyntax 1)
+
+[Code Visualizer](open_tutor code/conditionals/switchsyntax.cpp)
 
 |||challenge
 ## What happens if you:
-* Change `dayOfWeek` to `5`?
-* Change `dayOfWeek` to `0`?
-* Change `dayOfWeek` to `3` and remove all the `break` statements?
+* Assign `dayOfWeek` to `5`?
+* Assign `dayOfWeek` to `0`?
+* Assign `dayOfWeek` to `3` and remove all of the `break;` statements?
 
 |||
 
-[Code Visualizer](open_tutor code/conditionals/PlaygroundSwitchSyntax.java)
-
 {Try it}(sh .guides/bg.sh g++ code/conditionals/switchsyntax.cpp -o code/conditionals/switchsyntax ./code/conditionals/switchsyntax 2)
 
+[Code Visualizer](open_tutor code/conditionals/switchsyntax.cpp)
 
-{Check It!|assessment}(multiple-choice-3356521837)
+{Check It!|assessment}(multiple-choice-2585797860)
