@@ -663,49 +663,207 @@
      "title": "For Loops",
      "id": "e33df704-bd6b-ed60-eb08-d0d1d6f5442f",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "4f1dda43-1c40-8581-ff7e-2e74a41eb836",
+       "title": "Learning Objectives: For Loops",
+       "pageId": "edd73506-e3f9-e3c4-8a59-737573cc471e",
+       "type": "page"
+      },
+      {
+       "id": "be015891-04ae-9a50-8245-f2228620cd94",
+       "title": "For Loops",
+       "pageId": "b9e6adb0-d640-16b7-1993-68da34d923fd",
+       "type": "page"
+      },
+      {
+       "id": "7a59f75f-1516-c0df-2aa0-41e71bd8b716",
+       "title": "Turtle Graphics",
+       "pageId": "9fe49c03-a45a-4156-8df1-9586c60248ba",
+       "type": "page"
+      },
+      {
+       "id": "eed1edd0-345c-fc71-de83-3a0ee1f08718",
+       "title": "Turtle Coding: For Loop",
+       "pageId": "b38cc31a-f92d-adf0-32a7-5713979b0788",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: For Loops",
      "id": "a374aaa8-f11f-eb80-a59b-d9fc6f8e6227",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "1be0d189-8b12-4b1c-8284-64aea3bddc34",
+       "title": "Formative Assessment 1",
+       "pageId": "ef84e106-d22f-29d3-7335-b6972c0704c0",
+       "type": "page"
+      },
+      {
+       "id": "1be458ca-fa78-ca75-3a70-6b44d2cd66b9",
+       "title": "Formative Assessment 2",
+       "pageId": "88551a49-9c27-de91-11a0-c01dffe1725c",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "While Loops",
      "id": "b974d90a-9dca-04e1-905b-d4aea303b7c7",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "8132be4f-b5c7-250c-e0f0-90c8ec30883c",
+       "title": "Learning Objectives: While Loops",
+       "pageId": "9b1bb52e-e21f-78be-5288-561fcba7a9d3",
+       "type": "page"
+      },
+      {
+       "id": "881b2691-8975-7270-f9b8-9b75edaa2d54",
+       "title": "While Loops",
+       "pageId": "2f691dd2-fa34-ff38-2822-8c0e06a65aca",
+       "type": "page"
+      },
+      {
+       "id": "75cd9dbd-543f-b745-f147-41c999c23e4f",
+       "title": "Turtle Coding: While Loop",
+       "pageId": "060e5ec3-71a3-6e25-d0c0-86bd709cb1f3",
+       "type": "page"
+      },
+      {
+       "id": "2e9806d5-4213-c9cb-b54c-30e5a03f1650",
+       "title": "Break Statement",
+       "pageId": "769e0d0a-ec3a-0cc4-eca8-95f828a7101b",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: While Loops",
      "id": "0e52e0c0-bfe1-6716-1f9c-6e7a34332260",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "2380ff19-e6e4-dd45-fc69-d7daba4e2dc1",
+       "title": "Formative Assessment 1",
+       "pageId": "5567bc95-7875-b21f-eb4a-98466368e815",
+       "type": "page"
+      },
+      {
+       "id": "25294ae1-f8de-35cc-ea71-7148b0259077",
+       "title": "Formative Assessment 2",
+       "pageId": "84c7f052-3473-037f-6177-b3424f26b091",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Nested Loops",
      "id": "df446ad6-1086-1cf1-2c08-acc247544167",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "dee4c106-0742-e114-063f-cab8388a7571",
+       "title": "Learning Objectives: Nested Loops",
+       "pageId": "39978b3a-0146-b292-82b2-f1d4b207da80",
+       "type": "page"
+      },
+      {
+       "id": "b6961acc-3bea-b53d-606e-fc0555c0884c",
+       "title": "Nested Loops",
+       "pageId": "88a50afd-b4bf-e72b-ad11-fde7d8eda83a",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: Nested Loops",
      "id": "ccfadb6e-bd77-0af9-f845-3c41e0cc37ca",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "8c4fc54e-f105-88df-8909-363cb1f4861d",
+       "title": "Formative Assessment 1",
+       "pageId": "fd4d387d-5c8c-4efc-4a4a-a89e045440f3",
+       "type": "page"
+      },
+      {
+       "id": "e1d6c4e5-fa76-9523-3018-9ca6495dbcf7",
+       "title": "Formative Assessment 2",
+       "pageId": "36f7b98d-a28b-e313-7841-397515c042fa",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Lab: Loops",
      "id": "5bc0a35b-e0f2-b241-84d8-5360e22ede59",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "2ea4db75-b3e2-4e3a-6583-06aa0372bdbc",
+       "title": "Lab: For Loop",
+       "pageId": "7ff13376-a853-9dc6-dffd-56986f39a318",
+       "type": "page"
+      },
+      {
+       "id": "f245f44b-39e5-2857-4154-d7c7f0dc2d03",
+       "title": "Lab: While Loop",
+       "pageId": "a4335bcf-7d22-65cc-da90-9caf1ea62342",
+       "type": "page"
+      },
+      {
+       "id": "ebf9b6c9-fea6-57e0-5043-22fe41bf43dd",
+       "title": "Lab: Break Statement",
+       "pageId": "9eca4fdd-4982-4eb8-dd05-f536f9f9959d",
+       "type": "page"
+      },
+      {
+       "id": "8a257631-747f-65fe-3f6a-71ca20aabfb2",
+       "title": "Lab Challenge: Chessboard",
+       "pageId": "74b7904f-22ba-2fa4-9999-ed62b0dfe1d9",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Coding Exercises: Loops",
      "id": "ec61e0b1-9822-2b84-645c-bf0cebbd5b4d",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "a0bc70fb-1612-86ec-0f88-afb7d5aca9b4",
+       "title": "Exercise 1",
+       "pageId": "0eba1ce7-6832-e7a5-7d60-21167a5e2b1d",
+       "type": "page"
+      },
+      {
+       "id": "8018a0bd-8148-120b-5718-f3903560c162",
+       "title": "Exercise 2",
+       "pageId": "37c192c4-9b2c-729a-9267-66eb0f692b42",
+       "type": "page"
+      },
+      {
+       "id": "f4523df9-d91d-a56c-4542-7e324d8ddfc2",
+       "title": "Exercise 3",
+       "pageId": "a787e886-1183-428b-be62-95c87c0c5c7a",
+       "type": "page"
+      },
+      {
+       "id": "7e19e871-2805-9617-883c-4edb6d5f09cb",
+       "title": "Exercise 4",
+       "pageId": "3944fc89-da43-efb4-85b6-e9c8e11c4307",
+       "type": "page"
+      },
+      {
+       "id": "9d6587f0-a763-00d9-2bef-fb95fc439486",
+       "title": "Exercise 5",
+       "pageId": "ac69dd61-5de2-757a-93b4-eb4c1b7e1b8d",
+       "type": "page"
+      }
+     ]
     }
    ]
   },
