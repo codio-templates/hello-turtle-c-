@@ -3272,8 +3272,8 @@
   "source": {
    "name": "If Statement Syntax",
    "showName": true,
-   "instructions": "Rearrange the code blocks below to create an `if` statement that prints a string if the boolean expression is `true` and then prints **another** string that's **not** associated with the `if` statement.\n\n**Hint:** Not all of the code blocks will be used and **remember** to indent any command(s) that is associated with the `if` statement by dragging it slightly to the *right*.",
-   "initial": "if (7 != 4) {\n  cout << \"Only print me if true\" << endl;\n}\ncout << \"Always print me\" << endl;\nif 7 != 4 {           #distractor\nif (7 != 4)           #distractor",
+   "instructions": "Rearrange the code blocks below to create an `if` statement that prints a string if the boolean expression is `true` and then prints **another** string that's **not** associated with the `if` statement.\n\n**Hint:** Not all of the code blocks will be used and **remember** to **indent** any command(s) that is associated with the `if` statement by dragging it slightly to the *right*.",
+   "initial": "if (7 != 4) {\n  cout << \"Only print me if true\" << endl;\n}\ncout << \"Always print me\" << endl;\nif 7 != 4 {             #distractor\nif (7 != 4)             #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "Remember that the **three** main components of an `if` statement are:\n1. The keyword `if`.\n2. A boolean expression inside `()`.\n3. An indented command(s) inside `{}` that runs if the boolean expression is `true`.\n\n**Note** that commands not associated with an `if` statement should go outside of the `{}` and should not be indented.",
@@ -3285,6 +3285,18 @@
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "If Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [
@@ -3298,8 +3310,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using if statement syntax"
   }
  },
  {
@@ -3337,6 +3349,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "If Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [
@@ -3350,8 +3374,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT explain how to test multiple conditions with if statements"
   }
  },
  {
@@ -3394,6 +3418,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Compound If Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [
@@ -3407,8 +3443,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT recall the benefits of using if statements with compound conditionals"
   }
  },
  {
@@ -3451,13 +3487,25 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "If Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT define the syntax for if statements"
   }
  },
  {
@@ -3478,13 +3526,25 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "If Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT define the syntax for if statements",
    "tokens": {
     "blank": [
      "(",
@@ -3559,6 +3619,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "If-Else Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [
@@ -3572,29 +3644,41 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT define if-else statement syntax"
   }
  },
  {
   "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-2567094564",
   "source": {
-   "name": "If Else Even or Odd",
+   "name": "If, Else If, and Else",
    "showName": true,
-   "instructions": "Dragging and dropping the code blocks below, construct a program that determines whether the variable `num` is even or odd. **Remember** to **indent** where appropriate or you will not receive any credit for your work.\n\n==**Note**== that you only have **ONE ATTEMPT** at this problem.",
-   "initial": "if (num % 2 == 0) {\n  cout << \"Even\" << endl;\n}\nelse {\n    cout << \"Odd\" << endl;\n}",
-   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "instructions": "Construct a program that determines whether the variable `num` is even, odd, or invalid by rearranging the code blocks below. **Remember** to **indent** where appropriate!",
+   "initial": "if (num % 2 == 0) {\n  cout << \"Even\" << endl;\n}\nelse if (num % 2 == 1) {\n  cout << \"Odd\" << endl;\n}\nelse {\n  cout << \"Invalid\" << endl;\n}",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
    "grader": "1",
    "guidance": "",
    "showGuidanceAfterResponse": true,
    "points": 1,
-   "oneTimeTest": true,
+   "oneTimeTest": false,
    "metadata": {
     "tags": [
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "If-Else Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [
@@ -3608,8 +3692,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT organize code within if-else statement syntax"
   }
  },
  {
@@ -3652,13 +3736,25 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "If-Else Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT recall if-else statement syntax"
   }
  },
  {
@@ -3701,13 +3797,25 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Nested If-Else Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine the output of if-else statements"
   }
  },
  {
@@ -3722,25 +3830,25 @@
     {
      "_id": "91b4ee25-de38-9983-fd49-a4374a15f758",
      "correct": false,
-     "answer": "```c++\nstring num = \"two\";\nint number;\nswitch num:\n  case \"one\": number = 1;\n  case \"two\": number = 2;\n  case \"three\": number = 3;\n  default: number = -1;\n```"
+     "answer": "```c++\nint num = 2;\nint number;\nswitch num:\n  case 1: number = 1;\n  case 2: number = 2;\n  case 3: number = 3;\n  default: number = -1;\n```"
     },
     {
      "_id": "b82c1d23-0a8a-dd97-8a69-9158df8fa089",
      "correct": false,
-     "answer": "```c++\nstring num = \"two\";\nint number;\nswitch num:\n    case \"one\": number = 1; break;\n    case \"two\": number = 2; break;\n    case \"three\": number = 3; break;\n    default: number = -1;\n```"
+     "answer": "```c++\nint num = 2;\nint number;\nswitch num:\n    case 1: number = 1; break;\n    case 2: number = 2; break;\n    case 3: number = 3; break;\n    default: number = -1;\n```"
     },
     {
      "_id": "7487e7b5-df14-b081-7c5a-1120544abd3f",
      "correct": false,
-     "answer": "```c++\nstring num = \"two\";\nint number;\nswitch (num) {\n    case \"one\": number = 1;\n    case \"two\": number = 2;\n    case \"three\": number = 3;\n    default: number = -1;\n}\n```"
+     "answer": "```c++\nint num = 2;\nint number;\nswitch (num) {\n    case 1: number = 1;\n    case 2: number = 2;\n    case 3: number = 3;\n    default: number = -1;\n}\n```"
     },
     {
      "_id": "7d9e33c8-db5e-7ee8-3f0d-8d9d9f05b4f8",
      "correct": true,
-     "answer": "```c++\nString num = \"two\";\nint number;\nswitch (num) {\n    case \"one\": number = 1; break;\n    case \"two\": number = 2; break;\n    case \"three\": number = 3; break;\n    default: number = -1;\n}\n```"
+     "answer": "```c++\nint num = 2;\nint number;\nswitch (num) {\n    case 1: number = 1; break;\n    case 2: number = 2; break;\n    case 3: number = 3; break;\n    default: number = -1;\n}\n```"
     }
    ],
-   "guidance": "The following rules need to be met:\n\n`switch (num) { `\nThe `switch` keyword is followed by the variable in parentheses `()`. The `case` statements are surrounded by a set of curly braces `{}`.\n\n`case \"one\": number = 1; break;`\nEach `case` keyword is followed by a value and a colon `:`. A `break;` goes after the command to run if the variable == the case value and before the next case.\n\n`default: number = -1;`\nIt is best practice to have the final case be `default`. Since it is the final case, it does not need a `break;` statement.",
+   "guidance": "The following rules need to be met:\n\n`switch (num) { `\nThe `switch` keyword is followed by the variable in parentheses `()`. The `case` statements are surrounded by a set of curly braces `{}`.\n\n`case 1: number = 1; break;`\nEach `case` keyword is followed by a value and a colon `:`. A `break;` goes after the command to run if the variable == the case value and before the next case.\n\n`default: number = -1;`\nIt is best practice to have the final case be `default`. Since it is the final case, it does not need a `break;` statement.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -3750,6 +3858,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Switch Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [
@@ -3763,8 +3883,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT define switch statement syntax"
   }
  },
  {
@@ -3802,6 +3922,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Switch Statements & If-Else Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [
@@ -3815,8 +3947,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine the appropriate scenarios to use switch statements"
   }
  },
  {
@@ -3837,13 +3969,25 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Switch Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT recall switch statement syntax",
    "tokens": {
     "blank": [
      "switch",
@@ -3893,22 +4037,22 @@
     {
      "_id": "d178e34e-84e7-50bb-4f4a-81464477feda",
      "correct": true,
-     "answer": "```c++\nswitch (pennies) {\n  case 1: cout << \"Marble (1 penny)\"; break;\n  case 2: cout << \"Pet rock (2 pennies)\";\n          cout << \"Marble (1 penny)\"; break;    \n  case 3: cout << \"Jump rope (3 pennies)\";\n          cout << \"Pet rock (2 pennies)\";\n          cout << \"Marble (1 penny)\"; break; \n  case 4: cout << \"Goldfish (4 pennies)\";\n          cout << \"Jump rope (3 pennies)\";\n          cout << \"Pet rock (2 pennies)\";\n          cout << \"Marble (1 penny)\"; break; \n default: cout << \"More pennies needed!\";\n}\n```"
+     "answer": "```c++\nswitch (pennies) {\n  case 1: cout << \"Marble (1 penny)\" << endl; \n          break;\n  case 2: cout << \"Pet rock (2 pennies)\" << endl;\n          cout << \"Marble (1 penny)\" << endl; \n          break;    \n  case 3: cout << \"Jump rope (3 pennies)\" << endl;\n          cout << \"Pet rock (2 pennies)\" << endl;\n          cout << \"Marble (1 penny)\" << endl; \n          break; \n  case 4: cout << \"Goldfish (4 pennies)\" << endl;\n          cout << \"Jump rope (3 pennies)\" << endl;\n          cout << \"Pet rock (2 pennies)\" << endl;\n          cout << \"Marble (1 penny)\" << endl; \n          break; \n default: cout << \"More pennies needed!\" << endl;\n}\n```"
     },
     {
      "_id": "a843afc6-f5c3-e7b1-0aaa-80e79b46e4ca",
      "correct": false,
-     "answer": "```c++\nswitch (pennies) {\n    case 1: cout << \"Marble (1 penny)\";\n    case 2: cout << \"Pet rock (2 pennies)\";\n    case 3: cout << \"Jump rope (3 pennies)\";\n    case 4: cout << \"Goldfish (4 pennies)\"; break; \n   default: cout << \"More pennies needed!\";\n}\n```"
+     "answer": "```c++\nswitch (pennies) {\n    case 1: cout << \"Marble (1 penny)\" << endl;\n    case 2: cout << \"Pet rock (2 pennies)\" << endl;\n    case 3: cout << \"Jump rope (3 pennies)\" << endl;\n    case 4: cout << \"Goldfish (4 pennies)\" << endl; \n            break; \n   default: cout << \"More pennies needed!\" << endl;\n}\n```"
     },
     {
      "_id": "3c0bdb6c-f5da-39b0-8450-213949669c16",
      "correct": true,
-     "answer": "```c++\nswitch (pennies) {\n    case 4: cout << \"Goldfish (4 pennies)\";\n    case 3: cout << \"Jump rope (3 pennies)\";\n    case 2: cout << \"Pet rock (2 pennies)\";\n    case 1: cout << \"Marble (1 penny)\"; break;\n    default: cout << \"More pennies needed!\";\n}\n```"
+     "answer": "```c++\nswitch (pennies) {\n    case 4: cout << \"Goldfish (4 pennies)\" << endl;\n    case 3: cout << \"Jump rope (3 pennies)\" << endl;\n    case 2: cout << \"Pet rock (2 pennies)\" << endl;\n    case 1: cout << \"Marble (1 penny)\" << endl; \n            break;\n    default: cout << \"More pennies needed!\" << endl;\n}\n```"
     },
     {
      "_id": "9683ec3f-3c53-625e-1800-c9421958f781",
      "correct": false,
-     "answer": "```c++\nswitch (pennies) {\n    case 4: cout << \"Goldfish (4 pennies)\"; break;\n    case 3: cout << \"Jump rope (3 pennies)\"; break;\n    case 2: cout << \"Pet rock (2 pennies)\"; break;\n    case 1: cout << \"Marble (1 penny)\"; break;\n    default: cout << \"More pennies needed!\";\n}\n```"
+     "answer": "```c++\nswitch (pennies) {\n    case 4: cout << \"Goldfish (4 pennies)\" << endl; \n            break;\n    case 3: cout << \"Jump rope (3 pennies)\" << endl; \n            break;\n    case 2: cout << \"Pet rock (2 pennies)\" << endl; \n            break;\n    case 1: cout << \"Marble (1 penny)\" << endl; \n            break;\n    default: cout << \"More pennies needed!\" << endl;\n}\n```"
     }
    ],
    "guidance": "Choices #1 & #3 will correctly list all of the items that the player is eligible to buy. They produce the exact same results.\n\nChoice #2 will tell the player what they can get with the *exact* number of pennies in addition to the items that they cannot buy. This happens because there is only 1 `break` statement and it occurs in `case 4`. First the system will match the variable's value to the case's value. It will run that case and continue to run until it sees a `break` or it reaches the end of the `switch case`.\n\nChoice #4 will only tell the player the *one* item they can get with the *exact* number of pennies that they have.",
@@ -3921,13 +4065,881 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Switch Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine the appropriate syntax for switch statements"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-691458048",
+  "source": {
+   "name": "If Statement Uses",
+   "showName": true,
+   "instructions": "Select **all** of the statements below that are true regarding `if` statements. ",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "7952164a-a6af-c6ef-65b5-f68831ddd5bd",
+     "correct": true,
+     "answer": "`if` statements only ask if a boolean expression is true."
+    },
+    {
+     "_id": "c475d1d3-311f-11e3-0852-32e757acddbf",
+     "correct": false,
+     "answer": "`if` statements will perform a set of commands if the boolean expression is false."
+    },
+    {
+     "_id": "97e69464-508a-efdd-1461-e50dac7ac589",
+     "correct": true,
+     "answer": "`if` statements can be nested within each other - meaning the command for one `if` can include another `if` statement."
+    },
+    {
+     "_id": "4fa3002a-c95b-d223-24e9-829d61b5ca77",
+     "correct": true,
+     "answer": "`if` statements can contain compound conditionals - meaning they can evaluate multiple boolean expressions to see if the overall condition is true."
+    }
+   ],
+   "guidance": "All of the choices except #2 are correct. `if` statements only run their specified command(s) if their boolean expression or conditional evaluates to true. In addition, `if` statements can be nested within each other and can be used to evaluate compound conditionals.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "If Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
+     }
+    ],
+    "files": [
+     "code/conditionals/labifstatement.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/labifstatement.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT recall if statement syntax"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3145891681",
+  "source": {
+   "name": "If Else Even or Odd",
+   "showName": true,
+   "instructions": "Drag the appropriate code blocks into the solution box below. Your program should check to see if a number (`x`) is even, and if it is, print \"Even\". If the number is not even, then print \"Odd\".\n\n**Remember** to **indent** your code!",
+   "initial": "if (x % 2 == 0) {\n  cout << \"Even\";\n}\nelse {\n  cout << \"Odd\";\n}\nif (x % 2 = 0) { #distractor\nif (x / 2 == 0) { #distractor\ncout << Even;  #distractor\ncout << Odd;  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Remember to check for the following:\n* Indentation\n* Correct operator usage\n* Correct data type usage",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "If-Else Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
+     }
+    ],
+    "files": [
+     "code/conditionals/labifelse.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/labifelse.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT organize code using correct if-else statement syntax"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3033292764",
+  "source": {
+   "name": "Printing Switch Case",
+   "showName": true,
+   "instructions": "Analyze the code below and determine what will be **printed** when the program is run.\n```c++\nint size = 2;\n\nswitch (size) {\n  case 1: cout << \"Small\" << endl;\n  case 2: cout << \"Medium\" << endl;\n  case 3: cout << \"Large\" << endl;\n          break;\n  default: cout << \"X-Large\" << endl;\n}\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "b19dee4f-83d3-7129-b42b-e005a233e67b",
+     "correct": false,
+     "answer": "```c++\nMedium\n```"
+    },
+    {
+     "_id": "23fa6576-9231-5038-e903-c365a8275f95",
+     "correct": true,
+     "answer": "```c++\nMedium\nLarge\n```"
+    },
+    {
+     "_id": "a13b8bd0-52e0-493f-885e-2a045ebd2837",
+     "correct": false,
+     "answer": "```c++\nSmall\nMedium\nLarge\n```"
+    },
+    {
+     "_id": "5c1d8f29-5bf7-ea98-97f1-ba446bfe9983",
+     "correct": false,
+     "answer": "```c++\nSmall\nMedium\nLarge\nX-Large\n```"
+    }
+   ],
+   "guidance": "The `switch case` statement will always try to match the variable with a case's value first. Since `size = 2`, the system will first print the command for `case 2` which is `Medium`. There is no `break` statement after the command so the program will continue onto the next case, `case 3`, and print that command as well, `Large`. Then it encounters a `break` and exits the `switch case` statement resulting in the output of:\n```c++\nMedium\nLarge\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Switch Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
+     }
+    ],
+    "files": [
+     "code/conditionals/labswitch.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/labswitch.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine switch statement outputs"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3105531460",
+  "source": {
+   "name": "Month of the Year",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "./code/conditionals/labchallenge",
+   "preExecuteCommand": "g++ code/conditionals/labchallenge.cpp -o code/conditionals/labchallenge",
+   "guidance": "Below is one sample solution that uses a `switch case` statement.\n\n```c++\nstring monthString;\n  switch (month) {\n    case 1:  monthString = \"January\"; break;\n    case 2:  monthString = \"February\"; break;\n    case 3:  monthString = \"March\"; break;\n    case 4:  monthString = \"April\"; break;\n    case 5:  monthString = \"May\"; break;\n    case 6:  monthString = \"June\"; break;\n    case 7:  monthString = \"July\"; break;\n    case 8:  monthString = \"August\"; break;\n    case 9:  monthString = \"September\"; break;\n    case 10: monthString = \"October\"; break;\n    case 11: monthString = \"November\"; break;\n    case 12: monthString = \"December\"; break;\n    default: monthString = \"Invalid month\";\n  }\n  cout << monthString << endl;\n```\n\nYou could have also used either the `if` or `if-else` statements too!",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "1",
+     "input": "",
+     "output": "January",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "2",
+     "input": "",
+     "output": "February",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "3",
+     "input": "",
+     "output": "March",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "4",
+     "input": "",
+     "output": "April",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "5",
+     "input": "",
+     "output": "May",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "6",
+     "input": "",
+     "output": "June",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "7",
+     "input": "",
+     "output": "July",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "8",
+     "input": "",
+     "output": "August",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "9",
+     "input": "",
+     "output": "September",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "10",
+     "input": "",
+     "output": "October",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "11",
+     "input": "",
+     "output": "November",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "12",
+     "input": "",
+     "output": "December",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Switch Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
+     }
+    ],
+    "files": [
+     "code/conditionals/labchallenge.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/labchallenge.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using correct switch statement syntax"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-988115114",
+  "source": {
+   "name": "Conditionals Exercise 1",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "./code/conditionals/exercise1",
+   "preExecuteCommand": "g++ code/conditionals/exercise1.cpp -o code/conditionals/exercise1",
+   "guidance": "Here is a sample solution using a single `if` statement and compound conditionals:\n```c++\nif (((x >= 0) && (x <= 25)) || ((x >= 75) && (x <= 100))) { \n  cout << to_string(x) + \" is between 0 and 25 or 75 and 100\"; \n}\n```\n\nAlternatively, you can also use other combinations of `if` and `else` statements such as the ones below.\n```c++\nif ((x >= 0) && (x <= 25)) { \n  cout << to_string(x) + \" is between 0 and 25 or 75 and 100\"; \n}\nif ((x >= 75) && (x <= 100)) {\n  cout << to_string(x) + \" is between 0 and 25 or 75 and 100\";\n}\n```\n```c++\nif ((x >= 0) && (x <= 25)) { \n  cout << to_string(x) + \" is between 0 and 25 or 75 and 100\"; \n}\nelse if ((x >= 75) && (x <= 100)) {\n  cout << to_string(x) + \" is between 0 and 25 or 75 and 100\";\n}\nelse {\n  cout << \"\";\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "0",
+     "input": "",
+     "output": "0 is between 0 and 25 or 75 and 100",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "25",
+     "input": "",
+     "output": "25 is between 0 and 25 or 75 and 100",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "26",
+     "input": "",
+     "output": "",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "74",
+     "input": "",
+     "output": "",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "75",
+     "input": "",
+     "output": "75 is between 0 and 25 or 75 and 100",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "100",
+     "input": "",
+     "output": "100 is between 0 and 25 or 75 and 100",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "101",
+     "input": "",
+     "output": "",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "If-Else Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
+     }
+    ],
+    "files": [
+     "code/conditionals/exercise1.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/exercise1.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using correct if-else statement syntax"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1048264013",
+  "source": {
+   "name": "Conditionals Exercise 2",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "./code/conditionals/exercise2",
+   "preExecuteCommand": "g++ code/conditionals/exercise2.cpp -o code/conditionals/exercise2",
+   "guidance": "A single set of `if` and `else` statements can be used to solve this exercise. The real trick is remembering that modulo `%` is the correct operator to check for divisibility.\n\n```c++\nif (x % 5 == 0) { \n  cout << to_string(x) + \" is divisible by 5\";\n}\nelse {\n  cout << to_string(x) + \" is not divisible by 5\";\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "0",
+     "input": "",
+     "output": "0 is divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "5",
+     "input": "",
+     "output": "5 is divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "500",
+     "input": "",
+     "output": "500 is divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "2",
+     "input": "",
+     "output": "2 is not divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "11",
+     "input": "",
+     "output": "11 is not divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "13",
+     "input": "",
+     "output": "13 is not divisible by 5",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "If-Else Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
+     }
+    ],
+    "files": [
+     "code/conditionals/exercise2.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/exercise2.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using correct if-else statement syntax"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-4008295054",
+  "source": {
+   "name": "Conditionals Exercise 3",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "./code/conditionals/exercise3",
+   "preExecuteCommand": "g++ code/conditionals/exercise3.cpp -o code/conditionals/exercise3",
+   "guidance": "You can use a single set of `if` and `else` statements with compound conditionals to complete this exercise.\n```c++\nif ((x % 5 == 0) && (x % 2 == 0)) { \n  cout << to_string(x) + \" is divisible by 5 and even\";\n}\nelse {\n  cout << to_string(x) + \" is not divisible by 5 or it is odd\";\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "50",
+     "input": "",
+     "output": "50 is divisible by 5 and even",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "110",
+     "input": "",
+     "output": "110 is divisible by 5 and even",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "3",
+     "input": "",
+     "output": "3 is not divisible by 5 or it is odd",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "5",
+     "input": "",
+     "output": "5 is not divisible by 5 or it is odd",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "25",
+     "input": "",
+     "output": "25 is not divisible by 5 or it is odd",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "6",
+     "input": "",
+     "output": "6 is not divisible by 5 or it is odd",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "If-Else Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
+     }
+    ],
+    "files": [
+     "code/conditionals/exercise3.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/exercise3.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using correct if-else statement syntax"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3027926170",
+  "source": {
+   "name": "Conditionals Exercise 4",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "./code/conditionals/exercise4",
+   "preExecuteCommand": "g++ code/conditionals/exercise4.cpp -o code/conditionals/exercise4",
+   "guidance": "One way is to use compound conditionals with `if` and `else` statements:\n```c++\nif ((x == \"red\") || (x == \"blue\") || (x == \"yellow\")) {\n  cout << x + \" is a primary color\";\n}\nelse {\n  cout << x + \" is not a primary color\";\n}\n```\n\n`if` and `else` statements are preferred over `switch-case` because we are working with strings, not numbers. If you wanted to use `switch-case`, you would need to find a way to translate the string input into a numerical value first, and then use that value as a `case` for your output. Here is an example:\n```c++\nint num;\n  if (x == \"red\") {\n    num = 1;\n  }\n  else if (x == \"blue\") {\n    num = 2;\n  }\n  else if (x == \"yellow\") {\n    num = 3;\n  }\n  else {\n    num = 0;\n  }\n  \n  switch (num) {\n    case 1: cout << x + \" is a primary color\"; break;\n    case 2: cout << x + \" is a primary color\"; break;\n    case 3: cout << x + \" is a primary color\"; break;\n    default: cout << x + \" is not a primary color\";\n  }",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "red",
+     "input": "",
+     "output": "red is a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "yellow",
+     "input": "",
+     "output": "yellow is a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "blue",
+     "input": "",
+     "output": "blue is a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "purple",
+     "input": "",
+     "output": "purple is not a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "orange",
+     "input": "",
+     "output": "orange is not a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "teal",
+     "input": "",
+     "output": "teal is not a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "brown",
+     "input": "",
+     "output": "brown is not a primary color",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "If-Else Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
+     }
+    ],
+    "files": [
+     "code/conditionals/exercise4.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/exercise4.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using correct if-else statement syntax"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1081335961",
+  "source": {
+   "name": "Conditionals Exercise 5",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "./code/conditionals/exercise5",
+   "preExecuteCommand": "g++ code/conditionals/exercise5.cpp -o code/conditionals/exercise5",
+   "guidance": "Since we are working with strings instead of numerical values, it is best to use `if` and `else` statements with compound conditionals:\n```\nif ((x == \"a\") || (x == \"e\") || (x == \"i\") || (x == \"o\") || (x == \"u\")) {\n  cout << x + \" is a vowel\";\n}\nelse {\n  cout << x + \" is not a vowel\";\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "a",
+     "input": "",
+     "output": "a is a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "e",
+     "input": "",
+     "output": "e is a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "i",
+     "input": "",
+     "output": "i is a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "o",
+     "input": "",
+     "output": "o is a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "u",
+     "input": "",
+     "output": "u is a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "b",
+     "input": "",
+     "output": "b is not a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "x",
+     "input": "",
+     "output": "x is not a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "k",
+     "input": "",
+     "output": "k is not a vowel",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "If-Else Statements"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Conditionals"
+     }
+    ],
+    "files": [
+     "code/conditionals/exercise5.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/conditionals/exercise5.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using correct if-else statement syntax"
   }
  }
 ]

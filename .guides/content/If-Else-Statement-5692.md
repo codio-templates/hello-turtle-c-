@@ -8,9 +8,9 @@ The `if-else` statement is used when you want something *specific* to happen if 
 bool my_bool = true;
 
 if (my_bool) {
-  cout << "The value of my_bool is true" <<endl; }
+  cout << "The value of my_bool is true" << endl; }
 else {
-  cout << "The value of my_bool is false" <<endl; }
+  cout << "The value of my_bool is false" << endl; }
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/conditionals/ifelse.cpp -o code/conditionals/ifelse ./code/conditionals/ifelse 1)

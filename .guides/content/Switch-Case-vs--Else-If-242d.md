@@ -54,15 +54,15 @@ In some cases, as shown above, you can exploit patterns to force ranges into a s
 int grade = 62;
 int letterGrade = grade / 10;
 switch (letterGrade) {
-    case 10: case 9: cout << "A"; 
-            break;
-    case 8: cout << "B"; 
-            break;
-    case 7: cout << "C"; 
-            break;
-    case 6: cout << "D"; 
-            break;
-    default: cout << "F";
+  case 10: case 9: cout << "A"; 
+          break;
+  case 8: cout << "B"; 
+          break;
+  case 7: cout << "C"; 
+          break;
+  case 6: cout << "D"; 
+          break;
+  default: cout << "F";
 }
 ```
 

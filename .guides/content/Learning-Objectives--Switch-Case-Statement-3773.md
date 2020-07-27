@@ -1,7 +1,7 @@
 ---
 
-* ### Identify when to apply switch statements instead of nested if-else
-* ### Describe the switch case syntax
+* ### Describe the `switch case` syntax
+* ### Identify when to apply `switch case` statements instead of nested `if-else`
 
 |||guidance
 ## Assumptions

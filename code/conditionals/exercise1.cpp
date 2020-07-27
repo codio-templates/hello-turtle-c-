@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(int argc, char** argv) {
+  
+  int x = stoi(argv[1]);
   
   //add code below this line
 

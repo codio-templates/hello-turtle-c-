@@ -1,7 +1,7 @@
 ---
 
-* ### Explain the difference between an if statement and an if else statement
-* ### Describe if else statement syntax
+* ### Describe `if-else` statement syntax
+* ### Explain the difference between an `if` statement and an `if-else` statement
 
 |||guidance
 ## Assumptions
