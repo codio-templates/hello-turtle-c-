@@ -447,7 +447,7 @@
    "type": "chapter",
    "children": [
     {
-     "title": "If Statements",
+     "title": "If Statement",
      "id": "7906ca19-af72-4e0d-22de-592c00979770",
      "type": "section",
      "children": [
@@ -478,7 +478,7 @@
      ]
     },
     {
-     "title": "Formative Assessment: If Statements",
+     "title": "Formative Assessment: If Statement",
      "id": "397ea105-cad2-5f6d-ce83-864e06498b8c",
      "type": "section",
      "children": [
@@ -497,7 +497,7 @@
      ]
     },
     {
-     "title": "If Else Statements",
+     "title": "If Else Statement",
      "id": "5661a847-2c59-93f0-5b27-5325b28395c2",
      "type": "section",
      "children": [
@@ -522,7 +522,7 @@
      ]
     },
     {
-     "title": "Formative Assessment: If Else Statements",
+     "title": "Formative Assessment: If Else Statement",
      "id": "29fce39b-199a-6a0f-405f-b9979741bafe",
      "type": "section",
      "children": [
