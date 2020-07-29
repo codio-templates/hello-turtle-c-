@@ -3,7 +3,7 @@
 ## Tutorial Lab 1: Using the for loop
 Use the text editor open in the left pane, and enter the following code:
 
-```python
+```c++
 for x in range(0, 10):
     if x % 2 == 0:
         print("Even")

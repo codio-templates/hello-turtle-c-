@@ -2,7 +2,7 @@
 
 Create a nested loop that produces the output below.
 
-```python
+```c++
 ....1
 ...2
 ..3

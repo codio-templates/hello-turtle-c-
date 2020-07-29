@@ -5,7 +5,7 @@
 ### Syntax
 The code below will draw a rectangle of 100 `#` in a 10 x 10 grid. The first loop controls the row of output, while the second loop prints 10 `#` to the screen.
 
-```java
+```c++
 for(int row = 0; row < 10; row++){
     for(int col = 0; col < 10; col++) {
         System.out.print("#");

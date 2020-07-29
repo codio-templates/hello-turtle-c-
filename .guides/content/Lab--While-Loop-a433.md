@@ -3,7 +3,7 @@
 ## Tutorial Lab 2: The while loop
 Use the text editor open in the left pane, and enter the following code:
 
-```python
+```c++
 counter = 0
 while(counter < 10):
     print(counter)

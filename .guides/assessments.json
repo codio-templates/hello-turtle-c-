@@ -4941,5 +4941,62 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT construct a program using correct if-else statement syntax"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4140309825",
+  "source": {
+   "name": "For Loop Syntax",
+   "showName": true,
+   "instructions": "Select **all** of code snippets below that will print `Loops are awesome!` exactly **10** times.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "9a8018e4-1c74-db20-6d71-597e9ca54a16",
+     "correct": false,
+     "answer": "```c++\nfor (int i = 0; i < 9; i++) {\n  cout << \"Loops are awesome!\" << endl;\n}\n```"
+    },
+    {
+     "_id": "b2c047d3-db3a-6371-d255-c8fa6bfbaad5",
+     "correct": true,
+     "answer": "```c++\nfor (int i = 0; i <= 9; i++) {\n  cout << \"Loops are awesome!\" << endl;\n}\n```"
+    },
+    {
+     "_id": "8ff4dcab-1a8b-40dc-877a-e58e35de5fc7",
+     "correct": true,
+     "answer": "```c++\nfor (int i = 0; i < 10; i++) {\n  cout << \"Loops are awesome!\" << endl;\n}\n```"
+    },
+    {
+     "_id": "4223a53a-e26f-d964-80a8-fb01eb85d552",
+     "correct": false,
+     "answer": "```c++\nfor (int i = 0; i <= 10; i++) {\n  cout << \"Loops are awesome!\" << endl;\n}\n```"
+    }
+   ],
+   "guidance": "Since all of the loop iterators start at 0, you have to count 0 as the first iteration. You want a total of 10 iterations which is why only choices #2 and #3 are correct. Remember that the operator `<` does not include the end value but the `<=` operator does.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/forloop.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/forloop.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]

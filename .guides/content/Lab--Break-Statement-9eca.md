@@ -5,7 +5,7 @@ Use the text editor open in the left pane, and enter the following code:
 
 <details><summary>What does `inp = input('> ')` mean?</summary>The `input` command will wait for the user to type some information into the terminal and press `return`. `input` takes an string argument which will be displayed for the user. The information entered by the user is stored in the variable `inp`. All information entered for the `input` command will be stored as a string (even if you type a number).</details>
 
-```python
+```c++
 result = 0
 
 while True:

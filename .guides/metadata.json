@@ -1789,7 +1789,13 @@
   {
    "id": "edd73506-e3f9-e3c4-8a59-737573cc471e",
    "title": "Learning Objectives: For Loops",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--For-Loops-edd7.md",
@@ -1801,7 +1807,18 @@
   {
    "id": "b9e6adb0-d640-16b7-1993-68da34d923fd",
    "title": "For Loops",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/forloop.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/For-Loops-b9e6.md",
@@ -1813,7 +1830,23 @@
   {
    "id": "9fe49c03-a45a-4156-8df1-9586c60248ba",
    "title": "Turtle Graphics",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/forloop.cpp",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Turtle-Graphics-9fe4.md",
@@ -1873,7 +1906,18 @@
   {
    "id": "2f691dd2-fa34-ff38-2822-8c0e06a65aca",
    "title": "While Loops",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/whileloop.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/While-Loops-2f69.md",

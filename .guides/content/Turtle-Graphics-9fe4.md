@@ -5,10 +5,8 @@ Before continuing with loops, we are going to learn how to create graphical outp
 ## Turtle Syntax
 The first step is to create a turtle object to move around the screen.
 
-```java
-
+```c++
 Turtle tina = new Turtle();
-
 ```
 
 Here are some basic commands to use with the turtle library.

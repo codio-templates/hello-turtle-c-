@@ -5,7 +5,7 @@ For this challenge, you will output a pattern that resembles a chessboard by usi
 
 Here is the required output.
 
-```python
+```c++
 XOXOXOXO
 OXOXOXOX
 XOXOXOXO
