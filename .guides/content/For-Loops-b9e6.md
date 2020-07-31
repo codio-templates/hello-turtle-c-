@@ -49,7 +49,7 @@ The loop ran five times, but the variable `i` did not start at `1`. Instead, it 
 
 |||
 
-{Try it}(sh .guides/bg.sh g++ code/loops/forloop.cpp -o code/loops/forloop ./code/loops/forloop 2)
+{Try it}(sh .guides/bg.sh g++ code/loops/forloop.cpp -o code/loops/forloop ./code/loops/forloop 3)
 
 [Code Visualizer](open_tutor code/loops/forloop.cpp)
 

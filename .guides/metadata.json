@@ -1858,7 +1858,13 @@
   {
    "id": "b38cc31a-f92d-adf0-32a7-5713979b0788",
    "title": "Turtle Coding: For Loop",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Turtle-Coding--For-Loop-b38c.md",
@@ -1870,7 +1876,13 @@
   {
    "id": "ef84e106-d22f-29d3-7335-b6972c0704c0",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-ef84.md",
@@ -1882,7 +1894,13 @@
   {
    "id": "88551a49-9c27-de91-11a0-c01dffe1725c",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-8855.md",
@@ -1894,7 +1912,13 @@
   {
    "id": "9b1bb52e-e21f-78be-5288-561fcba7a9d3",
    "title": "Learning Objectives: While Loops",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--While-Loops-9b1b.md",
@@ -1929,7 +1953,13 @@
   {
    "id": "060e5ec3-71a3-6e25-d0c0-86bd709cb1f3",
    "title": "Turtle Coding: While Loop",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Turtle-Coding--While-Loop-060e.md",
@@ -1941,7 +1971,18 @@
   {
    "id": "769e0d0a-ec3a-0cc4-eca8-95f828a7101b",
    "title": "Break Statement",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/breakstatement.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Break-Statement-769e.md",
@@ -1953,7 +1994,13 @@
   {
    "id": "5567bc95-7875-b21f-eb4a-98466368e815",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-5567.md",
@@ -1965,7 +2012,13 @@
   {
    "id": "84c7f052-3473-037f-6177-b3424f26b091",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-84c7.md",
@@ -1977,7 +2030,13 @@
   {
    "id": "39978b3a-0146-b292-82b2-f1d4b207da80",
    "title": "Learning Objectives: Nested Loops",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives--Nested-Loops-3997.md",
@@ -1989,7 +2048,18 @@
   {
    "id": "88a50afd-b4bf-e72b-ad11-fde7d8eda83a",
    "title": "Nested Loops",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/nestedloop.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Nested-Loops-88a5.md",
@@ -2001,7 +2071,13 @@
   {
    "id": "fd4d387d-5c8c-4efc-4a4a-a89e045440f3",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-fd4d.md",
@@ -2013,7 +2089,13 @@
   {
    "id": "36f7b98d-a28b-e313-7841-397515c042fa",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-36f7.md",
@@ -2025,7 +2107,18 @@
   {
    "id": "7ff13376-a853-9dc6-dffd-56986f39a318",
    "title": "Lab: For Loop",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/labforloop.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab--For-Loop-7ff1.md",
@@ -2037,7 +2130,18 @@
   {
    "id": "a4335bcf-7d22-65cc-da90-9caf1ea62342",
    "title": "Lab: While Loop",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/labwhileloop.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab--While-Loop-a433.md",
@@ -2049,7 +2153,23 @@
   {
    "id": "9eca4fdd-4982-4eb8-dd05-f536f9f9959d",
    "title": "Lab: Break Statement",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/labbreak.cpp",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab--Break-Statement-9eca.md",
@@ -2061,7 +2181,18 @@
   {
    "id": "74b7904f-22ba-2fa4-9999-ed62b0dfe1d9",
    "title": "Lab Challenge: Chessboard",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/labchallenge.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-Challenge--Chessboard-74b7.md",
@@ -2073,7 +2204,13 @@
   {
    "id": "0eba1ce7-6832-e7a5-7d60-21167a5e2b1d",
    "title": "Exercise 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-1-0eba.md",
@@ -2085,7 +2222,13 @@
   {
    "id": "37c192c4-9b2c-729a-9267-66eb0f692b42",
    "title": "Exercise 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-2-37c1.md",
@@ -2097,7 +2240,18 @@
   {
    "id": "a787e886-1183-428b-be62-95c87c0c5c7a",
    "title": "Exercise 3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/exercise3.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-3-a787.md",
@@ -2109,7 +2263,18 @@
   {
    "id": "3944fc89-da43-efb4-85b6-e9c8e11c4307",
    "title": "Exercise 4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/exercise4.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-4-3944.md",
@@ -2121,7 +2286,18 @@
   {
    "id": "ac69dd61-5de2-757a-93b4-eb4c1b7e1b8d",
    "title": "Exercise 5",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/loops/exercise5.cpp",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-ac69.md",
