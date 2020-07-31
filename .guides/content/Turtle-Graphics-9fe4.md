@@ -27,4 +27,4 @@ Click the button below to run your code. You may have noticed that there is no `
 **Accidentally closed the whole tab?** Use the Play triangle on the top tool bar that says "Virtual Desktop".
 |||
 
-{Try it|terminal}(bash .guides/turtle.sh javac TurtleLoops.java java TurtleLoops)
+{Try it|terminal}(bash .guides/turtle.sh g++ code/loops/turtleloop.cpp -o code/loops/turtleloop ./code/loops/turtleloop 1)

@@ -37,7 +37,7 @@ Note that the variable declaration and initialization happen *before* the start 
 Here is another example of a `while` loop that prints `Hello` based on the value of the variable `count`.
 
 ```c++
-int count = 5; //some random number set by user
+int count = 5; // some random number set by user
 while (count > 0) {
   cout << "Hello" << endl;
   count--;
@@ -64,9 +64,9 @@ while (count > 0) {
 Infinite loops are loops that do not have a test condition that causes them to stop. The following is a common mistake that results in an infinite loop:
 
 ```c++
-int count = 5; //some random number set by user
-while (count > 0 ) {
-    cout << ("Hello") << endl;
+int count = 5; // some random number set by user
+while (count > 0) {
+  cout << "Hello" << endl;
 }
 ```
 
@@ -79,13 +79,14 @@ Copy the code above and `TRY IT` to see what happens. C++ will eventually stop t
 {Try it}(sh .guides/bg.sh g++ code/loops/whileloop.cpp -o code/loops/whileloop ./code/loops/whileloop 3)
 
 ## Why Use a While Loop?
-If a while loop does the same thing as a for loop and infinite loops more frequently occur in a while loop, why use them? While loops are useful when you are waiting for a certain event to occur. Imagine you are making a video game. The game should continue until the player loses all of their lives. You don't know how long this will take, so a while loop would be appropriate.
+If a `while` loop does the same thing as a `for` loop, then what is the purpose of having both? `while` loops are actually more useful when you are waiting for a certain event to occur. Imagine you are making a video game. The game should continue until the player loses all of their lives. You don't know how long this will take, so a `while` loop is more appropriate. On the other hand, if you have more specific loop parameters, a `for` loop will be better.
 
 ```c++
-int playerLives = 3;
+int player_lives = 3;
 
-while(player_lives > 0) {
-    # video game code
-    # goes here
+while (player_lives > 0) {
+  // video game code
+  // goes here
 }
 ```
+
