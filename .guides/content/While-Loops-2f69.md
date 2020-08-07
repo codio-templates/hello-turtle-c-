@@ -90,3 +90,4 @@ while (player_lives > 0) {
 }
 ```
 
+{Check It!|assessment}(fill-in-the-blanks-3808453841)

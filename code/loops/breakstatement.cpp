@@ -2,13 +2,20 @@
 using namespace std;
 
 int main() {
+
+  srand(time(NULL)); // start randomizer every time program runs
+  while (true) {
+    cout << "This is an infinite loop" << endl;
+    int randNum = rand() % 100 + 1; // generate random number between 1 and 100
+    
+    if (randNum > 75) {
+      cout << "The loop ends" << endl;
+      break; // stop the loop
+    } // end if condition
+  } // end while loop
   
-  //add code below this line
-
-
-
-  //add code above this line
+  cout << "The program ends" << endl;
   
   return 0;
-  
+
 }

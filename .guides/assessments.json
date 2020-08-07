@@ -4998,5 +4998,194 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-4119271442",
+  "source": {
+   "name": "Summation Using a For Loop",
+   "showName": true,
+   "instructions": "Construct a program using the code blocks below that incorporates a `for` loop to find the sum of all numbers between 1 and 100, and then prints that cumulative sum. The program should **include both 1 and 100** in the sum.\n\n**Hint:** You will not need to use all of the blocks and be sure to **indent** any command(s) that you want the system to repeat by dragging it slightly to the right.",
+   "initial": "int sum = 0;\nfor (int i = 1; i <= 100; i++) {\n  sum += 1;\n}\ncout << sum << endl;\nfor (int i = 0; i < 100; i++) {  #distractor\nfor (int i = 1; i < 100; i++) {  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Did you remember to:\n* indent?\n* include both 1 and 100 in the loop header?",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-492063434",
+  "source": {
+   "name": "For Loop Headers",
+   "showName": true,
+   "instructions": "Which of the following `for` loop headers will loop **exactly** 100 times? Ignore the value of the iterating variable and focus on the **number of times** the loop body will be executed.\n\n**Note:** There may be more than one correct answer.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "f0802e94-b3e1-716d-52db-8b3dfedbcf9d",
+     "correct": true,
+     "answer": "for (int i = 0; i < 100; i++)"
+    },
+    {
+     "_id": "339fd1c7-c50c-9136-f39b-037161327995",
+     "correct": false,
+     "answer": "for (int i = 0; i <= 100; i++)"
+    },
+    {
+     "_id": "d8df7cab-1c6f-11a3-f0f7-8ee895b3f416",
+     "correct": false,
+     "answer": "for (int i = 1; i < 100; i++)"
+    },
+    {
+     "_id": "af40a330-109f-3328-b3b1-9c2414556d71",
+     "correct": true,
+     "answer": "for (int i = 1; i <= 100; i++)"
+    }
+   ],
+   "guidance": "Only choices #1 and #4 are correct because they are both executed **exactly** 100 times. `for (int i = 0; i < 100; i++)` goes from 0 to 99 and `for (int i = 1; i <= 100; i++)` goes from 1 to 100. Both of those ranges include 100 iterations.\n\n`for (int i = 0; i <= 100; i++)` goes from 0 to 100 which is a total of 101 iterations.\n\n`for (int i = 1; i < 100; i++)` goes from 1 to 99 which is only 99 iterations.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3808453841",
+  "source": {
+   "name": "While vs. For Loops",
+   "showName": true,
+   "instructions": "Fill in the blanks below with either `while` or `for` in all **lowercase** letters.",
+   "text": "A <<<while>>> loop only has a boolean expression(s) in its header.\nA <<<for>>> loop contains a header that specifies where an iterator variable starts, ends, and how it is changed per iteration.\nA <<<for>>> loop is better if a command needs to be executed a certain number of times.\nA counting variable needs to be declared and initialized before a <<<while>>> loop can be executed properly.",
+   "guidance": "One big difference between a `while` loop and a `for` loop is that a `while` loop only contains a boolean expression(s) within its header. That means a counting variable must be declared and initialized before a `while` loop can be used properly. On the other hand, the header of a `for` loop contains an iterator variable which helps to determine how many times the `for` loop will run.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/loops/whileloop.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/whileloop.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "while",
+     "for",
+     "for",
+     "while"
+    ],
+    "text": [
+     "A ",
+     0,
+     " loop only has a boolean expression(s) in its header.\nA ",
+     0,
+     " loop contains a header that specifies where an iterator variable starts, ends, and how it is changed per iteration.\nA ",
+     0,
+     " loop is better if a command needs to be executed a certain number of times.\nA counting variable needs to be declared and initialized before a ",
+     0,
+     " loop can be executed properly."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1083783003",
+  "source": {
+   "name": "Break Statement Purpose",
+   "showName": true,
+   "instructions": "What purpose does the `break` statement serve?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "d6a1520c-cea8-1459-a8be-2d14d627e0fc",
+     "correct": false,
+     "answer": "The `break` statement is used to pause a program so that it can run at a later time."
+    },
+    {
+     "_id": "a9c37c48-63da-6e52-1482-7f8701b0fb35",
+     "correct": false,
+     "answer": "The `break` statement is required in every `while` loop to separate sections of code."
+    },
+    {
+     "_id": "4283e2c6-510e-4415-ca75-b0c3516de4e8",
+     "correct": false,
+     "answer": "The `break` statement is used to start a loop."
+    },
+    {
+     "_id": "5b0a73c0-1b1f-2374-893a-c9c90fef3178",
+     "correct": true,
+     "answer": "The `break` statement is used to stop and exit a loop."
+    }
+   ],
+   "guidance": "The `break` statement is used to stop and exit a loop. `break` statements are often used to prevent situations where an infinite loop might be involved; however, `break` statements are not always required.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/breakstatement.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/breakstatement.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
