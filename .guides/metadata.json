@@ -1846,11 +1846,6 @@
      "action": "open"
     },
     {
-     "path": "code/loops/output.bmp",
-     "panel": 1,
-     "action": "open"
-    },
-    {
      "path": "code/loops/turtle_sample.cpp",
      "panel": 0,
      "action": "open"
@@ -1858,6 +1853,11 @@
     {
      "path": "#terminal: ",
      "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "code/loops/output.bmp",
+     "panel": 1,
      "action": "open"
     }
    ],

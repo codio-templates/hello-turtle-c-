@@ -3,25 +3,28 @@
 ## Tutorial Lab 3: Breaking from the while loop
 Use the text editor open in the left pane, and enter the following code:
 
-<details><summary>What does `inp = input('> ')` mean?</summary>The `input` command will wait for the user to type some information into the terminal and press `return`. `input` takes an string argument which will be displayed for the user. The information entered by the user is stored in the variable `inp`. All information entered for the `input` command will be stored as a string (even if you type a number).</details>
+<details><summary>What does `cin >> input;` mean?</summary>The `input` command will wait for the user to type some information into the terminal and press `return`. `input` takes an string argument which will be displayed for the user. The information entered by the user is stored in the variable `inp`. All information entered for the `input` command will be stored as a string (even if you type a number).</details>
 
 ```c++
-result = 0
+int result = 0;
 
-while True:
-    print('Enter numbers to sum, enter q to quit')
-    inp = input('> ')
-    if inp != 'q':
-        inp = int(inp)
-        result = result + inp
-    else:
-        print(result)
-        break
+while (true) {
+  cout << "Enter numbers to sum, enter q to quit" << endl;
+  cin >> input;
+  if (input != "q") {
+    input = int(input)
+    result = result + input;
+  }
+  else {
+    cout << result << endl;
+    break;
+  }
+}
 ```
 
-{Try it|terminal}(python3 code/loops/lab-break.py)
+{Try it}(sh .guides/bg.sh g++ code/loops/labbreak.cpp -o code/loops/labbreak ./code/loops/labbreak 1)
 
-Open the [visualizer](open_tutor code/loops/lab-break.py) if you want to see how the loop works.
+[Code Visualizer](open_tutor code/loops/labbreak.cpp)
 
 1) Create the variable `result` and set its value to `0`. `result` will hold the total of the summation.
 2) Next we set up a while loop with `True`. We do this because we want the loop to run until the user enters `q`. We don't know how long this will take, so we can limit the loop to a certain number of iterations.
@@ -32,4 +35,3 @@ Open the [visualizer](open_tutor code/loops/lab-break.py) if you want to see how
 7) The `result` variable is updated to contain its current value plus the value entered by the user.
 8) The loop continues accepting values and summing until the user enters the letter `q`. At that point, we step into the `else:` clause. We print the value of `result`, and then exit the loop with the `break` command.
 
-{Check It!|assessment}(multiple-choice-3308526727)

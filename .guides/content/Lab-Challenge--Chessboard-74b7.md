@@ -20,4 +20,3 @@ You should make use of a looping structure in combination with a decision struct
 
 {Try it}(python3 code/loops/lab-challenge.py)
 
-{Check It!|assessment}(test-4026876358)

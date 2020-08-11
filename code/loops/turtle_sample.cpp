@@ -5,7 +5,7 @@ int main()
 {
     turtle_init(300, 300);          // initialize the image to be 600x600
 
-    turtle_forward(50);
+    turtle_forward(120);
     turtle_turn_left(90);
     turtle_forward(100);
     turtle_draw_turtle();

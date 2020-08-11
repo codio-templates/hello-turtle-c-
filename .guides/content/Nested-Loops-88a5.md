@@ -8,14 +8,15 @@ The code below will draw a rectangle of 100 `#` in a 10 x 10 grid. The first loo
 ```c++
 for(int row = 0; row < 10; row++){
     for(int col = 0; col < 10; col++) {
-        System.out.print("#");
+        cout << "#";
     }
-    System.out.println(""); //adds new line
+    cout << "" << endl; //adds new line
 }
 ```
 
-[Code Visualizer](open_tutor code/loops/NestedLoops.java)
-{Try it}(sh .guides/bg.sh javac code/loops/NestedLoops.java java -cp code/loops/ NestedLoops )
+{Try it}(sh .guides/bg.sh g++ code/loops/nestedloop.cpp -o code/loops/nestedloop ./code/loops/nestedloop 1)
+
+[Code Visualizer](open_tutor code/loops/nestedloop.cpp)
 
 |||challenge
 ## What happens if you:
@@ -35,8 +36,10 @@ Using nested loops, write some code that outputs the following:
 ##########
 ```
 
-[Code Visualizer](open_tutor code/loops/NestedLoops.java)
-{Try it}(sh .guides/bg.sh javac code/loops/NestedLoops.java java -cp code/loops/ NestedLoops 2)
+{Try it}(sh .guides/bg.sh g++ code/loops/nestedloop.cpp -o code/loops/nestedloop ./code/loops/nestedloop 2)
+
+[Code Visualizer](open_tutor code/loops/nestedloop.cpp)
+
 <details><summary>**Hint**</summary>The output is the same character (`#`). Make sure that your nested loops have the right numbers in the boolean expressions to get the appropriate number of rows and columns.</details>
 
 ### Nested Loop Coding Challenge 2
@@ -50,8 +53,10 @@ Using nested loops, write some code that outputs the following:
 ##########
 ```
 
-[Code Visualizer](open_tutor code/loops/NestedLoops.java)
-{Try it}(sh .guides/bg.sh javac code/loops/NestedLoops.java java -cp code/loops/ NestedLoops 3)
+{Try it}(sh .guides/bg.sh g++ code/loops/nestedloop.cpp -o code/loops/nestedloop ./code/loops/nestedloop 3)
+
+[Code Visualizer](open_tutor code/loops/nestedloop.cpp)
+
 <details><summary>**Hint**</summary>The output is a `#` when the outer loop variable is even (0, 2, 4) and a `*` when the outer loop variable is odd (1, 3).</details>
 
 ### Nested Loop Coding Challenge 3
@@ -65,6 +70,10 @@ Using nested loops, write some code that outputs the following:
 55555
 ```
 
-[Code Visualizer](open_tutor code/loops/NestedLoops.java)
-{Try it}(sh .guides/bg.sh javac code/loops/NestedLoops.java java -cp code/loops/ NestedLoops 4)
+{Try it}(sh .guides/bg.sh g++ code/loops/nestedloop.cpp -o code/loops/nestedloop ./code/loops/nestedloop 4)
+
+[Code Visualizer](open_tutor code/loops/nestedloop.cpp)
+
 <details><summary>**Hint**</summary>First, the outer loop does not start with 0. Second, the inner loop runs the same amount of times as the row number.</details>
+
+{Check It!|assessment}(multiple-choice-3452389070)

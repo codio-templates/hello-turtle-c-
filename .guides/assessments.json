@@ -5187,5 +5187,225 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1524850643",
+  "source": {
+   "name": "While Loop Syntax",
+   "showName": true,
+   "instructions": "Fill in the blanks below so that the `while` loop prints `C++` **10** times.",
+   "text": "```c++\nint <<<count>>> = 0;\nwhile (count <<<<>>> 10) {\n  cout << \"C++\" << endl;\n  count = count <<<+>>> 1;\n}\n```",
+   "guidance": "",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "count",
+     "<",
+     "+"
+    ],
+    "text": [
+     "```c++\nint ",
+     0,
+     " = 0;\nwhile (count ",
+     0,
+     " 10) {\n  cout << \"C++\" << endl;\n  count = count ",
+     0,
+     " 1;\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-115498461",
+  "source": {
+   "name": "Break Statement Syntax",
+   "showName": true,
+   "instructions": "Fill in the blanks such that the loop will **stop and exit** after it has run **100** times.",
+   "text": "```c++\nint total = 0;\nwhile (true) {\n  total = <<<total>>> + 1;\n  if (total > <<<99>>>) {\n    <<<break>>>;\n  }\n}\n```",
+   "guidance": "",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "total",
+     "99",
+     "break"
+    ],
+    "text": [
+     "```c++\nint total = 0;\nwhile (true) {\n  total = ",
+     0,
+     " + 1;\n  if (total > ",
+     0,
+     ") {\n    ",
+     0,
+     ";\n  }\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3452389070",
+  "source": {
+   "name": "Nested Loops",
+   "showName": true,
+   "instructions": "Which definition best describes a nested loop?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "ce673aec-0bcc-6afe-34d7-05533833bc3c",
+     "correct": false,
+     "answer": "A nested loop is when you have two loops, one after the other."
+    },
+    {
+     "_id": "afb92744-c7ce-6e55-8fd2-7bae225fc514",
+     "correct": false,
+     "answer": "A nested loop is when you have a while loop and a for loop in the same program."
+    },
+    {
+     "_id": "e44d7f66-e7f8-6856-9695-7b0c6475306d",
+     "correct": true,
+     "answer": "A nested loop is when a loop is inside another loop."
+    },
+    {
+     "_id": "e4da8d91-0291-8334-daa9-cc0d8cf64627",
+     "correct": false,
+     "answer": "A nested loop is when you have more than one loop in your program."
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/nestedloop.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/nestedloop.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1558714089",
+  "source": {
+   "name": "Cumulative Song with a Nested Loop",
+   "showName": true,
+   "instructions": "\"A cumulative song is a song with a simple verse structure modified by progressive addition so that each verse is longer than the verse before.\" - Wikipedia\n\nHelp create a cheat sheet for the cumulative song the 12 days of Christmas where you start with 1, add 2, etc.\n\nThe output should look like:\n```\n1\n1 2 \n1 2 3 \n1 2 3 4 \n....\n1 2 3 4 5 6 7 8 9 10 11 12 \n```\n",
+   "initial": "for(int line = 1; line <= 12; line++) {\nfor(int num = 1; num <= line; num++) {\ncout << num << \" \";\n}\ncout << \"\" << endl;\n}",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
+   "grader": "1",
+   "guidance": "",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1754583646",
+  "source": {
+   "name": "Identifying Patterns with Nested Loops",
+   "showName": true,
+   "instructions": "Fill in the blanks such that the nested loop will print out:\n\n```\n&&\n*\n*\n*\n&&\n*\n*\n*\n&&\n*\n*\n*\n&&\n*\n*\n*\n```",
+   "text": "```c++\nfor (int i = 0; i < <<<4>>>; i++) {\n  cout << \"<<<&&>>>\" << endl;\n  for (int j = 0; j < <<<3>>>; j++) {\n    cout << \"<<<*>>>\" << endl;\n  }\n}\n```",
+   "guidance": "",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "4",
+     "&&",
+     "3",
+     "*"
+    ],
+    "text": [
+     "```c++\nfor (int i = 0; i < ",
+     0,
+     "; i++) {\n  cout << \"",
+     0,
+     "\" << endl;\n  for (int j = 0; j < ",
+     0,
+     "; j++) {\n    cout << \"",
+     0,
+     "\" << endl;\n  }\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
  }
 ]

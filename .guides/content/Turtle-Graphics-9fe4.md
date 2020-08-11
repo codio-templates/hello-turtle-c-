@@ -9,6 +9,10 @@ The first step is to create a turtle object to move around the screen.
 Turtle tina = new Turtle();
 ```
 
+{Compile Turtle | terminal}(cd code/loops && g++ turtle_sample.cpp -o turtle_sample && ./turtle_sample && cd ../..)
+
+[View Turtle](close_file code/loops/output.bmp panel=1; open_file code/loops/output.bmp panel=1)
+
 Here are some basic commands to use with the turtle library.
 
 |Command|Parameter|Description|
