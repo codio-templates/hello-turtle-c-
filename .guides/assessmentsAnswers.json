@@ -961,34 +961,13 @@
  },
  {
   "taskId": "parsons-puzzle-1884977588",
-  "points": 1,
+  "points": 0,
   "state": {
-   "trashHash": "5_0-4_0",
-   "solutionHash": "0_0-1_1-2_0-3_0",
+   "trashHash": null,
+   "solutionHash": null,
    "toggleStates": "{}"
   },
-  "results": [
-   {
-    "points": 1,
-    "guidance": "Remember that the **three** main components of an `if` statement are:\n1. The keyword `if`.\n2. A boolean expression inside `()`.\n3. An indented command(s) inside `{}` that runs if the boolean expression is `true`.\n\n**Note** that commands not associated with an `if` statement should go outside of the `{}` and should not be indented.",
-    "trashHash": "5_0-4_0",
-    "solutionHash": "0_0-1_1-2_0-3_0",
-    "toggleStates": "{}",
-    "studentCode": "if (7 != 4) {\n  cout << \"Only print me if true\" << endl;\n}\ncout << \"Always print me\" << endl;",
-    "timestamp": 1596213406960,
-    "state": "pass"
-   },
-   {
-    "points": 0,
-    "guidance": "Remember that the **three** main components of an `if` statement are:\n1. The keyword `if`.\n2. A boolean expression inside `()`.\n3. An indented command(s) inside `{}` that runs if the boolean expression is `true`.\n\n**Note** that commands not associated with an `if` statement should go outside of the `{}` and should not be indented.",
-    "trashHash": "0_0-5_0",
-    "solutionHash": "4_0-1_1-2_0-3_0",
-    "toggleStates": "{}",
-    "studentCode": "if 7 != 4 {\n  cout << \"Only print me if true\" << endl;\n}\ncout << \"Always print me\" << endl;",
-    "timestamp": 1596213393879,
-    "state": "fail"
-   }
-  ]
+  "results": []
  },
  {
   "taskId": "multiple-choice-864536125",

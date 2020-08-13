@@ -3273,7 +3273,7 @@
    "name": "If Statement Syntax",
    "showName": true,
    "instructions": "Rearrange the code blocks below to create an `if` statement that prints a string if the boolean expression is `true` and then prints **another** string that's **not** associated with the `if` statement.\n\n**Hint:** Not all of the code blocks will be used and **remember** to **indent** any command(s) that is associated with the `if` statement by dragging it slightly to the *right*.",
-   "initial": "if (7 != 4) {\n  cout << \"Only print me if true\" << endl;\n}\ncout << \"Always print me\" << endl;\nif 7 != 4 {             #distractor\nif (7 != 4)             #distractor",
+   "initial": "if (7 != 4) {\n  cout << \"Only print me if true\" << endl;\n}\ncout << \"Always print me\" << endl;\nif 7 != 4 {                #distractor\nif (7 != 4) [ #distractor\n] #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "Remember that the **three** main components of an `if` statement are:\n1. The keyword `if`.\n2. A boolean expression inside `()`.\n3. An indented command(s) inside `{}` that runs if the boolean expression is `true`.\n\n**Note** that commands not associated with an `if` statement should go outside of the `{}` and should not be indented.",
@@ -3596,7 +3596,7 @@
     {
      "_id": "eb5448ff-b514-adfb-fc80-4de06a132ca1",
      "correct": true,
-     "answer": "You need to use curly braces `{}` after both the `if` and the `else` keywords to group code that is conditionally executed."
+     "answer": "You need to use curly braces `{}` after both the `if` and the `else` keywords to group more than one command that is conditionally executed."
     },
     {
      "_id": "ba202d17-848c-cb11-0121-9dccfff88afd",
@@ -3609,7 +3609,7 @@
      "answer": "The `else` condition has empty parentheses `()` following it."
     }
    ],
-   "guidance": "C++ uses curly braces `{}` to group code commands. While indention is helpful, it does not affect how the program runs. Instead, you need to use curly braces to tell C++ what code to run in both the true condition (after the `if`) and the false condition (after the `else`).\n\nAdditionally, because `else` is associated with the `false` condition, it does not need its own boolean expression. Nor does it need parentheses.",
+   "guidance": "C++ uses curly braces `{}` to group more than one command of code. While indention is helpful, it does not affect how the program runs. Instead, you need to use curly braces to tell C++ what code to run in both the true condition (after the `if`) and the false condition (after the `else`).\n\nAdditionally, because `else` is associated with the `false` condition, it does not need its own boolean expression. Nor does it need parentheses.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -3658,7 +3658,7 @@
    "initial": "if (num % 2 == 0) {\n  cout << \"Even\" << endl;\n}\nelse if (num % 2 == 1) {\n  cout << \"Odd\" << endl;\n}\nelse {\n  cout << \"Invalid\" << endl;\n}",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
    "grader": "1",
-   "guidance": "",
+   "guidance": "Remember to:\n* Indent all commands.\n* Arrange `if`, `else if`, and `else` in that correct order.",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -3959,7 +3959,7 @@
    "showName": true,
    "instructions": "Select the correct key words to make the code below a valid `switch case` statement.",
    "text": "```c++\n<<<switch>>> (years) {\n  <<<case>>> 5: cout << \"5 year award\"; <<<break>>>;\n  <<<case>>> 10: cout << \"10 year award\"; <<<break>>>;\n  <<<case>>> 20: cout << \"20 year award\"; <<<break>>>;\n  <<<case>>> 30: cout << \"30 year award\"; <<<break>>>;\n  default: cout << \"You are not eligible for a longevity award this year\";\n}\n```",
-   "guidance": "```c++\nswitch (years) {\n  case 5: cout << \"5 year award\"; break;\n  case 10: cout << \"10 year award\"; break;\n  case 20: cout << \"20 year award\"; break;\n  case 30: cout << \"30 year award\"; break;\n  default: cout << \"You are not eligible for a longevity award this year\";\n}\n```",
+   "guidance": "Here are the rules for writing a `switch case` statement:\n* Start with `switch` followed by the variable that is going to be tested in parentheses `()`.\n* All of the `case`s are surrounded by a set of curly braces `{}`.\n* Each `case` is followed by a *numerical* value and a colon `:`.\n* After each `:`, write the code that should run if the variable is equal to that case's value.\n* After each section of code per case, include `break;`.\n* As the very last case, use `default:` to specify what should happen if none of the above cases are true.\n\nFollowing these rules, the correct `switch case` statement should look like this:\n```c++\nswitch (years) {\n  case 5: cout << \"5 year award\"; break;\n  case 10: cout << \"10 year award\"; break;\n  case 20: cout << \"20 year award\"; break;\n  case 30: cout << \"30 year award\"; break;\n  default: cout << \"You are not eligible for a longevity award this year\";\n}\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,

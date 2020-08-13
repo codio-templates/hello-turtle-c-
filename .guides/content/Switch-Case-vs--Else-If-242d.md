@@ -68,7 +68,7 @@ switch (letterGrade) {
 
 {Try it}(sh .guides/bg.sh g++ code/conditionals/switch.cpp -o code/conditionals/switch ./code/conditionals/switch 1)
 
-[Code Visualizer](open_tutor code/conditionals/PlaygroundSwitch.java)
+[Code Visualizer](open_tutor code/conditionals/switch.cpp)
 
 ### #2: Else If is used for handling multiple variables
 `switch case` can only compare against values - not variables. For example, if you wanted to compare the inputted day of the week with the current day of the week, you would need to use `else if`. `switch case` can handle values (`dayOfWeek == "Sunday"`) but not variables (`dayOfWeek == today`).

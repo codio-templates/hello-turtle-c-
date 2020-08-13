@@ -115,9 +115,13 @@ int main()
   // ................  Students: you put your beautiful code HERE: .......................
 
   home();
-  forward(250);
+  for (int i = 0; i < 360; i++) {
+    forward(5);
+    right(1);
+  }
+  /* forward(250);
   left(90);
-  forward(100);
+  forward(100); */
   
   XFlush(dpy); // Tell the graphics server that it should really show us the results now.
   sleep(1);  // Wait for 1 second

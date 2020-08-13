@@ -45,9 +45,9 @@ if (grade < 70) {
 }
 ```
 
-[Code Visualizer](open_tutor code/conditionals/PlaygroundIf.java)
-
 {Try it}(sh .guides/bg.sh g++ code/conditionals/if.cpp -o code/conditionals/if ./code/conditionals/if 3)
+
+[Code Visualizer](open_tutor code/conditionals/if.cpp)
 
 |||challenge
 ## What happens if you:

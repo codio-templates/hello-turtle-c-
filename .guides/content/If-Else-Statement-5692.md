@@ -26,18 +26,19 @@ else {
 
 |||important
 ## IMPORTANT
-Did you notice that the code above has the closing curly brace `}` after the the semi-colon `;` instead of on the next line? Curly braces `{}` are required for an `if-else` statement to work, however, the decision of where to place them is entirely up to you. All of the commands below work exactly the same way:
+Did you notice that the code above has the closing curly brace `}` after the the semi-colon `;` instead of on the next line? Remember that curly braces `{}` are *optional* if the `if-else` statement only includes **one** command within the `if` and `else` bodies. However, they are *mandatory* when there is **more than one** command. When using curly braces, the decision of where to place them is entirely up to you. All of the commands below work exactly the same way:
 ```c++
 if (is_true) {
-  cout << "Print me!" << endl;
+  cout << "1" << endl;
+  cout << "2" << endl;
 }
 ```
 ```c++
 if (is_true) {
-  cout << "Print me!" << endl; }
+  cout << "1" << endl; cout << "2" << endl; }
 ```
 ```c++
-if (is_true) { cout << "Print me!" << endl; }
+if (is_true) { cout << "1" << endl; cout << "2" << endl; }
 ```
 |||
 

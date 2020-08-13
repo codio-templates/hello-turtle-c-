@@ -13,6 +13,10 @@ Turtle tina = new Turtle();
 
 [View Turtle](close_file code/loops/output.bmp panel=1; open_file code/loops/output.bmp panel=1)
 
+{Compile Turtle | terminal}(cd code/loops && g++ headless.cpp -o headless && ./headless && cd ../..)
+
+[View Turtle](close_file code/loops/turtle.gif panel=1; open_file code/loops/turtle.gif panel=1)
+
 Here are some basic commands to use with the turtle library.
 
 |Command|Parameter|Description|
