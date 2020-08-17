@@ -43,10 +43,10 @@ You may have noticed that when there is only **one** command associated with an 
 ## When Are Curly Braces Mandatory?
 Curly braces `{}` are mandatory whenever you have **more than one** command that is associated with an `if` or `else` statement. Here is a code snippet that will work *without* curly braces:
 ```c++
-if (5 > 4)
-  cout << "Print me if true" << endl;
+if (10 % 2 == 0)
+  cout << "10 is even" << endl;
 else
-  cout << "Print me if false" << endl;
+  cout << "10 is odd" << endl;
 ```
 
 {Try it}(sh .guides/bg.sh g++ code/conditionals/ifelsesyntax.cpp -o code/conditionals/ifelsesyntax ./code/conditionals/ifelsesyntax 3)
@@ -56,27 +56,27 @@ However, if you add more commands to the `if` or `else` statement, the program w
 <table>
 <tr>
 <td>
-<div style="width:345px; height:112px">
+<div style="width:330px; height:112px">
 
 ```c++
-if (5 > 4)
-  cout << "Print me if true" << endl;
+if (10 % 2 == 0)
+  cout << "10 is even" << endl;
 else
-  cout << "Print me if false" << endl;
+  cout << "10 is odd" << endl;
   cout << "False" << endl;
 ```
 
 </div>
 </td>
 <td>
-<div style="width:345px; height:112px">
+<div style="width:330px; height:112px">
           
 ```c++
-if (5 > 4)
-  cout << "Print me if true" << endl;
+if (10 % 2 == 0)
+  cout << "10 is even" << endl;
   cout << "True" << endl;
 else
-  cout << "Print me if false" << endl;
+  cout << "10 is odd" << endl;
 ```
 
 </div>
@@ -89,12 +89,12 @@ else
 Like indentations, it is best practice to always include curly braces even if they are optional in certain situations.
 
 ```c++
-if (5 > 4) { // mandatory curly braces
-  cout << "Print me if true" << endl;
+if (10 % 2 == 0) { // mandatory curly braces
+  cout << "10 is even" << endl;
   cout << "True" << endl;
 }
 else { // optional curly braces
-  cout << "Print me if false" << endl;
+  cout << "10 is odd" << endl;
 }
 ```
 
