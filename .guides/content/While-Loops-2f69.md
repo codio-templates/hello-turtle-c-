@@ -1,7 +1,7 @@
 ---
 
 ## While Loop Syntax
-`while` loops, like `for` loops, use curly braces `{}` and indents for all commands that should be repeated. However `for` loops generally contain 3 elements (an initialized variable, a boolean expression involving that variable, and a change in the value of that variable) while a `while` loop usually contains just a boolean expression. The `for` and `while` loops below produce the same results.
+`while` loops, like `for` loops, use curly braces `{}` and indents for all commands that should be repeated. However, `for` loops generally contain 3 elements (an initialized variable, a boolean expression involving that variable, and a change in the value of that variable) while a `while` loop usually contains just a boolean expression. The `for` and `while` loops below produce the same results.
 
 <table>
 <tr>

@@ -1,23 +1,90 @@
 ---
+## Customize Your Turtle
+You may choose to change the dimensions of your turtle screen whenever you'd like. Also, the following table provides additional commands you can use to customize `tina` the turtle.
 
-Using your knowledge of for loops, try and recreate the images you see below. Remember, click on the tab that reads **Preview https/...** to see your output. Close the window with the turtle output to stop your program.
+|Command|Parameter|Examples|
+|:-----:|:-------:|:---------:|
+|`tina.pencolor({"COLOR"})`|Where `COLOR` represents the track or line color you want tina to leave behind|red, orange, yellow, green, blue, purple|
+|`tina.width(W)`|Where `W` represents how wide (in pixels) tina's track is|any positive integer (e.g. 1, 10, 123, etc.)|
+|`tina.shape("SHAPE")`|Where `SHAPE` represents the shape tina takes|triangle, indented triangle, square, arrow|
+|`tina.speed(SPEED)`|Where `SPEED` represents how fast tina moves|TS_FASTEST, TS_FAST, TS_NORMAL, TS_SLOW, TS_SLOWEST|
 
-<details><summary>*Customize your turtle*</summary><ul><li>`t.penColor("red")` - Takes a string for the [color](https://docs.oracle.com/javase/7/docs/api/java/awt/Color.html)</li><li>`t.shape('turtle')` - Takes one of the following strings `"turtle"`, `"circle"`, `"square"`, `"arrow"`, or `"triangle"`.</li><li>`t.speed(1)` - how many milliseconds it takes to do one action</li></ul></details>
+## Turtle Challenges
+Now that you know how to customize `tina`, try to recreate the images you see below using your knowledge of `for` loops.
 
 ### Challenge 1
-![Turtle Challenge 1](.guides/img/turtle-challenge-1.png)
-{Try it|terminal}(bash .guides/turtle.sh javac TurtleLoopImages.java java TurtleLoopImages)
+![.guides/img/TurtleChallenge1](.guides/img/TurtleChallenge1.gif)
+{Try it|terminal}(bash .guides/turtle.sh g++ turtlechallenge.cpp -o turtlechallenge ./turtlechallenge)
 
-<details><summary>**Hint**</summary>The trick is to find the pattern and then repeat it four times. The pattern is to go forward and then make a smaller square (with right turns) at the end. The pattern should look something like this: <img src=".guides/img/turtle-graphics-pattern-1.png"/></details>
-
+<details><summary>**Hint**</summary>There are multiple ways to accomplish this task but the trick lies within finding the **pattern** and then repeating it a **specific number of times**. One pattern in particular is to: <ol><li>Go forward (creating a long line).</li><li>Make a right turn.</li><li>Go forward (creating a small line).</li><li>Make a right turn.</li><li>Go forward (creating another small line).</li><li>Make a right turn.</li><li>Go forward (creating a final small line).</li><li>Repeat steps #1 through #7 three more times for a total of **four** iterations.</li></ol>The pattern should look something like this: <img src=".guides/img/TurtleChallenge1Pattern.png"/></details>
 ### Challenge 2
-![Turtle Challenge 2](.guides/img/turtle-challenge-2.png)
-{Try it|terminal}(bash .guides/turtle.sh javac TurtleLoopImages.java java TurtleLoopImages)
+![.guides/img/TurtleChallenge2](.guides/img/TurtleChallenge2.gif)
+{Try it|terminal}(bash .guides/turtle.sh g++ turtlechallenge.cpp -o turtlechallenge ./turtlechallenge)
 
-<details><summary>**Hint**</summary>Since a circle has 360 degrees, you will need a loop that repeats 360 times. Be careful about how far the turtle walks. The circle can get very big, very quickly.</details>
+<details><summary>**Hint**</summary>Since a circle has 360 degrees, you will need a loop that repeats 360 times. Be careful about how far the turtle moves forward and turns. The circle can get very big, very quickly.</details>
 
 ### Challenge 3
-![Turtle Challenge 3](.guides/img/turtle-challenge-3.png)
-{Try it|terminal}(bash .guides/turtle.sh javac TurtleLoopImages.java java TurtleLoopImages)
+![.guides/img/TurtleChallenge3](.guides/img/TurtleChallenge3.gif)
+{Try it|terminal}(bash .guides/turtle.sh g++ turtlechallenge.cpp -o turtlechallenge ./turtlechallenge)
 
-<details><summary>**Hint**</summary>The pattern here is to move forward and make a right turn. The trick is, the amount to move forward needs to get bigger as the loop advances. Think of some operators that you can use to make the loop variable get a little bit bigger each iteration.</details>
+<details><summary>**Hint**</summary>The pattern here is to move forward and make a right turn. <img src=".guides/img/TurtleChallenge3Pattern.png"/> 
+The trick lies within the fact that the distance the turtle moves has to get larger as the loop advances. Think of some operators that you can use to make the loop iterator variable get bigger during each iteration.</details>
+
+|||info
+### NOTE
+Due to the dynamic and graphical nature of the Turtle Graphics library, **jagged** lines and **spotty** pixels may appear randomly as the output is being drawn. This is completely **normal**!
+
+![.guides/img/CppJaggedLine](.guides/img/CppJaggedLine.png)
+
+|||
+
+<table><tbody ><tr><td><details><summary>
+	<b>Still having trouble with creating the outputs above?</b>
+</summary><br>
+Here are some sample solutions:
+  
+```c++
+  tina.pencolor({"blue"});
+  tina.width(2);
+  tina.shape("arrow");
+  tina.speed(TS_SLOWEST);
+  
+  for (int i = 0; i < 4; i++) {
+    tina.forward(75);
+    tina.right(90);
+    tina.forward(25);
+    tina.right(90);
+    tina.forward(25);
+    tina.right(90);
+    tina.forward(25);
+  }
+```
+
+```c++
+  tina.pencolor({"red"});
+  tina.width(2);
+  tina.shape("square");
+  tina.speed(TS_FASTEST);
+  
+  for (int i = 0; i < 360; i++) {
+    tina.forward(1);
+    tina.right(1);
+  }
+```
+  
+```c++
+  tina.pencolor({"green"});
+  tina.width(2);
+  tina.shape("triangle");
+  tina.speed(TS_NORMAL);
+  
+  for (int i = 10; i <= 200; i+=10) {
+    tina.forward(i);
+    tina.right(90);
+  }
+```
+
+</details></td></tr></tbody>
+</table>
+
+{Check It!|assessment}(fill-in-the-blanks-709209464)

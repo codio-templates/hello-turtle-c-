@@ -5082,8 +5082,8 @@
   "source": {
    "name": "While vs. For Loops",
    "showName": true,
-   "instructions": "Fill in the blanks below with either `while` or `for` in all **lowercase** letters.",
-   "text": "A <<<while>>> loop only has a boolean expression(s) in its header.\nA <<<for>>> loop contains a header that specifies where an iterator variable starts, ends, and how it is changed per iteration.\nA <<<for>>> loop is better if a command needs to be executed a certain number of times.\nA counting variable needs to be declared and initialized before a <<<while>>> loop can be executed properly.",
+   "instructions": "Fill in the blanks below with either `while` or `for`.",
+   "text": "A <<<while>>> loop usually contains a boolean expression(s) in its header and nothing else.\nA <<<for>>> loop contains a header that specifies where an iterator variable starts, where it ends, and how it is changed per iteration.\nA <<<for>>> loop is better if a command needs to be executed a certain number of times.\nA counting variable needs to be declared and initialized before a <<<while>>> loop can be executed properly.",
    "guidance": "One big difference between a `while` loop and a `for` loop is that a `while` loop only contains a boolean expression(s) within its header. That means a counting variable must be declared and initialized before a `while` loop can be used properly. On the other hand, the header of a `for` loop contains an iterator variable which helps to determine how many times the `for` loop will run.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -5119,9 +5119,9 @@
     "text": [
      "A ",
      0,
-     " loop only has a boolean expression(s) in its header.\nA ",
+     " loop usually contains a boolean expression(s) in its header and nothing else.\nA ",
      0,
-     " loop contains a header that specifies where an iterator variable starts, ends, and how it is changed per iteration.\nA ",
+     " loop contains a header that specifies where an iterator variable starts, where it ends, and how it is changed per iteration.\nA ",
      0,
      " loop is better if a command needs to be executed a certain number of times.\nA counting variable needs to be declared and initialized before a ",
      0,
@@ -5153,7 +5153,7 @@
     {
      "_id": "4283e2c6-510e-4415-ca75-b0c3516de4e8",
      "correct": false,
-     "answer": "The `break` statement is used to start a loop."
+     "answer": "The `break` statement is used to end a program."
     },
     {
      "_id": "5b0a73c0-1b1f-2374-893a-c9c90fef3178",
@@ -5161,7 +5161,7 @@
      "answer": "The `break` statement is used to stop and exit a loop."
     }
    ],
-   "guidance": "The `break` statement is used to stop and exit a loop. `break` statements are often used to prevent situations where an infinite loop might be involved; however, `break` statements are not always required.",
+   "guidance": "The `break` statement is used to stop and exit a loop **not** a program. `break` statements are often used to prevent situations where an infinite loop might be involved; however, `break` statements are not always required.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -5196,7 +5196,7 @@
    "showName": true,
    "instructions": "Fill in the blanks below so that the `while` loop prints `C++` **10** times.",
    "text": "```c++\nint <<<count>>> = 0;\nwhile (count <<<<>>> 10) {\n  cout << \"C++\" << endl;\n  count = count <<<+>>> 1;\n}\n```",
-   "guidance": "",
+   "guidance": "The counting variable that is being used in the code is called `count`. If `count` is initialized to `0`, then **ten iterations** will cause it to stop at `9`. Thus, `count < 10` is the correct loop header. `count = count + 1` does the same  thing as `count++` and will increment the counting variable by `1` after during each iterations.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -5240,7 +5240,7 @@
    "showName": true,
    "instructions": "Fill in the blanks such that the loop will **stop and exit** after it has run **100** times.",
    "text": "```c++\nint total = 0;\nwhile (true) {\n  total = <<<total>>> + 1;\n  if (total > <<<99>>>) {\n    <<<break>>>;\n  }\n}\n```",
-   "guidance": "",
+   "guidance": "`total` is the counting variable that is used in the code above. To increment `total` so that it iterates **100 times**, `total = total + 1` is needed. Since `total` starts at `0` and we want it to iterate 100 times before stopping, we will insert a `break` statement to stop the loop once `total > 99` becomes true. The range from `0` through `99` is a total of exactly 100 iterations.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -5406,6 +5406,169 @@
     ],
     "regexPositions": []
    }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1332761997",
+  "source": {
+   "name": "Recognizing For Loop Pattern",
+   "showName": true,
+   "instructions": "Given the following code snippet:\n```c++\ntina.forward(100);\ntina.right(90);\ntina.forward(100);\ntina.right(90);\ntina.forward(100);\ntina.right(90);\ntina.forward(100);\ntina.right(90);\n```\nSelect **all** of the following that will produce the same output as the code above using a `for` loop?",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "de7d8781-6882-55c1-91c9-bfdc4c3e14f5",
+     "correct": true,
+     "answer": "```c++\nfor (int i = 0; i < 4; i++) {\n  tina.forward(100);\n  tina.right(90);\n}\n```"
+    },
+    {
+     "_id": "a8743d5d-8f94-d697-9231-3b55068846a2",
+     "correct": false,
+     "answer": "```c++\nfor (int i = 1; i < 4; i++) {\n  tina.forward(100);\n  tina.right(90);\n}\n```"
+    },
+    {
+     "_id": "455e7f69-7c35-ea1c-7809-0ba1493ac7f4",
+     "correct": true,
+     "answer": "```c++\nfor (int i = 1; i < 5; i++) {\n  tina.forward(100);\n  tina.right(90);\n}\n```"
+    },
+    {
+     "_id": "614daf40-f5d3-6773-422f-a1027d4cbbf9",
+     "correct": true,
+     "answer": "```c++\nfor (int i = 20; i < 24; i++) {\n  tina.forward(100);\n  tina.right(90);\n}\n```"
+    }
+   ],
+   "guidance": "All of the choices above are correct **except** choice #2. It's important to recognize that the `tina.forward(100);` and `tina.right(90);` commands occur exactly **four** times. Thus, a loop that iterates those commands four times is needed. While all of the choices have a loop header that runs four times, choice #2 has a header that only runs **three** times and is therefore incorrect.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/turtleloop.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/turtleloop.cpp"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 1,
+      "content": "https://{{domain3000}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-709209464",
+  "source": {
+   "name": "For Loop Iterator Variable",
+   "showName": true,
+   "instructions": "Here is the output to a sample program:\n\n```c++\n2\n4\n6\n8\n10\n```\nFill in the blanks below so that the loop outputs what's shown above.",
+   "text": "```c++\nfor (int n=<<<2>>>; n<<<<=>>>10; n+=<<<2>>>) {\n  cout << <<<n>>> << endl;\n}\n```",
+   "guidance": "First, it is important to determine the pattern of the output. `2` is printed first and `10` is printed last. In addition, the numbers from `2` through `10` are printed in increments of `2`s. Noticing this pattern enables us to fill out the loop header like so: \n`for (int n=2; n<=10; n+=2)`\n\nFinally, we need to print the output. Remember that the loop iterator variable `n` is an integer itself so it can be printed like so:\n`cout << n << endl;`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/loops/turtlechallenge.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/turtlechallenge.cpp"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 1,
+      "content": "https://{{domain3000}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "2",
+     "<=",
+     "2",
+     "n"
+    ],
+    "text": [
+     "```c++\nfor (int n=",
+     0,
+     "; n",
+     0,
+     "10; n+=",
+     0,
+     ") {\n  cout << ",
+     0,
+     " << endl;\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-4243116701",
+  "source": {
+   "name": "For Loop to While Loop",
+   "showName": true,
+   "instructions": "Here is a sample code that makes use of a `for` loop:\n```c++\nfor (int i = 10; i <= 100; i+=10) {\n  cout << i << endl;\n}\n```\n\nRearrange the code blocks below to produce the same output as above using a `while` loop instead. **Remember** to **indent** any commands that are iterated!",
+   "initial": "int i = 10;\nwhile (i <= 100) {\n  cout << i << endl;\n  i+=10;\n}",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
+   "grader": "1",
+   "guidance": "Did you remember to:\n* indent any iterating commands?\n* initialize and increment the counting variable in the correct places?",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/loops/turtlewhile.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/turtlewhile.cpp"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 1,
+      "content": "https://{{domain3000}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  }
 ]

@@ -3614,9 +3614,12 @@
              //See the following to understand why this was done:
              //https://github.com/ericsonga/APCSAReview/blob/master/_sources/TurtleGraphics/turtleBasics.rst
              //HTML can be captured for later output.
-             std::cout << "<img src=\'data:image/gif;base64,";
+             
+             //Code below tells the program to print a message
+             //std::cout << "Your turtle has been successfully created." << std::endl;
+             /*std::cout << "<img src=\'data:image/gif;base64,";
              std::cout << imgCode;
-             std::cout << "\'/>";
+             std::cout << "\'/>";*/
  #endif
  
              clearscreen();

@@ -360,23 +360,11 @@
  },
  {
   "taskId": "multiple-choice-1446741928",
-  "points": 1,
+  "points": 0,
   "state": {
-   "active": "68b1f5f5-4646-16e4-cf5d-c90a6194f343"
+   "active": null
   },
-  "results": [
-   {
-    "guidance": "Only the `+` operator can be used with strings. It serves as the concatenation operator by merging two strings together.",
-    "current": [
-     "68b1f5f5-4646-16e4-cf5d-c90a6194f343"
-    ],
-    "right": [
-     "68b1f5f5-4646-16e4-cf5d-c90a6194f343"
-    ],
-    "timestamp": 1595526050246,
-    "state": "pass"
-   }
-  ]
+  "results": []
  },
  {
   "taskId": "parsons-puzzle-1773163281",
@@ -1162,6 +1150,48 @@
   "points": 0,
   "state": {
    "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-1332761997",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-709209464",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-4243116701",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1524850643",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-115498461",
+  "points": 0,
+  "state": {
+   "active": []
   },
   "results": []
  }
