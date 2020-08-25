@@ -5288,17 +5288,17 @@
     {
      "_id": "ce673aec-0bcc-6afe-34d7-05533833bc3c",
      "correct": false,
-     "answer": "A nested loop is when you have two loops, one after the other."
+     "answer": "A nested loop is when you have two loops that run one after the other."
     },
     {
      "_id": "afb92744-c7ce-6e55-8fd2-7bae225fc514",
      "correct": false,
-     "answer": "A nested loop is when you have a while loop and a for loop in the same program."
+     "answer": "A nested loop is when you have a `while` loop and a `for` loop in the same program."
     },
     {
      "_id": "e44d7f66-e7f8-6856-9695-7b0c6475306d",
      "correct": true,
-     "answer": "A nested loop is when a loop is inside another loop."
+     "answer": "A nested loop is when a loop exists inside another loop."
     },
     {
      "_id": "e4da8d91-0291-8334-daa9-cc0d8cf64627",
@@ -5306,7 +5306,7 @@
      "answer": "A nested loop is when you have more than one loop in your program."
     }
    ],
-   "guidance": "",
+   "guidance": "By definition, a **nested loop** is when one loop exists inside another loop. There are are restrictions on the type of loop that can be nested nor the number of nested loops that can be used (though it is rare to implement more than two nested loops). Thus, a `for` loop can be nested in another `for` loop and a `while` loop can be nested inside another `while` loop. In addition, a `for` loop can be nested inside a `while` loop and vice versa. ",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -5339,11 +5339,11 @@
   "source": {
    "name": "Cumulative Song with a Nested Loop",
    "showName": true,
-   "instructions": "\"A cumulative song is a song with a simple verse structure modified by progressive addition so that each verse is longer than the verse before.\" - Wikipedia\n\nHelp create a cheat sheet for the cumulative song the 12 days of Christmas where you start with 1, add 2, etc.\n\nThe output should look like:\n```\n1\n1 2 \n1 2 3 \n1 2 3 4 \n....\n1 2 3 4 5 6 7 8 9 10 11 12 \n```\n",
-   "initial": "for(int line = 1; line <= 12; line++) {\nfor(int num = 1; num <= line; num++) {\ncout << num << \" \";\n}\ncout << \"\" << endl;\n}",
+   "instructions": "\"A cumulative song is a song with a simple verse structure modified by progressive addition so that each verse is longer than the verse before.\" - Wikipedia\n\nRearrange the code blocks below to create a cheat sheet for the cumulative song *The 12 Days of Christmas* where you start with 1, add 2, etc. **Remember to indent** where appropriate!\n\nThe output should look like:\n```\n1\n1 2 \n1 2 3 \n1 2 3 4 \n....\n1 2 3 4 5 6 7 8 9 10 11 12 \n```\n",
+   "initial": "for (int line = 1; line <= 12; line++) {\n  for (int num = 1; num <= line; num++) {\n    cout << num << \" \";\n  }\n  cout << \"\" << endl;\n}",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
    "grader": "1",
-   "guidance": "",
+   "guidance": "Did you:\n* remember to indent?\n* nest the appropriate loops inside of each other?",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -5369,11 +5369,11 @@
    "showName": true,
    "instructions": "Fill in the blanks such that the nested loop will print out:\n\n```\n&&\n*\n*\n*\n&&\n*\n*\n*\n&&\n*\n*\n*\n&&\n*\n*\n*\n```",
    "text": "```c++\nfor (int i = 0; i < <<<4>>>; i++) {\n  cout << \"<<<&&>>>\" << endl;\n  for (int j = 0; j < <<<3>>>; j++) {\n    cout << \"<<<*>>>\" << endl;\n  }\n}\n```",
-   "guidance": "",
+   "guidance": "First, it is necessary to determine the pattern that is being iterated. Notice how a `&&` symbol is followed by **three** `*` symbols and this pattern repeats exactly **four** times. This means that the inner loop should run three times for every time the outer loop runs and we want the outer loop to run four times. In other words, print three `*` for **each** of the four printed `&&`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
+   "showValues": true,
    "metadata": {
     "tags": [
      {
@@ -5536,7 +5536,7 @@
   "source": {
    "name": "For Loop to While Loop",
    "showName": true,
-   "instructions": "Here is a sample code that makes use of a `for` loop:\n```c++\nfor (int i = 10; i <= 100; i+=10) {\n  cout << i << endl;\n}\n```\n\nRearrange the code blocks below to produce the same output as above using a `while` loop instead. **Remember** to **indent** any commands that are iterated!",
+   "instructions": "Here is a sample code that makes use of a `for` loop:\n```c++\nfor (int i = 10; i <= 100; i+=10) {\n  cout << i << endl;\n}\n```\n\nRearrange the code blocks below to produce the same output as above using a `while` loop instead. **Remember to indent** any commands that are iterated!",
    "initial": "int i = 10;\nwhile (i <= 100) {\n  cout << i << endl;\n  i+=10;\n}",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
    "grader": "1",
@@ -5564,6 +5564,99 @@
       "type": "preview",
       "panelNumber": 1,
       "content": "https://{{domain3000}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3396681427",
+  "source": {
+   "name": "Conditional For Loop",
+   "showName": true,
+   "instructions": "Rearrange the code blocks below to create a program that outputs the following:\n```c++\nEven Odd Even\nOdd Even Odd\nEven Odd Even\nOdd Even Odd\nEven Odd Even\n```\n**Remember to indent** where appropriate! You will only have **ONE ATTEMPT** at this problem.",
+   "initial": "for (int x = 0; x < 5; x++) {\n  if (x % 2 == 0) {\n    cout << \"Even Odd Even\" << endl;\n  }\n  else {\n    cout << \"Odd Even Odd\" << endl;\n  }\n}",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\"}",
+   "grader": "1",
+   "guidance": "In order to produce the provided output, the code blocks **with indentations** should look like:\n```c++\nfor (int x = 0; x < 5; x++) {\n  if (x % 2 == 0) {\n    cout << \"Even Odd Even\" << endl;\n  }\n  else {\n    cout << \"Odd Even Odd\" << endl;\n  }\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/loops/labforloop.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/labforloop.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3422329539",
+  "source": {
+   "name": "Infinite While Loop",
+   "showName": true,
+   "instructions": "Which of the following code snippets will result in an **infinite** `while` loop?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "75b2b601-a857-6e13-3be5-572188b967ba",
+     "correct": false,
+     "answer": "```c++\nint lives = 0;\nwhile (lives > 10) {\n  cout << \"You are still in the game.\" << endl;\n}\ncout << \"Game over.\" << endl;\n```"
+    },
+    {
+     "_id": "99037ea4-9fc1-5919-8d65-c7178d23683a",
+     "correct": false,
+     "answer": "```c++\nint lives = 10;\nwhile (lives > 0) {\n  cout << \"You are still in the game.\" << endl;\n  lives = lives - 1;\n}\ncout << \"Game over.\" << endl;\n```"
+    },
+    {
+     "_id": "d2cba5cc-1131-729f-eab6-a99ace14ceff",
+     "correct": true,
+     "answer": "```c++\nint lives = 10;\nwhile (lives > 0) {\n  cout << \"You are still in the game.\" << endl;\n  lives = lives + 1;\n}\ncout << \"Game over.\" << endl;\n```"
+    },
+    {
+     "_id": "487200e3-f49f-13e4-7c05-778379a60c77",
+     "correct": false,
+     "answer": "```c++\nint lives = 10;\nwhile (lives < 0) {\n  cout << \"You are still in the game.\" << endl;\n  lives = lives + 1;\n}\ncout << \"Game over.\" << endl;\n```"
+    }
+   ],
+   "guidance": "Only choice #3 will result in an infinite `while` loop because `lives` will never reach `0` or less to terminate the loop. \n\nThe `while` loops in choices #1 and #4 are not executed because the boolean expression in the loop header never evaluates to true. \n\nThe `while` loop in choice #2 executes but is ended once `lives` reaches `0` due to `lives` being decremented after each iteration.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/labwhileloop.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/labwhileloop.cpp"
      }
     ]
    },

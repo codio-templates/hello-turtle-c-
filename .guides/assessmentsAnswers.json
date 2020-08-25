@@ -1194,5 +1194,49 @@
    "active": []
   },
   "results": []
+ },
+ {
+  "taskId": "multiple-choice-3452389070",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1754583646",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-1558714089",
+  "points": 0,
+  "results": [],
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  }
+ },
+ {
+  "taskId": "parsons-puzzle-3396681427",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-3422329539",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
  }
 ]

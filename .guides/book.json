@@ -876,73 +876,355 @@
      "title": "Array Basics",
      "id": "2662f565-d40c-59f0-4717-f4051af63119",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "91a6b384-029e-f6e6-844a-03722e72c1e1",
+       "title": "Learning Objectives: Array Basics",
+       "pageId": "60f3b814-3ec8-a81f-96f1-96f6070fdb94",
+       "type": "page"
+      },
+      {
+       "id": "728d5081-37bc-f381-c5ac-34f800879b55",
+       "title": "Array Basics 1",
+       "pageId": "c997807d-ebcf-4350-1140-7e50c7eae707",
+       "type": "page"
+      },
+      {
+       "id": "b342c8a8-399b-0f11-1a50-e09a9265d4c5",
+       "title": "Array Basics 2",
+       "pageId": "66414e19-36bd-541b-e0f0-4665542018c6",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: Array Basics",
      "id": "ab0de2b4-b40c-9436-9b24-3decce16daf2",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "0c1fffd1-69e1-5b68-0a2e-47abe37293dd",
+       "title": "Formative Assessment 1",
+       "pageId": "54289e9f-b3e5-0821-9c5b-e70f197c3572",
+       "type": "page"
+      },
+      {
+       "id": "63b92301-7d08-3660-cefc-dd29da551da8",
+       "title": "Formative Assessment 2",
+       "pageId": "5b92bdb3-6419-ea7b-9d17-821f33ba1102",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Array Operators",
      "id": "f306c5bf-59a3-e026-65cf-ba8ff6f2c83e",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "259229b2-04c3-4c81-71da-8465b8aa7eac",
+       "title": "Learning Objectives: Array Operators",
+       "pageId": "7fcbd94b-11c2-d7e1-081d-ce8c51f9a63a",
+       "type": "page"
+      },
+      {
+       "id": "64c5c672-e7e3-f1f6-4032-6bb5979327db",
+       "title": "Array Concatenation",
+       "pageId": "c6fc8439-e0f5-56ed-d88a-31bc8afeeb7f",
+       "type": "page"
+      },
+      {
+       "id": "0a6c4615-993f-2f8e-9fbb-a16497240ef7",
+       "title": "Array Repetition",
+       "pageId": "f8802293-e156-35bb-3fb2-ed4571abc93e",
+       "type": "page"
+      },
+      {
+       "id": "357e8937-0cb1-90dd-59e0-7b41d6a64543",
+       "title": "The In Operator",
+       "pageId": "f8ce9e9f-12dd-b40d-590a-c24282e021a5",
+       "type": "page"
+      },
+      {
+       "id": "b79555d1-6bed-4669-9ac4-35120c27f7e6",
+       "title": "Array Length",
+       "pageId": "3ef74526-fd2b-bdd3-e6c0-36a1d08baebc",
+       "type": "page"
+      },
+      {
+       "id": "81de28c0-5dfc-ae26-4cfc-ab8d656ac99c",
+       "title": "The Slice Operator",
+       "pageId": "225fba0d-72bb-5b52-5c16-c44db364074d",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: Array Operators",
      "id": "62c295fb-5b31-cce8-7992-f23625a36019",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "a27cfdbc-17e2-341b-b76e-84cfff8021de",
+       "title": "Formative Assessment 1",
+       "pageId": "7accdc2e-10d3-84ad-1f54-14e904d0276b",
+       "type": "page"
+      },
+      {
+       "id": "e6abb01f-658e-b07c-1718-61b07321541e",
+       "title": "Formative Assessment 2",
+       "pageId": "81c0ad60-3921-aa12-c21e-ab5656e67904",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Array Methods",
      "id": "843ad013-aa82-ed7f-c8e3-ea5d0f9cf9e2",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "091d9717-ab48-196b-7063-c81a5c307dd2",
+       "title": "Learning Objectives: Array Methods",
+       "pageId": "0e422b0d-436c-f358-d417-63b0db8c9eaf",
+       "type": "page"
+      },
+      {
+       "id": "3b5729ef-f7f4-2059-ca50-383e0998b93a",
+       "title": "Append",
+       "pageId": "a802bc14-7d71-9557-c832-8884c330f03e",
+       "type": "page"
+      },
+      {
+       "id": "34e5ad26-712f-fad3-fdd5-2301f97cef4c",
+       "title": "Pop",
+       "pageId": "b9923a8f-ab59-7aa9-b19f-27f7c84e7fe6",
+       "type": "page"
+      },
+      {
+       "id": "26bb5525-b0fb-b07b-a062-153610483cad",
+       "title": "Insert",
+       "pageId": "0c766780-254d-0f36-c67f-b7ce390814dc",
+       "type": "page"
+      },
+      {
+       "id": "5a5728cc-2a00-9443-6d8a-cee78d936af8",
+       "title": "Remove",
+       "pageId": "b8965157-4a22-e504-eca3-73032df6a7f5",
+       "type": "page"
+      },
+      {
+       "id": "5f426841-897c-8b11-4da6-15bb36e96eb2",
+       "title": "Count",
+       "pageId": "789fc556-b39d-d6bc-5ae6-f325fa2e347b",
+       "type": "page"
+      },
+      {
+       "id": "8d756491-6717-5502-2422-a9058b2d122b",
+       "title": "Index",
+       "pageId": "3edaaabe-6225-f494-45b4-6d3641126e3e",
+       "type": "page"
+      },
+      {
+       "id": "62057fdd-5923-67bb-df7f-bb51bfa888b7",
+       "title": "Sort",
+       "pageId": "da8a0767-adb9-fdac-98e3-49cc78228ed4",
+       "type": "page"
+      },
+      {
+       "id": "e3e54198-83ce-c8ec-3cfa-3792c9ff4700",
+       "title": "Reverse",
+       "pageId": "08322f3f-2dd0-589c-1aed-c23b959a6b86",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: Array Methods",
      "id": "59c2998c-67c9-0ff3-54de-37d7b80b3ff0",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "6191a020-c39d-93dc-d411-981a3bc2b983",
+       "title": "Formative Assessment 1",
+       "pageId": "128b977d-4478-840a-2e11-cc1a1e8a1350",
+       "type": "page"
+      },
+      {
+       "id": "9e9d71c3-aa07-ef25-6c79-4b0ffb4f3c39",
+       "title": "Formative Assessment 2",
+       "pageId": "c5e4a490-c2c2-b879-5b2e-bc0bdcf05be9",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Array of Numbers",
      "id": "42ad9ecb-6d5d-0a20-10df-6698b5c05378",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "ae7f4e47-210c-d345-9fea-47dbdfce28ef",
+       "title": "Learning Objectives: Array of Numbers",
+       "pageId": "95131d9d-929b-aa36-3655-73923d63b100",
+       "type": "page"
+      },
+      {
+       "id": "0d8b3db4-d0bc-7158-73f0-2a9e3fb0f1ca",
+       "title": "Sum",
+       "pageId": "6ebeef4f-7e87-f298-01de-c849e80f1f43",
+       "type": "page"
+      },
+      {
+       "id": "106c3233-bab4-f6b8-90f1-273c104643c3",
+       "title": "Min",
+       "pageId": "145bae11-45db-fcee-d2a5-bd66e519c874",
+       "type": "page"
+      },
+      {
+       "id": "e4f222f3-6a87-3c2b-64ef-fb53d2785433",
+       "title": "Max",
+       "pageId": "b2f80351-cbf4-25d1-968c-4360e41ed4b5",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: Array of Numbers",
      "id": "f499b3af-6885-909a-17e3-85d487269d8d",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "e1f66b9c-b7d8-b208-ddf8-23d4234e54b6",
+       "title": "Formative Assessment 1",
+       "pageId": "b4243a67-6c9e-4c21-a27d-4b27b50b0dc1",
+       "type": "page"
+      },
+      {
+       "id": "746b2802-9ccb-4c13-a9df-ba2b3b3535bd",
+       "title": "Formative Assessment 2",
+       "pageId": "a7d94602-c7f9-7aca-72b4-2c53f5e2d62b",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Array Iteration",
      "id": "347822d5-5ec9-947a-160c-419b10a3bf5a",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "59199f34-5e5a-22b3-d0f5-e67b5d1b63db",
+       "title": "Learning Objectives: Array Iteration",
+       "pageId": "b9a00cf6-78b8-2673-756f-870e93cfd245",
+       "type": "page"
+      },
+      {
+       "id": "91e270c6-7c00-3517-0160-9e0c964fffc1",
+       "title": "Array Iteration: For Loop",
+       "pageId": "d4c289ac-97a4-678f-ab53-aa26f27b0d47",
+       "type": "page"
+      },
+      {
+       "id": "6b6c006e-86c0-b424-457e-f0a9587081ab",
+       "title": "Array Iteration: While Loop",
+       "pageId": "cdf48525-55b9-fd61-37ac-e99f680c59b7",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Formative Assessment: Array Iteration",
      "id": "bcdedf21-a265-2099-953a-dface35b8106",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "e7bbdf9c-ba4b-4d3f-8204-cfbaeaff2f0b",
+       "title": "Formative Assessment 1",
+       "pageId": "63c653f5-bbf9-11a7-09f9-717a4f4895c4",
+       "type": "page"
+      },
+      {
+       "id": "cf96b19e-b448-ac6c-4284-61a1a86fa1b1",
+       "title": "Formative Assessment 2",
+       "pageId": "37e04188-66fd-e16f-68e0-e9fcd1b528c9",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Lab: Arrays",
      "id": "1c30195d-f6c2-e369-bdb6-8b9956db0bb0",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "9ca594c1-207a-1fce-9ff5-ad675e9165fb",
+       "title": "Lab 1",
+       "pageId": "93acd568-b842-af7e-30fc-307021d28eb5",
+       "type": "page"
+      },
+      {
+       "id": "47072ab0-e028-2f18-2a27-c36aff61dde7",
+       "title": "Lab 2",
+       "pageId": "18f235bf-5756-cc83-5780-a9742d28fa0f",
+       "type": "page"
+      },
+      {
+       "id": "57010e7c-8ffe-5749-499d-bfe74b0043e1",
+       "title": "Lab 3",
+       "pageId": "706ffcad-ca25-4022-693c-801db2a8ced2",
+       "type": "page"
+      },
+      {
+       "id": "f7a50625-ba50-2f0d-c400-4373b3922a9b",
+       "title": "Lab 4",
+       "pageId": "b5d62201-216f-97dc-c7d3-539ad99ef679",
+       "type": "page"
+      },
+      {
+       "id": "4ca6cb21-10df-5abb-a1db-4252fd3111c6",
+       "title": "Lab Challenge",
+       "pageId": "52451b6c-ac16-a3a0-70de-dd2eb4049844",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Coding Exercises: Arrays",
      "id": "3a94a122-355b-eb19-5183-cbb1848e17bd",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "87190312-18e3-1a50-32ea-22164ef1662e",
+       "title": "Exercise 1",
+       "pageId": "2464f629-ea70-2c75-91be-2f2ca72bec77",
+       "type": "page"
+      },
+      {
+       "id": "9259eb81-c6c0-b6e0-3ea8-8b61a24183ef",
+       "title": "Exercise 2",
+       "pageId": "de6d7d7f-a020-2c33-ef08-c27248dc1a5e",
+       "type": "page"
+      },
+      {
+       "id": "18a9530f-03a2-96e0-c6d4-524d5a88356c",
+       "title": "Exercise 3",
+       "pageId": "3d9b4cb2-fcfa-cef5-fcf1-95d4f0410793",
+       "type": "page"
+      },
+      {
+       "id": "01e0f59b-9923-0ca4-702d-ccc00800f38d",
+       "title": "Exercise 4",
+       "pageId": "1bf1c9e2-4f31-56de-fe04-991d0b12501d",
+       "type": "page"
+      },
+      {
+       "id": "bf403e75-b760-119a-4d38-0da0d7d2019f",
+       "title": "Exercise 5",
+       "pageId": "86116b4d-7f12-7b45-54d4-7753ce8e6e1d",
+       "type": "page"
+      }
+     ]
     }
    ]
   },
