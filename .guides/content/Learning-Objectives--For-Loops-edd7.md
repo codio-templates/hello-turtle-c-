@@ -1,7 +1,6 @@
 ---
 
 * ### Explain `for` loop syntax
-* ### Identify the causes of an infinite `for` loop
 * ### Identify the relationship between patterns, loops, and output
 
 |||guidance

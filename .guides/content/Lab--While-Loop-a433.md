@@ -1,6 +1,6 @@
 ---
 
-## Tutorial Lab 2: The while loop
+## Tutorial Lab 2: The While Loop
 Copy the code below into the text editor on the left. Then click on the `TRY IT` button to see the resulting output and ++Code Visualizer++ link (below) to see how the program runs line by line.
 
 ```c++

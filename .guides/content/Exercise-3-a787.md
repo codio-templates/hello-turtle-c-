@@ -6,4 +6,3 @@ Using `while True:`, create a loop that prints the sum of all the numbers betwee
 
 {try it}(python3 code/loops/exercise-3.py)
 
-{Check It!|assessment}(test-3508204061)

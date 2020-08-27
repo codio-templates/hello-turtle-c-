@@ -5663,5 +5663,163 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1006235551",
+  "source": {
+   "name": "Infinite Loop Solution",
+   "showName": true,
+   "instructions": "The following program results in an infinite loop:\n```c++\nstring s;\n\nwhile (true) {\n  cout << \"Enter a lowercase vowel.\" << endl;\n  cin >> s;\n  if (s==\"a\" || s==\"e\" || s==\"i\" || s==\"o\" || s==\"u\") {\n    cout << \"You successfully entered a vowel.\" << endl;\n  }\n  else {\n    cout << \"You did not enter a vowel.\" << endl;\n  }\n}\n```\n\nSelect **all** of the solutions below that will enable the program to resolve this infinite loop.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "875a7a00-94ed-8481-4a5d-508a310f2a12",
+     "correct": true,
+     "answer": "Insert a `break;` statement on the line after `cout << \"You successfully entered a vowel.\" << endl;`."
+    },
+    {
+     "_id": "8cb3ae06-33d3-1200-a0a2-14e042073b3f",
+     "correct": true,
+     "answer": "Insert a `break;` statement on the line after `cout << \"You did not enter a vowel.\" << endl;`."
+    },
+    {
+     "_id": "9aeb0a2c-1678-5db6-6544-b949a8dd1eb2",
+     "correct": false,
+     "answer": "Replace `while (true)` with `for (true)`."
+    },
+    {
+     "_id": "6b49f35e-301a-8727-af90-576420bbb9f3",
+     "correct": false,
+     "answer": "Remove `cin >> s;`"
+    }
+   ],
+   "guidance": "By definition, an **infinite loop** occurs when a program has no test conditions to cause a loop to stop. The program above will indefinitely ask the user for input and store that input regardless of what the user enters.\n\nChoices #1 and #2 are correct because they will offer a condition for the loop to stop depending on what the user enters.\n\nChoice #3 will result in an error because the `for` loop syntax is incorrect.\n\nChoice #4 will not solve the infinite loop and will keep printing the prompt without storing any information from the user.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/loops/labbreak.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/labbreak.cpp"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1015024454",
+  "source": {
+   "name": "Nested For Loop Challenge",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to check your work. **Remember** to include **at least two `for` loops** in your code in order to receive credit!",
+   "command": "bash .guides/secure/loops/labchallenge.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/loops/labchallenge.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/labchallenge.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2162549941",
+  "source": {
+   "name": "Loops: Exercise 1",
+   "showName": true,
+   "instructions": "Imagine that you have a Turtle object called `tina`. You want `tina` to move around on a screen and leave a trail that draws a triangle like below.\n\n![.guides/img/TurtleExercise1](.guides/img/TurtleExercise1.gif)\n\n<details><summary>*Turtle Graphics Review*</summary><ul><li>`tina.forward(n)` - Where `n` represents the number of pixels.</li><li>`tina.backward(n)` - Where `n` represents the number of pixels.</li><li>`tina.right(d)` - Where `d` represents the number of degrees.</li><li>`tina.left(d)` - Where `d` represents the number of degrees.</li><li>`tina.pencolor({\"COLOR\"})` - Where `COLOR` represents the track or line color you want tina to leave behind.</li><li>`tina.width(W)` - Where `W` represents how wide (in pixels) tina's track is.</li><li>`tina.shape(\"SHAPE\")` - Where `SHAPE` represents the shape tina takes.</li><li>`tina.speed(SPEED)` - Where `SPEED` represents how fast tina moves</li></ul></details>\n\nFill in the `for` loop below so that `tina` will walk and produce the triangle like above. You can use the text editor in the upper left panel to craft your code and the `TRY IT` button below to check your output **before** submitting your fill-in-the-blanks for grading.",
+   "text": "```c++\nfor (int x = 0; x < <<<3>>>; <<<x>>>++) {\n  tina.<<<forward>>>(100);\n  tina.<<<left>>>(120);\n}\n```",
+   "guidance": "",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/loops/exercise1.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/exercise1.cpp"
+     },
+     {
+      "type": "preview",
+      "panelNumber": 1,
+      "content": "https://{{domain3000}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "3",
+     "x",
+     "forward",
+     "left"
+    ],
+    "text": [
+     "```c++\nfor (int x = 0; x < ",
+     0,
+     "; ",
+     0,
+     "++) {\n  tina.",
+     0,
+     "(100);\n  tina.",
+     0,
+     "(120);\n}\n```"
+    ],
+    "regexPositions": []
+   }
+  }
  }
 ]

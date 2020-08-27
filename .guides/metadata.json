@@ -2200,7 +2200,7 @@
   },
   {
    "id": "74b7904f-22ba-2fa4-9999-ed62b0dfe1d9",
-   "title": "Lab Challenge: Chessboard",
+   "title": "Lab Challenge: Loop Patterns",
    "files": [
     {
      "path": "#tabs",
@@ -2215,7 +2215,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-Challenge--Chessboard-74b7.md",
+   "content-file": ".guides/content/Lab-Challenge--Loop-Patterns-74b7.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -2228,9 +2228,19 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/loops/exercise1.cpp",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-1-0eba.md",

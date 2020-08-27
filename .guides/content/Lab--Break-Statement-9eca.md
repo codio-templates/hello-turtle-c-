@@ -1,37 +1,37 @@
 ---
 
-## Tutorial Lab 3: Breaking from the while loop
-Use the text editor open in the left pane, and enter the following code:
+## Tutorial Lab 3: Breaking from the While Loop
+Copy the code below into the text editor in the upper left panel. Then click on the `TRY IT` button to run the resulting program in the Terminal in the lower left panel.
 
-<details><summary>What does `cin >> input;` mean?</summary>The `input` command will wait for the user to type some information into the terminal and press `return`. `input` takes an string argument which will be displayed for the user. The information entered by the user is stored in the variable `inp`. All information entered for the `input` command will be stored as a string (even if you type a number).</details>
+<details><summary>What does `cin >> input;` do?</summary>The `cin >> input;` command records what a user enters on the screen and stores that information in the variable `input`. Note that `input` is of type `double`.</details>
+<details><summary>What do `cin.good()` and `cin.fail()` do?</summary>`cin.good()` checks to see if the input entered by the user was successful while `cin.fail()` checks to see if the input failed. Since `input` is of type `double`, only numerical values entered by the user will cause `cin >> input` to be successful, anything else will cause the input to fail.</details>
 
 ```c++
-int result = 0;
+double result = 0;
+double input;
 
 while (true) {
-  cout << "Enter numbers to sum, enter q to quit" << endl;
+  cout << "Enter a number to add to sum. "; 
+  cout << "Or enter a non-number to quit and calculate sum." << endl;
   cin >> input;
-  if (input != "q") {
-    input = int(input)
-    result = result + input;
+  if (cin.good()) {
+    result += input;
   }
-  else {
-    cout << result << endl;
+  if (cin.fail()) {
+    cout << "Sum = " << result << endl;
     break;
   }
 }
 ```
 
-{Try it}(sh .guides/bg.sh g++ code/loops/labbreak.cpp -o code/loops/labbreak ./code/loops/labbreak 1)
+{Try it|terminal}(sh .guides/bg.sh g++ code/loops/labbreak.cpp -o code/loops/labbreak ./code/loops/labbreak 1)
 
-[Code Visualizer](open_tutor code/loops/labbreak.cpp)
+### Program Summary
+1) Declare the variable `result` and initialize it to `0`. `result` will store the total of the summation.
+2) Declare the variable `input`. `input` will store the information that the user enters.
+3) Next we set up a `while` loop with `true` as the expression in the loop header. We do this because we want the loop to continue running and storing information from the user. Since we don't know how much information the user will enter, a `while` loop is best for the situation.
+4) The user is prompted to enter some information and that information is stored in the variable `input` which was declared earlier.
+5) If the information was stored into `input` successfully, the value in `input` will be added to the value in `result`, our total summation.
+6) If the information was *not* stored into `input` successfully, then the program will print out the total summation `result` and exit the `while` loop.
 
-1) Create the variable `result` and set its value to `0`. `result` will hold the total of the summation.
-2) Next we set up a while loop with `True`. We do this because we want the loop to run until the user enters `q`. We don't know how long this will take, so we can limit the loop to a certain number of iterations.
-3) We prompt the user to enter a number and use the built-in Python function `input`. `'> '` will appear, indicating that the user is to enter a value on the keyboard.
-4) Next we assign the value the user enters to the `inp` variable.
-5) Check to see if the value the user entered is `q`, for quit
-6) If not, we convert the value to an integer with the `int()` command. This is required because the `input()` function returns a string value (you cannot add a string and an integer).
-7) The `result` variable is updated to contain its current value plus the value entered by the user.
-8) The loop continues accepting values and summing until the user enters the letter `q`. At that point, we step into the `else:` clause. We print the value of `result`, and then exit the loop with the `break` command.
-
+{Check It!|assessment}(multiple-choice-1006235551)
