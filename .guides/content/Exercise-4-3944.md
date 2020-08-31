@@ -1,8 +1,41 @@
  ---
+ 
+ ## Breaking the Loop
 
-![Exercise 5 Turtle Graphic](.guides/images/turtle-exercise-4.png)
+The following program (also shown in the text editor on the left) contains one or more infinite loops that prevent the program from printing the desired output. 
 
-{Check It!|assessment}(parsons-puzzle-1303194131) 
+```c++
+#include <iostream>
+using namespace std;
 
-<details><summary>*Turtle Graphics Refresher*</summary><ul><li>`t.forward(10)` - Takes a number for the distance traveled</li><li>`t.backward(10)` - Takes a number for the distance traveled</li><li>`t.rt(45)` - Takes a number for degrees turned</li><li>`t.lt(45)` - Takes a number for degrees turned</li><li>`t.color('red')` - Takes a string for the [color](https://www.w3schools.com/colors/colors_names.asp)</li><li>`t.shape('turtle')` - Takes one of the following strings `'turtle'`, `'circle'`, `'square'`, `'arrow'`, `'classic'`, or `'triangle'`.<li>`t.pensize(4)` - Takes a positive number</li><li>`t.speed(1)` - Takes a number in the range 0..10</li></ul></details>
+int main() {
 
+  for (int i = 100; i <= 100; i--) {
+    if (i == 0) {
+      cout << "Print me!" << endl;
+    }
+    else {
+      while (true) {
+        i++;
+        cout << "Don't print me!" << endl;
+      }
+    }
+  }
+
+  return 0;
+
+}
+```
+
+{Try it}(sh .guides/bg.sh g++ code/loops/exercise4.cpp -o code/loops/exercise4 ./code/loops/exercise4 1)
+
+Using what you know about `break` statements, fix the program so that it runs, prints correctly, and terminates successfully.
+
+### Requirements
+* You **cannot** make any changes to the code that already exists. If you accidentally delete any existing code, you can copy and paste the entire program from above.
+* You need to add **two and only two** `break;` statements to the program.
+* The program's expected output is: `Print me!`
+
+{Try it}(sh .guides/bg.sh g++ code/loops/exercise4.cpp -o code/loops/exercise4 ./code/loops/exercise4 2)
+
+{Check It!|assessment}(test-1646681671)

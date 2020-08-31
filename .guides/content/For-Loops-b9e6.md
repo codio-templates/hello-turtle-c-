@@ -1,7 +1,7 @@
 ---
 
 ## For Loop Syntax
-Before you can start writing a **loop**, you need to be able to spot the pattern. Let's take something simple:
+Before you can start writing a **loop**, you need to be able to identify recurring patterns. Let's take something simple:
 
 ```c++
 cout << "Hello" << endl;

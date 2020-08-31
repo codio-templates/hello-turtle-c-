@@ -1,34 +1,54 @@
 import sys
 
-with open('code/loops/exercise1.cpp') as subfile:
-  subtext = subfile.read()
-  
-  forloop = subtext.count("for")
-  
-  inti1 = subtext.count("int i = 0 ;")
-  inti2 = subtext.count("int i= 0 ;")
-  inti3 = subtext.count("int i =0 ;")
-  inti4 = subtext.count("int i = 0;")
-  inti5 = subtext.count("int i=0 ;")
-  inti6 = subtext.count("int i =0;")
-  inti7 = subtext.count("int i= 0;")
-  inti8 = subtext.count("int i=0;")
-  
-  tinaforward = subtext.count("tina.forward(100)")
-  
-  tinaturn = subtext.count("tina.left(120)")
+subfile = open("code/loops/exercise1.cpp", "r")
+subtext = subfile.read().replace(" ", "")
+subfile.close()
 
-  if forloop < 1:
-    print("You did not use a for loop in your code.")
-    sys.exit(1)
-  if (inti1 or inti2 or inti3 or inti4 or inti5 or inti6 or inti7 or inti8) < 1:
-    print("You did use an iterating variable i and/or did not set i to zero.")
-    sys.exit(1)
-  if tinaforward < 1:
-    print("It appears you did not direct tina's path correctly.")
-    sys.exit(1)
-  if tinaturn < 1:
-    print("It appears you did not direct tina's path correctly.")
-    sys.exit(1)
-    
+forloop = False
+if "for(" in subtext:
+  forloop = True
+
+inti = False
+if "inti=0;" in subtext:
+  inti = True
+  
+ipp = False
+if "i++" in subtext:
+  ipp = True
+
+two = False
+if "<=2" in subtext:
+  two = True
+
+three = False
+if "<3" in subtext:
+  three = True
+
+forward = False
+if "tina.forward(100)" in subtext:
+  forward = True
+
+turn = False
+if "tina.left(120)" in subtext:
+  turn = True
+
+if forloop == False:
+  print("You did not use a for loop in your code.")
+  sys.exit(1)
+if inti == False:
+  print("You did use an iterating variable i and/or did not set i to zero.")
+  sys.exit(1)
+if ipp == False:
+  print("You did not increment i by 1 after each iteration by using i++.")
+  sys.exit(1)
+if ((two == False) and (three == False)):
+  print("It appears your loop header is not implemented correctly.")
+  sys.exit(1)
+if forward == False:
+  print("It appears you did not direct tina's path correctly.")
+  sys.exit(1)
+if turn == False:
+  print("It appears you did not direct tina's path correctly.")
+  sys.exit(1)
+
 sys.exit(0)

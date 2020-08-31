@@ -14,10 +14,7 @@ int main(int argc, char** argv) {
   
   //add code below this line
 
-for (int x = 0; x < 3; x++) {
-  tina.back(100);
-  tina.right(120);
-}
+
 
   //add code above this line
   

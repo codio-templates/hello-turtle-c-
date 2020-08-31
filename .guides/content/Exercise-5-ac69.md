@@ -1,6 +1,8 @@
 ---
 
-Create a nested loop that produces the output below.
+## "Count-Up"
+
+For this assignment, you will use a nested loop to produce the unique output below.
 
 ```c++
 ....1
@@ -10,9 +12,14 @@ Create a nested loop that produces the output below.
 5
 ```
 
-<details><summary>Hint</summary>As you move down the output, the numerical value increases, but the number of `.` decreases. Also, use `end=''` with your `print` statements so you don't automatically add a newline character.
+<details><summary>Hint</summary>As you move down the output, the numerical value increases, but the number of `.` decreases. Think about the relationship between the number of `.` printed and the numerical value printed on each line.</details>
 
-[Code Visualizer](open_tutor code/loops/exercise-5.py)
-{Try it}(python3 code/loops/exercise-5.py)
+{Try it}(sh .guides/bg.sh g++ code/loops/exercise5.cpp -o code/loops/exercise5 ./code/loops/exercise5 1)
 
-{Check It!|assessment}(test-1602144414)
+[Code Visualizer](open_tutor code/loops/exercise5.cpp)
+
+### Requirements:
+* You must include **two and only two** loops in your code, one nested inside of another.
+* You must include **two and only two** `cout` statements, one for each of your loop.
+
+{Check It!|assessment}(test-815572305)

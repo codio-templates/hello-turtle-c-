@@ -4982,6 +4982,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "For Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -4995,8 +5007,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine correct for loop syntax"
   }
  },
  {
@@ -5018,13 +5030,25 @@
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "For Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using correct for loop syntax"
   }
  },
  {
@@ -5067,13 +5091,25 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "For Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine correct for loop syntax"
   }
  },
  {
@@ -5094,6 +5130,18 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "For Loop & While Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -5107,8 +5155,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT compare and contrast the for loop and while loop",
    "tokens": {
     "blank": [
      "while",
@@ -5171,6 +5219,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "While Loops & Break Statement"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -5184,8 +5244,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT define the function of a break statement"
   }
  },
  {
@@ -5206,6 +5266,18 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "While Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [],
@@ -5250,13 +5322,25 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "While Loops & Break Statement"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT correctly use a break statement to exit a while loop",
    "tokens": {
     "blank": [
      "total",
@@ -5316,6 +5400,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Nested Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -5329,8 +5425,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT define the function of a nested loop"
   }
  },
  {
@@ -5352,13 +5448,25 @@
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "While Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT correctly organize nested loops"
   }
  },
  {
@@ -5379,13 +5487,25 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "While Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [],
     "opened": []
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine correct nested loop syntax",
    "tokens": {
     "blank": [
      "4",
@@ -5448,6 +5568,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "For Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -5466,8 +5598,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine correct for loop syntax"
   }
  },
  {
@@ -5488,6 +5620,18 @@
      {
       "name": "Assessment Type",
       "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "For Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -5506,8 +5650,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine correct for loop syntax",
    "tokens": {
     "blank": [
      "2",
@@ -5549,6 +5693,18 @@
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "While Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -5567,8 +5723,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using correct while loop syntax"
   }
  },
  {
@@ -5590,6 +5746,18 @@
      {
       "name": "Assessment Type",
       "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "For Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -5603,8 +5771,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT choose correct for loop syntax to complete a program"
   }
  },
  {
@@ -5647,6 +5815,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "While Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -5660,8 +5840,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT explain how a while loop can run indefinitely"
   }
  },
  {
@@ -5704,6 +5884,18 @@
      {
       "name": "Assessment Type",
       "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "While Loops & Break Statement"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -5722,8 +5914,8 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT use a break statement to exit a while loop"
   }
  },
  {
@@ -5745,6 +5937,18 @@
      {
       "name": "Assessment Type",
       "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Nested Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -5758,28 +5962,230 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using a nested for loop"
   }
  },
  {
-  "type": "fill-in-the-blanks",
-  "taskId": "fill-in-the-blanks-2162549941",
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2148166025",
   "source": {
-   "name": "Loops: Exercise 1",
+   "name": "Loops: Exercise 3",
    "showName": true,
-   "instructions": "Imagine that you have a Turtle object called `tina`. You want `tina` to move around on a screen and leave a trail that draws a triangle like below.\n\n![.guides/img/TurtleExercise1](.guides/img/TurtleExercise1.gif)\n\n<details><summary>*Turtle Graphics Review*</summary><ul><li>`tina.forward(n)` - Where `n` represents the number of pixels.</li><li>`tina.backward(n)` - Where `n` represents the number of pixels.</li><li>`tina.right(d)` - Where `d` represents the number of degrees.</li><li>`tina.left(d)` - Where `d` represents the number of degrees.</li><li>`tina.pencolor({\"COLOR\"})` - Where `COLOR` represents the track or line color you want tina to leave behind.</li><li>`tina.width(W)` - Where `W` represents how wide (in pixels) tina's track is.</li><li>`tina.shape(\"SHAPE\")` - Where `SHAPE` represents the shape tina takes.</li><li>`tina.speed(SPEED)` - Where `SPEED` represents how fast tina moves</li></ul></details>\n\nFill in the `for` loop below so that `tina` will walk and produce the triangle like above. You can use the text editor in the upper left panel to craft your code and the `TRY IT` button below to check your output **before** submitting your fill-in-the-blanks for grading.",
-   "text": "```c++\nfor (int x = 0; x < <<<3>>>; <<<x>>>++) {\n  tina.<<<forward>>>(100);\n  tina.<<<left>>>(120);\n}\n```",
-   "guidance": "",
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "./code/loops/exercise3",
+   "preExecuteCommand": "g++ code/loops/exercise3.cpp -o code/loops/exercise3",
+   "guidance": "You can use either the `for` or `while` loop to complete this assignment. If using a `for` loop, the iterating variable should start at `a` and increment by 1 until it reaches `b`. Below is a sample solution involving the `for` loop.\n```c++\nint sum = 0;\n  \nfor (int iter = a; iter <= b; iter++) {\n  sum += iter;\n}\n  \nif (a == b) {\n  sum = a;\n}\n  \ncout << sum << endl;\n```\n\nAlternatively, you can use the `while` by setting the iterating value to `a` and increment it by 1 after each time it gets added to the sum. Here is a solution that uses the `while` loop:\n```c++\nint sum = 0;\nint iter = a;\n  \nwhile (iter <= b) {\n  sum += iter;\n  iter++;\n}\n  \nif (a == b) {\n  sum = a;\n}\n  \ncout << sum << endl;\n```",
    "showGuidanceAfterResponse": true,
-   "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "-7 -7",
+     "input": "",
+     "output": "-7",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "0 -12",
+     "input": "",
+     "output": "-78",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "0 12",
+     "input": "",
+     "output": "78",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "12 -12",
+     "input": "",
+     "output": "0",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "0 100",
+     "input": "",
+     "output": "5050",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
    "metadata": {
     "tags": [
      {
       "name": "Assessment Type",
-      "value": "Fill in the Blanks"
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "For Loops & While Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     }
+    ],
+    "files": [
+     "code/loops/exercise3.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/exercise3.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using a for loop or while loop"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1762905289",
+  "source": {
+   "name": "Loops: Exercise 2",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/loops/exercise2.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Here are some sample solutions:\n```c++\nfor (int i = 0; i < 10; i++) {\n  cout << x << endl;\n}\n```\n```c++\nint i = 0;\nwhile (i < 10) {\n  cout << x << endl;\n  i++;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "For Loops & While Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     }
+    ],
+    "files": [
+     "code/loops/exercise2.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/exercise2.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using either a for loop or while loop"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1646681671",
+  "source": {
+   "name": "Loops: Exercise 4",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/loops/exercise4.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The only places where you can add a `break;` statement to successfully print `Print me!` and solve the infinite loops are **1)** on the line before `i++;` and after `while (true) {` and **2)** on the line after `cout << \"Print Me!\" << endl;`. See solution below:\n```c++\nfor (int i = 100; i <= 100; i--) {\n  if (i == 0) {\n    cout << \"Print me!\" << endl;\n    break;\n  }\n  else {\n    while (true) {\n      break;\n      i++;\n      cout << \"Don't print me!\" << endl;\n    }\n  }\n}\n```\n\nIn order to print `Print me!`, the conditional expression of `(i == 0)` needs to be true. However, `i` starts at `100` and thus the program will execute the `else` condition which contains a `while(true)` statement. This statement causes the `while` loop to always run, which forces `i` to increment by 1 after every iteration, making it impossible for `i` to ever reach `0`. Therefore, a `break;` statement is needed before `i++` to prevent the `while` loop from incrementing `i`. This `break;` statement will cause the `while` loop to do nothing and exit every time it runs. Then all that's left is to wait for the `for` loop to decrement `i` until it becomes `0` and prints `Print me!`. Once that happens, the other `break;` statement after `cout << \"Print me!\" << endl;` will force the `for` loop to exit and terminate the program.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "For Loops, While Loops & Break Statement"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     }
+    ],
+    "files": [
+     "code/loops/exercise4.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/exercise4.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT demonstrate their understanding of break statements"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3850117899",
+  "source": {
+   "name": "Loops: Exercise 1",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading. **Reminder:** Make sure you fulfill **all** of the requirements above before submitting your work.",
+   "command": "bash .guides/secure/loops/exercise1.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The first step is to figure out the pattern that `tina` moves. First `tina` moves forward by 100 pixels. Then `tina` turns left 120 degrees. Thus `tina`'s commands are `tina.forward(100)` and then `tina.left(120)`. This pattern happens exactly three times.\n\nNext is setting the loop so that `tina`'s commands are iterated three times. Per requirements, your loop header should include `int i = 0` and `i++`. Here are some possible solutions:\n```c++\nfor(int i = 0; i < 3; i++) {\n  tina.forward(100);\n  tina.left(120);\n}\n```\n```c++\nfor(int i = 0; i <= 2; i++) {\n  tina.forward(100);\n  tina.left(120);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "For Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
      }
     ],
     "files": [
@@ -5798,28 +6204,56 @@
      }
     ]
    },
-   "bloomsObjectiveLevel": "",
-   "learningObjectives": "",
-   "tokens": {
-    "blank": [
-     "3",
-     "x",
-     "forward",
-     "left"
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a program using a for loop"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-815572305",
+  "source": {
+   "name": "Loops: Exercise 5",
+   "showName": true,
+   "instructions": "When your code is ready, click the button below to submit your work for grading.",
+   "command": "bash .guides/secure/loops/exercise5.sh",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The first step is to recognize the two patterns that exist. First, the numerical values are printed in ascending order starting at `1` and ending at `5`. Thus, you should implement a loop that starts and ends according to the line number (e.g. `for (int i = 1; i < 6; i++)`). In addition, each iteration should print the existing line number followed by a newline character (e.g. `cout << i << endl;`).\n\nSecond, the `.` start at 4 and then decreases by 1 after every iteration until it reaches zero. An example loop header could be `for (int j = <number of periods>; j > 0; j--)`.\n\nNow all that's left to do is to combine the two loops into a manner that associates **BOTH** loops. Notice how the line number can also represent how many `.` are replaced. So the second loop can be rewritten as `for (int j = 5 - i; j > 0; j--)`. Another important detail is to not include `endl;` when printing `.` because it will cause the `.` to be on different lines (e.g. `cout << \".\";`). Below is a sample solution using a nested `for` loop but any two combinations of `for` and `while` loops will work.\n```c++\nfor (int i = 1; i < 6; i++) {\n  for (int j = 5 - i; j > 0; j--) {\n    cout << \".\";\n  }\n  cout << i << endl;\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Nested Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "C++"
+     },
+     {
+      "name": "Category",
+      "value": "Loops"
+     }
     ],
-    "text": [
-     "```c++\nfor (int x = 0; x < ",
-     0,
-     "; ",
-     0,
-     "++) {\n  tina.",
-     0,
-     "(100);\n  tina.",
-     0,
-     "(120);\n}\n```"
+    "files": [
+     "code/loops/exercise5.cpp"
     ],
-    "regexPositions": []
-   }
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/exercise5.cpp"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT construct a program by examining the relationship between patterns and loops"
   }
  }
 ]

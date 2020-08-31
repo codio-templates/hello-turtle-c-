@@ -1249,8 +1249,50 @@
  },
  {
   "taskId": "test-1015024454",
-  "points": 1,
+  "points": 0,
   "results": [
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>for</code>, <code>cout</code>, and <code>endl;</code> to print the requested pattern.",
+    "timestamp": 1598911915423,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1598624594920,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code is not outputing the correct pattern. It is outputting: \nXOXOXOXOX\nOXOX\nOXOX\nXOXOXOXOX\nOXOX\nOXOX\nXOXOXOXOX\nOXOX\nOXOX",
+    "timestamp": 1598624580988,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1598624572785,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<h3>Your code is error-free and works as expected!</h3>\nNice work.",
+    "timestamp": 1598624449091,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "output": "<br/><hr/><h3>Challenge Feedback</h3>\nYour code does not seem to be outputting anything. Make sure you are using: <code>cout</code> and <code>endl;</code> to print the requested pattern.",
+    "timestamp": 1598624383047,
+    "state": "fail"
+   },
    {
     "guidance": null,
     "format": null,
@@ -1605,10 +1647,33 @@
   "taskId": "fill-in-the-blanks-2162549941",
   "points": 0,
   "state": {
-   "active": [
-    ""
-   ]
+   "active": []
   },
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-2148166025",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "test-1762905289",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "test-1646681671",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "test-3850117899",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "test-815572305",
+  "points": 0,
   "results": []
  }
 ]

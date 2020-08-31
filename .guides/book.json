@@ -868,7 +868,7 @@
    ]
   },
   {
-   "title": "Arrays",
+   "title": "Arrays & Vectors",
    "id": "f3abafb7-5376-92ed-c79e-becc47413b9d",
    "type": "chapter",
    "children": [
@@ -1225,6 +1225,12 @@
        "type": "page"
       }
      ]
+    },
+    {
+     "title": "Vector Basics",
+     "id": "4c415d37-db85-113b-da0d-18f2c8db61fe",
+     "type": "section",
+     "children": []
     }
    ]
   },

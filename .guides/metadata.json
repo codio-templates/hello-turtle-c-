@@ -2256,9 +2256,14 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/loops/exercise2.cpp",
+     "panel": 0,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-2-37c1.md",
@@ -2304,7 +2309,7 @@
      "action": "open"
     }
    ],
-   "layout": "3-cell",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-4-3944.md",
