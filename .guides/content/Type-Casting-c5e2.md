@@ -39,7 +39,7 @@ printf("%f \n", (double) (numerator / denominator));
 
 {Try it}(sh .guides/bg.sh g++ code/operators/casting.cpp -o code/operators/casting ./code/operators/casting 2)
 
-<details><summary>**More information**</summary>If either or both numbers in C++ division are `double`s, then `double` division will occur. In the last example, `numerator` and `denominator` are both `int`s when the division takes place which results in an `int` of `1`. An integer of `1` converted to a `double` is `1.000000` but `cout` removes the decimal point and all of the trailing zeros. </details>
+<details><summary><b>More information</b></summary>If either or both numbers in C++ division are <code>double</code>s, then <code>double</code> division will occur. In the last example, <code>numerator</code> and <code>denominator</code> are both <code>int</code>s when the division takes place which results in an <code>int</code> of <code>1</code>. An integer of <code>1</code> converted to a <code>double</code> is <code>1.000000</code> but <code>cout</code> removes the decimal point and all of the trailing zeros. </details>
 
 ## Data Type Compatibility
 Do you know why the code below will not work?
@@ -64,7 +64,7 @@ cout << a + stoi(b) << endl;
 
 {Try it}(sh .guides/bg.sh g++ code/operators/casting.cpp -o code/operators/casting ./code/operators/casting 4)
 
-<details><summary>**List of commonly used type-conversion functions**</summary><table><tr><td>**Function**</td><td>**Input Type**</td><td>**Output Type**</td><td>**Example**</tr><tr><td>`stoi()`</td><td>string</td><td>int</td><td>`stoi("10")`</td></tr><tr><td>`stod()`</td><td>string</td><td>double</td><td>`stod("12.34")`</td></tr><tr><td>`to_string()`</td><td>int, double, or boolean</td><td>string</td><td>`to_string(10)`, `to_string(12.34)`, or `to_string(false)`</td></tr></table></details>
+<details><summary><b>List of commonly used type-conversion functions</b></summary><table><tr><td><b>Function</b></td><td><b>Input Type</b></td><td><b>Output Type</b></td><td><b>Example</b></tr><tr><td><code>stoi()</code></td><td>string</td><td>int</td><td><code>stoi("10")</code></td></tr><tr><td><code>stod()</code></td><td>string</td><td>double</td><td><code>stod("12.34")</code></td></tr><tr><td><code>to_string()</code></td><td>int, double, or boolean</td><td>string</td><td><code>to_string(10)</code>, <code>to_string(12.34)</code>, or <code>to_string(false)</code></td></tr></table></details>
 
 |||challenge
 ## What happens if you:

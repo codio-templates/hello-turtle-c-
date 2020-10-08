@@ -5017,14 +5017,14 @@
   "source": {
    "name": "Summation Using a For Loop",
    "showName": true,
-   "instructions": "Construct a program using the code blocks below that incorporates a `for` loop to find the sum of all numbers between 1 and 100, and then prints that cumulative sum. The program should **include both 1 and 100** in the sum.\n\n**Hint:** You will not need to use all of the blocks and be sure to **indent** any command(s) that you want the system to repeat by dragging it slightly to the right.",
-   "initial": "int sum = 0;\nfor (int i = 1; i <= 100; i++) {\n  sum += 1;\n}\ncout << sum << endl;\nfor (int i = 0; i < 100; i++) {  #distractor\nfor (int i = 1; i < 100; i++) {  #distractor",
+   "instructions": "Construct a program using the code blocks below that incorporates a `for` loop to find the sum of all numbers between 1 and 100, and then prints that cumulative sum. The program should **include both 1 and 100** in the sum.\n\n**Hint:** You will not need to use all of the blocks and be sure to **indent** any command(s) that you want the system to repeat by dragging it slightly to the right. You only have **ONE ATTEMPT** at this problem!",
+   "initial": "int sum = 0;\nfor (int i = 1; i <= 100; i++) {\n  sum += i;\n}\ncout << sum << endl;\nfor (int i = 0; i < 100; i++) {    #distractor\nfor (int i = 1; i < 100; i++) {    #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "Did you remember to:\n* indent?\n* include both 1 and 100 in the loop header?",
+   "guidance": "Since we want to include the numbers from `1` through `100` in our sum, which starts at `0`, the appropriate loop header to use will be `for (int i = 1; i <= 100; i++)`. Remember that `<` is not inclusive, but `<=` is. The loop iterator variable `i` is then added to the `sum` during each iteration. Finally, the `sum` is printed. Thus, the correct solution is:\n```c++\nint sum = 0;\nfor (int i = 1; i <= 100; i++) {\n  sum += i;\n}\ncout << sum << endl;\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
-   "oneTimeTest": false,
+   "oneTimeTest": true,
    "metadata": {
     "tags": [
      {

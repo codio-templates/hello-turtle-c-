@@ -22,7 +22,7 @@ cout << boolalpha << (a < b) << endl;
 
 {Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 2)
 
-<details><summary>**Hint(s)**</summary>It is possible to declare and assign `int b = false;` because `false` is just a value of `0`. Since `5` is not less than `0`, `false` is returned.</details>
+<details><summary><b>Hint(s)</b></summary>It is possible to declare and assign <code>int b = false;</code> because <code>false</code> is just a value of <code>0</code>. Since <code>5</code> is not less than <code>0</code>, <code>false</code> is returned.</details>
 
 ## Less Than or Equal To
 
@@ -45,6 +45,6 @@ cout << boolalpha << (a <= b) << endl;
 
 {Try it}(sh .guides/bg.sh g++ code/operators/lessthan.cpp -o code/operators/lessthan ./code/operators/lessthan 4)
 
-<details><summary>**Hint(s)**</summary>`false` is less than `true` because `0` is less than `1`.</details>
+<details><summary><b>Hint(s)</b></summary><code>false</code> is less than <code>true</code> because <code>0</code> is less than <code>1</code>.</details>
 
 {Check It!|assessment}(multiple-choice-3904948409)

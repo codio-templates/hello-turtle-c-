@@ -27,7 +27,7 @@ printf("%f \n", a);
 
 {Try it}(sh .guides/bg.sh g++ code/operators/division.cpp -o code/operators/division ./code/operators/division 2)
 
-<details><summary>**Hint(s)**</summary>`/=` works similarly to `+=` and `-=`.</details>
+<details><summary><b>Hint(s)</b></summary><code>/=</code> works similarly to <code>+=</code> and <code>-=</code>.</details>
 
 |||important
 ## IMPORTANT

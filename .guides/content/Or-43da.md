@@ -12,7 +12,7 @@ bool d = false;
 cout << boolalpha << (a || b) << endl;
 ```
 
-<details><summary><b>How do I type `||`?</b></summary> It is towards the right-hand side, below the `backspace` or `delete` key and above the `enter` or `return` key. The `|` symbol is located on the same key as the `\` symbol. Hold `shift` and press the `\` key to type `|`. </details>
+<details><summary><b>How do I type <code>||</code>?</b></summary> It is towards the right-hand side, below the <code>backspace</code> or <code>delete</code> key and above the <code>enter</code> or <code>return</code> key. The <code>|</code> symbol is located on the same key as the <code>\</code> symbol. Hold <code>shift</code> and press the <code>\</code> key to type <code>|</code>. </details>
 
 {Try it}(sh .guides/bg.sh g++ code/operators/or.cpp -o code/operators/or ./code/operators/or 1)
 

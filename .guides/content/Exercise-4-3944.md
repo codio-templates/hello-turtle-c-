@@ -1,6 +1,6 @@
- ---
- 
- ## Breaking the Loop
+---
+
+## Breaking the Loop
 
 The following program (also shown in the text editor on the left) contains one or more infinite loops that prevent the program from printing the desired output. 
 

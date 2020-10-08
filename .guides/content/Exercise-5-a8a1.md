@@ -8,8 +8,8 @@ You can test the adder by using the terminal in the bottom-left panel. Once you 
 
 Your first task is to figure out what is wrong with the adder. Your second task is to fix it.
 
-<details><summary>**Hint(s) to identify the problem**</summary>Try entering `1` and `1`. You expect the output to be `2` but you get `11` instead. Similarly, if you enter `3` and `4`, you expect the output to be `7` but you get `34`. Remember, **string concatenation** also uses the `+` operator.</details>
+<details><summary><b>Hint(s) to identify the problem</b></summary>Try entering <code>1</code> and <code>1</code>. You expect the output to be <code>2</code> but you get <code>11</code> instead. Similarly, if you enter <code>3</code> and <code>4</code>, you expect the output to be <code>7</code> but you get <code>34</code>. Remember, <b>string concatenation</b> also uses the <code>+</code> operator.</details>
 
-<details><summary>**Hint(s) to identify the solution**</summary>The `+` operator functions differently based on the type of data that comes before and after it. What data types will cause the `+` operator to calculate a **mathematical** sum? What data type is present in the program now? How do you convert from one data type to another? Check out the **Type Casting** page for some ideas. </details>
+<details><summary><b>Hint(s) to identify the solution</b></summary>The <code>+</code> operator functions differently based on the type of data that comes before and after it. What data types will cause the <code>+</code> operator to calculate a <b>mathematical</b> sum? What data type is present in the program now? How do you convert from one data type to another? Check out the <b>Type Casting</b> page for some ideas. </details>
 
 {Check It!|assessment}(code-output-compare-3680746899)

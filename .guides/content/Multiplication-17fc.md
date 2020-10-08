@@ -26,6 +26,6 @@ cout << a << endl;
 
 {Try it}(sh .guides/bg.sh g++ code/operators/multiplication.cpp -o code/operators/multiplication ./code/operators/multiplication 2)
 
-<details><summary>**Hint(s)**</summary>`*=` works similarly to `+=`, `-=`, and `/=`.</details>
+<details><summary><b>Hint(s)</b></summary><code>*=</code> works similarly to <code>+=</code>, <code>-=</code>, and <code>/=</code>.</details>
 
 {Check It!|assessment}(multiple-choice-2185092284)

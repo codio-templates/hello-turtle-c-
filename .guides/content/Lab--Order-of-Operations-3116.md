@@ -6,7 +6,7 @@ C++ uses PEMDAS when determining the order of operations.
 
 ![.guides/img/PEMDAS](.guides/img/PEMDAS.png)
 
-<details><summary>**Modulo and PEMDAS**</summary>Since modulo is based on division, modulo operations happen at the time of multiplication and division, going from left to right.</details>
+<details><summary><b>Modulo and PEMDAS</b></summary>Since modulo is based on division, modulo operations happen at the time of multiplication and division, going from left to right.</details>
 
 Use the text editor on the left to enter the following code:
 

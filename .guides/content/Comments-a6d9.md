@@ -39,7 +39,6 @@ cout << "This is a common feature known as syntax highlighting.";
 
 {Try it}(sh .guides/bg.sh g++ code/fundamentals/comments.cpp -o code/fundamentals/comments ./code/fundamentals/comments 3)
 
-<details><summary>**What is an IDE?**</summary>*An integrated development environment, or IDE, is a computer program that makes it easier to write other computer programs. They are used by computer programmers to edit source code, and can be easier to use than other text editors for new programmers. They can have compilers so programmers don’t have to open other programs to compile the source code. They also often have syntax highlighting. ... It also may have predictive coding that can finish lines with syntax such as brackets or semicolons and can suggest variables to be used. It also may have debuggers that can step through lines, take breaks and inspect variables.*
-**Source: Simple Wikipedia**</details>
+<details><summary><b>What is an IDE?</b></summary><i>An integrated development environment, or IDE, is a computer program that makes it easier to write other computer programs. They are used by computer programmers to edit source code, and can be easier to use than other text editors for new programmers. They can have compilers so programmers don’t have to open other programs to compile the source code. They also often have syntax highlighting. ... It also may have predictive coding that can finish lines with syntax such as brackets or semicolons and can suggest variables to be used. It also may have debuggers that can step through lines, take breaks and inspect variables.</i><br><b>Source: Simple Wikipedia</b></details>
 
 {Check It!|assessment}(fill-in-the-blanks-1342485909)

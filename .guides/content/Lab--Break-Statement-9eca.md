@@ -3,8 +3,8 @@
 ## Tutorial Lab 3: Breaking from the While Loop
 Copy the code below into the text editor in the upper left panel. Then click on the `TRY IT` button to run the resulting program in the Terminal in the lower left panel.
 
-<details><summary>What does `cin >> input;` do?</summary>The `cin >> input;` command records what a user enters on the screen and stores that information in the variable `input`. Note that `input` is of type `double`.</details>
-<details><summary>What do `cin.good()` and `cin.fail()` do?</summary>`cin.good()` checks to see if the input entered by the user was successful while `cin.fail()` checks to see if the input failed. Since `input` is of type `double`, only numerical values entered by the user will cause `cin >> input` to be successful, anything else will cause the input to fail.</details>
+<details><summary>What does <code>cin >> input;</code> do?</summary>The <code>cin >> input;</code> command records what a user enters on the screen and stores that information in the variable <code>input</code>. Note that <code>input</code> is of type <code>double</code>.</details>
+<details><summary>What do <code>cin.good()</code> and <code>cin.fail()</code> do?</summary><code>cin.good()</code> checks to see if the input entered by the user was successful while <code>cin.fail()</code> checks to see if the input failed. Since <code>input</code> is of type <code>double</code>, only numerical values entered by the user will cause <code>cin >> input</code> to be successful, anything else will cause the input to fail.</details>
 
 ```c++
 double result = 0;

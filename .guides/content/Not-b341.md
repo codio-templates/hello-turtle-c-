@@ -20,7 +20,7 @@ cout << boolalpha << (! true) << endl;
 
 {Try it}(sh .guides/bg.sh g++ code/operators/not.cpp -o code/operators/not ./code/operators/not 2)
 
-<details><summary>**Hint(s)**</summary>The `!` operator works similarly to how a `-` (negative) sign works in mathematics. The `-` of a positive number is a negative number and the `-` of a negative number is a positive number.</details>
+<details><summary><b>Hint(s)</b></summary>The <code>!</code> operator works similarly to how a <code>-</code> (negative) sign works in mathematics. The <code>-</code> of a positive number is a negative number and the <code>-</code> of a negative number is a positive number.</details>
 
 ## Order of Boolean Operators
 Much like how arithmetic operators are evaluated in a certain order, boolean operators also work according to their priority level. Boolean operations are evaluated in the following order from highest to lowest priority:

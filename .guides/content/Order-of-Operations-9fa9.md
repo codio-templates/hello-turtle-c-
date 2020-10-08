@@ -16,7 +16,7 @@ cout << sqrt(25) << endl;
 
 {Try it}(sh .guides/bg.sh g++ code/operators/order.cpp -o code/operators/order ./code/operators/order 1)
 
-<details><summary>**pow(25, (1 / 2)) vs. pow(25, (1.0 / 2.0))**</summary>`pow(25, (1 / 2))` results in `1` because integer division is performed within `(1 / 2)`. `1` divided by `2` returns in an integer of `0` and $25^0$ computes to `1`. On the other hand, `pow(25, (1.0 / 2.0))` involves double division which is why `5` was computed.</details>
+<details><summary><b>pow(25, (1 / 2)) vs. pow(25, (1.0 / 2.0))</b></summary><code>pow(25, (1 / 2))</code> results in <code>1</code> because integer division is performed within <code>(1 / 2)</code>. <code>1</code> divided by <code>2</code> returns in an integer of <code>0</code> and $25^0$ computes to <code>1</code>. On the other hand, <code>pow(25, (1.0 / 2.0))</code> involves double division which is why <code>5</code> was computed.</details>
 
 The code below should output `10.000000 `.
 
@@ -30,18 +30,14 @@ printf("%f \n", result);
 
 {Try it}(sh .guides/bg.sh g++ code/operators/order.cpp -o code/operators/order ./code/operators/order 2)
 
-<details><summary>**Explanation**</summary><ul><li>The first step is to compute `b + 5` (which is `8`) because it is surrounded by parentheses.</li><li>Next, do the multiplication and division going from left to right: `3 * a` is `6`.</li><li>`2` divided by `8` is `0` (remember, the `/` operator returns an `int` when you use two `int`s so `0.25` becomes `0`).</li><li>Next, perform addition and subtraction from left to right: `6 - 0` is `6`.</li><li>Finally, add `6` and `4` together to get `10`.</li><li>Since `result` is of type `double`, `10.000000` is printed.</li></ul></details>
+<details><summary><b>Explanation</b></summary><ul><li>The first step is to compute <code>b + 5</code> (which is <code>8</code>) because it is surrounded by parentheses.</li><li>Next, do the multiplication and division going from left to right: <code>3 * a</code> is <code>6</code>.</li><li><code>2</code> divided by <code>8</code> is <code>0</code> (remember, the <code>/</code> operator returns an <code>int</code> when you use two <code>int</code>s so <code>0.25</code> becomes <code>0</code>).</li><li>Next, perform addition and subtraction from left to right: <code>6 - 0</code> is <code>6</code>.</li><li>Finally, add <code>6</code> and <code>4</code> together to get <code>10</code>.</li><li>Since <code>result</code> is of type <code>double</code>, <code>10.000000</code> is printed.</li></ul></details>
 
 |||challenge
 ## Mental Math
-* `5 + 7 - 10 * 4 / 2`
-<details><summary>Solution</summary>-8</details>
-* `5 * 8 - 7 % 2 - 18 * -1`
-<details><summary>Solution</summary>57</details>
-* `9 / 3 + (100 % 100) - 3`
-<details><summary>Solution</summary>0</details>
-* `12 - 2 * pow(2, 3) / (4 + 4)`
-<details><summary>Solution</summary>10</details>
+<code>5 + 7 - 10 * 4 / 2</code><details><summary>Solution</summary>-8</details>
+<code>5 * 8 - 7 % 2 - 18 * -1</code><details><summary>Solution</summary>57</details>
+<code>9 / 3 + (100 % 100) - 3</code><details><summary>Solution</summary>0</details>
+<code>12 - 2 * pow(2, 3) / (4 + 4)</code><details><summary>Solution</summary>10</details>
 
 |||
 

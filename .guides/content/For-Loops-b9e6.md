@@ -53,6 +53,6 @@ The loop ran five times, but the variable `i` did not start at `1`. Instead, it 
 
 [Code Visualizer](open_tutor code/loops/forloop.cpp)
 
-<details><summary>**Infinite Loops**</summary>If you aren't careful, you can wind up with an **infinite loop**. This means that you have a loop that never ends. In the example above, if you change `i++` to `i--` then `i` will decrease by 1 after every iteration. This causes the loop iterator to never reach its specified value. The boolean expression continues to be true and the system continues to print until it times out. Always check your loop header to ensure that it does what you intend for it to do.</details>
+<details><summary><b>Infinite Loops</b></summary>If you aren't careful, you can wind up with an <b>infinite loop</b>. This means that you have a loop that never ends. In the example above, if you change <code>i++</code> to <code>i--</code> then <code>i</code> will decrease by 1 after every iteration. This causes the loop iterator to never reach its specified value. The boolean expression continues to be true and the system continues to print until it times out. Always check your loop header to ensure that it does what you intend for it to do.</details>
 
 {Check It!|assessment}(multiple-choice-4140309825)
