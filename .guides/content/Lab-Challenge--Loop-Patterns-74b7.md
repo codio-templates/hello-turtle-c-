@@ -42,7 +42,7 @@ By removing the `<< endl` commands from the code above, you can accomplish this 
 for (int x = 0; x < 3; x++) {
   cout << "L";
   for (int y = 0; y < 3; y++) {
-    cout << "M" <<;
+    cout << "M";
   }
 }
 ```
@@ -61,7 +61,6 @@ for (int x = 0; x < 12; x++) {
     cout << "M";
   }
 }
-cout << "" << endl;
 ```
 
 </div>
@@ -89,7 +88,7 @@ OXO
 ```
 
 # Requirement:
-Your program **must** include **at least two** `for` loops, one nested within another, in order to receive credit.
+Your program **must** include **at least two** `for` loops, one nested within another, in order to receive credit. In addition, you are only allowed to use, **at most**, **two** `cout` statements.
 
 {Try it}(sh .guides/bg.sh g++ code/loops/labchallenge.cpp -o code/loops/labchallenge ./code/loops/labchallenge 3)
 
@@ -103,7 +102,7 @@ XOXOXOXOX
 OXO
 OXO
 ```
-Try creating that particular pattern first, then iterate that pattern by using a loop.
+Try creating that particular pattern first, then iterate that pattern by modifying the existing loop(s).
 
 </details></td></tr></tbody>
 </table>
