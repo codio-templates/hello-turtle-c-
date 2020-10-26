@@ -1171,24 +1171,13 @@
  },
  {
   "taskId": "parsons-puzzle-4243116701",
-  "points": 1,
+  "points": 0,
   "state": {
-   "trashHash": "-",
-   "solutionHash": "0_0-1_0-2_1-3_1-4_0",
+   "trashHash": null,
+   "solutionHash": null,
    "toggleStates": "{}"
   },
-  "results": [
-   {
-    "points": 1,
-    "guidance": "A `while` loop requires the following:\n1. An iterator or counting variable *before* the keyword `while`.\n2. A boolean expression in `()` or header *following* the keyword `while`.\n3. A change in the iterator or counting variable *inside* the body of the `while` loop.\n\nThus, the solution is:\n```c++\nint i = 10;\nwhile (i <= 100) {\n  cout << i << endl;\n  i+=10;\n}\n```",
-    "trashHash": "-",
-    "solutionHash": "0_0-1_0-2_1-3_1-4_0",
-    "toggleStates": "{}",
-    "studentCode": "int i = 10;\nwhile (i <= 100) {\n  cout << i << endl;\n  i+=10;\n}",
-    "timestamp": 1602180116369,
-    "state": "pass"
-   }
-  ]
+  "results": []
  },
  {
   "taskId": "fill-in-the-blanks-1524850643",
