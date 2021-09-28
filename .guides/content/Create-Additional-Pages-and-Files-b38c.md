@@ -4,7 +4,7 @@ Instruction through Codio is built around the guides feature. This is a brief de
 
 ### Code Editor File
 ---
-Add a `.cpp` file to your project. This is the file students will edit. Right-click on the name of your project or book in the directory tree on the left. Select `New File...` and then type its name and file extension. Copy and paste the following template code into the new file. It is required for turtle to run in C++.
+Add a `.cpp` file to your project. This should live in the `code` folder. This is the file students will edit. Right-click on the name of your project or book in the directory tree on the left. Select `New File...` and then type its name and file extension. Copy and paste the following template code into the new file. It is required for turtle to run in C++.
 
 ```
 ////////// DO NOT EDIT HEADER! //////////
