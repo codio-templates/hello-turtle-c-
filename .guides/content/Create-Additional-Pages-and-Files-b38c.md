@@ -1,10 +1,19 @@
 ---
 
-Instruction through Codio is built around the guides feature. This is a brief description on how the demo on the previous page was built. Please see the [documentation](https://docs.codio.com/courses/authoring/) for more information about content authoring with guides.
+Instruction through Codio is built around the guides feature. This is a brief description on how the demo on the previous page was built. Please see the [**documentation**](https://docs.codio.com/authoring.html) for more information about content authoring with guides.
+
+### Build on this Starter Pack
+---
+Please note that there are softwares, files, scripts, etc. preconfigured in this **Hello Turtle in C++** Starter Pack that allow for use of turtle in C++. 
+
+* `turtle.sh` file is a Bash script that allows for efficient operations on multiple files in the command line. 
+* `CImg.h` and `CTurtle.hpp` are called in the code editor to enable use of the Turtle Graphics library as well as the C Image library. 
+
+Follow the directions below to build out this project with your own activities in turtle:
 
 ### Code Editor File
 ---
-Add a `.cpp` file to your project. This should live in the `code` folder. This is the file students will edit. Right-click on the name of your project or book in the directory tree on the left. Select `New File...` and then type its name and file extension. Copy and paste the following template code into the new file. It is required for turtle to run in C++.
+Add a `.cpp` file to this project. This should live in the `code` folder in the filetree. This is the file students will edit. Select `New File...` and then type its name and file extension. Copy and paste the following template code into the new file. It is required for turtle to run in C++.
 
 ```
 ////////// DO NOT EDIT HEADER! //////////
@@ -35,10 +44,6 @@ When setting up Turtle Graphics, set the code editor file in panel 0, and the se
 
 ![Panels](.guides/img/panelcpp.png)
 
-### Markdown
----
-Guides are authored with [markdown](https://docs.codio.com/courses/authoring/#markdown-content-editing), but you can use any HTML to author content. 
-
 ### Try It Button
 ---
 |||
@@ -59,7 +64,12 @@ Below is an image highlighting what happens after the `TRY IT` button is clicked
 4. The output is displayed as a screen on the bottom left panel. You can click the screen to close the output.
 5. Click on the `turtleloop.cpp` tab to go back to the text editor if you want to make changes to the program.
 
-|||info
-### NOTE
-Due to the dynamic and graphical nature of the Turtle Graphics library, **jagged** lines and **spotty** pixels may appear randomly as the output is being drawn. This is completely **normal**!
-|||
+### Add this Project to a Course
+---
+You can add this project as an assignment to an existing course:
+
+1. In the course module, click **Add Assignment**.
+2. On the Create Assignment page, click **Project based**.
+3. To import a project, click the **Click here** link under **Starting Point.** 
+4. Click **Copy Project** and browse to the project and select it.
+5. Click **Create.**

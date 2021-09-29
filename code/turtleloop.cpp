@@ -10,10 +10,7 @@ int main(int argc, char** argv) {
   
   //add code below this line
 
-TurtleScreen screen(400, 300);
-Turtle tina(screen);
-tina.forward(100);
-screen.exitonclick();
+
 
   //add code above this line
   

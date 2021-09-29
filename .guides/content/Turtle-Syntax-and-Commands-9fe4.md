@@ -62,3 +62,7 @@ You may choose to change the dimensions of your turtle screen whenever you'd lik
 |`tina.shape("SHAPE")`|Where `SHAPE` represents the shape tina takes|triangle, indented triangle, square, arrow|
 |`tina.speed(SPEED)`|Where `SPEED` represents how fast tina moves|TS_FASTEST, TS_FAST, TS_NORMAL, TS_SLOW, TS_SLOWEST|
 
+|||info
+### NOTE
+Due to the dynamic and graphical nature of the Turtle Graphics library, **jagged** lines and **spotty** pixels may appear randomly as the output is being drawn. This is completely **normal**!
+|||
