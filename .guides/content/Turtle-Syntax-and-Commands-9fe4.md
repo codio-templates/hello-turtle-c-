@@ -5,12 +5,13 @@ Turtle Graphics allows students to create graphical output with the Turtle Graph
 
 ### Turtle Syntax
 ---
-The first step is to create a **screen** for the turtle to move around in using the command `TurtleScreen` followed by a variable name to call that screen (i.e. `screen`). In parentheses after `screen`, you can specify the dimensions of the screen in terms of **width** and **height** respectively (i.e. `400, 300`). Then we can create our **turtle** using the command `Turtle` followed by a variable name for that turtle (i.e. `tina`). Finally in parentheses, we put in `screen` to associate the turtle with the screen that we created previously. The code below produces a turtle and a screen for the turtle to move around in.
+The first step is to create a **screen** for the turtle to move around in using the command `TurtleScreen` followed by a variable name to call that screen (i.e. `screen`). In parentheses after `screen`, you can specify the dimensions of the screen in terms of **width** and **height** respectively (i.e. `400, 300`). Then we can create our **turtle** using the command `Turtle` followed by a variable name for that turtle (i.e. `tina`). Finally in parentheses, we put in `screen` to associate the turtle with the screen that we created previously. The code below produces a turtle and a screen for the turtle to move around in. 
 
+**Copy and paste** the following code in the editor on the left. C++ style guidelines call for indentation with four spaces. 
 ```c++
 
-TurtleScreen screen(400, 300); //width 400 pixels and height 300 pixels
-Turtle tina(screen); //creates a turtle named tina inside the screen
+	TurtleScreen screen(400, 300); //width 400 pixels by height 300 pixels
+	Turtle tina(screen); //creates a turtle named tina inside the screen
 
 ```
 
@@ -38,13 +39,13 @@ In order to view the turtle object, it is not enough just to create it. You must
 |`tina.right(d)`|Where `d` represents the number of degrees|Turn the turtle to the right|
 |`tina.left(d)`|Where `d` represents the number of degrees|Turn the turtle to the left|
 
-Let's try this very simple command below. Copy it into the text editor on your left and then click the `TRY IT` button to see the graphical output.
+Let's try this very simple command below. **Copy and paste** the following code in the editor on the left. C++ style guidelines call for indentation with four spaces. Click the `TRY IT` button to see the graphical output.
 
 ```c++
-TurtleScreen screen(400, 300);
-Turtle tina(screen);
-tina.forward(100);
-screen.exitonclick();
+	TurtleScreen screen(400, 300);
+	Turtle tina(screen);
+	tina.forward(100);
+	screen.exitonclick();
 ```
 
 {Try it|terminal}(bash .guides/turtle.sh g++ turtleloop.cpp -o turtleloop ./turtleloop)
