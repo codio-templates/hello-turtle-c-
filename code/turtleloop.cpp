@@ -6,10 +6,8 @@ using namespace cturtle;               //
 using namespace std;                   //
 /////////////////////////////////////////
 
-int main(int argc, char** argv) {
-  
+int main(int argc, char** argv) {  
   //add code below this line
-
 
 
   //add code above this line

@@ -56,7 +56,7 @@ Use the following markdown syntax when creating the `Try It` button:
 
 Below is an image highlighting what happens after the `TRY IT` button is clicked.
 
-![.guides/img/TurtleGraphicsFlow](.guides/img/TurtleGraphicsFlow.png)
+![Try It Button Process](.guides/img/TurtleGraphicsFlow.png)
 
 1. `TRY IT` button is clicked by the user.
 2. The `Terminal` tab is opened.
