@@ -7,7 +7,6 @@ Turtle Graphics allows students to create graphical output with the Turtle Graph
 ---
 The first step is to create a **screen** for the turtle to move around in using the command `TurtleScreen` followed by a variable name to call that screen (i.e. `screen`). In parentheses after `screen`, you can specify the dimensions of the screen in terms of **width** and **height** respectively (i.e. `400, 300`). Then we can create our **turtle** using the command `Turtle` followed by a variable name for that turtle (i.e. `tina`). Finally in parentheses, we put in `screen` to associate the turtle with the screen that we created previously. The code below produces a turtle and a screen for the turtle to move around in. 
 
-**Copy and paste** the following code in the editor on the left. C++ style guidelines call for indentation with four spaces. 
 ```c++
 
 	TurtleScreen screen(400, 300); //width 400 pixels by height 300 pixels
@@ -39,7 +38,7 @@ In order to view the turtle object, it is not enough just to create it. You must
 |`tina.right(d)`|Where `d` represents the number of degrees|Turn the turtle to the right|
 |`tina.left(d)`|Where `d` represents the number of degrees|Turn the turtle to the left|
 
-Let's try this very simple command below. **Copy and paste** the following code in the editor on the left. C++ style guidelines call for indentation with four spaces. Click the `TRY IT` button to see the graphical output.
+++**Sample Code:**++ Let's try this very simple command below. **Copy and paste** the following code in the editor on the left. C++ style guidelines call for indentation with four spaces. Click the `TRY IT` button to see the graphical output.
 
 ```c++
 	TurtleScreen screen(400, 300);
@@ -49,6 +48,9 @@ Let's try this very simple command below. **Copy and paste** the following code 
 ```
 
 {Try it|terminal}(bash .guides/turtle.sh g++ turtleloop.cpp -o turtleloop ./turtleloop)
+
+++**Important Note:**++
+Be sure to exit out of the terminal and turtle preview window between runs of the `Try it` button. This will update the preview window and allow any changes in your code to be reflected accurately in the turtle's movements.
 
 <details><summary> <b>What does the <code>screen.exitonclick()</code> command do?</b></summary> By default, the screen will close itself automatically once the program reaches the end of the code. However, if you want the screen to remain open, you can use <code>screen.exitonclick()</code> to tell the program to keep the screen open until the screen is clicked with a cursor. Go ahead and try clicking on the screen.</details><br>
 
